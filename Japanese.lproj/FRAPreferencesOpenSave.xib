@@ -116,7 +116,7 @@
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                     <connections>
-                        <binding destination="46" name="value" keyPath="values.AssignDocumentToFraiseWhenSaving" id="64"/>
+                        <binding destination="46" name="value" keyPath="values.AssignDocumentToErbeleWhenSaving" id="64"/>
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" id="26">

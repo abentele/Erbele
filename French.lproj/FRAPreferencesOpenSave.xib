@@ -111,12 +111,12 @@
                 <button id="51">
                     <rect key="frame" x="148" y="74" width="227" height="18"/>
                     <autoresizingMask key="autoresizingMask"/>
-                    <buttonCell key="cell" type="check" title="Affecter le document à Fraise" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="83">
+                    <buttonCell key="cell" type="check" title="Affecter le document à Erbele" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="83">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                     <connections>
-                        <binding destination="46" name="value" keyPath="values.AssignDocumentToFraiseWhenSaving" id="64"/>
+                        <binding destination="46" name="value" keyPath="values.AssignDocumentToErbeleWhenSaving" id="64"/>
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" id="26">

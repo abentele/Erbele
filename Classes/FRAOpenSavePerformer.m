@@ -1,12 +1,9 @@
 /*
- Fraise version 3.7 - Based on Smultron by Peter Borg
+ Erbele - Based on Fraise 3.7.3 based on Smultron by Peter Borg
  
  Current Maintainer (since 2016): 
- Andreas Bentele: abentele.github@icloud.com (https://github.com/abentele/Fraise)
+ Andreas Bentele: abentele.github@icloud.com (https://github.com/abentele/Erbele)
  
- Maintainer before macOS Sierra (2010-2016): 
- Jean-François Moy: jeanfrancois.moy@gmail.com (http://github.com/jfmoy/Fraise)
-
  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
  
  http://www.apache.org/licenses/LICENSE-2.0
@@ -15,7 +12,7 @@
  */
 
 #import "FRAOpenSavePerformer.h"
-#import "NSImage+Fraise.h"
+#import "NSImage+Erbele.h"
 
 #import "FRAVariousPerformer.h"
 #import "FRAProjectsController.h"
@@ -59,9 +56,9 @@ static id sharedInstance = nil;
 	NSString *filename;
 	NSMutableArray *projectsArray = [NSMutableArray array];
 	for (filename in arrayOfFiles) {
-		if ([[filename pathExtension] isEqualToString:@"smlc"] || [[filename pathExtension] isEqualToString:@"frac"] || [[filename pathExtension] isEqualToString:@"fraiseSnippets"]) { // If the file are code snippets do an import
+		if ([[filename pathExtension] isEqualToString:@"smlc"] || [[filename pathExtension] isEqualToString:@"frac"] || [[filename pathExtension] isEqualToString:@"erbeleSnippets"]) { // If the file are code snippets do an import
 			[[FRASnippetsController sharedInstance] performSnippetsImportWithPath:filename];
-		} else if ([[filename pathExtension] isEqualToString:@"smlp"] || [[filename pathExtension] isEqualToString:@"frap"] || [[filename pathExtension] isEqualToString:@"fraiseProject"]) { // If the file is a project open all its files
+		} else if ([[filename pathExtension] isEqualToString:@"smlp"] || [[filename pathExtension] isEqualToString:@"frap"] || [[filename pathExtension] isEqualToString:@"erbeleProject"]) { // If the file is a project open all its files
 			[projectsArray addObject:filename];
 		} else {
 			[self shouldOpen:filename withEncoding:0];
@@ -236,7 +233,7 @@ static id sharedInstance = nil;
 - (void)performOpenWithPath:(NSString *)path contents:(NSString *)textString encoding:(NSStringEncoding)encoding
 {
 	if (FRACurrentProject == nil) {
-		if ([[[FRAProjectsController sharedDocumentController] documents] count] > 0) { // When working as an external editor some programs cause Fraise to not have an active document and thus no current project
+		if ([[[FRAProjectsController sharedDocumentController] documents] count] > 0) { // When working as an external editor some programs cause Erbele to not have an active document and thus no current project
 			[[FRAProjectsController sharedDocumentController] setCurrentProject:[[FRAProjectsController sharedDocumentController] documentForWindow:[NSApp orderedWindows][0]]];
 		} else {
 			[[FRAProjectsController sharedDocumentController] newDocument:nil];
@@ -325,7 +322,7 @@ static id sharedInstance = nil;
 	
 	[self performSelector:@selector(updateLineNumbers) withObject:nil afterDelay:0.0];
 	
-	// Bring the window in front if Fraise is not on the current displayed space.
+	// Bring the window in front if Erbele is not on the current displayed space.
 	if (![FRACurrentWindow isOnActiveSpace]) {
 		[FRACurrentWindow orderFront:self];
 	}
@@ -358,7 +355,7 @@ static id sharedInstance = nil;
 	}
 	
 	if (![string canBeConvertedToEncoding:[[document valueForKey:@"encoding"] integerValue]]) {
-		NSError *error = [NSError errorWithDomain:FRAISE_ERROR_DOMAIN code:FraiseSaveErrorEncodingInapplicable userInfo:@{NSLocalizedDescriptionKey: [NSString stringWithFormat:NSLocalizedStringFromTable(@"This document can no longer be saved using its original %@ encoding.", @"Localizable3", @"Title of alert panel informing user that the file's string encoding needs to be changed."), [NSString localizedNameOfStringEncoding:[[document valueForKey:@"encoding"] integerValue]]], NSLocalizedRecoverySuggestionErrorKey: NSLocalizedStringFromTable(@"Please choose another encoding (such as UTF-8).", @"Localizable3", @"Subtitle of alert panel informing user that the file's string encoding needs to be changed")}];
+		NSError *error = [NSError errorWithDomain:ERBELE_ERROR_DOMAIN code:ErbeleSaveErrorEncodingInapplicable userInfo:@{NSLocalizedDescriptionKey: [NSString stringWithFormat:NSLocalizedStringFromTable(@"This document can no longer be saved using its original %@ encoding.", @"Localizable3", @"Title of alert panel informing user that the file's string encoding needs to be changed."), [NSString localizedNameOfStringEncoding:[[document valueForKey:@"encoding"] integerValue]]], NSLocalizedRecoverySuggestionErrorKey: NSLocalizedStringFromTable(@"Please choose another encoding (such as UTF-8).", @"Localizable3", @"Subtitle of alert panel informing user that the file's string encoding needs to be changed")}];
 		[FRACurrentProject presentError:error modalForWindow:FRACurrentWindow delegate:self didPresentSelector:nil contextInfo:NULL];
 		return;
 	}
@@ -429,7 +426,7 @@ static id sharedInstance = nil;
 				[attributes removeObjectForKey:@"NSFilePosixPermissions"];
 			}
 			
-			if ([[FRADefaults valueForKey:@"AssignDocumentToFraiseWhenSaving"] boolValue] == YES || [[document valueForKey:@"isNewDocument"] boolValue]) {
+			if ([[FRADefaults valueForKey:@"AssignDocumentToErbeleWhenSaving"] boolValue] == YES || [[document valueForKey:@"isNewDocument"] boolValue]) {
 				[attributes setValue:[NSNumber numberWithUnsignedLong:'SMUL'] forKey:@"NSFileHFSCreatorCode"];
 				[attributes setValue:[NSNumber numberWithUnsignedLong:'FRAd'] forKey:@"NSFileHFSTypeCode"];
 			}
@@ -450,7 +447,7 @@ static id sharedInstance = nil;
 		
 		NSDictionary *extraMetaData = [self getExtraMetaDataFromPath:path];
 		attributes = [NSMutableDictionary dictionaryWithDictionary:[fileManager attributesOfItemAtPath:path error:nil]];
-		if ([[FRADefaults valueForKey:@"AssignDocumentToFraiseWhenSaving"] boolValue] == YES) {
+		if ([[FRADefaults valueForKey:@"AssignDocumentToErbeleWhenSaving"] boolValue] == YES) {
 			attributes[@"NSFileHFSCreatorCode"] = [NSNumber numberWithUnsignedLong:'SMUL'];
 			attributes[@"NSFileHFSTypeCode"] = [NSNumber numberWithUnsignedLong:'FRAd'];
 		}

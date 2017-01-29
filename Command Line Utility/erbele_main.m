@@ -1,12 +1,9 @@
 /*
- Fraise version 3.7 - Based on Smultron by Peter Borg
+ Erbele - Based on Fraise 3.7.3 based on Smultron by Peter Borg
  
  Current Maintainer (since 2016): 
- Andreas Bentele: abentele.github@icloud.com (https://github.com/abentele/Fraise)
+ Andreas Bentele: abentele.github@icloud.com (https://github.com/abentele/Erbele)
  
- Maintainer before macOS Sierra (2010-2016): 
- Jean-François Moy: jeanfrancois.moy@gmail.com (http://github.com/jfmoy/Fraise)
-
  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
  
  http://www.apache.org/licenses/LICENSE-2.0
@@ -23,8 +20,8 @@ int main (int argc, const char * argv[]) {
 		NSFileManager *fileManager = [NSFileManager defaultManager];
 		NSWorkspace *workspace = [NSWorkspace sharedWorkspace];
 		if (!argv[1]) { // There is no argument
-			if (![workspace launchApplication:@"Fraise.app"]) {
-				NSLog(@"Can't open Fraise");
+			if (![workspace launchApplication:@"Erbele.app"]) {
+				NSLog(@"Can't open Erbele");
 			}
 		} else { // We should open files
 			short i = 1;
@@ -40,8 +37,8 @@ int main (int argc, const char * argv[]) {
 					[fileManager createFileAtPath:path contents:nil attributes:attributes];
 				}
 
-				if (![workspace openFile:path withApplication:@"Fraise.app"]) { // Open file
-					NSLog(@"Couldn't open %@ with Fraise", path);
+				if (![workspace openFile:path withApplication:@"Erbele.app"]) { // Open file
+					NSLog(@"Couldn't open %@ with Erbele", path);
 				}
 				i++;
 			}

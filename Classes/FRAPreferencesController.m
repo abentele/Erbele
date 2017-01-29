@@ -1,12 +1,9 @@
 /*
- Fraise version 3.7 - Based on Smultron by Peter Borg
+ Erbele - Based on Fraise 3.7.3 based on Smultron by Peter Borg
  
  Current Maintainer (since 2016): 
- Andreas Bentele: abentele.github@icloud.com (https://github.com/abentele/Fraise)
+ Andreas Bentele: abentele.github@icloud.com (https://github.com/abentele/Erbele)
  
- Maintainer before macOS Sierra (2010-2016): 
- Jean-François Moy: jeanfrancois.moy@gmail.com (http://github.com/jfmoy/Fraise)
-
  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
  
  http://www.apache.org/licenses/LICENSE-2.0
@@ -16,7 +13,7 @@
 
 
 #import "FRAPreferencesController.h"
-#import "NSString+Fraise.h"
+#import "NSString+Erbele.h"
 #import "FRABasicPerformer.h"
 #import "FRAVariousPerformer.h"
 #import "FRAProjectsController.h"
@@ -28,7 +25,7 @@
 #import "FRAApplicationDelegate.h"
 #import "FRAProject.h"
 #import "FRALineNumbers.h"
-#import "NSToolbarItem+Fraise.h"
+#import "NSToolbarItem+Erbele.h"
 
 @implementation FRAPreferencesController
 
@@ -113,7 +110,7 @@ static id sharedInstance = nil;
 	dictionary[@"ShowLineNumberGutter"] = @YES;
 	dictionary[@"SyntaxColourNewDocuments"] = @YES;
 	dictionary[@"LineWrapNewDocuments"] = @YES;
-	dictionary[@"AssignDocumentToFraiseWhenSaving"] = @YES;
+	dictionary[@"AssignDocumentToErbeleWhenSaving"] = @YES;
 	dictionary[@"IndentNewLinesAutomatically"] = @YES;
 	dictionary[@"OnlyColourTillTheEndOfLine"] = @YES;
 	dictionary[@"CheckIfDocumentHasBeenUpdated"] = @NO;
@@ -307,7 +304,7 @@ static id sharedInstance = nil;
 		[preferencesWindow setToolbar:preferencesToolbar];
 		
 		
-		[preferencesWindow setTitle:NSLocalizedStringFromTable(@"Preferences - Fraise", @"Localizable3", @"Preferences - Fraise")];
+		[preferencesWindow setTitle:NSLocalizedStringFromTable(@"Preferences - Erbele", @"Localizable3", @"Preferences - Erbele")];
 	}
 	
 	if ([preferencesToolbar selectedItemIdentifier] == nil) {

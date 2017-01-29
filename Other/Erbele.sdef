@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
-<dictionary title="Fraise Terminology">
+<dictionary title="Erbele Terminology">
 	<suite name="Standard Suite" code="????" description="Common classes and commands for all applications.">
 		<class name="application" code="capp" description="The application&apos;s top-level scripting object.">
 			<cocoa class="NSApplication"/>
@@ -149,8 +149,8 @@
 			</property>
 		</class>
 	</suite>
-	<suite name="Fraise Suite" code="SMUL" description="Fraise suite.">
-		<class name="application" code="capp" description="Fraise application class" inherits="application">
+	<suite name="Erbele Suite" code="SMUL" description="Erbele suite.">
+		<class name="application" code="capp" description="Erbele application class" inherits="application">
 			<cocoa class="SMLApplication"/>
 			<property name="name" code="SAcn" description="The name of the current document" type="text" access="r">
 				<cocoa key="name"/>

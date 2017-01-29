@@ -1,12 +1,9 @@
 /*
- Fraise version 3.7 - Based on Smultron by Peter Borg
+ Erbele - Based on Fraise 3.7.3 based on Smultron by Peter Borg
  
  Current Maintainer (since 2016): 
- Andreas Bentele: abentele.github@icloud.com (https://github.com/abentele/Fraise)
+ Andreas Bentele: abentele.github@icloud.com (https://github.com/abentele/Erbele)
  
- Maintainer before macOS Sierra (2010-2016): 
- Jean-François Moy: jeanfrancois.moy@gmail.com (http://github.com/jfmoy/Fraise)
-
  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
  
  http://www.apache.org/licenses/LICENSE-2.0
@@ -17,12 +14,12 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface NSString (NSStringFraise)
+@interface NSImage (NSImageErbele)
 
-+ (NSString *)dateStringForDate:(NSDate *)date formatIndex:(NSInteger)index;
++ (NSArray *)iconsForPath:(NSString *)path;
 
-- (NSArray *)divideCommandIntoArray;
++ (NSArray *)quickLookIconForPath:(NSString *)path;
 
-
++ (CIImage *)unsavedFilterForCIImage:(CIImage *)ciImage;
 
 @end

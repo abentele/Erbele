@@ -1,12 +1,9 @@
 /*
- Fraise version 3.7 - Based on Smultron by Peter Borg
+ Erbele - Based on Fraise 3.7.3 based on Smultron by Peter Borg
  
  Current Maintainer (since 2016): 
- Andreas Bentele: abentele.github@icloud.com (https://github.com/abentele/Fraise)
+ Andreas Bentele: abentele.github@icloud.com (https://github.com/abentele/Erbele)
  
- Maintainer before macOS Sierra (2010-2016): 
- Jean-François Moy: jeanfrancois.moy@gmail.com (http://github.com/jfmoy/Fraise)
-
  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
  
  http://www.apache.org/licenses/LICENSE-2.0
@@ -15,7 +12,7 @@
 */
 
 
-#import "NSImage+Fraise.h"
+#import "NSImage+Erbele.h"
 #import "FRAProject.h"
 #import "FRABasicPerformer.h"
 #import "FRAProjectsController.h"
@@ -66,8 +63,8 @@
 {
 	[super windowControllerDidLoadNib:aController];
 	
-	[[self windowControllers][0] setWindowFrameAutosaveName:@"FraiseProjectWindow"];
-	[[self window] setFrameAutosaveName:@"FraiseProjectWindow"];
+	[[self windowControllers][0] setWindowFrameAutosaveName:@"ErbeleProjectWindow"];
+	[[self window] setFrameAutosaveName:@"ErbeleProjectWindow"];
 	
 	[self setDefaultAppearanceAtStartup];
 	
@@ -442,7 +439,7 @@
 	} else {
 		[currentWindow setDocumentEdited:NO];
 		[currentWindow setRepresentedFilename:[[NSBundle mainBundle] bundlePath]];
-		[currentWindow setTitle:@"Fraise"];
+		[currentWindow setTitle:@"Erbele"];
 	}
 }
 

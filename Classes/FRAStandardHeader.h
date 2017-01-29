@@ -1,12 +1,9 @@
 /*
- Fraise version 3.7 - Based on Smultron by Peter Borg
+ Erbele - Based on Fraise 3.7.3 based on Smultron by Peter Borg
  
  Current Maintainer (since 2016): 
- Andreas Bentele: abentele.github@icloud.com (https://github.com/abentele/Fraise)
+ Andreas Bentele: abentele.github@icloud.com (https://github.com/abentele/Erbele)
  
- Maintainer before macOS Sierra (2010-2016): 
- Jean-François Moy: jeanfrancois.moy@gmail.com (http://github.com/jfmoy/Fraise)
-
  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
  
  http://www.apache.org/licenses/LICENSE-2.0
@@ -25,7 +22,7 @@
 	#define Pos NSLog(@"File=%s line=%d proc=%s", strrchr("/" __FILE__,'/')+1, __LINE__, __PRETTY_FUNCTION__)
 #endif
 
-#define FRAISE_ERROR_DOMAIN @"org.fraise.Fraise.ErrorDomain"
+#define ERBELE_ERROR_DOMAIN @"org.erbele.Erbele.ErrorDomain"
 
 #import <Cocoa/Cocoa.h>
 #import <Carbon/Carbon.h>
@@ -102,7 +99,7 @@ typedef struct _AppleEventSelectionRange {
 } AppleEventSelectionRange;
 
 enum {
-    FraiseSaveErrorEncodingInapplicable = 1,
+    ErbeleSaveErrorEncodingInapplicable = 1,
 };
 typedef NSUInteger FRAErrors;
 
@@ -134,7 +131,7 @@ typedef NSUInteger FRAErrors;
 #define WILL_DELETE_ALL_ITEMS_IN_COLLECTION NSLocalizedStringFromTable(@"This will delete all items in the collection %@. Are you sure you want to continue?", @"Localizable3", @"This will delete all items in the collection %@. Are you sure you want to continue?")
 #define NEW_COLLECTION_STRING NSLocalizedStringFromTable(@"New Collection", @"Localizable3", @"New Collection")
 #define FILTER_STRING NSLocalizedStringFromTable(@"Filter", @"Localizable3", @"Filter")
-#define COMMAND_RESULT_WINDOW_TITLE NSLocalizedStringFromTable(@"Command Result - Fraise", @"Localizable3", @"Command Result - Fraise")
+#define COMMAND_RESULT_WINDOW_TITLE NSLocalizedStringFromTable(@"Command Result - Erbele", @"Localizable3", @"Command Result - Erbele")
 #define FILE_IS_UNWRITABLE_SAVE_STRING NSLocalizedStringFromTable(@"It seems as if the file is unwritable or that you do not have permission to save the file %@", @"Localizable3", @"It seems as if the file is unwritable or that you do not have permission to save the file %@")
 
 #define NO_DOCUMENT_SELECTED_STRING NSLocalizedString(@"No document selected", @"Indicate that no document is selected for the dummy view")

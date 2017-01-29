@@ -9,13 +9,13 @@
 		<dict>
 			<key>CFBundleTypeExtensions</key>
 			<array>
-				<string>fraiseProject</string>
+				<string>erbeleProject</string>
 				<string>frap</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
 			<string>FRAProjectIcon</string>
 			<key>CFBundleTypeName</key>
-			<string>Fraise Project</string>
+			<string>Erbele Project</string>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>LSTypeIsPackage</key>
@@ -29,7 +29,7 @@
 			<key>CFBundleTypeIconFile</key>
 			<string>FRADocumentIcon</string>
 			<key>CFBundleTypeName</key>
-			<string>Fraise Document</string>
+			<string>Erbele Document</string>
 			<key>CFBundleTypeOSTypes</key>
 			<array>
 				<string>FRAd</string>
@@ -42,7 +42,7 @@
 			</array>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>org.fraise.fraise.document</string>
+				<string>org.erbele.erbele.document</string>
 				<string>public.plain-text</string>
 				<string>public.html</string>
 				<string>net.daringfireball.markdown</string>
@@ -95,13 +95,13 @@
 		<dict>
 			<key>CFBundleTypeExtensions</key>
 			<array>
-				<string>fraiseSnippets</string>
+				<string>erbeleSnippets</string>
 				<string>fralc</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
 			<string>FRASnippetsIcon</string>
 			<key>CFBundleTypeName</key>
-			<string>Fraise Snippets</string>
+			<string>Erbele Snippets</string>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>LSTypeIsPackage</key>
@@ -110,12 +110,12 @@
 		<dict>
 			<key>CFBundleTypeExtensions</key>
 			<array>
-				<string>fraiseCommands</string>
+				<string>erbeleCommands</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
 			<string>FRACommandsIcon</string>
 			<key>CFBundleTypeName</key>
-			<string>Fraise Commands</string>
+			<string>Erbele Commands</string>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>LSTypeIsPackage</key>
@@ -125,17 +125,17 @@
 		</dict>
 	</array>
 	<key>CFBundleExecutable</key>
-	<string>Fraise</string>
+	<string>Erbele</string>
 	<key>CFBundleHelpBookFolder</key>
-	<string>Fraise Help</string>
+	<string>Erbele Help</string>
 	<key>CFBundleHelpBookName</key>
-	<string>Fraise Help</string>
+	<string>Erbele Help</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Fraise</string>
+	<string>Erbele</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -163,12 +163,12 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>Fraise/Open Selected File</string>
+				<string>Erbele/Open Selected File</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>openFile</string>
 			<key>NSPortName</key>
-			<string>Fraise</string>
+			<string>Erbele</string>
 			<key>NSSendTypes</key>
 			<array>
 				<string>NSStringPboardType</string>
@@ -179,12 +179,12 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>Fraise/Insert Selection Into Current Document</string>
+				<string>Erbele/Insert Selection Into Current Document</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>insertSelection</string>
 			<key>NSPortName</key>
-			<string>Fraise</string>
+			<string>Erbele</string>
 			<key>NSSendTypes</key>
 			<array>
 				<string>NSStringPboardType</string>
@@ -194,12 +194,12 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>Fraise/New Document Containing Selection</string>
+				<string>Erbele/New Document Containing Selection</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>openSelection</string>
 			<key>NSPortName</key>
-			<string>Fraise</string>
+			<string>Erbele</string>
 			<key>NSSendTypes</key>
 			<array>
 				<string>NSStringPboardType</string>
@@ -207,7 +207,7 @@
 		</dict>
 	</array>
 	<key>OSAScriptingDefinition</key>
-	<string>Fraise.sdef</string>
+	<string>Erbele.sdef</string>
 	<key>UTExportedTypeDeclarations</key>
 	<array>
 		<dict>
@@ -218,11 +218,11 @@
 				<string>public.data</string>
 			</array>
 			<key>UTTypeDescription</key>
-			<string>Fraise Document</string>
+			<string>Erbele Document</string>
 			<key>UTTypeIconFile</key>
 			<string>DocumentIcon</string>
 			<key>UTTypeIdentifier</key>
-			<string>org.fraise.fraise.document</string>
+			<string>org.erbele.erbele.document</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>com.apple.ostype</key>

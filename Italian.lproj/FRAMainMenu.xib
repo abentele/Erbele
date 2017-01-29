@@ -10,10 +10,10 @@
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <menu title="MainMenu" systemMenu="main" id="29" userLabel="MainMenu">
             <items>
-                <menuItem title="Fraise" id="56">
-                    <menu key="submenu" title="Fraise" systemMenu="apple" id="57">
+                <menuItem title="Erbele" id="56">
+                    <menu key="submenu" title="Erbele" systemMenu="apple" id="57">
                         <items>
-                            <menuItem title="Informazioni su Fraise" id="58">
+                            <menuItem title="Informazioni su Erbele" id="58">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-2" id="142"/>
@@ -36,7 +36,7 @@
                             <menuItem isSeparatorItem="YES" id="144">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Nascondi Fraise" keyEquivalent="h" id="134">
+                            <menuItem title="Nascondi Erbele" keyEquivalent="h" id="134">
                                 <connections>
                                     <action selector="hide:" target="-2" id="152"/>
                                 </connections>
@@ -55,7 +55,7 @@
                             <menuItem isSeparatorItem="YES" id="149">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Esci da Fraise" keyEquivalent="q" id="136">
+                            <menuItem title="Esci da Erbele" keyEquivalent="q" id="136">
                                 <connections>
                                     <action selector="terminate:" target="-2" id="139"/>
                                 </connections>
@@ -864,9 +864,9 @@
                 <menuItem title="Aiuto" id="103">
                     <menu key="submenu" title="Aiuto" id="106">
                         <items>
-                            <menuItem title="Aiuto Fraise" keyEquivalent="?" id="111">
+                            <menuItem title="Aiuto Erbele" keyEquivalent="?" id="111">
                                 <connections>
-                                    <action selector="fraiseHelp:" target="385" id="793"/>
+                                    <action selector="erbeleHelp:" target="385" id="793"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="378">

@@ -62,9 +62,9 @@
 		7F5097710D95A65500D62D67 /* FRADefaultUnsavedIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F50976F0D95A65500D62D67 /* FRADefaultUnsavedIcon.png */; };
 		7F5097720D95A65500D62D67 /* FRADefaultIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F5097700D95A65500D62D67 /* FRADefaultIcon.png */; };
 		7F51225C0BA72E7E00183863 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F51225B0BA72E7E00183863 /* QuartzCore.framework */; };
-		7F5C266C0B73BF5C00D2EDDC /* fraise_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F980A8A0B73B629000A9140 /* fraise_main.m */; };
+		7F5C266C0B73BF5C00D2EDDC /* erbele_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F980A8A0B73B629000A9140 /* erbele_main.m */; };
 		7F5C266D0B73BF6C00D2EDDC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
-		7F5C26740B73BF9B00D2EDDC /* fraise in Resources */ = {isa = PBXBuildFile; fileRef = 7F5C26650B73BF2200D2EDDC /* fraise */; };
+		7F5C26740B73BF9B00D2EDDC /* erbele in Resources */ = {isa = PBXBuildFile; fileRef = 7F5C26650B73BF2200D2EDDC /* erbele */; };
 		7F5C26B10B73C03A00D2EDDC /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5C26B00B73C03A00D2EDDC /* Carbon.framework */; };
 		7F5C26B30B73C04800D2EDDC /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5C26B20B73C04800D2EDDC /* ApplicationServices.framework */; };
 		7F5C26B50B73C05100D2EDDC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5C26B40B73C05100D2EDDC /* WebKit.framework */; };
@@ -73,9 +73,9 @@
 		7F5C287E0B73C4AA00D2EDDC /* FRAInterfacePerformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C287C0B73C4AA00D2EDDC /* FRAInterfacePerformer.m */; };
 		7F6C9C680B75F23000531EF9 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6C9C670B75F23000531EF9 /* libicucore.dylib */; };
 		7F7444C90CF8DDEC00C947C1 /* FRAAdvancedFindPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7444C80CF8DDEC00C947C1 /* FRAAdvancedFindPanel.m */; };
-		7F79EE370D93D5500034017B /* NSString+Fraise.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F79EE360D93D5500034017B /* NSString+Fraise.m */; };
-		7F79EE3A0D93D5760034017B /* NSImage+Fraise.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F79EE390D93D5760034017B /* NSImage+Fraise.m */; };
-		7F79EE3D0D93D58C0034017B /* NSToolbarItem+Fraise.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F79EE3C0D93D58C0034017B /* NSToolbarItem+Fraise.m */; };
+		7F79EE370D93D5500034017B /* NSString+Erbele.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F79EE360D93D5500034017B /* NSString+Erbele.m */; };
+		7F79EE3A0D93D5760034017B /* NSImage+Erbele.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F79EE390D93D5760034017B /* NSImage+Erbele.m */; };
+		7F79EE3D0D93D58C0034017B /* NSToolbarItem+Erbele.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F79EE3C0D93D58C0034017B /* NSToolbarItem+Erbele.m */; };
 		7F81FEDC0BA9DDCD00549CDB /* Tab Bar in Resources */ = {isa = PBXBuildFile; fileRef = 7F81FED50BA9DDCD00549CDB /* Tab Bar */; };
 		7F81FF030BA9DDF600549CDB /* PSMOverflowPopUpButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F81FEF40BA9DDF600549CDB /* PSMOverflowPopUpButton.m */; };
 		7F81FF050BA9DDF600549CDB /* PSMRolloverButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F81FEF80BA9DDF600549CDB /* PSMRolloverButton.m */; };
@@ -94,11 +94,11 @@
 		7F980A410B73B4F4000A9140 /* Syntax Definitions in Resources */ = {isa = PBXBuildFile; fileRef = 7F9809E70B73B4F4000A9140 /* Syntax Definitions */; };
 		7F980A420B73B4F4000A9140 /* Toolbar Icons in Resources */ = {isa = PBXBuildFile; fileRef = 7F980A230B73B4F4000A9140 /* Toolbar Icons */; };
 		7F980A610B73B5B9000A9140 /* Preferences Icons in Resources */ = {isa = PBXBuildFile; fileRef = 7F980A510B73B5B9000A9140 /* Preferences Icons */; };
-		7F980A8B0B73B629000A9140 /* fraise.1 in Resources */ = {isa = PBXBuildFile; fileRef = 7F980A890B73B629000A9140 /* fraise.1 */; };
+		7F980A8B0B73B629000A9140 /* erbele.1 in Resources */ = {isa = PBXBuildFile; fileRef = 7F980A890B73B629000A9140 /* erbele.1 */; };
 		7F980A920B73B652000A9140 /* FRADataModel3.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 7F980A910B73B652000A9140 /* FRADataModel3.xcdatamodel */; };
 		7F980A970B73B660000A9140 /* SyntaxDefinitions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F980A930B73B660000A9140 /* SyntaxDefinitions.plist */; };
 		7F980A980B73B660000A9140 /* DefaultSnippets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F980A940B73B660000A9140 /* DefaultSnippets.plist */; };
-		7F980A990B73B660000A9140 /* Fraise.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 7F980A950B73B660000A9140 /* Fraise.sdef */; };
+		7F980A990B73B660000A9140 /* Erbele.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 7F980A950B73B660000A9140 /* Erbele.sdef */; };
 		7F980A9A0B73B660000A9140 /* Markdown.pl in Resources */ = {isa = PBXBuildFile; fileRef = 7F980A960B73B660000A9140 /* Markdown.pl */; };
 		7F980B0A0B73B6A2000A9140 /* FRAAdvancedFindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F980AA90B73B6A2000A9140 /* FRAAdvancedFindController.m */; };
 		7F980B0B0B73B6A2000A9140 /* FRAApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F980AAB0B73B6A2000A9140 /* FRAApplication.m */; };
@@ -140,7 +140,7 @@
 		7FA2666F0B7796BE00AEA870 /* ICUPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA2666B0B7796BE00AEA870 /* ICUPattern.m */; };
 		7FAD46800D9E43A600ECD508 /* FRAPrintAccessoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD467F0D9E43A600ECD508 /* FRAPrintAccessoryController.m */; };
 		7FB41E060B7A2A43006ADB1E /* FRAOpenSavePerformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB41E050B7A2A43006ADB1E /* FRAOpenSavePerformer.m */; };
-		7FB9116A101E623F008DB1DA /* Fraise-Manual.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7FD53F120D91A8F30071054F /* Fraise-Manual.pdf */; };
+		7FB9116A101E623F008DB1DA /* Erbele-Manual.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7FD53F120D91A8F30071054F /* Erbele-Manual.pdf */; };
 		7FB9116B101E6245008DB1DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1660FE840EACC02AAC07 /* InfoPlist.strings */; };
 		7FBDDEFC0CF794F8003BAFB5 /* FRAProjectWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBDDEFB0CF794F8003BAFB5 /* FRAProjectWindow.m */; };
 		7FBDDF360CF79C7D003BAFB5 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FBDDF350CF79C7D003BAFB5 /* QuickLook.framework */; };
@@ -163,7 +163,7 @@
 			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7F5C26640B73BF2200D2EDDC;
-			remoteInfo = fraise;
+			remoteInfo = erbele;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -356,7 +356,7 @@
 		7F50976F0D95A65500D62D67 /* FRADefaultUnsavedIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FRADefaultUnsavedIcon.png; path = Graphics/FRADefaultUnsavedIcon.png; sourceTree = "<group>"; };
 		7F5097700D95A65500D62D67 /* FRADefaultIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FRADefaultIcon.png; path = Graphics/FRADefaultIcon.png; sourceTree = "<group>"; };
 		7F51225B0BA72E7E00183863 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
-		7F5C26650B73BF2200D2EDDC /* fraise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fraise; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5C26650B73BF2200D2EDDC /* erbele */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = erbele; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F5C26B00B73C03A00D2EDDC /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		7F5C26B20B73C04800D2EDDC /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
 		7F5C26B40B73C05100D2EDDC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
@@ -368,12 +368,12 @@
 		7F6C9C670B75F23000531EF9 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = /usr/lib/libicucore.dylib; sourceTree = "<absolute>"; };
 		7F7444C70CF8DDEC00C947C1 /* FRAAdvancedFindPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRAAdvancedFindPanel.h; path = Classes/FRAAdvancedFindPanel.h; sourceTree = "<group>"; };
 		7F7444C80CF8DDEC00C947C1 /* FRAAdvancedFindPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRAAdvancedFindPanel.m; path = Classes/FRAAdvancedFindPanel.m; sourceTree = "<group>"; };
-		7F79EE350D93D5500034017B /* NSString+Fraise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Fraise.h"; path = "Classes/NSString+Fraise.h"; sourceTree = "<group>"; };
-		7F79EE360D93D5500034017B /* NSString+Fraise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Fraise.m"; path = "Classes/NSString+Fraise.m"; sourceTree = "<group>"; };
-		7F79EE380D93D5760034017B /* NSImage+Fraise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSImage+Fraise.h"; path = "Classes/NSImage+Fraise.h"; sourceTree = "<group>"; };
-		7F79EE390D93D5760034017B /* NSImage+Fraise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSImage+Fraise.m"; path = "Classes/NSImage+Fraise.m"; sourceTree = "<group>"; };
-		7F79EE3B0D93D58C0034017B /* NSToolbarItem+Fraise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSToolbarItem+Fraise.h"; path = "Classes/NSToolbarItem+Fraise.h"; sourceTree = "<group>"; };
-		7F79EE3C0D93D58C0034017B /* NSToolbarItem+Fraise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSToolbarItem+Fraise.m"; path = "Classes/NSToolbarItem+Fraise.m"; sourceTree = "<group>"; };
+		7F79EE350D93D5500034017B /* NSString+Erbele.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Erbele.h"; path = "Classes/NSString+Erbele.h"; sourceTree = "<group>"; };
+		7F79EE360D93D5500034017B /* NSString+Erbele.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Erbele.m"; path = "Classes/NSString+Erbele.m"; sourceTree = "<group>"; };
+		7F79EE380D93D5760034017B /* NSImage+Erbele.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSImage+Erbele.h"; path = "Classes/NSImage+Erbele.h"; sourceTree = "<group>"; };
+		7F79EE390D93D5760034017B /* NSImage+Erbele.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSImage+Erbele.m"; path = "Classes/NSImage+Erbele.m"; sourceTree = "<group>"; };
+		7F79EE3B0D93D58C0034017B /* NSToolbarItem+Erbele.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSToolbarItem+Erbele.h"; path = "Classes/NSToolbarItem+Erbele.h"; sourceTree = "<group>"; };
+		7F79EE3C0D93D58C0034017B /* NSToolbarItem+Erbele.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSToolbarItem+Erbele.m"; path = "Classes/NSToolbarItem+Erbele.m"; sourceTree = "<group>"; };
 		7F81FED50BA9DDCD00549CDB /* Tab Bar */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Tab Bar"; path = "Graphics/Tab Bar"; sourceTree = "<group>"; };
 		7F81FEF30BA9DDF600549CDB /* PSMOverflowPopUpButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSMOverflowPopUpButton.h; path = PSMTabBar/PSMOverflowPopUpButton.h; sourceTree = "<group>"; };
 		7F81FEF40BA9DDF600549CDB /* PSMOverflowPopUpButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSMOverflowPopUpButton.m; path = PSMTabBar/PSMOverflowPopUpButton.m; sourceTree = "<group>"; };
@@ -405,13 +405,13 @@
 		7F9809E70B73B4F4000A9140 /* Syntax Definitions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Syntax Definitions"; sourceTree = "<group>"; };
 		7F980A230B73B4F4000A9140 /* Toolbar Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Toolbar Icons"; path = "Graphics/Toolbar Icons"; sourceTree = "<group>"; };
 		7F980A510B73B5B9000A9140 /* Preferences Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Preferences Icons"; path = "Graphics/Preferences Icons"; sourceTree = "<group>"; };
-		7F980A890B73B629000A9140 /* fraise.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; name = fraise.1; path = "Command Line Utility/fraise.1"; sourceTree = "<group>"; };
-		7F980A8A0B73B629000A9140 /* fraise_main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = fraise_main.m; path = "Command Line Utility/fraise_main.m"; sourceTree = "<group>"; };
+		7F980A890B73B629000A9140 /* erbele.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; name = erbele.1; path = "Command Line Utility/erbele.1"; sourceTree = "<group>"; };
+		7F980A8A0B73B629000A9140 /* erbele_main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = erbele_main.m; path = "Command Line Utility/erbele_main.m"; sourceTree = "<group>"; };
 		7F980A8F0B73B641000A9140 /* ODBEditorSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODBEditorSuite.h; path = Other/ODBEditorSuite.h; sourceTree = "<group>"; };
 		7F980A910B73B652000A9140 /* FRADataModel3.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; name = FRADataModel3.xcdatamodel; path = Other/FRADataModel3.xcdatamodel; sourceTree = "<group>"; };
 		7F980A930B73B660000A9140 /* SyntaxDefinitions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = SyntaxDefinitions.plist; path = Other/SyntaxDefinitions.plist; sourceTree = "<group>"; };
 		7F980A940B73B660000A9140 /* DefaultSnippets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DefaultSnippets.plist; path = Other/DefaultSnippets.plist; sourceTree = "<group>"; };
-		7F980A950B73B660000A9140 /* Fraise.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.sdef; name = Fraise.sdef; path = Other/Fraise.sdef; sourceTree = "<group>"; };
+		7F980A950B73B660000A9140 /* Erbele.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.sdef; name = Erbele.sdef; path = Other/Erbele.sdef; sourceTree = "<group>"; };
 		7F980A960B73B660000A9140 /* Markdown.pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; name = Markdown.pl; path = Other/Markdown.pl; sourceTree = "<group>"; };
 		7F980AA80B73B6A2000A9140 /* FRAAdvancedFindController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRAAdvancedFindController.h; path = Classes/FRAAdvancedFindController.h; sourceTree = "<group>"; };
 		7F980AA90B73B6A2000A9140 /* FRAAdvancedFindController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRAAdvancedFindController.m; path = Classes/FRAAdvancedFindController.m; sourceTree = "<group>"; };
@@ -496,9 +496,9 @@
 		7FBDDEFA0CF794F8003BAFB5 /* FRAProjectWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRAProjectWindow.h; path = Classes/FRAProjectWindow.h; sourceTree = "<group>"; };
 		7FBDDEFB0CF794F8003BAFB5 /* FRAProjectWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRAProjectWindow.m; path = Classes/FRAProjectWindow.m; sourceTree = "<group>"; };
 		7FBDDF350CF79C7D003BAFB5 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = /System/Library/Frameworks/QuickLook.framework; sourceTree = "<absolute>"; };
-		7FD53F120D91A8F30071054F /* Fraise-Manual.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fraise-Manual.pdf"; sourceTree = "<group>"; };
+		7FD53F120D91A8F30071054F /* Erbele-Manual.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Erbele-Manual.pdf"; sourceTree = "<group>"; };
 		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D15AC370486D014006FF6A4 /* Fraise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fraise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D15AC370486D014006FF6A4 /* Erbele.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Erbele.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17DE7751E1026FD00535C73 /* ru */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ru; path = Russian.lproj/Localizable3.strings; sourceTree = "<group>"; };
 		E18EFF321DB378C000DA64C3 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		E19D40021E10263E00CCA45E /* Russian */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Russian; path = Russian.lproj/FRAAdvancedFind.xib; sourceTree = "<group>"; };
@@ -519,7 +519,7 @@
 		E19D40111E10263E00CCA45E /* Russian */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Russian; path = Russian.lproj/FRARegularExpressionHelp.xib; sourceTree = "<group>"; };
 		E19D40121E10263E00CCA45E /* Russian */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Russian; path = Russian.lproj/FRASnippets.xib; sourceTree = "<group>"; };
 		E19D40131E10264A00CCA45E /* Russian */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Russian; path = Russian.lproj/Localizable.strings; sourceTree = "<group>"; };
-		E1E8E9D01DC8D6BC0072BEF0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Fraise/Images.xcassets; sourceTree = "<group>"; };
+		E1E8E9D01DC8D6BC0072BEF0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Erbele/Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -579,8 +579,8 @@
 		19C28FB0FE9D524F11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D15AC370486D014006FF6A4 /* Fraise.app */,
-				7F5C26650B73BF2200D2EDDC /* fraise */,
+				8D15AC370486D014006FF6A4 /* Erbele.app */,
+				7F5C26650B73BF2200D2EDDC /* erbele */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -641,8 +641,8 @@
 				7F9809E70B73B4F4000A9140 /* Syntax Definitions */,
 				7F980A940B73B660000A9140 /* DefaultSnippets.plist */,
 				2F6CF2E10B848515008B0386 /* DefaultCommands.plist */,
-				7F980A950B73B660000A9140 /* Fraise.sdef */,
-				7FD53F120D91A8F30071054F /* Fraise-Manual.pdf */,
+				7F980A950B73B660000A9140 /* Erbele.sdef */,
+				7FD53F120D91A8F30071054F /* Erbele-Manual.pdf */,
 				8D15AC360486D014006FF6A4 /* Info.plist */,
 				089C1660FE840EACC02AAC07 /* InfoPlist.strings */,
 				1FB593B9113EE34600ECB6C0 /* Localizable.strings */,
@@ -910,9 +910,9 @@
 			isa = PBXGroup;
 			children = (
 				7F79EE340D93D5090034017B /* Headers */,
-				7F79EE390D93D5760034017B /* NSImage+Fraise.m */,
-				7F79EE360D93D5500034017B /* NSString+Fraise.m */,
-				7F79EE3C0D93D58C0034017B /* NSToolbarItem+Fraise.m */,
+				7F79EE390D93D5760034017B /* NSImage+Erbele.m */,
+				7F79EE360D93D5500034017B /* NSString+Erbele.m */,
+				7F79EE3C0D93D58C0034017B /* NSToolbarItem+Erbele.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -920,9 +920,9 @@
 		7F79EE340D93D5090034017B /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				7F79EE380D93D5760034017B /* NSImage+Fraise.h */,
-				7F79EE350D93D5500034017B /* NSString+Fraise.h */,
-				7F79EE3B0D93D58C0034017B /* NSToolbarItem+Fraise.h */,
+				7F79EE380D93D5760034017B /* NSImage+Erbele.h */,
+				7F79EE350D93D5500034017B /* NSString+Erbele.h */,
+				7F79EE3B0D93D58C0034017B /* NSToolbarItem+Erbele.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -974,8 +974,8 @@
 		7F980A860B73B619000A9140 /* Command Line Utility */ = {
 			isa = PBXGroup;
 			children = (
-				7F980A890B73B629000A9140 /* fraise.1 */,
-				7F980A8A0B73B629000A9140 /* fraise_main.m */,
+				7F980A890B73B629000A9140 /* erbele.1 */,
+				7F980A8A0B73B629000A9140 /* erbele_main.m */,
 			);
 			name = "Command Line Utility";
 			sourceTree = "<group>";
@@ -1054,9 +1054,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F5C26640B73BF2200D2EDDC /* fraise */ = {
+		7F5C26640B73BF2200D2EDDC /* erbele */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F5C26690B73BF4000D2EDDC /* Build configuration list for PBXNativeTarget "fraise" */;
+			buildConfigurationList = 7F5C26690B73BF4000D2EDDC /* Build configuration list for PBXNativeTarget "erbele" */;
 			buildPhases = (
 				7F5C26620B73BF2200D2EDDC /* Sources */,
 				7F5C26630B73BF2200D2EDDC /* Frameworks */,
@@ -1065,14 +1065,14 @@
 			);
 			dependencies = (
 			);
-			name = fraise;
+			name = erbele;
 			productName = smultron;
-			productReference = 7F5C26650B73BF2200D2EDDC /* fraise */;
+			productReference = 7F5C26650B73BF2200D2EDDC /* erbele */;
 			productType = "com.apple.product-type.tool";
 		};
-		8D15AC270486D014006FF6A4 /* Fraise */ = {
+		8D15AC270486D014006FF6A4 /* Erbele */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Fraise" */;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Erbele" */;
 			buildPhases = (
 				8D15AC2B0486D014006FF6A4 /* Resources */,
 				8D15AC330486D014006FF6A4 /* Frameworks */,
@@ -1084,10 +1084,10 @@
 			dependencies = (
 				1F83623411553B55002BBC30 /* PBXTargetDependency */,
 			);
-			name = Fraise;
+			name = Erbele;
 			productInstallPath = "$(HOME)/Applications";
 			productName = Smultron;
-			productReference = 8D15AC370486D014006FF6A4 /* Fraise.app */;
+			productReference = 8D15AC370486D014006FF6A4 /* Erbele.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1098,7 +1098,7 @@
 			attributes = {
 				LastUpgradeCheck = 0810;
 			};
-			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Fraise" */;
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Erbele" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -1116,8 +1116,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D15AC270486D014006FF6A4 /* Fraise */,
-				7F5C26640B73BF2200D2EDDC /* fraise */,
+				8D15AC270486D014006FF6A4 /* Erbele */,
+				7F5C26640B73BF2200D2EDDC /* erbele */,
 				1F748632114F1F6000767B18 /* Distribution */,
 			);
 		};
@@ -1128,9 +1128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F5C26740B73BF9B00D2EDDC /* fraise in Resources */,
+				7F5C26740B73BF9B00D2EDDC /* erbele in Resources */,
 				E1E8E9D11DC8D6BC0072BEF0 /* Images.xcassets in Resources */,
-				7F980A8B0B73B629000A9140 /* fraise.1 in Resources */,
+				7F980A8B0B73B629000A9140 /* erbele.1 in Resources */,
 				7FB9116B101E6245008DB1DA /* InfoPlist.strings in Resources */,
 				1FB593BA113EE34600ECB6C0 /* Localizable.strings in Resources */,
 				7F9809D20B73B4E1000A9140 /* FRADocumentIcon.icns in Resources */,
@@ -1140,7 +1140,7 @@
 				7F980A610B73B5B9000A9140 /* Preferences Icons in Resources */,
 				7F980A970B73B660000A9140 /* SyntaxDefinitions.plist in Resources */,
 				7F980A980B73B660000A9140 /* DefaultSnippets.plist in Resources */,
-				7F980A990B73B660000A9140 /* Fraise.sdef in Resources */,
+				7F980A990B73B660000A9140 /* Erbele.sdef in Resources */,
 				7F980A9A0B73B660000A9140 /* Markdown.pl in Resources */,
 				2F6CF2E20B848515008B0386 /* DefaultCommands.plist in Resources */,
 				2FEC50CB0B96DB86000CF1AD /* MultiMarkdown.pl in Resources */,
@@ -1149,7 +1149,7 @@
 				2FC46AFE0BD608C500F209AA /* FRACommandsIcon.icns in Resources */,
 				2FC46AFF0BD608C500F209AA /* FRASnippetsIcon.icns in Resources */,
 				1FB593BD113EE35E00ECB6C0 /* Localizable3.strings in Resources */,
-				7FB9116A101E623F008DB1DA /* Fraise-Manual.pdf in Resources */,
+				7FB9116A101E623F008DB1DA /* Erbele-Manual.pdf in Resources */,
 				7F5097710D95A65500D62D67 /* FRADefaultUnsavedIcon.png in Resources */,
 				7F5097720D95A65500D62D67 /* FRADefaultIcon.png in Resources */,
 				1FF6CD34115543F1002681B2 /* FRAPreferences.xib in Resources */,
@@ -1183,7 +1183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F5C266C0B73BF5C00D2EDDC /* fraise_main.m in Sources */,
+				7F5C266C0B73BF5C00D2EDDC /* erbele_main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1258,9 +1258,9 @@
 				7F2B7FBD0C27272E0058BC55 /* FRASingleDocumentPanel.m in Sources */,
 				7FBDDEFC0CF794F8003BAFB5 /* FRAProjectWindow.m in Sources */,
 				7F7444C90CF8DDEC00C947C1 /* FRAAdvancedFindPanel.m in Sources */,
-				7F79EE370D93D5500034017B /* NSString+Fraise.m in Sources */,
-				7F79EE3A0D93D5760034017B /* NSImage+Fraise.m in Sources */,
-				7F79EE3D0D93D58C0034017B /* NSToolbarItem+Fraise.m in Sources */,
+				7F79EE370D93D5500034017B /* NSString+Erbele.m in Sources */,
+				7F79EE3A0D93D5760034017B /* NSImage+Erbele.m in Sources */,
+				7F79EE3D0D93D58C0034017B /* NSToolbarItem+Erbele.m in Sources */,
 				7F2B7E330D9463A100C60435 /* FRASearchField.m in Sources */,
 				7FAD46800D9E43A600ECD508 /* FRAPrintAccessoryController.m in Sources */,
 			);
@@ -1271,12 +1271,12 @@
 /* Begin PBXTargetDependency section */
 		1F7486C8114F1F8000767B18 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8D15AC270486D014006FF6A4 /* Fraise */;
+			target = 8D15AC270486D014006FF6A4 /* Erbele */;
 			targetProxy = 1F7486C7114F1F8000767B18 /* PBXContainerItemProxy */;
 		};
 		1F83623411553B55002BBC30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7F5C26640B73BF2200D2EDDC /* fraise */;
+			target = 7F5C26640B73BF2200D2EDDC /* erbele */;
 			targetProxy = 1F83623311553B55002BBC30 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1604,7 +1604,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = "$(HOME)/bin";
 				PREBINDING = NO;
-				PRODUCT_NAME = fraise;
+				PRODUCT_NAME = erbele;
 				ZERO_LINK = YES;
 			};
 			name = Debug;
@@ -1619,7 +1619,7 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				INSTALL_PATH = "$(HOME)/bin";
 				PREBINDING = NO;
-				PRODUCT_NAME = fraise;
+				PRODUCT_NAME = erbele;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -1650,8 +1650,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.fraise.Fraise;
-				PRODUCT_NAME = Fraise;
+				PRODUCT_BUNDLE_IDENTIFIER = org.erbele.Erbele;
+				PRODUCT_NAME = Erbele;
 				VALID_ARCHS = x86_64;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
@@ -1681,8 +1681,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.fraise.Fraise;
-				PRODUCT_NAME = Fraise;
+				PRODUCT_BUNDLE_IDENTIFIER = org.erbele.Erbele;
+				PRODUCT_NAME = Erbele;
 				VALID_ARCHS = x86_64;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1779,7 +1779,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F5C26690B73BF4000D2EDDC /* Build configuration list for PBXNativeTarget "fraise" */ = {
+		7F5C26690B73BF4000D2EDDC /* Build configuration list for PBXNativeTarget "erbele" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F5C266A0B73BF4000D2EDDC /* Debug */,
@@ -1788,7 +1788,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Fraise" */ = {
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Erbele" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C05733C808A9546B00998B17 /* Debug */,
@@ -1797,7 +1797,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Fraise" */ = {
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Erbele" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C05733CC08A9546B00998B17 /* Debug */,

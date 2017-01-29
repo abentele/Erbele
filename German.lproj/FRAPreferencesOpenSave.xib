@@ -120,12 +120,12 @@
                 <button id="51">
                     <rect key="frame" x="128" y="73" width="400" height="18"/>
                     <autoresizingMask key="autoresizingMask"/>
-                    <buttonCell key="cell" type="check" title="Fraise als Standardanwendung dem Dokument zuordnen" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="82">
+                    <buttonCell key="cell" type="check" title="Erbele als Standardanwendung dem Dokument zuordnen" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="82">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                     <connections>
-                        <binding destination="46" name="value" keyPath="values.AssignDocumentToFraiseWhenSaving" id="64"/>
+                        <binding destination="46" name="value" keyPath="values.AssignDocumentToErbeleWhenSaving" id="64"/>
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" id="25">

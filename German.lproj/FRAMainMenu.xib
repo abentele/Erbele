@@ -10,10 +10,10 @@
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <menu title="Hauptmenü" systemMenu="main" id="29" userLabel="MainMenu">
             <items>
-                <menuItem title="Fraise" id="56">
-                    <menu key="submenu" title="Fraise" systemMenu="apple" id="57">
+                <menuItem title="Erbele" id="56">
+                    <menu key="submenu" title="Erbele" systemMenu="apple" id="57">
                         <items>
-                            <menuItem title="Über Fraise" id="58">
+                            <menuItem title="Über Erbele" id="58">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-2" id="142"/>
@@ -36,7 +36,7 @@
                             <menuItem isSeparatorItem="YES" id="144">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Fraise ausblenden" keyEquivalent="h" id="134">
+                            <menuItem title="Erbele ausblenden" keyEquivalent="h" id="134">
                                 <connections>
                                     <action selector="hide:" target="-2" id="152"/>
                                 </connections>
@@ -55,7 +55,7 @@
                             <menuItem isSeparatorItem="YES" id="149">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Fraise beenden" keyEquivalent="q" id="136">
+                            <menuItem title="Erbele beenden" keyEquivalent="q" id="136">
                                 <connections>
                                     <action selector="terminate:" target="-2" id="139"/>
                                 </connections>
@@ -864,15 +864,15 @@
                 <menuItem title="Hilfe" id="103">
                     <menu key="submenu" title="Hilfe" id="106">
                         <items>
-                            <menuItem title="Hilfe zu Fraise" keyEquivalent="?" id="111">
+                            <menuItem title="Hilfe zu Erbele" keyEquivalent="?" id="111">
                                 <connections>
-                                    <action selector="fraiseHelp:" target="385" id="793"/>
+                                    <action selector="erbeleHelp:" target="385" id="793"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="378">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Kommandozeilen-Befehl „fraise“ installieren" id="377">
+                            <menuItem title="Kommandozeilen-Befehl „erbele“ installieren" id="377">
                                 <connections>
                                     <action selector="installCommandLineUtilityAction:" target="385" id="502"/>
                                 </connections>

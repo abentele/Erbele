@@ -1,12 +1,9 @@
 /*
- Fraise version 3.7 - Based on Smultron by Peter Borg
+ Erbele - Based on Fraise 3.7.3 based on Smultron by Peter Borg
  
  Current Maintainer (since 2016): 
- Andreas Bentele: abentele.github@icloud.com (https://github.com/abentele/Fraise)
+ Andreas Bentele: abentele.github@icloud.com (https://github.com/abentele/Erbele)
  
- Maintainer before macOS Sierra (2010-2016): 
- Jean-François Moy: jeanfrancois.moy@gmail.com (http://github.com/jfmoy/Fraise)
-
  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
  
  http://www.apache.org/licenses/LICENSE-2.0
@@ -24,10 +21,10 @@
         
 		gradient = [[NSGradient alloc] initWithStartingColor:[NSColor colorWithCalibratedWhite:0.12 alpha:1.0] endingColor:[NSColor colorWithCalibratedWhite:0.38 alpha:1.0]];
 		
-		fraiseImage = [NSApp applicationIconImage];
+		erbeleImage = [NSApp applicationIconImage];
 		[[NSGraphicsContext currentContext] setImageInterpolation:NSImageInterpolationHigh];
-		[fraiseImage setSize:NSMakeSize(128.0, 128.0)];
-		[[fraiseImage bestRepresentationForRect:NSMakeRect(0.0, 0.0, 128.0, 128.0) context:nil hints:nil] setSize:NSMakeSize(128.0, 128.0)];
+		[erbeleImage setSize:NSMakeSize(128.0, 128.0)];
+		[[erbeleImage bestRepresentationForRect:NSMakeRect(0.0, 0.0, 128.0, 128.0) context:nil hints:nil] setSize:NSMakeSize(128.0, 128.0)];
 		
 		attributes = [[NSMutableDictionary alloc] init];
 		[attributes setValue:[NSFont boldSystemFontOfSize:20] forKey:NSFontAttributeName];
@@ -68,11 +65,11 @@
 		[attributedString drawAtPoint:NSMakePoint(((attributedStringSize.width / -2) + bounds.size.width / 2), (attributedStringSize.height / -2) + (bounds.size.height / 2) - 38)];
 		
 		NSRect centeredRect = rect;
-		centeredRect.size = [fraiseImage size];
+		centeredRect.size = [erbeleImage size];
 		centeredRect.origin.x += ((rect.size.width - centeredRect.size.width) / 2.0);
 		centeredRect.origin.y = ((rect.size.height - centeredRect.size.height) / 2.0) + 48;
 		
-		[fraiseImage drawInRect:centeredRect fromRect:NSZeroRect operation:NSCompositingOperationSourceOver fraction:0.80];
+		[erbeleImage drawInRect:centeredRect fromRect:NSZeroRect operation:NSCompositingOperationSourceOver fraction:0.80];
 	}
 }
 

@@ -1,12 +1,9 @@
 /*
- Fraise version 3.7 - Based on Smultron by Peter Borg
+ Erbele - Based on Fraise 3.7.3 based on Smultron by Peter Borg
  
  Current Maintainer (since 2016): 
- Andreas Bentele: abentele.github@icloud.com (https://github.com/abentele/Fraise)
+ Andreas Bentele: abentele.github@icloud.com (https://github.com/abentele/Erbele)
  
- Maintainer before macOS Sierra (2010-2016): 
- Jean-François Moy: jeanfrancois.moy@gmail.com (http://github.com/jfmoy/Fraise)
-
  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
  
  http://www.apache.org/licenses/LICENSE-2.0
@@ -28,7 +25,7 @@
     
     NSAlert* alert = [[NSAlert alloc] init];
     [alert setMessageText:NSLocalizedString(@"Are you sure you want to install the command-line utility?", @"Ask if they are sure they want to install the command-line utility in Install-command-line-utility sheet")];
-    [alert setInformativeText:NSLocalizedString(@"If you choose Install fraise will be installed in /usr/bin and its man page in /usr/share/man/man1 and you can use it directly in the Terminal (you may need to authenticate twice with an administrators username and password). Otherwise you can choose to place all the files you need on the Desktop and install it manually.", @"Indicate that if you choose Install fraise will be installed in /usr/bin and its man page in /usr/share/man/man1 and you can use it directly in the Terminal (you may need to authenticate twice with an administrators username and password). Otherwise you can choose to place all the files you need on the desktop and install it manually. in Install-command-line-utility sheet")];
+    [alert setInformativeText:NSLocalizedString(@"If you choose Install erbele will be installed in /usr/bin and its man page in /usr/share/man/man1 and you can use it directly in the Terminal (you may need to authenticate twice with an administrators username and password). Otherwise you can choose to place all the files you need on the Desktop and install it manually.", @"Indicate that if you choose Install erbele will be installed in /usr/bin and its man page in /usr/share/man/man1 and you can use it directly in the Terminal (you may need to authenticate twice with an administrators username and password). Otherwise you can choose to place all the files you need on the desktop and install it manually. in Install-command-line-utility sheet")];
     [alert addButtonWithTitle:NSLocalizedString(@"Install", @"Install-button in Install-command-line-utility sheet")];
     [alert addButtonWithTitle:NSLocalizedString(@"Put On Desktop", @"Put On Desktop-button in Install-command-line-utility sheet")];
     [alert addButtonWithTitle:CANCEL_BUTTON];
@@ -40,11 +37,11 @@
         } else if (returnCode == NSAlertSecondButtonReturn) {
             NSFileManager *fileManager = [NSFileManager defaultManager];
             NSString *pathToFolder = [[NSHomeDirectory() stringByAppendingPathComponent:@"Desktop"]
-                                      stringByAppendingPathComponent:@"Fraise command-line utility"];
+                                      stringByAppendingPathComponent:@"Erbele command-line utility"];
             [fileManager createDirectoryAtPath:pathToFolder withIntermediateDirectories:YES attributes:nil error:nil];
             
-            [self copyResource:@"fraise" pathToFolder:pathToFolder];
-            [self copyResource:@"fraise.1" pathToFolder:pathToFolder];
+            [self copyResource:@"erbele" pathToFolder:pathToFolder];
+            [self copyResource:@"erbele.1" pathToFolder:pathToFolder];
         }
     }];
     
@@ -59,9 +56,9 @@
     //NSLog(@"Error: %@", error);
 }
 
-- (IBAction)fraiseHelp:(id)sender
+- (IBAction)erbeleHelp:(id)sender
 {
-	[[NSWorkspace sharedWorkspace] openFile:[[NSBundle mainBundle] pathForResource:@"Fraise-Manual" ofType:@"pdf"]];
+	[[NSWorkspace sharedWorkspace] openFile:[[NSBundle mainBundle] pathForResource:@"Erbele-Manual" ofType:@"pdf"]];
 }
 
 @end

@@ -1,12 +1,9 @@
 /*
- Fraise version 3.7 - Based on Smultron by Peter Borg
+ Erbele - Based on Fraise 3.7.3 based on Smultron by Peter Borg
  
  Current Maintainer (since 2016): 
- Andreas Bentele: abentele.github@icloud.com (https://github.com/abentele/Fraise)
+ Andreas Bentele: abentele.github@icloud.com (https://github.com/abentele/Erbele)
  
- Maintainer before macOS Sierra (2010-2016): 
- Jean-François Moy: jeanfrancois.moy@gmail.com (http://github.com/jfmoy/Fraise)
-
  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
  
  http://www.apache.org/licenses/LICENSE-2.0
@@ -105,17 +102,17 @@ static id sharedInstance = nil;
 
 - (void)installCommandLineUtility
 {
-	NSString *fraisePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"fraise"];
-	NSData *fraiseData = [[NSData alloc] initWithContentsOfFile:fraisePath];
-	NSString *fraiseManPagePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"fraise.1"];
-	NSData *fraiseManPageData = [[NSData alloc] initWithContentsOfFile:fraiseManPagePath];
+	NSString *erbelePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"erbele"];
+	NSData *erbeleData = [[NSData alloc] initWithContentsOfFile:erbelePath];
+	NSString *erbeleManPagePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"erbele.1"];
+	NSData *erbeleManPageData = [[NSData alloc] initWithContentsOfFile:erbeleManPagePath];
 	
 	NSTask *task = [[NSTask alloc] init];
     NSPipe *pipe = [[NSPipe alloc] init];
     NSFileHandle *writeHandle = [pipe fileHandleForWriting];
 	
     [task setLaunchPath:@"/usr/libexec/authopen"];
-    [task setArguments:@[@"-c", @"-m", @"0755", @"-w", @"/usr/bin/fraise"]];
+    [task setArguments:@[@"-c", @"-m", @"0755", @"-w", @"/usr/bin/erbele"]];
     [task setStandardInput:pipe];
 	
 	[task launch];
@@ -123,7 +120,7 @@ static id sharedInstance = nil;
 	NSInteger status;
 	signal(SIGPIPE, SIG_IGN); // One seems to need this code if someone writes the wrong password three times, otherwise it crashes the application
 	@try {
-		[writeHandle writeData:fraiseData];
+		[writeHandle writeData:erbeleData];
 		
 		close([writeHandle fileDescriptor]); // Close it manually
 		[writeHandle setValue: @1 forKey:@"_flags"];
@@ -144,11 +141,11 @@ static id sharedInstance = nil;
 		writeHandle = [pipe fileHandleForWriting];
 		
 		[task setLaunchPath:@"/usr/libexec/authopen"];
-		[task setArguments:@[@"-c", @"-w", @"/usr/share/man/man1/fraise.1"]];
+		[task setArguments:@[@"-c", @"-w", @"/usr/share/man/man1/erbele.1"]];
 		[task setStandardInput:pipe];
 		
 		[task launch];
-		[writeHandle writeData:fraiseManPageData];
+		[writeHandle writeData:erbeleManPageData];
 		
 		close([writeHandle fileDescriptor]); // Close it manually
 		[writeHandle setValue: @1 forKey:@"_flags"];

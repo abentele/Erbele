@@ -1,12 +1,9 @@
 /*
- Fraise version 3.7 - Based on Smultron by Peter Borg
+ Erbele - Based on Fraise 3.7.3 based on Smultron by Peter Borg
  
  Current Maintainer (since 2016): 
- Andreas Bentele: abentele.github@icloud.com (https://github.com/abentele/Fraise)
+ Andreas Bentele: abentele.github@icloud.com (https://github.com/abentele/Erbele)
  
- Maintainer before macOS Sierra (2010-2016): 
- Jean-François Moy: jeanfrancois.moy@gmail.com (http://github.com/jfmoy/Fraise)
-
  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
  
  http://www.apache.org/licenses/LICENSE-2.0
@@ -63,7 +60,7 @@ static id sharedInstance = nil;
 {
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, YES);
     NSString *basePath = ([paths count] > 0) ? paths[0] : NSTemporaryDirectory();
-    return [basePath stringByAppendingPathComponent:@"Fraise"];
+    return [basePath stringByAppendingPathComponent:@"Erbele"];
 }
 
 
@@ -94,7 +91,7 @@ static id sharedInstance = nil;
         [fileManager createDirectoryAtPath:applicationSupportFolder withIntermediateDirectories:YES attributes:nil error:nil];
     }
 
-	NSString *storePath = [applicationSupportFolder stringByAppendingPathComponent: @"Fraise3.fraise"];
+	NSString *storePath = [applicationSupportFolder stringByAppendingPathComponent: @"Erbele3.erbele"];
 	
 	NSURL *url = [NSURL fileURLWithPath:storePath];
     persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
@@ -269,7 +266,7 @@ static id sharedInstance = nil;
 		[FRAOpenSave openAllTheseFiles:filesToOpenArray];
 		[FRACurrentProject selectionDidChange];
 		filesToOpenArray = nil;
-	} else { // Open previously opened documents/projects only if Fraise wasn't opened by e.g. dragging a document onto the icon
+	} else { // Open previously opened documents/projects only if Erbele wasn't opened by e.g. dragging a document onto the icon
 		
 		if ([[FRADefaults valueForKey:@"OpenAllDocumentsIHadOpen"] boolValue] == YES && [[FRADefaults valueForKey:@"OpenDocuments"] count] > 0) {
 			shouldCreateEmptyDocument = NO;
@@ -373,7 +370,7 @@ static id sharedInstance = nil;
 
 - (void)applicationDidBecomeActive:(NSNotification *)aNotification
 {
-	if ([[FRADefaults valueForKey:@"CheckIfDocumentHasBeenUpdated"] boolValue] == YES) { // Check for updates directly when Fraise gets focus
+	if ([[FRADefaults valueForKey:@"CheckIfDocumentHasBeenUpdated"] boolValue] == YES) { // Check for updates directly when Erbele gets focus
 		[FRAVarious checkIfDocumentsHaveBeenUpdatedByAnotherApplication];
 	}
 }
@@ -391,11 +388,11 @@ static id sharedInstance = nil;
 		
 		NSFileManager *fileManager = [NSFileManager defaultManager];
 		NSString *applicationSupportFolder = [self applicationSupportFolder];
-		if (![fileManager fileExistsAtPath:[applicationSupportFolder stringByAppendingPathComponent:@"Fraise.fraise"] isDirectory:NULL]) {
+		if (![fileManager fileExistsAtPath:[applicationSupportFolder stringByAppendingPathComponent:@"Erbele.erbele"] isDirectory:NULL]) {
 			return;
 		}
 		
-		NSURL *url = [NSURL fileURLWithPath:[applicationSupportFolder stringByAppendingPathComponent:@"Fraise.fraise"]];
+		NSURL *url = [NSURL fileURLWithPath:[applicationSupportFolder stringByAppendingPathComponent:@"Erbele.erbele"]];
 		NSPersistentStoreCoordinator *persistentStoreCoordinatorVersion2 = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:managedObjectModelVersion2];
 		if (![persistentStoreCoordinatorVersion2 addPersistentStoreWithType:NSBinaryStoreType configuration:nil URL:url options:nil error:nil]){
 			return;
