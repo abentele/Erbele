@@ -3,7 +3,7 @@
 This is a fork of Fraise, providing the missing support for macOS Sierra (10.12).
 Forked in 2016 from a github repository discontinued long ago, my main interest is to keep the popular app alive.
 
-**See why I [changed the name from "Fraise" to "Erbele"](https://github.com/abentele/Erbele/wiki/Changed-the-name-from-%22Fraise%22-to-%22Erbele%22).** - I would appreciate if all supporters of my project (formerly "Fraise", now "Erbele") would add a star to my new project on github.
+**See why I [changed the name from "Fraise" to "Erbele"](https://github.com/abentele/Erbele/wiki/Changed-the-name-from-%22Fraise%22-to-%22Erbele%22)** - I would appreciate if all supporters of my project (formerly "Fraise", now "Erbele") would add a star to my new project on github.
 
 Author: Andreas Bentele
 
