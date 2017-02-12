@@ -40,6 +40,7 @@ Changes:
 * first release with new name "Erbele"
 * changed release artifact from zip to dmg (which is more common on macOS)
 * fixed a crash when using text font colors other than black (#28)
+* fixed a crash because of missing deregistration of key/value observers
 
 [Commit list](https://github.com/abentele/Erbele/compare/3.7.7...3.8)
 
