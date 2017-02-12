@@ -13,7 +13,8 @@ Fraise originally was forked from [Smultron 3.5.1](https://sourceforge.net/proje
 
 # Releases
 
-Releases: [Releases](https://github.com/abentele/Erbele/releases)
+See [Releases](https://github.com/abentele/Erbele/releases)
+
 Previous Fraise releases are available on https://github.com/abentele/Fraise/releases.
 
 # Roadmap
