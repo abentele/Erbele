@@ -38,6 +38,7 @@ Release date: 2017-02-12
 
 Changes:
 * first release with new name "Erbele"
+* changed release artifact from zip to dmg (which is more common on macOS)
 * fixed a crash when using text font colors other than black (#28)
 
 [Commit list](https://github.com/abentele/Erbele/compare/3.7.7...3.8)
