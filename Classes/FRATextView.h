@@ -24,10 +24,10 @@
 	
 	BOOL showPageGuide;
 	
-	NSCursor *__unsafe_unretained colouredIBeamCursor;
+	NSCursor * colouredIBeamCursor;
 }
 
-@property (unsafe_unretained) NSCursor *colouredIBeamCursor;
+@property (strong) NSCursor *colouredIBeamCursor;
 
 - (void)setDefaults;
 
