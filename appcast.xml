@@ -3,13 +3,13 @@
 <title>3.8.1</title>
 <pubDate>Sa., 18 Feb. 2017 23:52:37 +0100</pubDate>
 <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
-<enclosure url="https://github.com/abentele/Erbele/releases/download/3.8.1/Erbele-3.8.1.dmg" sparkle:version="3.8.1" length="5744885" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCoehe7zX73V2M2uPuiPezJ+mll5QIUF52YD4+bEWG6zStFEkKnAPK84TA="/>
+<enclosure url="https://github.com/abentele/Erbele/releases/download/3.8.1/Erbele_3.8.1.dmg" sparkle:version="3.8.1" length="5744885" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCoehe7zX73V2M2uPuiPezJ+mll5QIUF52YD4+bEWG6zStFEkKnAPK84TA="/>
 </item>
 <item>
 <title>3.8.2</title>
 <pubDate>So., 19 Feb. 2017 00:14:08 +0100</pubDate>
 <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
-<enclosure url="https://github.com/abentele/Erbele/releases/download/3.8.2/Erbele-3.8.2.dmg" sparkle:version="3.8.2" length="5744856" type="application/octet-stream" sparkle:dsaSignature="MCwCFCmpr77hn4G9cddXEJjh3IxvyNTEAhQ3F5Ymk0C+CcWR76lplQw6gmyvqw=="/>
+<enclosure url="https://github.com/abentele/Erbele/releases/download/3.8.2/Erbele_3.8.2.dmg" sparkle:version="3.8.2" length="5744856" type="application/octet-stream" sparkle:dsaSignature="MCwCFCmpr77hn4G9cddXEJjh3IxvyNTEAhQ3F5Ymk0C+CcWR76lplQw6gmyvqw=="/>
 <sparkle:deltas>
 <enclosure url="https://github.com/abentele/Erbele/releases/download/3.8.2/Erbele3.8.2-3.8.1.delta" sparkle:version="3.8.2" sparkle:deltaFrom="3.8.1" length="25626" type="application/octet-stream" sparkle:dsaSignature="MC0CFQDJqPIAHViy2aDw82defA8OfrDdnwIUJHvEbH7kYIfYiNq6o1QUkZxIZ9k="/></sparkle:deltas>
 </item>
