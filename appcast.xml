@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="yes"?><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Erbele</title>
+<item>
+<title>3.8.1</title>
+<pubDate>Sa., 18 Feb. 2017 23:52:37 +0100</pubDate>
+<sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+<enclosure url="https://github.com/abentele/Erbele/releases/download/3.8.1/Erbele-3.8.1.dmg" sparkle:version="3.8.1" length="5743434" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCUx1tDBVUlE/ef1I//QM8QCyrriQIUUL4VIUFNVWXsz4jvzKx990KKOfA="/>
+</item>
+</channel></rss>

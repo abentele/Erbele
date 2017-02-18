@@ -147,6 +147,9 @@
 		8D15AC310486D014006FF6A4 /* FRAProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* FRAProject.m */; settings = {ATTRIBUTES = (); }; };
 		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		E117176B1E58DF11004E79FA /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E117176A1E58DF11004E79FA /* Sparkle.framework */; };
+		E117176F1E58E053004E79FA /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E117176A1E58DF11004E79FA /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E18170B71E58FD9A003D9893 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = E18170B61E58FD9A003D9893 /* dsa_pub.pem */; };
 		E1E8E9D11DC8D6BC0072BEF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E8E9D01DC8D6BC0072BEF0 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -168,10 +171,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		7F1DE28F0BD198FA00AD5707 /* CopyFiles */ = {
+		E117176C1E58DF56004E79FA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = ../Library/Spotlight;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E117176F1E58E053004E79FA /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E117176E1E58E04A004E79FA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
 			);
@@ -499,7 +512,9 @@
 		7FD53F120D91A8F30071054F /* Erbele-Manual.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Erbele-Manual.pdf"; sourceTree = "<group>"; };
 		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* Erbele.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Erbele.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E117176A1E58DF11004E79FA /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		E17DE7751E1026FD00535C73 /* ru */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ru; path = Russian.lproj/Localizable3.strings; sourceTree = "<group>"; };
+		E18170B61E58FD9A003D9893 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		E18EFF321DB378C000DA64C3 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		E19D40021E10263E00CCA45E /* Russian */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Russian; path = Russian.lproj/FRAAdvancedFind.xib; sourceTree = "<group>"; };
 		E19D40031E10263E00CCA45E /* Russian */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Russian; path = Russian.lproj/FRACommands.xib; sourceTree = "<group>"; };
@@ -539,6 +554,7 @@
 				7F5C26B10B73C03A00D2EDDC /* Carbon.framework in Frameworks */,
 				7F5C26B30B73C04800D2EDDC /* ApplicationServices.framework in Frameworks */,
 				7F5C26B50B73C05100D2EDDC /* WebKit.framework in Frameworks */,
+				E117176B1E58DF11004E79FA /* Sparkle.framework in Frameworks */,
 				7F5C26B90B73C06D00D2EDDC /* SystemConfiguration.framework in Frameworks */,
 				7F6C9C680B75F23000531EF9 /* libicucore.dylib in Frameworks */,
 				7F51225C0BA72E7E00183863 /* QuartzCore.framework in Frameworks */,
@@ -645,6 +661,7 @@
 				7FD53F120D91A8F30071054F /* Erbele-Manual.pdf */,
 				8D15AC360486D014006FF6A4 /* Info.plist */,
 				089C1660FE840EACC02AAC07 /* InfoPlist.strings */,
+				E18170B61E58FD9A003D9893 /* dsa_pub.pem */,
 				1FB593B9113EE34600ECB6C0 /* Localizable.strings */,
 				1FB593BC113EE35E00ECB6C0 /* Localizable3.strings */,
 			);
@@ -654,6 +671,7 @@
 		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E117176A1E58DF11004E79FA /* Sparkle.framework */,
 				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
 				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
 				1FACC99E113FAE1200515523 /* QuartzCore.framework */,
@@ -1077,7 +1095,8 @@
 				8D15AC2B0486D014006FF6A4 /* Resources */,
 				8D15AC330486D014006FF6A4 /* Frameworks */,
 				8D15AC300486D014006FF6A4 /* Sources */,
-				7F1DE28F0BD198FA00AD5707 /* CopyFiles */,
+				E117176C1E58DF56004E79FA /* CopyFiles */,
+				E117176E1E58E04A004E79FA /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -1161,6 +1180,7 @@
 				1FF6CE321155470C002681B2 /* FRAGoToLine.xib in Resources */,
 				1FF6CE341155470D002681B2 /* FRAInfo.xib in Resources */,
 				1FF6CE361155470D002681B2 /* FRAMainMenu.xib in Resources */,
+				E18170B71E58FD9A003D9893 /* dsa_pub.pem in Resources */,
 				1FF6CE381155470D002681B2 /* FRANewProject.xib in Resources */,
 				1FF6CE3A1155470D002681B2 /* FRAOpenPanelAccessoryView.xib in Resources */,
 				1FF6CE3C1155470D002681B2 /* FRAPreferencesAdvanced.xib in Resources */,
