@@ -8,14 +8,12 @@ Author: Andreas Bentele
 
 Website: https://github.com/abentele/Erbele
 
-[Fraise 3.7.3](https://github.com/jfmoy/Fraise) was maintained by Jean-Francois Moy, but discontinued.
+Based on the discontinued project [Fraise 3.7.3](https://github.com/jfmoy/Fraise).
 Fraise originally was forked from [Smultron 3.5.1](https://sourceforge.net/projects/smultron/), maintained by Peter Borg.
 
-# Releases
+# Downloads / Releases
 
 See [Releases](https://github.com/abentele/Erbele/releases)
-
-Previous Fraise releases are available on https://github.com/abentele/Fraise/releases.
 
 # Roadmap
 
