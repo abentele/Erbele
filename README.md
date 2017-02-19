@@ -11,6 +11,13 @@ Website: https://github.com/abentele/Erbele
 Based on the discontinued project [Fraise 3.7.3](https://github.com/jfmoy/Fraise).
 Fraise originally was forked from [Smultron 3.5.1](https://sourceforge.net/projects/smultron/), maintained by Peter Borg.
 
+# Screen shots
+
+![Erbele, English](https://github.com/abentele/Erbele/raw/master/Erbele-screenshot_en.png)
+
+Same picture with German language:
+![Erbele, German](https://github.com/abentele/Erbele/raw/master/Erbele-screenshot_de.png)
+
 # Downloads / Releases
 
 See [Releases](https://github.com/abentele/Erbele/releases)
