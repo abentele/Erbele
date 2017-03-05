@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="FRAAdvancedFindController">
+            <connections>
+                <outlet property="advancedFindSplitView" destination="127" id="128"/>
+                <outlet property="advancedFindWindow" destination="7" id="92"/>
+                <outlet property="allDocumentsScope" destination="170" id="171"/>
+                <outlet property="currentDocumentScope" destination="168" id="172"/>
+                <outlet property="currentProjectScope" destination="169" id="173"/>
+                <outlet property="findResultTextField" destination="102" id="103"/>
+                <outlet property="findResultsOutlineView" destination="122" id="126"/>
+                <outlet property="findResultsTreeController" destination="113" id="115"/>
+                <outlet property="findSearchField" destination="15" id="93"/>
+                <outlet property="parentDirectoryScope" destination="225" id="228"/>
+                <outlet property="replaceSearchField" destination="16" id="94"/>
+                <outlet property="resultDocumentContentView" destination="85" id="96"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="高级查找 - Erbele" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="AdvancedFind" animationBehavior="default" id="7" userLabel="AdvancedFindWindow" customClass="FRAAdvancedFindPanel">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="81" y="63" width="567" height="557"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+            <value key="minSize" type="size" width="567" height="557"/>
+            <view key="contentView" id="8">
+                <rect key="frame" x="0.0" y="0.0" width="567" height="557"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <customView id="107" customClass="FRAGradientBackgroundView">
+                        <rect key="frame" x="-1" y="439" width="569" height="27"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" id="168">
+                                <rect key="frame" x="20" y="3" width="127" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="recessed" title="当前文档" bezelStyle="recessed" alignment="center" borderStyle="border" inset="2" id="216">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                                    <font key="font" size="12" name=".HiraKakuInterface-W6"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="searchScopeChanged:" target="-2" id="200"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" tag="1" id="169">
+                                <rect key="frame" x="169" y="3" width="109" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="recessed" title="当前项目" bezelStyle="recessed" alignment="center" borderStyle="border" tag="1" inset="2" id="217">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                                    <font key="font" size="12" name=".HiraKakuInterface-W6"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="searchScopeChanged:" target="-2" id="201"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" tag="2" id="170">
+                                <rect key="frame" x="300" y="3" width="103" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="recessed" title="全部文档" bezelStyle="recessed" alignment="center" borderStyle="border" tag="2" inset="2" id="218">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                                    <font key="font" size="12" name=".HiraKakuInterface-W6"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="searchScopeChanged:" target="-2" id="202"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" tag="3" id="225">
+                                <rect key="frame" x="434" y="3" width="115" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="recessed" title="Parent Directory" bezelStyle="recessed" alignment="center" borderStyle="border" tag="2" inset="2" id="226">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                                    <font key="font" metaFont="systemBold" size="12"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="searchScopeChanged:" target="-2" id="227"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </customView>
+                    <button verticalHuggingPriority="750" id="18">
+                        <rect key="frame" x="483" y="523" width="68" height="28"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="查找" bezelStyle="rounded" alignment="center" controlSize="small" borderStyle="border" inset="2" id="208">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="smallSystem"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="findAction:" target="-2" id="104"/>
+                        </connections>
+                    </button>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="27">
+                        <rect key="frame" x="18" y="530" width="48" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" alignment="right" title="查找:" id="212">
+                            <font key="font" size="11" name=".HiraginoSansGBInterface-W3"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button verticalHuggingPriority="750" id="22">
+                        <rect key="frame" x="483" y="496" width="68" height="28"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="替换" bezelStyle="rounded" alignment="center" controlSize="small" borderStyle="border" inset="2" id="210">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="smallSystem"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="replaceAction:" target="-2" id="105"/>
+                        </connections>
+                    </button>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="17">
+                        <rect key="frame" x="18" y="504" width="48" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" alignment="right" title="替换:" id="207">
+                            <font key="font" size="11" name=".HiraKakuInterface-W3"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button id="24">
+                        <rect key="frame" x="68" y="475" width="84" height="16"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="check" title="忽略大小写" bezelStyle="regularSquare" imagePosition="leading" alignment="left" controlSize="small" inset="2" id="211">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="smallSystem"/>
+                        </buttonCell>
+                        <connections>
+                            <binding destination="41" name="value" keyPath="values.IgnoreCaseAdvancedFind" id="42"/>
+                        </connections>
+                    </button>
+                    <searchField wantsLayer="YES" verticalHuggingPriority="750" id="15">
+                        <rect key="frame" x="71" y="528" width="407" height="19"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <searchFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" borderStyle="bezel" alignment="left" bezelStyle="round" sendsWholeSearchString="YES" maximumRecents="15" recentsAutosaveName="Advanced Find Search Field" id="205">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </searchFieldCell>
+                        <connections>
+                            <outlet property="nextKeyView" destination="16" id="29"/>
+                            <outlet property="searchMenuTemplate" destination="48" id="53"/>
+                        </connections>
+                    </searchField>
+                    <searchField wantsLayer="YES" verticalHuggingPriority="750" tag="1" id="16">
+                        <rect key="frame" x="71" y="501" width="407" height="19"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <searchFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" borderStyle="bezel" alignment="left" tag="1" bezelStyle="round" sendsWholeSearchString="YES" maximumRecents="15" recentsAutosaveName="Advanced Replace Search Field" id="206">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </searchFieldCell>
+                        <connections>
+                            <outlet property="searchMenuTemplate" destination="48" id="54"/>
+                        </connections>
+                    </searchField>
+                    <button id="28">
+                        <rect key="frame" x="178" y="475" width="111" height="16"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="check" title="只查找选中的" bezelStyle="regularSquare" imagePosition="leading" alignment="left" controlSize="small" inset="2" id="213">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="smallSystem"/>
+                        </buttonCell>
+                        <connections>
+                            <binding destination="41" name="value" keyPath="values.OnlyInSelectionAdvancedFind" id="44"/>
+                        </connections>
+                    </button>
+                    <button horizontalHuggingPriority="750" verticalHuggingPriority="750" id="76">
+                        <rect key="frame" x="478" y="470" width="21" height="23"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" inset="2" id="214">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="showRegularExpressionsHelpPanelAction:" target="-2" id="181"/>
+                        </connections>
+                    </button>
+                    <textField verticalHuggingPriority="750" id="102">
+                        <rect key="frame" x="-3" y="-4" width="572" height="22"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" id="215">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <splitView id="127" customClass="FRASplitView">
+                        <rect key="frame" x="-1" y="22" width="569" height="418"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="121">
+                                <rect key="frame" x="0.0" y="0.0" width="569" height="199"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <clipView key="contentView" id="2HQ-OG-TA6">
+                                    <rect key="frame" x="1" y="1" width="567" height="197"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnReordering="NO" columnResizing="NO" multipleSelection="NO" autosaveColumns="NO" indentationPerLevel="16" autoresizesOutlineColumn="YES" outlineTableColumn="123" id="122">
+                                            <rect key="frame" x="0.0" y="0.0" width="567" height="197"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <size key="intercellSpacing" width="3" height="2"/>
+                                            <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
+                                            <tableColumns>
+                                                <tableColumn identifier="displayString" editable="NO" width="564" minWidth="81.836429999999993" maxWidth="1000" id="123">
+                                                    <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Display String">
+                                                        <font key="font" metaFont="smallSystem"/>
+                                                        <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </tableHeaderCell>
+                                                    <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="Text Cell" id="219">
+                                                        <font key="font" metaFont="system"/>
+                                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                    <tableColumnResizingMask key="resizingMask" resizeWithTable="YES"/>
+                                                    <connections>
+                                                        <binding destination="113" name="value" keyPath="arrangedObjects.displayString" id="125">
+                                                            <dictionary key="options">
+                                                                <integer key="NSConditionallySetsEditable" value="1"/>
+                                                            </dictionary>
+                                                        </binding>
+                                                    </connections>
+                                                </tableColumn>
+                                            </tableColumns>
+                                            <connections>
+                                                <outlet property="delegate" destination="-2" id="129"/>
+                                            </connections>
+                                        </outlineView>
+                                    </subviews>
+                                </clipView>
+                                <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="221">
+                                    <rect key="frame" x="1" y="-30" width="552" height="15"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="220">
+                                    <rect key="frame" x="-30" y="1" width="15" height="197"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
+                            <customView id="85" customClass="FRADummyView">
+                                <rect key="frame" x="0.0" y="208" width="569" height="210"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </customView>
+                        </subviews>
+                        <holdingPriorities>
+                            <real value="250"/>
+                            <real value="250"/>
+                        </holdingPriorities>
+                    </splitView>
+                    <box verticalHuggingPriority="750" boxType="separator" id="174">
+                        <rect key="frame" x="0.0" y="463" width="567" height="5"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    </box>
+                    <button misplaced="YES" id="21">
+                        <rect key="frame" x="315" y="474" width="101" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="check" title="使用正则表达式" bezelStyle="regularSquare" imagePosition="leading" alignment="left" controlSize="small" inset="2" id="209">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="smallSystem"/>
+                        </buttonCell>
+                        <connections>
+                            <binding destination="41" name="value" keyPath="values.UseRegularExpressionsAdvancedFind" id="43"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <connections>
+                <outlet property="initialFirstResponder" destination="15" id="31"/>
+            </connections>
+            <point key="canvasLocation" x="123.5" y="161.5"/>
+        </window>
+        <userDefaultsController representsSharedInstance="YES" id="41" userLabel="Shared Defaults"/>
+        <menu title="Menu" id="48" userLabel="RecentSearches">
+            <items>
+                <menuItem title="最近搜索记录" tag="1000" id="52"/>
+                <menuItem title="Recents &lt;do not localise&gt;" tag="1001" id="51"/>
+                <menuItem isSeparatorItem="YES" id="50">
+                    <modifierMask key="keyEquivalentModifierMask" command="YES"/>
+                </menuItem>
+                <menuItem title="清除最近搜索记录" tag="1002" id="49"/>
+            </items>
+        </menu>
+        <treeController automaticallyPreparesContent="YES" childrenKeyPath="children" leafKeyPath="isLeaf" selectsInsertedObjects="NO" id="113" userLabel="FindResultsTreeController">
+            <declaredKeys>
+                <string>string</string>
+                <string>displayString</string>
+            </declaredKeys>
+            <connections>
+                <binding destination="-2" name="managedObjectContext" keyPath="managedObjectContext" id="114"/>
+            </connections>
+        </treeController>
+        <view id="175">
+            <rect key="frame" x="0.0" y="0.0" width="125" height="1"/>
+            <autoresizingMask key="autoresizingMask"/>
+        </view>
+    </objects>
+</document>

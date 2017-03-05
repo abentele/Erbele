@@ -209,8 +209,8 @@
 		1FACC99E113FAE1200515523 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1FB593BB113EE35000ECB6C0 /* French */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1FB593BE113EE36300ECB6C0 /* French */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable3.strings; sourceTree = "<group>"; };
-		1FF6CD31115543F1002681B2 /* FRAPreferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FRAPreferences.xib; sourceTree = "<group>"; };
-		1FF6CD32115543F1002681B2 /* FRASingleDocument.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FRASingleDocument.xib; sourceTree = "<group>"; };
+		1FF6CD31115543F1002681B2 /* FRAPreferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FRAPreferences.xib; sourceTree = "<group>"; };
+		1FF6CD32115543F1002681B2 /* FRASingleDocument.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FRASingleDocument.xib; sourceTree = "<group>"; };
 		1FF6CD7111554575002681B2 /* FRACommandResult.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FRACommandResult.xib; sourceTree = "<group>"; };
 		1FF6CD7211554575002681B2 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/FRACommands.xib; sourceTree = "<group>"; };
 		1FF6CD7311554575002681B2 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/FRADetab.xib; sourceTree = "<group>"; };
@@ -512,6 +512,7 @@
 		7FD53F120D91A8F30071054F /* Erbele-Manual.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Erbele-Manual.pdf"; sourceTree = "<group>"; };
 		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* Erbele.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Erbele.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10F2EB91E6C21F20049356A /* zh_CN */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = zh_CN; path = zh_CN.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E117176A1E58DF11004E79FA /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		E17DE7751E1026FD00535C73 /* ru */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ru; path = Russian.lproj/Localizable3.strings; sourceTree = "<group>"; };
 		E18170B61E58FD9A003D9893 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
@@ -534,6 +535,24 @@
 		E19D40111E10263E00CCA45E /* Russian */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Russian; path = Russian.lproj/FRARegularExpressionHelp.xib; sourceTree = "<group>"; };
 		E19D40121E10263E00CCA45E /* Russian */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Russian; path = Russian.lproj/FRASnippets.xib; sourceTree = "<group>"; };
 		E19D40131E10264A00CCA45E /* Russian */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Russian; path = Russian.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E1AECE231E6C229600BAAE9A /* zh_CN */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = zh_CN; path = zh_CN.lproj/Localizable3.strings; sourceTree = "<group>"; };
+		E1AECE241E6C22A700BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRAAdvancedFind.xib; sourceTree = "<group>"; };
+		E1AECE251E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRACommands.xib; sourceTree = "<group>"; };
+		E1AECE261E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRADetab.xib; sourceTree = "<group>"; };
+		E1AECE271E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRAEntab.xib; sourceTree = "<group>"; };
+		E1AECE281E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRAGoToLine.xib; sourceTree = "<group>"; };
+		E1AECE291E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRAInfo.xib; sourceTree = "<group>"; };
+		E1AECE2A1E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRAMainMenu.xib; sourceTree = "<group>"; };
+		E1AECE2B1E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRANewProject.xib; sourceTree = "<group>"; };
+		E1AECE2C1E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRAOpenPanelAccessoryView.xib; sourceTree = "<group>"; };
+		E1AECE2D1E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRAPreferencesAdvanced.xib; sourceTree = "<group>"; };
+		E1AECE2E1E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRAPreferencesAppearance.xib; sourceTree = "<group>"; };
+		E1AECE2F1E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRAPreferencesGeneral.xib; sourceTree = "<group>"; };
+		E1AECE301E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRAPreferencesOpenSave.xib; sourceTree = "<group>"; };
+		E1AECE311E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRAPreview.xib; sourceTree = "<group>"; };
+		E1AECE321E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRAPrintAccessoryView.xib; sourceTree = "<group>"; };
+		E1AECE331E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRARegularExpressionHelp.xib; sourceTree = "<group>"; };
+		E1AECE341E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRASnippets.xib; sourceTree = "<group>"; };
 		E1E8E9D01DC8D6BC0072BEF0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Erbele/Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1130,6 +1149,7 @@
 				Spanish,
 				Italian,
 				Russian,
+				zh_CN,
 			);
 			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Smultron */;
 			projectDirPath = "";
@@ -1313,6 +1333,7 @@
 				1F0917C3113F973000F3BB28 /* sv */,
 				1FF6CEE411554C30002681B2 /* English */,
 				E19D40131E10264A00CCA45E /* Russian */,
+				E10F2EB91E6C21F20049356A /* zh_CN */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1328,6 +1349,7 @@
 				1F09178B113F96F000F3BB28 /* Spanish */,
 				1F0917C4113F973000F3BB28 /* sv */,
 				E17DE7751E1026FD00535C73 /* ru */,
+				E1AECE231E6C229600BAAE9A /* zh_CN */,
 			);
 			name = Localizable3.strings;
 			sourceTree = "<group>";
@@ -1343,6 +1365,7 @@
 				1FF6CEBB1155496E002681B2 /* Spanish */,
 				1FF6CECC1155497A002681B2 /* sv */,
 				E19D40031E10263E00CCA45E /* Russian */,
+				E1AECE251E6C22B200BAAE9A /* zh_CN */,
 			);
 			name = FRACommands.xib;
 			sourceTree = "<group>";
@@ -1358,6 +1381,7 @@
 				1FF6CEBC1155496E002681B2 /* Spanish */,
 				1FF6CECD1155497A002681B2 /* sv */,
 				E19D40041E10263E00CCA45E /* Russian */,
+				E1AECE261E6C22B200BAAE9A /* zh_CN */,
 			);
 			name = FRADetab.xib;
 			sourceTree = "<group>";
@@ -1373,6 +1397,7 @@
 				1FF6CEBD1155496E002681B2 /* Spanish */,
 				1FF6CECE1155497A002681B2 /* sv */,
 				E19D40051E10263E00CCA45E /* Russian */,
+				E1AECE271E6C22B200BAAE9A /* zh_CN */,
 			);
 			name = FRAEntab.xib;
 			sourceTree = "<group>";
@@ -1388,6 +1413,7 @@
 				1FF6CEBE1155496E002681B2 /* Spanish */,
 				1FF6CECF1155497A002681B2 /* sv */,
 				E19D40061E10263E00CCA45E /* Russian */,
+				E1AECE281E6C22B200BAAE9A /* zh_CN */,
 			);
 			name = FRAGoToLine.xib;
 			sourceTree = "<group>";
@@ -1403,6 +1429,7 @@
 				1FF6CEBF1155496E002681B2 /* Spanish */,
 				1FF6CED01155497A002681B2 /* sv */,
 				E19D40071E10263E00CCA45E /* Russian */,
+				E1AECE291E6C22B200BAAE9A /* zh_CN */,
 			);
 			name = FRAInfo.xib;
 			sourceTree = "<group>";
@@ -1418,6 +1445,7 @@
 				1FF6CEC01155496E002681B2 /* Spanish */,
 				1FF6CED11155497A002681B2 /* sv */,
 				E19D40081E10263E00CCA45E /* Russian */,
+				E1AECE2A1E6C22B200BAAE9A /* zh_CN */,
 			);
 			name = FRAMainMenu.xib;
 			sourceTree = "<group>";
@@ -1433,6 +1461,7 @@
 				1FF6CEC11155496E002681B2 /* Spanish */,
 				1FF6CED21155497A002681B2 /* sv */,
 				E19D40091E10263E00CCA45E /* Russian */,
+				E1AECE2B1E6C22B200BAAE9A /* zh_CN */,
 			);
 			name = FRANewProject.xib;
 			sourceTree = "<group>";
@@ -1448,6 +1477,7 @@
 				1FF6CEC21155496E002681B2 /* Spanish */,
 				1FF6CED31155497A002681B2 /* sv */,
 				E19D400A1E10263E00CCA45E /* Russian */,
+				E1AECE2C1E6C22B200BAAE9A /* zh_CN */,
 			);
 			name = FRAOpenPanelAccessoryView.xib;
 			sourceTree = "<group>";
@@ -1463,6 +1493,7 @@
 				1FF6CEC31155496E002681B2 /* Spanish */,
 				1FF6CED41155497A002681B2 /* sv */,
 				E19D400B1E10263E00CCA45E /* Russian */,
+				E1AECE2D1E6C22B200BAAE9A /* zh_CN */,
 			);
 			name = FRAPreferencesAdvanced.xib;
 			sourceTree = "<group>";
@@ -1478,6 +1509,7 @@
 				1FF6CEC41155496E002681B2 /* Spanish */,
 				1FF6CED51155497A002681B2 /* sv */,
 				E19D400C1E10263E00CCA45E /* Russian */,
+				E1AECE2E1E6C22B200BAAE9A /* zh_CN */,
 			);
 			name = FRAPreferencesAppearance.xib;
 			sourceTree = "<group>";
@@ -1493,6 +1525,7 @@
 				1FF6CEC51155496E002681B2 /* Spanish */,
 				1FF6CED61155497A002681B2 /* sv */,
 				E19D400D1E10263E00CCA45E /* Russian */,
+				E1AECE2F1E6C22B200BAAE9A /* zh_CN */,
 			);
 			name = FRAPreferencesGeneral.xib;
 			sourceTree = "<group>";
@@ -1508,6 +1541,7 @@
 				1FF6CEC61155496F002681B2 /* Spanish */,
 				1FF6CED71155497A002681B2 /* sv */,
 				E19D400E1E10263E00CCA45E /* Russian */,
+				E1AECE301E6C22B200BAAE9A /* zh_CN */,
 			);
 			name = FRAPreferencesOpenSave.xib;
 			sourceTree = "<group>";
@@ -1523,6 +1557,7 @@
 				1FF6CEC71155496F002681B2 /* Spanish */,
 				1FF6CED81155497A002681B2 /* sv */,
 				E19D400F1E10263E00CCA45E /* Russian */,
+				E1AECE311E6C22B200BAAE9A /* zh_CN */,
 			);
 			name = FRAPreview.xib;
 			sourceTree = "<group>";
@@ -1538,6 +1573,7 @@
 				1FF6CEC81155496F002681B2 /* Spanish */,
 				1FF6CED91155497A002681B2 /* sv */,
 				E19D40101E10263E00CCA45E /* Russian */,
+				E1AECE321E6C22B200BAAE9A /* zh_CN */,
 			);
 			name = FRAPrintAccessoryView.xib;
 			sourceTree = "<group>";
@@ -1553,6 +1589,7 @@
 				1FF6CEC91155496F002681B2 /* Spanish */,
 				1FF6CEDA1155497A002681B2 /* sv */,
 				E19D40111E10263E00CCA45E /* Russian */,
+				E1AECE331E6C22B200BAAE9A /* zh_CN */,
 			);
 			name = FRARegularExpressionHelp.xib;
 			sourceTree = "<group>";
@@ -1568,6 +1605,7 @@
 				1FF6CECA1155496F002681B2 /* Spanish */,
 				1FF6CEDB1155497A002681B2 /* sv */,
 				E19D40121E10263E00CCA45E /* Russian */,
+				E1AECE341E6C22B200BAAE9A /* zh_CN */,
 			);
 			name = FRASnippets.xib;
 			sourceTree = "<group>";
@@ -1583,6 +1621,7 @@
 				1FF6CECB1155497A002681B2 /* sv */,
 				1FF6CEE911554CB6002681B2 /* English */,
 				E19D40021E10263E00CCA45E /* Russian */,
+				E1AECE241E6C22A700BAAE9A /* zh_CN */,
 			);
 			name = FRAAdvancedFind.xib;
 			sourceTree = "<group>";
