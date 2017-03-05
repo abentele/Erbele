@@ -2,10 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>SUFeedURL</key>
-	<string>https://raw.githubusercontent.com/abentele/Erbele/master/appcast.xml</string>
-	<key>SUPublicDSAKeyFile</key>
-	<string>dsa_pub.pem</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDocumentTypes</key>
@@ -32,6 +28,10 @@
 		<dict>
 			<key>CFBundleTypeIconFile</key>
 			<string>FRADocumentIcon</string>
+			<key>CFBundleTypeMIMETypes</key>
+			<array>
+				<string>text/x-markdown</string>
+			</array>
 			<key>CFBundleTypeName</key>
 			<string>Erbele Document</string>
 			<key>CFBundleTypeOSTypes</key>
@@ -40,10 +40,6 @@
 			</array>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
-			<key>CFBundleTypeMIMETypes</key>
-			<array>
-				<string>text/x-markdown</string>
-			</array>
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>org.erbele.erbele.document</string>
@@ -142,8 +138,8 @@
 	<string>Erbele</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
-	<key>CFBundleVersion</key>
-	<string>3.8.2</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.8.3-SNAPSHOT</string>
 	<key>CFBundleSignature</key>
 	<string>FRAI</string>
 	<key>ExcludeSyncKeys</key>
@@ -212,6 +208,10 @@
 	</array>
 	<key>OSAScriptingDefinition</key>
 	<string>Erbele.sdef</string>
+	<key>SUFeedURL</key>
+	<string>https://raw.githubusercontent.com/abentele/Erbele/master/appcast.xml</string>
+	<key>SUPublicDSAKeyFile</key>
+	<string>dsa_pub.pem</string>
 	<key>UTExportedTypeDeclarations</key>
 	<array>
 		<dict>
