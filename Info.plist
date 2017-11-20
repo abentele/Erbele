@@ -142,6 +142,8 @@
 	<string>3.8.3-SNAPSHOT</string>
 	<key>CFBundleSignature</key>
 	<string>FRAI</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
 	<key>ExcludeSyncKeys</key>
 	<array>
 		<string>PreferencesGeneralViewSavedFrame</string>
