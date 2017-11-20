@@ -528,7 +528,7 @@ static id sharedInstance = nil;
 
 - (void)outlineViewSelectionDidChange:(NSNotification *)aNotification
 {
-	if ([[findResultsTreeController arrangedObjects] count] == 0) {
+    if ([[[findResultsTreeController arrangedObjects] childNodes] count] == 0) {
 		return;
 	}
 	
