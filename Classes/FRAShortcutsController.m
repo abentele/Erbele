@@ -13,7 +13,7 @@
 
 #import "FRAShortcutsController.h"
 #import "FRACommandsController.h"
-#import "FRASnippetsController.H"
+#import "FRASnippetsController.h"
 
 @implementation FRAShortcutsController
 

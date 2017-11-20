@@ -12,7 +12,7 @@
  */
 
 
-#import "FRAApplication.H"
+#import "FRAApplication.h"
 #import "FRAProjectsController.h"
 #import "FRATextView.h"
 #import "FRAApplicationDelegate.h"

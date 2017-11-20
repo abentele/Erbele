@@ -14,7 +14,7 @@
 
 #import "FRASplitView.h"
 #import "FRAProjectsController.h"
-#import "FRAproject.h"
+#import "FRAProject.h"
 
 @implementation FRASplitView
 
