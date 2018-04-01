@@ -149,6 +149,7 @@
 		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
 		E15820AB1FC350E900E23D83 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15820AA1FC350E800E23D83 /* Sparkle.framework */; };
 		E18170B71E58FD9A003D9893 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = E18170B61E58FD9A003D9893 /* dsa_pub.pem */; };
+		E1DB1D322070FE5E00A41EC3 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E15820AA1FC350E800E23D83 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E1E8E9D11DC8D6BC0072BEF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E8E9D01DC8D6BC0072BEF0 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -176,6 +177,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				E1DB1D322070FE5E00A41EC3 /* Sparkle.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
