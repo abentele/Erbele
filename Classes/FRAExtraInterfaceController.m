@@ -190,7 +190,7 @@ static id sharedInstance = nil;
                                               {
                                                   [savePanel close];
                                                   
-                                                  [newProjectWindow orderOut:nil];
+                                                  [self.newProjectWindow orderOut:nil];
                                                   
                                                   if (returnCode == NSModalResponseOK)
                                                   {

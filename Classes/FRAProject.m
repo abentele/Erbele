@@ -468,14 +468,14 @@
                         [self performCloseDocument:document];
                     }
                 } else {
-                    shouldWindowClose = NO;
+                    self.shouldWindowClose = NO;
                 }
             } else if (returnCode == NSAlertSecondButtonReturn) {
                 if (keepOpen == NO) {
                     [self performCloseDocument:document];
                 }
             } else { // The user wants to review the document
-                shouldWindowClose = NO;
+                self.shouldWindowClose = NO;
             }
         }];
         
@@ -639,20 +639,20 @@
 {	
 	[self saveMainSplitViewFraction];
 	
-	shouldWindowClose = YES;
+	self.shouldWindowClose = YES;
 	
 	NSArray *array = [[self documents] allObjects];
 	for (id item in array) {
 		if ([[item valueForKey:@"isEdited"] boolValue] == YES) {	
 			[self checkIfDocumentIsUnsaved:item keepOpen:YES];
 		}
-		if (shouldWindowClose == NO) { // If one has chosen Cancel to review document one should not be asked about other unsaved documents
+		if (self.shouldWindowClose == NO) { // If one has chosen Cancel to review document one should not be asked about other unsaved documents
 			return NO;
 		}
 	}
 	
 	// If the user has chosen to review the document instead of closing it the application should not be closed
-	if (shouldWindowClose == NO) {
+	if (self.shouldWindowClose == NO) {
 		return NO;
 	} else {
 		return YES;

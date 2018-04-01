@@ -163,13 +163,13 @@ static id sharedInstance = nil;
 	[openPanel setResolvesAliases:YES];
     [openPanel setDirectoryURL: [NSURL fileURLWithPath: [FRAInterface whichDirectoryForOpen]]];
     [openPanel setAllowedFileTypes: @[@"erbeleCommands"]];
-    [openPanel beginSheetModalForWindow: commandsWindow
+    [openPanel beginSheetModalForWindow: self.commandsWindow
                       completionHandler: (^(NSInteger returnCode)
                                           {
                                               if (returnCode == NSModalResponseOK) {
                                                   [self performCommandsImportWithPath: [[openPanel URL] path]];
                                               }
-                                              [commandsWindow makeKeyAndOrderFront:nil];
+                                              [self.commandsWindow makeKeyAndOrderFront:nil];
                                           })];
 }
 
@@ -216,12 +216,12 @@ static id sharedInstance = nil;
     [savePanel setAllowedFileTypes: @[@"erbeleCommands"]];
     [savePanel setDirectoryURL: [NSURL fileURLWithPath: [FRAInterface whichDirectoryForSave]]];
     [savePanel setNameFieldStringValue: [[commandCollectionsArrayController selectedObjects][0] valueForKey:@"name"]];
-    [savePanel beginSheetModalForWindow: commandsWindow
+    [savePanel beginSheetModalForWindow: self.commandsWindow
                       completionHandler: (^(NSInteger returnCode)
                                           {
                                               if (returnCode == NSModalResponseOK)
                                               {
-                                                  id collection = [commandCollectionsArrayController selectedObjects][0];
+                                                  id collection = [self.commandCollectionsArrayController selectedObjects][0];
                                                   
                                                   NSMutableArray *exportArray = [NSMutableArray array];
                                                   NSEnumerator *enumerator = [[collection mutableSetValueForKey:@"commands"] objectEnumerator];
@@ -246,7 +246,7 @@ static id sharedInstance = nil;
                                                                               path: [[savePanel URL] path]];
                                               }
                                               
-                                              [commandsWindow makeKeyAndOrderFront:nil];
+                                              [self.commandsWindow makeKeyAndOrderFront:nil];
 
                                           })];
 }

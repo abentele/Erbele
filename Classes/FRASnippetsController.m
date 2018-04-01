@@ -190,7 +190,7 @@ static id sharedInstance = nil;
                                               {
                                                   [self performSnippetsImportWithPath: [[openPanel URL] path]];
                                               }
-                                              [snippetsWindow makeKeyAndOrderFront:nil];
+                                              [self.snippetsWindow makeKeyAndOrderFront:nil];
                                           })];
 }
 
@@ -242,7 +242,7 @@ static id sharedInstance = nil;
                                           {
                                               if (result == NSModalResponseOK)
                                               {
-                                                  id collection = [snippetCollectionsArrayController selectedObjects][0];
+                                                  id collection = [self.snippetCollectionsArrayController selectedObjects][0];
                                                   
                                                   NSMutableArray *exportArray = [NSMutableArray array];
                                                   NSArray *array = [[collection mutableSetValueForKey:@"snippets"] allObjects];
@@ -265,7 +265,7 @@ static id sharedInstance = nil;
                                                                               path: [[savePanel URL] path]];
                                               }
                                               
-                                              [snippetsWindow makeKeyAndOrderFront:nil];
+                                              [self.snippetsWindow makeKeyAndOrderFront:nil];
                                           })];
 }
 

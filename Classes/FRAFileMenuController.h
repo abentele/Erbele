@@ -16,8 +16,8 @@
 
 @interface FRAFileMenuController : NSObject
 {
-	NSOpenPanel *openPanel;
 }
+@property (strong) NSOpenPanel *openPanel;
 
 + (FRAFileMenuController *)sharedInstance;
 

@@ -46,8 +46,6 @@
 	FRADocumentManagedObject *__unsafe_unretained firstDocument;
 	FRADocumentManagedObject *__unsafe_unretained secondDocument;
 	
-	BOOL shouldWindowClose;
-	
 	// FRAToolbarController category
 	NSToolbarItem *liveFindToolbarItem;
 	NSToolbarItem *functionToolbarItem;
@@ -102,6 +100,7 @@
 @property (unsafe_unretained, readonly) IBOutlet PSMTabBarControl *tabBarControl;
 @property (unsafe_unretained, readonly) IBOutlet NSTabView *tabBarTabView;
 
+@property (nonatomic) BOOL shouldWindowClose;
 
 - (void)setDefaultAppearanceAtStartup;
 

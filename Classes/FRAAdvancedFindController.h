@@ -22,7 +22,6 @@
     IBOutlet NSTextField *findResultTextField;
     IBOutlet NSOutlineView * findResultsOutlineView;
 	IBOutlet NSView *resultDocumentContentView;
-	IBOutlet NSTreeController *findResultsTreeController;
 	
 	IBOutlet NSSplitView *advancedFindSplitView;
 	
@@ -35,6 +34,7 @@
 @property (unsafe_unretained) id currentlyDisplayedDocumentInAdvancedFind;
 @property (strong, readonly) IBOutlet NSWindow *advancedFindWindow;
 @property (strong, readonly) IBOutlet NSOutlineView *findResultsOutlineView;
+@property (weak) IBOutlet NSTreeController *findResultsTreeController;
 
 + (FRAAdvancedFindController *)sharedInstance;
 

@@ -93,32 +93,32 @@ static id sharedInstance = nil;
 		[[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"AppleShowAllFiles"];
 	}
 	
-	openPanel = [[NSOpenPanel alloc] init];
+	self.openPanel = [[NSOpenPanel alloc] init];
     
-	[openPanel setResolvesAliases:YES];
-	[openPanel setAllowsMultipleSelection:YES];
-	[openPanel setAccessoryView:[[FRAExtraInterfaceController sharedInstance] openPanelAccessoryView]];
+	[self.openPanel setResolvesAliases:YES];
+	[self.openPanel setAllowsMultipleSelection:YES];
+	[self.openPanel setAccessoryView:[[FRAExtraInterfaceController sharedInstance] openPanelAccessoryView]];
 	
 	if ([[FRADefaults valueForKey:@"OpenAllFilesWithinAFolder"] boolValue] == YES) {
-		[openPanel setCanChooseDirectories:YES];
+		[self.openPanel setCanChooseDirectories:YES];
 	}
 	
 	if ([sender tag] == 7) {
-		[openPanel setTreatsFilePackagesAsDirectories:YES];
+		[self.openPanel setTreatsFilePackagesAsDirectories:YES];
 	}
 	
-    [openPanel setDirectoryURL: [NSURL fileURLWithPath: [FRAInterface whichDirectoryForOpen]]];
+    [self.openPanel setDirectoryURL: [NSURL fileURLWithPath: [FRAInterface whichDirectoryForOpen]]];
     
-    [openPanel beginSheetModalForWindow: FRACurrentWindow
+    [self.openPanel beginSheetModalForWindow: FRACurrentWindow
                       completionHandler: (^(NSInteger returnCode)
                                           {
                                               [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"AppleShowAllFiles"];
                                               
                                               if (returnCode == NSModalResponseOK)
                                               {
-                                                  [FRADefaults setValue: [[[openPanel URL] path] stringByDeletingLastPathComponent]
+                                                  [FRADefaults setValue: [[[self.openPanel URL] path] stringByDeletingLastPathComponent]
                                                                  forKey: @"LastOpenDirectory"];
-                                                  NSArray *array = [openPanel URLs];
+                                                  NSArray *array = [self.openPanel URLs];
                                                   for (NSURL *item in array)
                                                   {
                                                       [FRAOpenSave shouldOpen: [item path]

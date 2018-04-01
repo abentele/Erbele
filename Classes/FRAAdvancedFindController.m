@@ -65,8 +65,8 @@ static id sharedInstance = nil;
 	
 	[findResultsOutlineView setDelegate:nil];
 	
-	[findResultsTreeController setContent:nil];
-	[findResultsTreeController setContent:[NSMutableArray array]];
+	[self.findResultsTreeController setContent:nil];
+	[self.findResultsTreeController setContent:[NSMutableArray array]];
 	
 	NSMutableArray *recentSearches = [[NSMutableArray alloc] initWithArray:[findSearchField recentSearches]];
 	if ([recentSearches indexOfObject:searchString] != NSNotFound) {
@@ -109,7 +109,7 @@ static id sharedInstance = nil;
 		node[@"isLeaf"] = @NO;
 		node[@"document"] = [FRABasic uriFromObject:document];
 		folderIndexPath = [[NSIndexPath alloc] initWithIndex:documentIndex];
-		[findResultsTreeController insertObject:node atArrangedObjectIndexPath:folderIndexPath];
+		[self.findResultsTreeController insertObject:node atArrangedObjectIndexPath:folderIndexPath];
 		
 		documentIndex++;
 		
@@ -159,7 +159,7 @@ static id sharedInstance = nil;
 					
 					@autoreleasepool {
 						NSRange rangeMatch = NSMakeRange([matcher rangeOfMatch].location + searchRange.location, [matcher rangeOfMatch].length);
-						[findResultsTreeController insertObject:[self preparedResultDictionaryFromString:completeString searchStringLength:searchStringLength range:rangeMatch lineNumber:lineNumber document:document] atArrangedObjectIndexPath:[folderIndexPath indexPathByAddingIndex:resultsInThisDocument]];
+						[self.findResultsTreeController insertObject:[self preparedResultDictionaryFromString:completeString searchStringLength:searchStringLength range:rangeMatch lineNumber:lineNumber document:document] atArrangedObjectIndexPath:[folderIndexPath indexPathByAddingIndex:resultsInThisDocument]];
 					}
 					
 					resultsInThisDocument++;
@@ -182,7 +182,7 @@ static id sharedInstance = nil;
 				}
 			
 				@autoreleasepool {
-					[findResultsTreeController insertObject:[self preparedResultDictionaryFromString:completeString searchStringLength:searchStringLength range:foundRange lineNumber:lineNumber document:document] atArrangedObjectIndexPath:[folderIndexPath indexPathByAddingIndex:resultsInThisDocument]];
+					[self.findResultsTreeController insertObject:[self preparedResultDictionaryFromString:completeString searchStringLength:searchStringLength range:foundRange lineNumber:lineNumber document:document] atArrangedObjectIndexPath:[folderIndexPath indexPathByAddingIndex:resultsInThisDocument]];
 				}
 				
 				resultsInThisDocument++;
@@ -191,7 +191,7 @@ static id sharedInstance = nil;
 		}
 		
 		if (resultsInThisDocument == 0) {
-			[findResultsTreeController removeObjectAtArrangedObjectIndexPath:folderIndexPath];
+			[self.findResultsTreeController removeObjectAtArrangedObjectIndexPath:folderIndexPath];
 			documentIndex--;
 			
 			// Remove document if no results have been found into it and the document was not loaded before.
@@ -226,7 +226,7 @@ static id sharedInstance = nil;
 	
 	[findResultTextField setStringValue:searchResultString];
 	
-	NSArray *nodes = [[findResultsTreeController arrangedObjects] childNodes];
+	NSArray *nodes = [[self.findResultsTreeController arrangedObjects] childNodes];
 	for (id item in nodes) {
 		[findResultsOutlineView expandItem:item expandChildren:NO];
 	}
@@ -488,8 +488,8 @@ static id sharedInstance = nil;
 		[findResultTextField setObjectValue:[NSString stringWithFormat:NSLocalizedString(@"Replaced one occurrence of %@ with %@", @"Indicate that we replaced one occurrence of %@ with %@ in update-search-textField-after-replace"), searchString, replaceString]];
 	}
 	
-	[findResultsTreeController setContent:nil];
-	[findResultsTreeController setContent:@[]];
+	[self.findResultsTreeController setContent:nil];
+	[self.findResultsTreeController setContent:@[]];
 	[self removeCurrentlyDisplayedDocumentInAdvancedFind];
 	[advancedFindWindow makeKeyAndOrderFront:self];
 }
@@ -518,8 +518,8 @@ static id sharedInstance = nil;
 			[parentDirectoryScope setState:NSOnState];
 		}
 		
-		[findResultsTreeController setContent:nil];
-		[findResultsTreeController setContent:@[]];
+		[self.findResultsTreeController setContent:nil];
+		[self.findResultsTreeController setContent:@[]];
 	}
 	
 	[advancedFindWindow makeKeyAndOrderFront:self];
@@ -528,11 +528,11 @@ static id sharedInstance = nil;
 
 - (void)outlineViewSelectionDidChange:(NSNotification *)aNotification
 {
-    if ([[[findResultsTreeController arrangedObjects] childNodes] count] == 0) {
+    if ([[[self.findResultsTreeController arrangedObjects] childNodes] count] == 0) {
 		return;
 	}
 	
-	id object = [findResultsTreeController selectedObjects][0];
+	id object = [self.findResultsTreeController selectedObjects][0];
 	if ([[object valueForKey:@"isLeaf"] boolValue] == NO) {
 		return;
 	}
@@ -567,7 +567,7 @@ static id sharedInstance = nil;
 
 	[[document valueForKey:@"lineNumbers"] updateLineNumbersForClipView:[[document valueForKey:@"fourthTextScrollView"] contentView] checkWidth:YES recolour:YES]; // If the window has changed since the view was last visible
 		
-	NSRange selectRange = NSRangeFromString([[findResultsTreeController selectedObjects][0] valueForKey:@"range"]);
+	NSRange selectRange = NSRangeFromString([[self.findResultsTreeController selectedObjects][0] valueForKey:@"range"]);
 	NSString *completeString = [[document valueForKey:@"fourthTextView"] string];
 	if (NSMaxRange(selectRange) > [completeString length]) {
 		NSBeep();
@@ -722,9 +722,9 @@ static id sharedInstance = nil;
     [alert setAlertStyle:NSAlertStyleInformational];
     
     [alert beginSheetModalForWindow:advancedFindWindow completionHandler:^(NSInteger result) {
-        [findResultsTreeController setContent:nil];
-        [findResultsTreeController setContent:@[]];
-        [advancedFindWindow makeKeyAndOrderFront:nil];
+        [self.findResultsTreeController setContent:nil];
+        [self.findResultsTreeController setContent:@[]];
+        [self.advancedFindWindow makeKeyAndOrderFront:nil];
     }];
 
 }
