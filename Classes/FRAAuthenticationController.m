@@ -156,7 +156,7 @@ static id sharedInstance = nil;
 	}
 	
 	if (status != 0) {
-		[FRAVarious standardAlertSheetWithTitle:NSLocalizedString(@"There was a unknown error when trying to install the command-line utility", @"Indicate that there was a unknown error when trying to install the command-linbe utility in Unknown-error-when-installing-comman-line-utility sheet") message:@"" window:FRACurrentWindow];
+		[FRAVarious standardAlertSheetWithTitle:NSLocalizedString(@"There was a unknown error when trying to install the command-line utility", @"Indicate that there was a unknown error when trying to install the command-line utility in Unknown-error-when-installing-comman-line-utility sheet") message:@"" window:FRACurrentWindow];
 	}	
 }
 
