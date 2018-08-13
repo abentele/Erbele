@@ -41,7 +41,7 @@
                             <button verticalHuggingPriority="750" id="168">
                                 <rect key="frame" x="20" y="3" width="127" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="recessed" title="Current document" bezelStyle="recessed" alignment="center" borderStyle="border" inset="2" id="216">
+                                <buttonCell key="cell" type="recessed" title="Document actual" bezelStyle="recessed" alignment="center" borderStyle="border" inset="2" id="216">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
                                     <font key="font" metaFont="systemBold" size="12"/>
                                 </buttonCell>
@@ -52,7 +52,7 @@
                             <button verticalHuggingPriority="750" tag="1" id="169">
                                 <rect key="frame" x="169" y="3" width="109" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="recessed" title="Current project" bezelStyle="recessed" alignment="center" borderStyle="border" tag="1" inset="2" id="217">
+                                <buttonCell key="cell" type="recessed" title="Projecte actual" bezelStyle="recessed" alignment="center" borderStyle="border" tag="1" inset="2" id="217">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
                                     <font key="font" metaFont="systemBold" size="12"/>
                                 </buttonCell>
@@ -61,9 +61,9 @@
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" tag="2" id="170">
-                                <rect key="frame" x="300" y="3" width="103" height="19"/>
+                                <rect key="frame" x="286" y="3" width="132" height="19"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="recessed" title="All documents" bezelStyle="recessed" alignment="center" borderStyle="border" tag="2" inset="2" id="218">
+                                <buttonCell key="cell" type="recessed" title="Tots els documents" bezelStyle="recessed" alignment="center" borderStyle="border" tag="2" inset="2" id="218">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
                                     <font key="font" metaFont="systemBold" size="12"/>
                                 </buttonCell>
@@ -84,10 +84,10 @@
                             </button>
                         </subviews>
                     </customView>
-                    <button verticalHuggingPriority="750" id="18">
-                        <rect key="frame" x="483" y="523" width="68" height="28"/>
+                    <button verticalHuggingPriority="750" misplaced="YES" id="18">
+                        <rect key="frame" x="475" y="523" width="84" height="28"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Find" bezelStyle="rounded" alignment="center" controlSize="small" borderStyle="border" inset="2" id="208">
+                        <buttonCell key="cell" type="push" title="Cerca" bezelStyle="rounded" alignment="center" controlSize="small" borderStyle="border" inset="2" id="208">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="smallSystem"/>
                             <string key="keyEquivalent" base64-UTF8="YES">
@@ -98,19 +98,10 @@ DQ
                             <action selector="findAction:" target="-2" id="104"/>
                         </connections>
                     </button>
-                    <textField verticalHuggingPriority="750" misplaced="YES" id="27">
-                        <rect key="frame" x="9" y="530" width="57" height="14"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" alignment="right" title="Find:" id="212">
-                            <font key="font" metaFont="smallSystem"/>
-                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <button verticalHuggingPriority="750" id="22">
-                        <rect key="frame" x="483" y="496" width="68" height="28"/>
+                    <button verticalHuggingPriority="750" misplaced="YES" id="22">
+                        <rect key="frame" x="475" y="496" width="84" height="28"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Replace" bezelStyle="rounded" alignment="center" controlSize="small" borderStyle="border" inset="2" id="210">
+                        <buttonCell key="cell" type="push" title="Reemplaça" bezelStyle="rounded" alignment="center" controlSize="small" borderStyle="border" inset="2" id="210">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="smallSystem"/>
                         </buttonCell>
@@ -119,18 +110,18 @@ DQ
                         </connections>
                     </button>
                     <textField verticalHuggingPriority="750" misplaced="YES" id="17">
-                        <rect key="frame" x="9" y="504" width="57" height="14"/>
+                        <rect key="frame" x="9" y="503" width="72" height="15"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" alignment="right" title="Replace:" id="207">
+                        <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" alignment="right" title="Reemplaça:" id="207">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <button id="24">
-                        <rect key="frame" x="68" y="475" width="84" height="16"/>
+                    <button misplaced="YES" id="24">
+                        <rect key="frame" x="8" y="474" width="180" height="18"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="check" title="Ignore case" bezelStyle="regularSquare" imagePosition="leading" alignment="left" controlSize="small" inset="2" id="211">
+                        <buttonCell key="cell" type="check" title="Ignora majúscules/minúscules" bezelStyle="regularSquare" imagePosition="leading" alignment="left" controlSize="small" inset="2" id="211">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="smallSystem"/>
                         </buttonCell>
@@ -138,10 +129,10 @@ DQ
                             <binding destination="41" name="value" keyPath="values.IgnoreCaseAdvancedFind" id="42"/>
                         </connections>
                     </button>
-                    <button id="21">
-                        <rect key="frame" x="317" y="475" width="151" height="16"/>
+                    <button misplaced="YES" id="21">
+                        <rect key="frame" x="342" y="474" width="176" height="18"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="check" title="Use regular expressions" bezelStyle="regularSquare" imagePosition="leading" alignment="left" controlSize="small" inset="2" id="209">
+                        <buttonCell key="cell" type="check" title="Utilitza expressions regulars" bezelStyle="regularSquare" imagePosition="leading" alignment="left" controlSize="small" inset="2" id="209">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="smallSystem"/>
                         </buttonCell>
@@ -149,8 +140,8 @@ DQ
                             <binding destination="41" name="value" keyPath="values.UseRegularExpressionsAdvancedFind" id="43"/>
                         </connections>
                     </button>
-                    <searchField wantsLayer="YES" verticalHuggingPriority="750" id="15">
-                        <rect key="frame" x="71" y="528" width="407" height="19"/>
+                    <searchField wantsLayer="YES" verticalHuggingPriority="750" misplaced="YES" id="15">
+                        <rect key="frame" x="87" y="528" width="385" height="19"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <searchFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" borderStyle="bezel" alignment="left" bezelStyle="round" sendsWholeSearchString="YES" maximumRecents="15" recentsAutosaveName="Advanced Find Search Field" id="205">
                             <font key="font" metaFont="smallSystem"/>
@@ -162,8 +153,8 @@ DQ
                             <outlet property="searchMenuTemplate" destination="48" id="53"/>
                         </connections>
                     </searchField>
-                    <searchField wantsLayer="YES" verticalHuggingPriority="750" tag="1" id="16">
-                        <rect key="frame" x="71" y="501" width="407" height="19"/>
+                    <searchField wantsLayer="YES" verticalHuggingPriority="750" misplaced="YES" tag="1" id="16">
+                        <rect key="frame" x="87" y="501" width="385" height="19"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <searchFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" borderStyle="bezel" alignment="left" tag="1" bezelStyle="round" sendsWholeSearchString="YES" maximumRecents="15" recentsAutosaveName="Advanced Replace Search Field" id="206">
                             <font key="font" metaFont="smallSystem"/>
@@ -174,26 +165,15 @@ DQ
                             <outlet property="searchMenuTemplate" destination="48" id="54"/>
                         </connections>
                     </searchField>
-                    <button id="28">
-                        <rect key="frame" x="178" y="475" width="111" height="16"/>
+                    <button misplaced="YES" id="28">
+                        <rect key="frame" x="197" y="474" width="134" height="18"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="check" title="Only in selection" bezelStyle="regularSquare" imagePosition="leading" alignment="left" controlSize="small" inset="2" id="213">
+                        <buttonCell key="cell" type="check" title="Només en la selecció" bezelStyle="regularSquare" imagePosition="leading" alignment="left" controlSize="small" inset="2" id="213">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="smallSystem"/>
                         </buttonCell>
                         <connections>
                             <binding destination="41" name="value" keyPath="values.OnlyInSelectionAdvancedFind" id="44"/>
-                        </connections>
-                    </button>
-                    <button horizontalHuggingPriority="750" verticalHuggingPriority="750" id="76">
-                        <rect key="frame" x="478" y="470" width="21" height="23"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" inset="2" id="214">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="showRegularExpressionsHelpPanelAction:" target="-2" id="181"/>
                         </connections>
                     </button>
                     <textField verticalHuggingPriority="750" id="102">
@@ -273,22 +253,42 @@ DQ
                         <rect key="frame" x="0.0" y="463" width="567" height="5"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                     </box>
+                    <button horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" id="76">
+                        <rect key="frame" x="520" y="470" width="21" height="23"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" inset="2" id="214">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="showRegularExpressionsHelpPanelAction:" target="-2" id="181"/>
+                        </connections>
+                    </button>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="27">
+                        <rect key="frame" x="24" y="531" width="57" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" alignment="right" title="Cerca:" id="212">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                 </subviews>
             </view>
             <connections>
                 <outlet property="initialFirstResponder" destination="15" id="31"/>
             </connections>
-            <point key="canvasLocation" x="138.5" y="161.5"/>
+            <point key="canvasLocation" x="363.5" y="143.5"/>
         </window>
         <userDefaultsController representsSharedInstance="YES" id="41" userLabel="Shared Defaults"/>
         <menu title="Menu" id="48" userLabel="RecentSearches">
             <items>
-                <menuItem title="Recent Searches" tag="1000" id="52"/>
+                <menuItem title="Cerques recents" tag="1000" id="52"/>
                 <menuItem title="Recents &lt;do not localise&gt;" tag="1001" id="51"/>
                 <menuItem isSeparatorItem="YES" id="50">
                     <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                 </menuItem>
-                <menuItem title="Clear Recent Searches" tag="1002" id="49"/>
+                <menuItem title="Esborra les recerques recents" tag="1002" id="49"/>
             </items>
         </menu>
         <treeController automaticallyPreparesContent="YES" childrenKeyPath="children" leafKeyPath="isLeaf" selectsInsertedObjects="NO" id="113" userLabel="FindResultsTreeController">

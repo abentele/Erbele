@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
         <capability name="box content view" minToolsVersion="7.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="FRAExtraInterfaceController">
@@ -17,22 +18,22 @@
         <window title="Detab &lt;do not localise&gt;" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="7" userLabel="Detab">
             <windowStyleMask key="styleMask" titled="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="743" y="487" width="227" height="142"/>
+            <rect key="contentRect" x="743" y="487" width="248" height="142"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
             <value key="minSize" type="size" width="213" height="107"/>
-            <view key="contentView" id="8">
-                <rect key="frame" x="0.0" y="0.0" width="227" height="142"/>
+            <view key="contentView" misplaced="YES" id="8">
+                <rect key="frame" x="0.0" y="0.0" width="248" height="142"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <box title="Detab" titlePosition="noTitle" id="9">
-                        <rect key="frame" x="17" y="16" width="193" height="108"/>
+                    <box misplaced="YES" title="Detab" titlePosition="noTitle" id="9">
+                        <rect key="frame" x="17" y="16" width="214" height="108"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <view key="contentView" id="QAt-2h-Aiq">
-                            <rect key="frame" x="2" y="2" width="189" height="104"/>
+                            <rect key="frame" x="2" y="2" width="210" height="104"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
-                                <textField verticalHuggingPriority="750" id="14">
-                                    <rect key="frame" x="119" y="62" width="50" height="22"/>
+                                <textField verticalHuggingPriority="750" misplaced="YES" id="14">
+                                    <rect key="frame" x="143" y="62" width="50" height="22"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" drawsBackground="YES" id="27">
                                         <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" localizesFormat="NO" hasThousandSeparators="NO" thousandSeparator="," id="15">
@@ -54,33 +55,19 @@
                                         <binding destination="21" name="value" keyPath="values.SpacesPerTabEntabDetab" id="22"/>
                                     </connections>
                                 </textField>
-                                <button verticalHuggingPriority="750" id="13">
-                                    <rect key="frame" x="97" y="14" width="78" height="32"/>
+                                <textField verticalHuggingPriority="750" misplaced="YES" id="11">
+                                    <rect key="frame" x="14" y="65" width="123" height="17"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <buttonCell key="cell" type="push" title="Detab" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="26">
-                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                        <font key="font" metaFont="system"/>
-                                        <string key="keyEquivalent" base64-UTF8="YES">
-DQ
-</string>
-                                    </buttonCell>
-                                    <connections>
-                                        <action selector="detabButtonDetabWindowAction:" target="-2" id="17"/>
-                                    </connections>
-                                </button>
-                                <textField verticalHuggingPriority="750" id="11">
-                                    <rect key="frame" x="13" y="64" width="101" height="17"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Spaces per tab:" id="24">
+                                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Espais per tabulat:" id="24">
                                         <font key="font" metaFont="system"/>
                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <button verticalHuggingPriority="750" id="12">
-                                    <rect key="frame" x="10" y="14" width="82" height="32"/>
+                                <button verticalHuggingPriority="750" misplaced="YES" id="12">
+                                    <rect key="frame" x="10" y="14" width="96" height="32"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="25">
+                                    <buttonCell key="cell" type="push" title="Cancel·la" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="25">
                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                         <font key="font" metaFont="system"/>
                                         <string key="keyEquivalent" base64-UTF8="YES">
@@ -91,11 +78,26 @@ Gw
                                         <action selector="cancelButtonEntabDetabGoToLineWindowsAction:" target="-2" id="19"/>
                                     </connections>
                                 </button>
+                                <button verticalHuggingPriority="750" misplaced="YES" id="13">
+                                    <rect key="frame" x="106" y="14" width="93" height="32"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <buttonCell key="cell" type="push" title="Desfés" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="26">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                        <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="detabButtonDetabWindowAction:" target="-2" id="17"/>
+                                    </connections>
+                                </button>
                             </subviews>
                         </view>
                     </box>
                 </subviews>
             </view>
+            <point key="canvasLocation" x="149" y="161"/>
         </window>
         <userDefaultsController representsSharedInstance="YES" id="21" userLabel="Shared Defaults"/>
     </objects>

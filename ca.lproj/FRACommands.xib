@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="FRACommandsController">
@@ -19,7 +20,7 @@
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <window title="Commands - Erbele" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="CommandsWindow" animationBehavior="default" id="5" userLabel="CommandsWindow" customClass="NSPanel">
-            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" unifiedTitleAndToolbar="YES"/>
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="345" y="413" width="663" height="405"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
@@ -47,7 +48,7 @@
                                             <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                             <tableColumns>
                                                 <tableColumn identifier="collection" width="175.97460000000001" minWidth="70.974609999999998" maxWidth="1000" id="138">
-                                                    <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center" title="Collections">
+                                                    <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center" title="Col·leccions">
                                                         <font key="font" metaFont="smallSystem"/>
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
@@ -103,7 +104,7 @@
                                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                     <tableColumns>
                                                         <tableColumn identifier="name" width="171" minWidth="40" maxWidth="1000" id="141">
-                                                            <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Name">
+                                                            <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Nom">
                                                                 <font key="font" metaFont="smallSystem"/>
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
@@ -134,7 +135,7 @@
                                                             </connections>
                                                         </tableColumn>
                                                         <tableColumn identifier="interpreter" width="85" minWidth="10" maxWidth="1000" id="203">
-                                                            <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Interpreter">
+                                                            <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Intèrpret">
                                                                 <font key="font" metaFont="smallSystem"/>
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -149,8 +150,8 @@
                                                                 <binding destination="10" name="value" keyPath="arrangedObjects.interpreter" id="205"/>
                                                             </connections>
                                                         </tableColumn>
-                                                        <tableColumn identifier="shortcut" width="160.69820000000001" minWidth="52.698239999999998" maxWidth="1000" id="142">
-                                                            <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Shortcut">
+                                                        <tableColumn identifier="shortcut" width="161.19820000000001" minWidth="52.698239999999998" maxWidth="1000" id="142">
+                                                            <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Drecera">
                                                                 <font key="font" metaFont="smallSystem"/>
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
@@ -192,7 +193,7 @@
                                             <rect key="frame" x="1" y="1" width="473" height="161"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
-                                                <textView importsGraphics="NO" richText="NO" usesFontPanel="YES" findStyle="panel" usesRuler="YES" spellingCorrection="YES" smartInsertDelete="YES" id="135">
+                                                <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" usesRuler="YES" spellingCorrection="YES" smartInsertDelete="YES" id="135">
                                                     <rect key="frame" x="0.0" y="0.0" width="473" height="161"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -233,9 +234,9 @@
                         </holdingPriorities>
                     </splitView>
                     <button verticalHuggingPriority="750" id="215">
-                        <rect key="frame" x="575" y="2" width="71" height="16"/>
+                        <rect key="frame" x="571" y="2" width="79" height="16"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                        <buttonCell key="cell" type="push" title="Insert Path" bezelStyle="rounded" alignment="center" controlSize="mini" borderStyle="border" inset="2" id="234">
+                        <buttonCell key="cell" type="push" title="Inserta camí" bezelStyle="rounded" alignment="center" controlSize="mini" borderStyle="border" inset="2" id="234">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="miniSystem"/>
                         </buttonCell>
@@ -246,7 +247,7 @@
                     <textField verticalHuggingPriority="750" id="216">
                         <rect key="frame" x="249" y="5" width="73" height="11"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="%%s = selection" id="235">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="%%s = selecció" id="235">
                             <font key="font" metaFont="miniSystem"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -255,26 +256,28 @@
                     <textField verticalHuggingPriority="750" id="217">
                         <rect key="frame" x="466" y="5" width="89" height="11"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="%%p = current path" id="236">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="%%p = camí actual" id="236">
                             <font key="font" metaFont="miniSystem"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="218">
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="218">
                         <rect key="frame" x="340" y="5" width="108" height="11"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="%%d = current directory" id="237">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="%%d = directori actual" id="237">
                             <font key="font" metaFont="miniSystem"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="232">
-                        <rect key="frame" x="98" y="5" width="133" height="11"/>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="232">
+                        <rect key="frame" x="49" y="5" width="182" height="12"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Include full path to command" id="238">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="238">
                             <font key="font" metaFont="miniSystem"/>
+                            <string key="title">Inclou el camí complert al comandament
+</string>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -284,6 +287,7 @@
             <connections>
                 <outlet property="delegate" destination="-2" id="158"/>
             </connections>
+            <point key="canvasLocation" x="138.5" y="161.5"/>
         </window>
         <arrayController mode="entity" entityName="CommandCollection" automaticallyPreparesContent="YES" id="9" userLabel="CommandCollectionsArrayController">
             <declaredKeys>
