@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner"/>
@@ -32,55 +33,55 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="9">
-                        <rect key="frame" x="31" y="384" width="51" height="14"/>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="9">
+                        <rect key="frame" x="10" y="384" width="72" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" title="File size:" id="82">
+                        <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" alignment="right" title="File size:" id="82">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="10">
-                        <rect key="frame" x="41" y="402" width="41" height="14"/>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="10">
+                        <rect key="frame" x="10" y="402" width="72" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Where:" id="83">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Where:" id="83">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="11">
-                        <rect key="frame" x="32" y="366" width="49" height="14"/>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="11">
+                        <rect key="frame" x="10" y="366" width="72" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Created:" id="84">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Created:" id="84">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="12">
-                        <rect key="frame" x="27" y="348" width="54" height="14"/>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="12">
+                        <rect key="frame" x="10" y="348" width="72" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Modified:" id="85">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Modified:" id="85">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="13">
-                        <rect key="frame" x="34" y="330" width="48" height="14"/>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="13">
+                        <rect key="frame" x="10" y="330" width="72" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Creator:" id="86">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Creator:" id="86">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="14">
-                        <rect key="frame" x="48" y="312" width="34" height="14"/>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="14">
+                        <rect key="frame" x="10" y="312" width="72" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Type:" id="87">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Type:" id="87">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -89,79 +90,79 @@
                     <textField verticalHuggingPriority="750" id="15">
                         <rect key="frame" x="10" y="258" width="72" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Permissions:" id="88">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Permissions:" id="88">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="16">
-                        <rect key="frame" x="41" y="276" width="41" height="14"/>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="16">
+                        <rect key="frame" x="10" y="276" width="72" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Group:" id="89">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Group:" id="89">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="17">
-                        <rect key="frame" x="39" y="294" width="42" height="14"/>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="17">
+                        <rect key="frame" x="10" y="294" width="72" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Owner:" id="90">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Owner:" id="90">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="20">
-                        <rect key="frame" x="26" y="214" width="56" height="14"/>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="20">
+                        <rect key="frame" x="10" y="214" width="72" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Selection:" id="91">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Selection:" id="91">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="21">
-                        <rect key="frame" x="40" y="142" width="41" height="14"/>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="21">
+                        <rect key="frame" x="10" y="142" width="72" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Words:" id="92">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Words:" id="92">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="22">
-                        <rect key="frame" x="31" y="196" width="50" height="14"/>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="22">
+                        <rect key="frame" x="10" y="196" width="72" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Position:" id="93">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Position:" id="93">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="23">
-                        <rect key="frame" x="38" y="106" width="43" height="14"/>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="23">
+                        <rect key="frame" x="10" y="106" width="72" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Syntax:" id="94">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Syntax:" id="94">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="24">
-                        <rect key="frame" x="25" y="124" width="57" height="14"/>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="24">
+                        <rect key="frame" x="10" y="124" width="72" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Encoding:" id="95">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Encoding:" id="95">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="29">
-                        <rect key="frame" x="30" y="81" width="51" height="13"/>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="29">
+                        <rect key="frame" x="10" y="81" width="72" height="13"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Spotlight:" id="96">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Spotlight:" id="96">
                             <font key="font" metaFont="label"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -293,10 +294,10 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="66">
-                        <rect key="frame" x="37" y="232" width="45" height="14"/>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="66">
+                        <rect key="frame" x="10" y="232" width="72" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Length:" id="111">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Length:" id="111">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -320,10 +321,10 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="71">
-                        <rect key="frame" x="46" y="178" width="36" height="14"/>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="71">
+                        <rect key="frame" x="10" y="178" width="72" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Lines:" id="114">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Lines:" id="114">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -338,10 +339,10 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" id="75">
-                        <rect key="frame" x="28" y="160" width="54" height="14"/>
+                    <textField verticalHuggingPriority="750" misplaced="YES" id="75">
+                        <rect key="frame" x="10" y="160" width="72" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Function:" id="116">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Function:" id="116">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -358,6 +359,7 @@
                     </textField>
                 </subviews>
             </view>
+            <point key="canvasLocation" x="138.5" y="163"/>
         </window>
         <customObject id="46" userLabel="FRAInfoController" customClass="FRAInfoController">
             <connections>

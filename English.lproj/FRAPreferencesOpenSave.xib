@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="FRAPreferencesController">
@@ -27,10 +28,10 @@
                         <binding destination="46" name="value" keyPath="values.OpenAllProjectsIHadOpen" id="73"/>
                     </connections>
                 </button>
-                <textField verticalHuggingPriority="750" id="70">
-                    <rect key="frame" x="33" y="147" width="72" height="17"/>
+                <textField verticalHuggingPriority="750" misplaced="YES" id="70">
+                    <rect key="frame" x="18" y="147" width="87" height="17"/>
                     <autoresizingMask key="autoresizingMask"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="At Startup:" id="89">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="At Startup:" id="89">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -71,10 +72,10 @@
                         <binding destination="46" name="value" keyPath="values.AppendNameInSaveAs" id="65"/>
                     </connections>
                 </button>
-                <textField verticalHuggingPriority="750" id="61">
-                    <rect key="frame" x="17" y="77" width="88" height="17"/>
+                <textField verticalHuggingPriority="750" misplaced="YES" id="61">
+                    <rect key="frame" x="18" y="77" width="87" height="17"/>
                     <autoresizingMask key="autoresizingMask"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="When Saving:" id="85">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="When Saving:" id="85">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -119,19 +120,19 @@
                         <binding destination="46" name="value" keyPath="values.AssignDocumentToErbeleWhenSaving" id="64"/>
                     </connections>
                 </button>
-                <textField verticalHuggingPriority="750" id="26">
-                    <rect key="frame" x="49" y="244" width="56" height="17"/>
+                <textField verticalHuggingPriority="750" misplaced="YES" id="26">
+                    <rect key="frame" x="18" y="244" width="87" height="17"/>
                     <autoresizingMask key="autoresizingMask"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Save As:" id="81">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Save As:" id="81">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" id="25">
-                    <rect key="frame" x="63" y="340" width="42" height="17"/>
+                <textField verticalHuggingPriority="750" misplaced="YES" id="25">
+                    <rect key="frame" x="18" y="340" width="87" height="17"/>
                     <autoresizingMask key="autoresizingMask"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Open:" id="80">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Open:" id="80">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -244,6 +245,7 @@
                     </connections>
                 </matrix>
             </subviews>
+            <point key="canvasLocation" x="139" y="168.5"/>
         </customView>
         <userDefaultsController representsSharedInstance="YES" id="46" userLabel="Shared Defaults"/>
     </objects>

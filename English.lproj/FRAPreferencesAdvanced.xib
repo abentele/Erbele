@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="FRAPreferencesController">
@@ -79,28 +80,28 @@
                                             </binding>
                                         </connections>
                                     </colorWell>
-                                    <textField verticalHuggingPriority="750" id="53">
-                                        <rect key="frame" x="132" y="186" width="77" height="17"/>
+                                    <textField verticalHuggingPriority="750" misplaced="YES" id="53">
+                                        <rect key="frame" x="15" y="186" width="194" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Comments:" id="272">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Comments:" id="272">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <textField verticalHuggingPriority="750" id="54">
-                                        <rect key="frame" x="140" y="152" width="69" height="17"/>
+                                    <textField verticalHuggingPriority="750" misplaced="YES" id="54">
+                                        <rect key="frame" x="15" y="152" width="194" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Keywords:" id="273">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Keywords:" id="273">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <textField verticalHuggingPriority="750" id="55">
-                                        <rect key="frame" x="126" y="254" width="83" height="17"/>
+                                    <textField verticalHuggingPriority="750" misplaced="YES" id="55">
+                                        <rect key="frame" x="15" y="254" width="194" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Instructions:" id="274">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Instructions:" id="274">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -118,10 +119,10 @@
                                             </binding>
                                         </connections>
                                     </colorWell>
-                                    <textField verticalHuggingPriority="750" id="57">
-                                        <rect key="frame" x="143" y="220" width="66" height="17"/>
+                                    <textField verticalHuggingPriority="750" misplaced="YES" id="57">
+                                        <rect key="frame" x="15" y="220" width="194" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Variables:" id="275">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Variables:" id="275">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -139,19 +140,19 @@
                                             </binding>
                                         </connections>
                                     </colorWell>
-                                    <textField verticalHuggingPriority="750" id="59">
-                                        <rect key="frame" x="129" y="322" width="80" height="17"/>
+                                    <textField verticalHuggingPriority="750" misplaced="YES" id="59">
+                                        <rect key="frame" x="15" y="322" width="194" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Commands:" id="276">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Commands:" id="276">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <textField verticalHuggingPriority="750" id="60">
-                                        <rect key="frame" x="157" y="356" width="52" height="17"/>
+                                    <textField verticalHuggingPriority="750" misplaced="YES" id="60">
+                                        <rect key="frame" x="15" y="356" width="194" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Strings:" id="277">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Strings:" id="277">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -191,10 +192,10 @@
                                             <binding destination="120" name="value" keyPath="values.ColourMultiLineStrings" id="184"/>
                                         </connections>
                                     </button>
-                                    <textField verticalHuggingPriority="750" id="64">
-                                        <rect key="frame" x="105" y="118" width="104" height="17"/>
+                                    <textField verticalHuggingPriority="750" misplaced="YES" id="64">
+                                        <rect key="frame" x="15" y="118" width="194" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Auto-complete:" id="280">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Auto-complete:" id="280">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -311,10 +312,10 @@
                                             <binding destination="120" name="value" keyPath="values.ColourInstructions" id="174"/>
                                         </connections>
                                     </button>
-                                    <textField verticalHuggingPriority="750" id="78">
-                                        <rect key="frame" x="138" y="288" width="71" height="17"/>
+                                    <textField verticalHuggingPriority="750" misplaced="YES" id="78">
+                                        <rect key="frame" x="15" y="288" width="194" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Attributes:" id="290">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Attributes:" id="290">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -353,7 +354,7 @@
                         <tabViewItem label="Syntax Definitions" identifier="" id="48">
                             <view key="view" id="49">
                                 <rect key="frame" x="10" y="33" width="554" height="421"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <matrix verticalHuggingPriority="750" allowsEmptySelection="NO" autosizesCells="NO" id="83">
                                         <rect key="frame" x="115" y="361" width="207" height="40"/>
@@ -399,7 +400,7 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <clipView key="contentView" id="KpW-f8-Rdz">
                                             <rect key="frame" x="1" y="0.0" width="512" height="314"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveName="SyntaxDefinitions" headerView="305" id="90">
                                                     <rect key="frame" x="0.0" y="0.0" width="512" height="291"/>
@@ -476,7 +477,7 @@
                         <tabViewItem label="Encodings" identifier="" id="95">
                             <view key="view" id="96">
                                 <rect key="frame" x="10" y="33" width="554" height="421"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <matrix verticalHuggingPriority="750" allowsEmptySelection="NO" autosizesCells="NO" id="97">
                                         <rect key="frame" x="91" y="361" width="186" height="40"/>
@@ -531,7 +532,7 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <clipView key="contentView" id="KDT-n4-P4f">
                                             <rect key="frame" x="1" y="0.0" width="512" height="314"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" columnSelection="YES" columnResizing="NO" multipleSelection="NO" autosaveName="ActiveEncodings" headerView="308" id="105">
                                                     <rect key="frame" x="0.0" y="0.0" width="512" height="291"/>
@@ -679,10 +680,10 @@
                                             <binding destination="120" name="enabled" keyPath="values.OpenAllFilesWithinAFolder" id="153"/>
                                         </connections>
                                     </button>
-                                    <textField verticalHuggingPriority="750" id="29">
-                                        <rect key="frame" x="295" y="79" width="120" height="11"/>
+                                    <textField verticalHuggingPriority="750" misplaced="YES" id="29">
+                                        <rect key="frame" x="167" y="79" width="371" height="11"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="(space separated, no dots)" id="258">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="(space separated, no dots)" id="258">
                                             <font key="font" metaFont="miniSystem"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -701,19 +702,19 @@
                                             <binding destination="120" name="enabled" keyPath="values.OpenAllFilesWithinAFolder" id="155"/>
                                         </connections>
                                     </textField>
-                                    <textField verticalHuggingPriority="750" id="32">
-                                        <rect key="frame" x="62" y="386" width="52" height="17"/>
+                                    <textField verticalHuggingPriority="750" misplaced="YES" id="32">
+                                        <rect key="frame" x="15" y="386" width="99" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Editing:" id="260">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Editing:" id="260">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <textField verticalHuggingPriority="750" id="33">
-                                        <rect key="frame" x="52" y="159" width="62" height="17"/>
+                                    <textField verticalHuggingPriority="750" misplaced="YES" id="33">
+                                        <rect key="frame" x="15" y="159" width="99" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Opening:" id="261">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Opening:" id="261">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -730,10 +731,10 @@
                                             <binding destination="120" name="value" keyPath="values.UseRGBRatherThanHexWhenInsertingColourValues" id="140"/>
                                         </connections>
                                     </button>
-                                    <textField verticalHuggingPriority="750" id="37">
-                                        <rect key="frame" x="49" y="18" width="65" height="17"/>
+                                    <textField verticalHuggingPriority="750" misplaced="YES" id="37">
+                                        <rect key="frame" x="15" y="18" width="99" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Run Text:" id="263">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Run Text:" id="263">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -791,10 +792,10 @@
                                             <binding destination="120" name="selectedTag" keyPath="values.PreviewParser" id="239"/>
                                         </connections>
                                     </popUpButton>
-                                    <textField verticalHuggingPriority="750" id="231">
+                                    <textField verticalHuggingPriority="750" misplaced="YES" id="231">
                                         <rect key="frame" x="15" y="49" width="99" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Preview Parser:" id="268">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Preview Parser:" id="268">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -849,6 +850,7 @@
                     </tabViewItems>
                 </tabView>
             </subviews>
+            <point key="canvasLocation" x="139" y="168.5"/>
         </customView>
         <arrayController mode="entity" entityName="Encoding" automaticallyPreparesContent="YES" id="109" userLabel="EncodingsArrayController">
             <declaredKeys>

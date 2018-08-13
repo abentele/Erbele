@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -98,7 +98,7 @@ DQ
                             <action selector="findAction:" target="-2" id="104"/>
                         </connections>
                     </button>
-                    <textField verticalHuggingPriority="750" misplaced="YES" id="27">
+                    <textField verticalHuggingPriority="750" misplaced="YES" allowsCharacterPickerTouchBarItem="YES" id="27">
                         <rect key="frame" x="18" y="530" width="48" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" alignment="right" title="查找:" id="212">
@@ -118,7 +118,7 @@ DQ
                             <action selector="replaceAction:" target="-2" id="105"/>
                         </connections>
                     </button>
-                    <textField verticalHuggingPriority="750" misplaced="YES" id="17">
+                    <textField verticalHuggingPriority="750" misplaced="YES" allowsCharacterPickerTouchBarItem="YES" id="17">
                         <rect key="frame" x="18" y="504" width="48" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" alignment="right" title="替换:" id="207">
@@ -127,8 +127,8 @@ DQ
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <button id="24">
-                        <rect key="frame" x="68" y="475" width="84" height="16"/>
+                    <button misplaced="YES" id="24">
+                        <rect key="frame" x="68" y="475" width="91" height="16"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="check" title="忽略大小写" bezelStyle="regularSquare" imagePosition="leading" alignment="left" controlSize="small" inset="2" id="211">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -138,7 +138,7 @@ DQ
                             <binding destination="41" name="value" keyPath="values.IgnoreCaseAdvancedFind" id="42"/>
                         </connections>
                     </button>
-                    <searchField wantsLayer="YES" verticalHuggingPriority="750" id="15">
+                    <searchField wantsLayer="YES" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="15">
                         <rect key="frame" x="71" y="528" width="407" height="19"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <searchFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" borderStyle="bezel" alignment="left" bezelStyle="round" sendsWholeSearchString="YES" maximumRecents="15" recentsAutosaveName="Advanced Find Search Field" id="205">
@@ -151,7 +151,7 @@ DQ
                             <outlet property="searchMenuTemplate" destination="48" id="53"/>
                         </connections>
                     </searchField>
-                    <searchField wantsLayer="YES" verticalHuggingPriority="750" tag="1" id="16">
+                    <searchField wantsLayer="YES" verticalHuggingPriority="750" tag="1" allowsCharacterPickerTouchBarItem="YES" id="16">
                         <rect key="frame" x="71" y="501" width="407" height="19"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <searchFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" borderStyle="bezel" alignment="left" tag="1" bezelStyle="round" sendsWholeSearchString="YES" maximumRecents="15" recentsAutosaveName="Advanced Replace Search Field" id="206">
@@ -185,7 +185,7 @@ DQ
                             <action selector="showRegularExpressionsHelpPanelAction:" target="-2" id="181"/>
                         </connections>
                     </button>
-                    <textField verticalHuggingPriority="750" id="102">
+                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="102">
                         <rect key="frame" x="-3" y="-4" width="572" height="22"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" id="215">

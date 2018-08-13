@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="FRAPreferencesController">
@@ -17,10 +18,10 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="439"/>
             <autoresizingMask key="autoresizingMask"/>
             <subviews>
-                <textField verticalHuggingPriority="750" id="88">
-                    <rect key="frame" x="276" y="324" width="89" height="17"/>
+                <textField verticalHuggingPriority="750" misplaced="YES" id="88">
+                    <rect key="frame" x="219" y="324" width="146" height="17"/>
                     <autoresizingMask key="autoresizingMask"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Indent Width:" id="118">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Indent Width:" id="118">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -89,10 +90,10 @@
                     <rect key="frame" x="20" y="303" width="560" height="5"/>
                     <autoresizingMask key="autoresizingMask"/>
                 </box>
-                <textField verticalHuggingPriority="750" id="36">
-                    <rect key="frame" x="57" y="201" width="97" height="17"/>
+                <textField verticalHuggingPriority="750" misplaced="YES" id="36">
+                    <rect key="frame" x="18" y="201" width="135" height="17"/>
                     <autoresizingMask key="autoresizingMask"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Miscellaneous:" id="114">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Miscellaneous:" id="114">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -118,19 +119,19 @@
                         <binding destination="55" name="value" keyPath="values.ShowPageGuideAtColumn" id="76"/>
                     </connections>
                 </textField>
-                <textField verticalHuggingPriority="750" id="33">
-                    <rect key="frame" x="48" y="270" width="106" height="17"/>
+                <textField verticalHuggingPriority="750" misplaced="YES" id="33">
+                    <rect key="frame" x="18" y="270" width="135" height="17"/>
                     <autoresizingMask key="autoresizingMask"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Documents List:" id="112">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Documents List:" id="112">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" id="32">
-                    <rect key="frame" x="30" y="129" width="124" height="17"/>
+                <textField verticalHuggingPriority="750" misplaced="YES" id="32">
+                    <rect key="frame" x="18" y="129" width="135" height="17"/>
                     <autoresizingMask key="autoresizingMask"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Show In Status Bar:" id="111">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Show In Status Bar:" id="111">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -213,10 +214,10 @@
                         <binding destination="55" name="value" keyPath="values.ShowPageGuide" id="74"/>
                     </connections>
                 </button>
-                <textField verticalHuggingPriority="750" id="21">
-                    <rect key="frame" x="82" y="324" width="72" height="17"/>
+                <textField verticalHuggingPriority="750" misplaced="YES" id="21">
+                    <rect key="frame" x="18" y="324" width="135" height="17"/>
                     <autoresizingMask key="autoresizingMask"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Tab Width:" id="102">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Tab Width:" id="102">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -245,10 +246,10 @@
                         <binding destination="55" name="value" keyPath="values.TabWidth" id="64"/>
                     </connections>
                 </textField>
-                <textField verticalHuggingPriority="750" id="18">
-                    <rect key="frame" x="71" y="365" width="83" height="17"/>
+                <textField verticalHuggingPriority="750" misplaced="YES" id="18">
+                    <rect key="frame" x="18" y="365" width="135" height="17"/>
                     <autoresizingMask key="autoresizingMask"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Text Colour:" id="100">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Text Colour:" id="100">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -278,10 +279,10 @@
                         </binding>
                     </connections>
                 </colorWell>
-                <textField verticalHuggingPriority="750" id="15">
-                    <rect key="frame" x="236" y="365" width="129" height="17"/>
+                <textField verticalHuggingPriority="750" misplaced="YES" id="15">
+                    <rect key="frame" x="219" y="365" width="146" height="17"/>
                     <autoresizingMask key="autoresizingMask"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Background Colour:" id="99">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Background Colour:" id="99">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -308,17 +309,17 @@
                         </binding>
                     </connections>
                 </textField>
-                <textField verticalHuggingPriority="750" id="13">
-                    <rect key="frame" x="85" y="399" width="69" height="17"/>
+                <textField verticalHuggingPriority="750" misplaced="YES" id="13">
+                    <rect key="frame" x="18" y="399" width="135" height="17"/>
                     <autoresizingMask key="autoresizingMask"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Text Font:" id="97">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Text Font:" id="97">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <button verticalHuggingPriority="750" id="12">
-                    <rect key="frame" x="505" y="393" width="80" height="28"/>
+                <button verticalHuggingPriority="750" misplaced="YES" id="12">
+                    <rect key="frame" x="505" y="393" width="81" height="28"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <buttonCell key="cell" type="push" title="Set Font..." bezelStyle="rounded" alignment="center" controlSize="small" borderStyle="border" inset="2" id="96">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -366,6 +367,7 @@
                     </connections>
                 </button>
             </subviews>
+            <point key="canvasLocation" x="139" y="168.5"/>
         </customView>
         <userDefaultsController representsSharedInstance="YES" id="55" userLabel="Shared Defaults"/>
         <view id="38">
