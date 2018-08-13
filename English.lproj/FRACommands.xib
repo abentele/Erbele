@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="FRACommandsController">
@@ -19,7 +20,7 @@
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <window title="Commands - Erbele" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="CommandsWindow" animationBehavior="default" id="5" userLabel="CommandsWindow" customClass="NSPanel">
-            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" unifiedTitleAndToolbar="YES"/>
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="345" y="413" width="663" height="405"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
@@ -149,7 +150,7 @@
                                                                 <binding destination="10" name="value" keyPath="arrangedObjects.interpreter" id="205"/>
                                                             </connections>
                                                         </tableColumn>
-                                                        <tableColumn identifier="shortcut" width="160.69820000000001" minWidth="52.698239999999998" maxWidth="1000" id="142">
+                                                        <tableColumn identifier="shortcut" width="161.19820000000001" minWidth="52.698239999999998" maxWidth="1000" id="142">
                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Shortcut">
                                                                 <font key="font" metaFont="smallSystem"/>
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
@@ -192,7 +193,7 @@
                                             <rect key="frame" x="1" y="1" width="473" height="161"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
-                                                <textView importsGraphics="NO" richText="NO" usesFontPanel="YES" findStyle="panel" usesRuler="YES" spellingCorrection="YES" smartInsertDelete="YES" id="135">
+                                                <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" usesRuler="YES" spellingCorrection="YES" smartInsertDelete="YES" id="135">
                                                     <rect key="frame" x="0.0" y="0.0" width="473" height="161"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -284,6 +285,7 @@
             <connections>
                 <outlet property="delegate" destination="-2" id="158"/>
             </connections>
+            <point key="canvasLocation" x="364" y="178"/>
         </window>
         <arrayController mode="entity" entityName="CommandCollection" automaticallyPreparesContent="YES" id="9" userLabel="CommandCollectionsArrayController">
             <declaredKeys>
