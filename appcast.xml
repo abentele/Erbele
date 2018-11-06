@@ -4,9 +4,9 @@
 
 <item>
 <title>3.8.4</title>
-<pubDate>Di., 06 Nov. 2018 19:49:58 +0100</pubDate>
+<pubDate>Di., 06 Nov. 2018 20:05:52 +0100</pubDate>
 <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
-<enclosure url="https://github.com/abentele/Erbele/releases/download/3.8.4/Erbele_3.8.4.dmg" sparkle:version="3.8.4" sparkle:shortVersionString="3.8.4" length="12505197" type="application/octet-stream" sparkle:dsaSignature="MC4CFQDFBo79ybpjkIy3yMJUOrNRMSrtngIVAJZQ21NK/2SfGfA09pC0RBFwYAKY"/>
+<enclosure url="s://github.com/abentele/Erbele/releases/download/3.8.4/Erbele_3.8.4.dmg" sparkle:version="3.8.4" sparkle:shortVersionString="3.8.4" length="12513389" type="application/octet-stream" sparkle:dsaSignature="MC0CFF9rXK6us2qjXlUT0uGK4jmyNVWTAhUAu6Trn/vZhdJAaD6nP9yIgF8RP0w="/>
 </item>
 
 <item>
