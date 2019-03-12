@@ -1,6 +1,11 @@
 # Erbele
 
-Erbele is a feature-rich text editor for macOS Sierra. Forked in 2016 from the Fraise github repository which was discontinued years ago, my main interest is to keep the popular app alive.
+Erbele is a feature-rich text editor for macOS. Forked in 2016 from the Fraise github repository which was discontinued years ago, my main interest is to keep the popular app alive.
+
+Supported macOS versions:
+* macOS Sierra (10.12)
+* macOS High Sierra (10.13)
+* macOS Mojave (10.14)
 
 **See why I [changed the name from "Fraise" to "Erbele"](https://github.com/abentele/Erbele/wiki/Changed-the-name-from-%22Fraise%22-to-%22Erbele%22)** - I would appreciate if all supporters of my project would add a star to my new project on github.
 
