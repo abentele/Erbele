@@ -6,6 +6,7 @@ Supported macOS versions:
 * macOS Sierra (10.12)
 * macOS High Sierra (10.13)
 * macOS Mojave (10.14)
+* macOS Catalina (10.15)
 
 **See why I [changed the name from "Fraise" to "Erbele"](https://github.com/abentele/Erbele/wiki/Changed-the-name-from-%22Fraise%22-to-%22Erbele%22)** - I would appreciate if all supporters of my project would add a star to my new project on github.
 
