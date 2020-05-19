@@ -34,16 +34,29 @@
 		[self setAutoresizingMask:NSViewHeightSizable];
 		
 		[self setFont:[NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"TextFont"]]];
-		[self setTextColor:[NSColor textColor]];//[NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"TextColourWell"]]];
 		[self setInsertionPointColor:[NSColor textColor]];//[NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"TextColourWell"]]];
-		[self setBackgroundColor:[NSColor colorWithCalibratedWhite:0.94 alpha:1.0]];
+		[self darkModeFix];
 
 		NSUserDefaultsController *defaultsController = [NSUserDefaultsController sharedUserDefaultsController];
 		[defaultsController addObserver:self forKeyPath:@"values.TextFont" options:NSKeyValueObservingOptionNew context:@"TextFontChanged"];
+		[[NSDistributedNotificationCenter defaultCenter] addObserver:self selector:@selector(darkModeChanged:) name:@"AppleInterfaceThemeChangedNotification" object:nil];
 	}
 	return self;
 }
 
+-(void) darkModeFix {
+    NSString *osxMode = [[NSUserDefaults standardUserDefaults] stringForKey:@"AppleInterfaceStyle"];
+    if ([osxMode  isEqual: @"Dark"]) {
+        [self setBackgroundColor:[NSColor colorWithCalibratedWhite:0.3 alpha:1.0]];
+        [self setTextColor: [NSColor colorWithCalibratedWhite:0.8 alpha:1.0]];
+    } else {
+        [self setBackgroundColor:[NSColor colorWithCalibratedWhite:0.94 alpha:1.0]];
+        [self setTextColor: [NSColor textColor]];
+    }
+}
+-(void)darkModeChanged:(NSNotification *)notif {
+    [self darkModeFix];
+}
 
 - (void) dealloc
 {
