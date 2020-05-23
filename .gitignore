@@ -5,3 +5,5 @@ build/
 Erbele.xcodeproj/project.xcworkspace/xcuserdata/
 
 Erbele.xcodeproj/xcuserdata/
+.idea
+Erbele.iml
