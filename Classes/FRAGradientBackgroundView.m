@@ -18,12 +18,24 @@
 - (id)initWithFrame:(NSRect)frame
 {
 	if (self = [super initWithFrame:frame]) {
-
-		gradient = [[NSGradient alloc] initWithStartingColor:[NSColor colorWithDeviceRed:0.812 green:0.812 blue:0.812 alpha:1.0] endingColor:[NSColor colorWithDeviceRed:0.914 green:0.914 blue:0.914 alpha:1.0]];
+        [self darkModeFix];
+        [[NSDistributedNotificationCenter defaultCenter] addObserver:self selector:@selector(darkModeChanged:) name:@"AppleInterfaceThemeChangedNotification" object:nil];
 	}
 	return self;
 }
 
+-(void) darkModeFix {
+    NSString *osxMode = [[NSUserDefaults standardUserDefaults] stringForKey:@"AppleInterfaceStyle"];
+    if ([osxMode  isEqual: @"Dark"]) {
+        gradient = [[NSGradient alloc] initWithStartingColor:[NSColor colorWithCalibratedWhite:0.3 alpha:1.0] endingColor:[NSColor colorWithCalibratedWhite:0.3 alpha:1.0]];
+    } else {
+        gradient = [[NSGradient alloc] initWithStartingColor:[NSColor colorWithDeviceRed:0.812 green:0.812 blue:0.812 alpha:1.0] endingColor:[NSColor colorWithDeviceRed:0.914 green:0.914 blue:0.914 alpha:1.0]];
+    }
+}
+-(void)darkModeChanged:(NSNotification *)notif {
+    [self darkModeFix];
+    [self setNeedsDisplay:true];
+}
 
 - (void)drawRect:(NSRect)rect 
 {	

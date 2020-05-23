@@ -254,6 +254,7 @@
     NSRange range = NSMakeRange(0, [contents length]);
 
     [attrStr addAttribute:NSFontAttributeName value:[NSFont systemFontOfSize:11.0] range:range];
+    [attrStr addAttribute:NSForegroundColorAttributeName value:[NSColor textColor] range:range];
     
     // Paragraph Style for Truncating Long Text
     static NSMutableParagraphStyle *TruncatingTailParagraphStyle = nil;
@@ -274,7 +275,7 @@
     NSRect cellFrame = [cell frame];	
     NSColor * lineColor = nil;
     NSBezierPath* bezier = [NSBezierPath bezierPath];
-    lineColor = [NSColor colorWithCalibratedWhite:0.576 alpha:1.0];
+    lineColor = [NSColor controlShadowColor];
 
     if ([cell state] == NSOnState)
 	{
@@ -300,7 +301,7 @@
 		
 		[bezier closePath];
 		
-		NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:[NSColor colorWithCalibratedWhite:0.99 alpha:1.0] endingColor:[NSColor colorWithCalibratedWhite:0.941 alpha:1.0]];
+		NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:[NSColor controlColor] endingColor:[NSColor controlColor]];
 		[gradient drawInBezierPath:bezier angle:90];
 		
 		[lineColor set];
@@ -320,7 +321,13 @@
         // rollover
         if ([cell isHighlighted])
 		{
-            [[NSColor colorWithCalibratedWhite:0.0 alpha:0.1] set];
+            NSString *osxMode = [[NSUserDefaults standardUserDefaults] stringForKey:@"AppleInterfaceStyle"];
+            if ([osxMode  isEqual: @"Dark"]) {
+                [[NSColor colorWithCalibratedWhite:1.0 alpha:0.1] set];
+            } else {
+                [[NSColor colorWithCalibratedWhite:0.0 alpha:0.1] set];
+            }
+
             NSRectFillUsingOperation(aRect, NSCompositingOperationSourceAtop);
         }
         
@@ -440,7 +447,7 @@
 	gradientRect.size.height -= 1.0;
 	NSBezierPath *path = [NSBezierPath bezierPathWithRect:gradientRect];
 	
-	NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:[NSColor colorWithCalibratedWhite:0.918 alpha:1.0] endingColor:[NSColor colorWithCalibratedWhite:0.843 alpha:1.0]];
+	NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:[NSColor windowBackgroundColor] endingColor:[NSColor windowBackgroundColor]];
 	[gradient drawInBezierPath:path angle:90];
 	
 	[[NSColor colorWithCalibratedWhite:0.576 alpha:1.0] set];
