@@ -97,6 +97,8 @@ enum {
 - (BOOL)allowsDragBetweenWindows;
 - (void)setAllowsDragBetweenWindows:(BOOL)flag;
 
+- (void)update;
+
 // accessors
 - (NSTabView *)tabView;
 - (void)setTabView:(NSTabView *)view;

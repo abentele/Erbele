@@ -19,6 +19,7 @@
     BOOL                _isPlaceholder;
     
     // state
+    PSMTabBarControl*   _controlView;
     NSInteger                 _tabState;
     NSTrackingRectTag   _closeButtonTrackingTag;    // left side tracking, if dragging
     NSTrackingRectTag   _cellTrackingTag;           // right side tracking, if dragging
