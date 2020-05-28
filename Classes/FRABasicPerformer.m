@@ -234,4 +234,12 @@ static id sharedInstance = nil;
     return resolvedPath;
 }
 
+- (NSString *) lightDarkPref:(NSString *)lightPref {
+    if ( [[[NSUserDefaults standardUserDefaults] stringForKey:@"AppleInterfaceStyle"] isEqual: @"Dark"] ){
+        return [ @"DM" stringByAppendingString: lightPref ];
+    } else {
+        return lightPref;
+    }
+}
+
 @end

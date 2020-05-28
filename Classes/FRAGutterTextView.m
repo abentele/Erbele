@@ -12,6 +12,7 @@
  */
 
 #import "FRAGutterTextView.h"
+#import "FRABasicPerformer.h"
 
 @implementation FRAGutterTextView
 
@@ -39,20 +40,19 @@
 
 		NSUserDefaultsController *defaultsController = [NSUserDefaultsController sharedUserDefaultsController];
 		[defaultsController addObserver:self forKeyPath:@"values.TextFont" options:NSKeyValueObservingOptionNew context:@"TextFontChanged"];
+        
+        [defaultsController addObserver:self forKeyPath:@"values.GutterBackgroundColourWell" options:NSKeyValueObservingOptionNew context:@"GutterChanged"];
+        [defaultsController addObserver:self forKeyPath:@"values.DMGutterBackgroundColourWell" options:NSKeyValueObservingOptionNew context:@"GutterChanged"];
+        [defaultsController addObserver:self forKeyPath:@"values.GutterTextColourWell" options:NSKeyValueObservingOptionNew context:@"GutterChanged"];
+        [defaultsController addObserver:self forKeyPath:@"values.DMGutterTextColourWell" options:NSKeyValueObservingOptionNew context:@"GutterChanged"];
 		[[NSDistributedNotificationCenter defaultCenter] addObserver:self selector:@selector(darkModeChanged:) name:@"AppleInterfaceThemeChangedNotification" object:nil];
 	}
 	return self;
 }
 
 -(void) darkModeFix {
-    NSString *osxMode = [[NSUserDefaults standardUserDefaults] stringForKey:@"AppleInterfaceStyle"];
-    if ([osxMode  isEqual: @"Dark"]) {
-        [self setBackgroundColor:[NSColor colorWithCalibratedWhite:0.3 alpha:1.0]];
-        [self setTextColor: [NSColor colorWithCalibratedWhite:0.8 alpha:1.0]];
-    } else {
-        [self setBackgroundColor:[NSColor colorWithCalibratedWhite:0.94 alpha:1.0]];
-        [self setTextColor: [NSColor textColor]];
-    }
+    [self setBackgroundColor: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[ FRABasic lightDarkPref: @"GutterBackgroundColourWell" ] ]]];
+    [self setTextColor: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey: [ FRABasic lightDarkPref: @"GutterTextColourWell"] ]]];
 }
 -(void)darkModeChanged:(NSNotification *)notif {
     [self darkModeFix];
@@ -62,6 +62,10 @@
 {
     NSUserDefaultsController *defaultsController = [NSUserDefaultsController sharedUserDefaultsController];
     [defaultsController removeObserver:self forKeyPath:@"values.TextFont"];
+    [defaultsController removeObserver:self forKeyPath:@"values.GutterBackgroundColourWell"];
+    [defaultsController removeObserver:self forKeyPath:@"values.DMGutterBackgroundColourWell"];
+    [defaultsController removeObserver:self forKeyPath:@"values.GutterTextColourWell"];
+    [defaultsController removeObserver:self forKeyPath:@"values.DMGutterTextColourWell"];
 }
 
 
@@ -69,6 +73,8 @@
 {
 	if ([(__bridge NSString *)context isEqualToString:@"TextFontChanged"]) {
 		[self setFont:[NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"TextFont"]]];
+    } else if ([(__bridge NSString *)context isEqualToString:@"GutterChanged"]) {
+        [self darkModeFix];
 	} else {
 		[super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
 	}

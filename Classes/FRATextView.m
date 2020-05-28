@@ -59,9 +59,9 @@
 	[self setAutomaticQuoteSubstitutionEnabled:[[FRADefaults valueForKey:@"AutomaticQuoteSubstitution"] boolValue]];
 	
 	[self setFont:[NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"TextFont"]]];
-	[self setTextColor:[NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"TextColourWell"]]];
-	[self setInsertionPointColor:[NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"TextColourWell"]]];
-	[self setBackgroundColor:[NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"BackgroundColourWell"]]];
+	[self setTextColor:[NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[FRABasic lightDarkPref:@"TextColourWell"] ]]];
+	[self setInsertionPointColor:[NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[FRABasic lightDarkPref:@"TextColourWell"] ]]];
+	[self setBackgroundColor:[NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[FRABasic lightDarkPref:@"BackgroundColourWell"] ]]];
 	
 	[self setAutomaticDataDetectionEnabled:YES];
 	[self setAutomaticTextReplacementEnabled:YES];
@@ -620,7 +620,10 @@
 	
 	if (textColour != nil && [textColour whiteComponent] == 0.0 && [textColour alphaComponent] == 1.0) { // Keep the original cursor if it's black
 		[self setColouredIBeamCursor:[NSCursor IBeamCursor]];
-	} else {
+	} else if (floor(NSAppKitVersionNumber) >= NSAppKitVersionNumber10_14) {
+            //Mojave and newer already has an always visible IBeamCursor
+            [self setColouredIBeamCursor:[NSCursor IBeamCursor]];
+        } else {
 		NSImage *cursorImage = [[NSCursor IBeamCursor] image];
 		[cursorImage lockFocus];
 		[(NSColor *)[NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"TextColourWell"]] set];

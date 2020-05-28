@@ -37,5 +37,7 @@
 - (NSString *)thousandFormatedStringFromNumber:(NSNumber *)number;
 - (NSString *)resolveAliasInPath:(NSString *)path;
 
+//returns string based on light/dark mode
+- (NSString *) lightDarkPref:(NSString *)lightPref;
 
 @end

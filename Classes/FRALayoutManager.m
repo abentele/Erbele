@@ -12,6 +12,7 @@
  */
 
 #import "FRALayoutManager.h"
+#import "FRABasicPerformer.h"
 
 @implementation FRALayoutManager
 
@@ -21,7 +22,7 @@
 {
 	if (self = [super init]) {
 		
-		attributes = @{NSFontAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"TextFont"]], NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"InvisibleCharactersColourWell"]]};
+		attributes = @{NSFontAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"TextFont"]], NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[FRABasic lightDarkPref: @"InvisibleCharactersColourWell"] ]]};
         unichar spaceUnichar = 0x02FD;
         spaceCharacter = [[NSString alloc] initWithCharacters:&spaceUnichar length:1];
 		unichar tabUnichar = 0x2192;
@@ -35,7 +36,7 @@
 		NSUserDefaultsController *defaultsController = [NSUserDefaultsController sharedUserDefaultsController];
 		[defaultsController addObserver:self forKeyPath:@"values.TextFont" options:NSKeyValueObservingOptionNew context:@"FontOrColourValueChanged"];
 		[defaultsController addObserver:self forKeyPath:@"values.InvisibleCharactersColourWell" options:NSKeyValueObservingOptionNew context:@"FontOrColourValueChanged"];
-
+        [defaultsController addObserver:self forKeyPath:@"values.DMInvisibleCharactersColourWell" options:NSKeyValueObservingOptionNew context:@"FontOrColourValueChanged"];
 	}
 	return self;
 }
@@ -46,13 +47,14 @@
     NSUserDefaultsController *defaultsController = [NSUserDefaultsController sharedUserDefaultsController];
     [defaultsController removeObserver:self forKeyPath:@"values.TextFont"];
     [defaultsController removeObserver:self forKeyPath:@"values.InvisibleCharactersColourWell"];
+    [defaultsController removeObserver:self forKeyPath:@"values.DMInvisibleCharactersColourWell"];
 }
 
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
 	if ([(__bridge NSString *)context isEqualToString:@"FontOrColourValueChanged"]) {
-		attributes = @{NSFontAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"TextFont"]], NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"InvisibleCharactersColourWell"]]};
+		attributes = @{NSFontAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"TextFont"]], NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[FRABasic lightDarkPref: @"InvisibleCharactersColourWell"] ]]};
 		[[self firstTextView] setNeedsDisplay:YES];
 	} else {
 		[super observeValueForKeyPath:keyPath ofObject:object change:change context:context];

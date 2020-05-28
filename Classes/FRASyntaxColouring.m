@@ -105,7 +105,16 @@
 		[defaultsController addObserver:self forKeyPath:@"values.HighlightCurrentLine" options:NSKeyValueObservingOptionNew context:@"ColoursChanged"];
 		[defaultsController addObserver:self forKeyPath:@"values.HighlightLineColourWell" options:NSKeyValueObservingOptionNew context:@"ColoursChanged"];
 		[defaultsController addObserver:self forKeyPath:@"values.ColourMultiLineStrings" options:NSKeyValueObservingOptionNew context:@"MultiLineChanged"];
-		
+        
+        [defaultsController addObserver:self forKeyPath:@"values.DMCommandsColourWell" options:NSKeyValueObservingOptionNew context:@"ColoursChanged"];
+        [defaultsController addObserver:self forKeyPath:@"values.DMCommentsColourWell" options:NSKeyValueObservingOptionNew context:@"ColoursChanged"];
+        [defaultsController addObserver:self forKeyPath:@"values.DMInstructionsColourWell" options:NSKeyValueObservingOptionNew context:@"ColoursChanged"];
+        [defaultsController addObserver:self forKeyPath:@"values.DMKeywordsColourWell" options:NSKeyValueObservingOptionNew context:@"ColoursChanged"];
+        [defaultsController addObserver:self forKeyPath:@"values.DMAutocompleteColourWell" options:NSKeyValueObservingOptionNew context:@"ColoursChanged"];
+        [defaultsController addObserver:self forKeyPath:@"values.DMVariablesColourWell" options:NSKeyValueObservingOptionNew context:@"ColoursChanged"];
+        [defaultsController addObserver:self forKeyPath:@"values.DMStringsColourWell" options:NSKeyValueObservingOptionNew context:@"ColoursChanged"];
+        [defaultsController addObserver:self forKeyPath:@"values.DMAttributesColourWell" options:NSKeyValueObservingOptionNew context:@"ColoursChanged"];
+        [defaultsController addObserver:self forKeyPath:@"values.DMHighlightLineColourWell" options:NSKeyValueObservingOptionNew context:@"ColoursChanged"];
 	}
     return self;
 }
@@ -135,6 +144,15 @@
     [defaultsController removeObserver:self forKeyPath:@"values.HighlightCurrentLine"];
     [defaultsController removeObserver:self forKeyPath:@"values.HighlightLineColourWell"];
     [defaultsController removeObserver:self forKeyPath:@"values.ColourMultiLineStrings"];
+    [defaultsController removeObserver:self forKeyPath:@"values.DMCommandsColourWell"];
+    [defaultsController removeObserver:self forKeyPath:@"values.DMCommentsColourWell"];
+    [defaultsController removeObserver:self forKeyPath:@"values.DMInstructionsColourWell"];
+    [defaultsController removeObserver:self forKeyPath:@"values.DMKeywordsColourWell"];
+    [defaultsController removeObserver:self forKeyPath:@"values.DMAutocompleteColourWell"];
+    [defaultsController removeObserver:self forKeyPath:@"values.DMVariablesColourWell"];
+    [defaultsController removeObserver:self forKeyPath:@"values.DMStringsColourWell"];
+    [defaultsController removeObserver:self forKeyPath:@"values.DMAttributesColourWell"];
+    [defaultsController removeObserver:self forKeyPath:@"values.DMHighlightLineColourWell"];
 }
 
 
@@ -170,23 +188,23 @@
 
 - (void)setColours
 {
-	commandsColour = @{NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"CommandsColourWell"]]};
-	
-	commentsColour = @{NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"CommentsColourWell"]]};
-	
-	instructionsColour = @{NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"InstructionsColourWell"]]};
-	
-	keywordsColour = @{NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"KeywordsColourWell"]]};
-	
-	autocompleteWordsColour = @{NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"AutocompleteColourWell"]]};
-	
-	stringsColour = @{NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"StringsColourWell"]]};
-	
-	variablesColour = @{NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"VariablesColourWell"]]};
-	
-	attributesColour = @{NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"AttributesColourWell"]]};
-	
-	lineHighlightColour = @{NSBackgroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"HighlightLineColourWell"]]};
+    commandsColour = @{NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[ FRABasic lightDarkPref: @"CommandsColourWell"] ]]};
+    
+    commentsColour = @{NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[ FRABasic lightDarkPref: @"CommentsColourWell" ] ]]};
+    
+    instructionsColour = @{NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[ FRABasic lightDarkPref: @"InstructionsColourWell"] ]]};
+    
+    keywordsColour = @{NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[ FRABasic lightDarkPref: @"KeywordsColourWell"] ]]};
+    
+    autocompleteWordsColour = @{NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[ FRABasic lightDarkPref: @"AutocompleteColourWell"] ]]};
+    
+    stringsColour = @{NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[ FRABasic lightDarkPref: @"StringsColourWell"] ]]};
+    
+    variablesColour = @{NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[ FRABasic lightDarkPref: @"VariablesColourWell"] ]]};
+    
+    attributesColour = @{NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[ FRABasic lightDarkPref: @"AttributesColourWell"] ]]};
+    
+    lineHighlightColour = @{NSBackgroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey: [ FRABasic lightDarkPref: @"HighlightLineColourWell"] ]]};
 }
 
 
