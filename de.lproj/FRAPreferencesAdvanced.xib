@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15705" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15705"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="FRAPreferencesController">
@@ -25,26 +26,26 @@
                 <button verticalHuggingPriority="750" id="46">
                     <rect key="frame" x="15" y="15" width="221" height="28"/>
                     <autoresizingMask key="autoresizingMask"/>
-                    <buttonCell key="cell" type="push" title="Auf Standardwerte zurücksetzen" bezelStyle="rounded" alignment="center" controlSize="small" borderStyle="border" inset="2" id="297">
+                    <buttonCell key="cell" type="push" title="Revert All Settings To Default Values" bezelStyle="rounded" alignment="center" controlSize="small" borderStyle="border" inset="2" id="296">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="smallSystem"/>
+                        <font key="font" metaFont="message" size="11"/>
                     </buttonCell>
                     <connections>
                         <action selector="revertToStandardSettingsAction:" target="-2" id="113"/>
                     </connections>
                 </button>
-                <tabView misplaced="YES" id="41">
+                <tabView id="41">
                     <rect key="frame" x="13" y="37" width="574" height="472"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <font key="font" metaFont="system"/>
                     <tabViewItems>
                         <tabViewItem label="Syntaxhervorhebung" identifier="" id="43">
-                            <view key="view" id="45">
+                            <view key="view" wantsLayer="YES" id="45">
                                 <rect key="frame" x="10" y="33" width="554" height="426"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <colorWell id="50">
-                                        <rect key="frame" x="297" y="147" width="54" height="26"/>
+                                        <rect key="frame" x="297" y="142" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -56,7 +57,7 @@
                                         </connections>
                                     </colorWell>
                                     <colorWell id="51">
-                                        <rect key="frame" x="297" y="181" width="54" height="26"/>
+                                        <rect key="frame" x="297" y="176" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -68,7 +69,7 @@
                                         </connections>
                                     </colorWell>
                                     <colorWell id="52">
-                                        <rect key="frame" x="297" y="215" width="54" height="26"/>
+                                        <rect key="frame" x="297" y="210" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -79,17 +80,35 @@
                                             </binding>
                                         </connections>
                                     </colorWell>
-                                    <textField verticalHuggingPriority="750" id="55">
-                                        <rect key="frame" x="115" y="254" width="94" height="17"/>
+                                    <textField verticalHuggingPriority="750" id="53">
+                                        <rect key="frame" x="15" y="181" width="94" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Anweisungen:" id="275">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="(mehrere Suffixe durch Leerzeichen trennen und keine Punkte verweenden)" id="272">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="54">
+                                        <rect key="frame" x="15" y="147" width="194" height="17"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Kommentare:" id="273">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" id="55">
+                                        <rect key="frame" x="15" y="249" width="94" height="17"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Instructions:" id="274">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
                                     <colorWell id="56">
-                                        <rect key="frame" x="297" y="249" width="54" height="26"/>
+                                        <rect key="frame" x="297" y="244" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -101,16 +120,16 @@
                                         </connections>
                                     </colorWell>
                                     <textField verticalHuggingPriority="750" id="57">
-                                        <rect key="frame" x="145" y="220" width="64" height="17"/>
+                                        <rect key="frame" x="15" y="215" width="64" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Variable:" id="276">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Anweisungen:" id="275">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
                                     <colorWell id="58">
-                                        <rect key="frame" x="297" y="351" width="54" height="26"/>
+                                        <rect key="frame" x="297" y="346" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -122,7 +141,16 @@
                                         </connections>
                                     </colorWell>
                                     <textField verticalHuggingPriority="750" id="59">
-                                        <rect key="frame" x="154" y="322" width="55" height="17"/>
+                                        <rect key="frame" x="15" y="317" width="55" height="17"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Variable:" id="276">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" id="60">
+                                        <rect key="frame" x="15" y="351" width="37" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Befehle:" id="277">
                                             <font key="font" metaFont="system"/>
@@ -130,17 +158,8 @@
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <textField verticalHuggingPriority="750" id="60">
-                                        <rect key="frame" x="172" y="356" width="37" height="17"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Text:" id="278">
-                                            <font key="font" metaFont="system"/>
-                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                        </textFieldCell>
-                                    </textField>
                                     <colorWell id="61">
-                                        <rect key="frame" x="297" y="317" width="54" height="26"/>
+                                        <rect key="frame" x="297" y="312" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -152,9 +171,9 @@
                                         </connections>
                                     </colorWell>
                                     <button id="62">
-                                        <rect key="frame" x="61" y="37" width="445" height="18"/>
+                                        <rect key="frame" x="61" y="32" width="445" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <buttonCell key="cell" type="check" title="nur bis zum Zeilenende einfärben" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="279">
+                                        <buttonCell key="cell" type="check" title="Only colour till the end of the line if the closing tag can’t be found " bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="278">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -163,9 +182,9 @@
                                         </connections>
                                     </button>
                                     <button id="63">
-                                        <rect key="frame" x="61" y="63" width="199" height="18"/>
+                                        <rect key="frame" x="61" y="58" width="199" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <buttonCell key="cell" type="check" title="Mehrzeilige Texte einfärben" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="280">
+                                        <buttonCell key="cell" type="check" title="nur bis zum Zeilenende einfärben" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="279">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -173,8 +192,17 @@
                                             <binding destination="120" name="value" keyPath="values.ColourMultiLineStrings" id="184"/>
                                         </connections>
                                     </button>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="64">
+                                        <rect key="frame" x="15" y="113" width="194" height="17"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Auto-complete:" id="280">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
                                     <colorWell id="65">
-                                        <rect key="frame" x="297" y="113" width="54" height="26"/>
+                                        <rect key="frame" x="297" y="108" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -186,31 +214,40 @@
                                         </connections>
                                     </colorWell>
                                     <textField verticalHuggingPriority="750" id="66">
-                                        <rect key="frame" x="305" y="390" width="37" height="13"/>
+                                        <rect key="frame" x="295" y="385" width="58" height="13"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Farbe" id="282">
-                                            <font key="font" metaFont="label"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Light" id="281">
+                                            <font key="font" metaFont="system" size="10"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SKe-Bc-h7T">
+                                        <rect key="frame" x="325" y="400" width="77" height="13"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Colour Mode" id="vRi-Oy-Bo0">
+                                            <font key="font" metaFont="system" size="10"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
                                     <textField verticalHuggingPriority="750" id="67">
-                                        <rect key="frame" x="227" y="390" width="37" height="13"/>
+                                        <rect key="frame" x="227" y="385" width="37" height="13"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="aktiv" id="283">
-                                            <font key="font" metaFont="label"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Farbe" id="282">
+                                            <font key="font" metaFont="system" size="10"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
                                     <box verticalHuggingPriority="750" boxType="separator" id="68">
-                                        <rect key="frame" x="208" y="382" width="143" height="5"/>
+                                        <rect key="frame" x="208" y="377" width="243" height="5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </box>
                                     <button id="70">
-                                        <rect key="frame" x="233" y="355" width="22" height="18"/>
+                                        <rect key="frame" x="233" y="350" width="22" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="284">
+                                        <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="283">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -219,9 +256,9 @@
                                         </connections>
                                     </button>
                                     <button id="71">
-                                        <rect key="frame" x="233" y="321" width="22" height="18"/>
+                                        <rect key="frame" x="233" y="316" width="22" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="285">
+                                        <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="284">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -230,9 +267,9 @@
                                         </connections>
                                     </button>
                                     <button id="72">
-                                        <rect key="frame" x="233" y="117" width="22" height="18"/>
+                                        <rect key="frame" x="233" y="112" width="22" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="286">
+                                        <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="285">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -241,9 +278,9 @@
                                         </connections>
                                     </button>
                                     <button id="73">
-                                        <rect key="frame" x="233" y="151" width="22" height="18"/>
+                                        <rect key="frame" x="233" y="146" width="22" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="287">
+                                        <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="286">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -252,9 +289,9 @@
                                         </connections>
                                     </button>
                                     <button id="74">
-                                        <rect key="frame" x="233" y="185" width="22" height="18"/>
+                                        <rect key="frame" x="233" y="180" width="22" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="288">
+                                        <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="287">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -263,9 +300,9 @@
                                         </connections>
                                     </button>
                                     <button id="75">
-                                        <rect key="frame" x="233" y="219" width="22" height="18"/>
+                                        <rect key="frame" x="233" y="214" width="22" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="289">
+                                        <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="288">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -274,9 +311,9 @@
                                         </connections>
                                     </button>
                                     <button id="76">
-                                        <rect key="frame" x="233" y="253" width="22" height="18"/>
+                                        <rect key="frame" x="233" y="248" width="22" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="290">
+                                        <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="289">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -284,17 +321,17 @@
                                             <binding destination="120" name="value" keyPath="values.ColourInstructions" id="174"/>
                                         </connections>
                                     </button>
-                                    <textField verticalHuggingPriority="750" misplaced="YES" id="78">
-                                        <rect key="frame" x="138" y="288" width="71" height="17"/>
+                                    <textField verticalHuggingPriority="750" id="78">
+                                        <rect key="frame" x="15" y="283" width="71" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Attribute:" id="291">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Attributes:" id="290">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
                                     <colorWell id="79">
-                                        <rect key="frame" x="297" y="283" width="54" height="26"/>
+                                        <rect key="frame" x="297" y="278" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -305,10 +342,115 @@
                                             </binding>
                                         </connections>
                                     </colorWell>
-                                    <button id="80">
-                                        <rect key="frame" x="233" y="287" width="22" height="18"/>
+                                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JsM-fV-4Rg">
+                                        <rect key="frame" x="376" y="142" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="292">
+                                        <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <binding destination="120" name="value" keyPath="values.DMKeywordsColourWell" id="LIU-pY-bt3">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </colorWell>
+                                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qNt-QT-rdW">
+                                        <rect key="frame" x="376" y="176" width="54" height="26"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <binding destination="120" name="value" keyPath="values.DMCommentsColourWell" id="yyX-sd-hRU">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </colorWell>
+                                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ve7-qZ-0gU">
+                                        <rect key="frame" x="376" y="210" width="54" height="26"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <binding destination="120" name="value" keyPath="values.DMVariablesColourWell" id="zG5-hV-6aj">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </colorWell>
+                                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rat-gB-cn1">
+                                        <rect key="frame" x="376" y="244" width="54" height="26"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <binding destination="120" name="value" keyPath="values.DMInstructionsColourWell" id="Dhg-Dm-DMg">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </colorWell>
+                                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RIh-eb-CFC">
+                                        <rect key="frame" x="376" y="346" width="54" height="26"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <binding destination="120" name="value" keyPath="values.DMStringsColourWell" id="RXz-hE-SRg">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </colorWell>
+                                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vdh-cl-NsB">
+                                        <rect key="frame" x="376" y="312" width="54" height="26"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <binding destination="120" name="value" keyPath="values.DMCommandsColourWell" id="ZYj-rI-Bba">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </colorWell>
+                                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VYF-O7-T16">
+                                        <rect key="frame" x="376" y="108" width="54" height="26"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <binding destination="120" name="value" keyPath="values.DMAutocompleteColourWell" id="oW2-Du-4KW">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </colorWell>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZWi-pk-1wj">
+                                        <rect key="frame" x="374" y="385" width="58" height="13"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Dark" id="NN3-gs-n1R">
+                                            <font key="font" metaFont="system" size="10"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wdf-Kd-Dur">
+                                        <rect key="frame" x="376" y="278" width="54" height="26"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <binding destination="120" name="value" keyPath="values.DMAttributesColourWell" id="rhd-nu-nfZ">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </colorWell>
+                                    <button id="80">
+                                        <rect key="frame" x="233" y="282" width="22" height="18"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="291">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -317,36 +459,9 @@
                                         </connections>
                                     </button>
                                     <box verticalHuggingPriority="750" boxType="separator" id="81">
-                                        <rect key="frame" x="20" y="95" width="514" height="5"/>
+                                        <rect key="frame" x="20" y="90" width="514" height="5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </box>
-                                    <textField verticalHuggingPriority="750" misplaced="YES" id="amz-Ed-6Ii">
-                                        <rect key="frame" x="87" y="152" width="122" height="17"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Schlüsselworte:" id="off-xc-LR7">
-                                            <font key="font" metaFont="system"/>
-                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                        </textFieldCell>
-                                    </textField>
-                                    <textField verticalHuggingPriority="750" misplaced="YES" id="53">
-                                        <rect key="frame" x="115" y="186" width="94" height="17"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Kommentare:" id="273">
-                                            <font key="font" metaFont="system"/>
-                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                        </textFieldCell>
-                                    </textField>
-                                    <textField verticalHuggingPriority="750" misplaced="YES" id="JhW-Ab-aSU">
-                                        <rect key="frame" x="28" y="118" width="181" height="17"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Auto-Vervollständigung:" id="bnN-Xc-X6J">
-                                            <font key="font" metaFont="system"/>
-                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                        </textFieldCell>
-                                    </textField>
                                 </subviews>
                             </view>
                         </tabViewItem>
@@ -361,7 +476,7 @@
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         <size key="cellSize" width="149" height="18"/>
                                         <size key="intercellSpacing" width="4" height="4"/>
-                                        <buttonCell key="prototype" type="radio" title="Radio" imagePosition="leading" alignment="left" inset="2" id="299">
+                                        <buttonCell key="prototype" type="radio" title="Radio" imagePosition="leading" alignment="left" inset="2" id="298">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -384,9 +499,9 @@
                                     <popUpButton verticalHuggingPriority="750" id="86">
                                         <rect key="frame" x="325" y="357" width="212" height="22"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <popUpButtonCell key="cell" type="push" title="&lt;do not localise&gt;" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="88" id="293">
+                                        <popUpButtonCell key="cell" type="push" title="&lt;do not localise&gt;" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="88" id="292">
                                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                            <font key="font" metaFont="smallSystem"/>
+                                            <font key="font" metaFont="message" size="11"/>
                                             <menu key="menu" title="OtherViews" id="87">
                                                 <items>
                                                     <menuItem title="&lt;do not localise&gt;" state="on" id="88"/>
@@ -397,11 +512,11 @@
                                     <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="89">
                                         <rect key="frame" x="20" y="16" width="514" height="315"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <clipView key="contentView" id="nkt-U9-D0O">
+                                        <clipView key="contentView" id="KpW-f8-Rdz">
                                             <rect key="frame" x="1" y="0.0" width="512" height="314"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
-                                                <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveName="SyntaxDefinitions" headerView="306" id="90">
+                                                <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveName="SyntaxDefinitions" headerView="305" id="90">
                                                     <rect key="frame" x="0.0" y="0.0" width="512" height="291"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <size key="intercellSpacing" width="3" height="2"/>
@@ -414,7 +529,7 @@
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
                                                             </tableHeaderCell>
-                                                            <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" id="301">
+                                                            <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" id="300">
                                                                 <font key="font" metaFont="system"/>
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -434,7 +549,7 @@
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
                                                             </tableHeaderCell>
-                                                            <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" id="302">
+                                                            <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" id="301">
                                                                 <font key="font" metaFont="system"/>
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -448,15 +563,15 @@
                                                 </tableView>
                                             </subviews>
                                         </clipView>
-                                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" controlSize="small" horizontal="YES" id="305">
-                                            <rect key="frame" x="1" y="-22" width="501" height="11"/>
+                                        <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" controlSize="small" horizontal="YES" id="304">
+                                            <rect key="frame" x="1" y="-22" width="511" height="11"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
-                                        <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" controlSize="small" horizontal="NO" id="304">
-                                            <rect key="frame" x="-22" y="17" width="11" height="286"/>
+                                        <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" controlSize="small" horizontal="NO" id="303">
+                                            <rect key="frame" x="-22" y="17" width="11" height="280"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
-                                        <tableHeaderView key="headerView" id="306">
+                                        <tableHeaderView key="headerView" id="305">
                                             <rect key="frame" x="0.0" y="0.0" width="512" height="23"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableHeaderView>
@@ -464,10 +579,8 @@
                                     <textField verticalHuggingPriority="750" id="94">
                                         <rect key="frame" x="17" y="384" width="128" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="294">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Use Definition:" id="293">
                                             <font key="font" metaFont="system"/>
-                                            <string key="title">Syntaxdefinition:
-</string>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
@@ -486,7 +599,7 @@
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         <size key="cellSize" width="186" height="18"/>
                                         <size key="intercellSpacing" width="4" height="4"/>
-                                        <buttonCell key="prototype" type="radio" title="Radio" imagePosition="leading" alignment="left" inset="2" id="300">
+                                        <buttonCell key="prototype" type="radio" title="Radio" imagePosition="leading" alignment="left" inset="2" id="299">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -509,9 +622,9 @@
                                     <popUpButton verticalHuggingPriority="750" id="100">
                                         <rect key="frame" x="281" y="357" width="256" height="22"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <popUpButtonCell key="cell" type="push" title="&lt;do not localise&gt;" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="102" id="295">
+                                        <popUpButtonCell key="cell" type="push" title="&lt;do not localise&gt;" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="102" id="294">
                                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                            <font key="font" metaFont="smallSystem"/>
+                                            <font key="font" metaFont="message" size="11"/>
                                             <menu key="menu" title="OtherViews" id="101">
                                                 <items>
                                                     <menuItem title="&lt;do not localise&gt;" state="on" id="102"/>
@@ -522,10 +635,8 @@
                                     <textField verticalHuggingPriority="750" id="103">
                                         <rect key="frame" x="17" y="386" width="81" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="296">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Encodings:" id="295">
                                             <font key="font" metaFont="system"/>
-                                            <string key="title">Kodierung:
-</string>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
@@ -533,11 +644,11 @@
                                     <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="104">
                                         <rect key="frame" x="20" y="16" width="514" height="315"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <clipView key="contentView" id="ZQX-Vw-FJE">
+                                        <clipView key="contentView" id="KDT-n4-P4f">
                                             <rect key="frame" x="1" y="0.0" width="512" height="314"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
-                                                <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" columnSelection="YES" columnResizing="NO" multipleSelection="NO" autosaveName="ActiveEncodings" headerView="309" id="105">
+                                                <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" columnSelection="YES" columnResizing="NO" multipleSelection="NO" autosaveName="ActiveEncodings" headerView="308" id="105">
                                                     <rect key="frame" x="0.0" y="0.0" width="512" height="291"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <size key="intercellSpacing" width="3" height="2"/>
@@ -564,7 +675,7 @@
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
                                                             </tableHeaderCell>
-                                                            <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" id="303">
+                                                            <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" id="302">
                                                                 <font key="font" metaFont="system"/>
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -582,15 +693,15 @@
                                                 </tableView>
                                             </subviews>
                                         </clipView>
-                                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" controlSize="small" horizontal="YES" id="308">
+                                        <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" controlSize="small" horizontal="YES" id="307">
                                             <rect key="frame" x="1" y="-22" width="385" height="11"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
-                                        <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" controlSize="small" horizontal="NO" id="307">
+                                        <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" controlSize="small" horizontal="NO" id="306">
                                             <rect key="frame" x="-22" y="17" width="11" height="186"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
-                                        <tableHeaderView key="headerView" id="309">
+                                        <tableHeaderView key="headerView" id="308">
                                             <rect key="frame" x="0.0" y="0.0" width="512" height="23"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableHeaderView>
@@ -606,7 +717,7 @@
                                     <button id="16">
                                         <rect key="frame" x="127" y="319" width="403" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <buttonCell key="cell" type="check" title="Auf Änderungen durch andere Anwendungen prüfen" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="253">
+                                        <buttonCell key="cell" type="check" title="Check if document has been updated by another application" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="252">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -617,7 +728,7 @@
                                     <button id="17">
                                         <rect key="frame" x="127" y="385" width="291" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <buttonCell key="cell" type="check" title="Mit Leerzeichen einrücken (nicht mit Tabs)" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="254">
+                                        <buttonCell key="cell" type="check" title="Auf Änderungen durch andere Anwendungen prüfen" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="253">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -640,7 +751,7 @@
                                     <button id="20">
                                         <rect key="frame" x="127" y="158" width="384" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <buttonCell key="cell" type="check" title="Bei Auswahl eines Verzeichnisses, alle Dokumente öffnen" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="255">
+                                        <buttonCell key="cell" type="check" title="Mit Leerzeichen einrücken (nicht mit Tabs)" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="254">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -651,7 +762,7 @@
                                     <button id="23">
                                         <rect key="frame" x="127" y="341" width="243" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <buttonCell key="cell" type="check" title="Intelligentes Einfügen und Löschen" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="256">
+                                        <buttonCell key="cell" type="check" title="Bei Auswahl eines Verzeichnisses, alle Dokumente öffnen" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="255">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -662,7 +773,7 @@
                                     <button id="27">
                                         <rect key="frame" x="157" y="136" width="343" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <buttonCell key="cell" type="check" title="rekursiv, auch Dokumente aller Unterverzeichnisse" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="257">
+                                        <buttonCell key="cell" type="check" title="Intelligentes Einfügen und Löschen" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="256">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -674,7 +785,7 @@
                                     <button id="28">
                                         <rect key="frame" x="157" y="114" width="299" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <buttonCell key="cell" type="check" title="Dateien mit folgender Endung nicht öffnen" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="258">
+                                        <buttonCell key="cell" type="check" title="rekursiv, auch Dokumente aller Unterverzeichnisse" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="257">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
@@ -683,16 +794,25 @@
                                             <binding destination="120" name="enabled" keyPath="values.OpenAllFilesWithinAFolder" id="153"/>
                                         </connections>
                                     </button>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="29">
+                                        <rect key="frame" x="167" y="79" width="371" height="11"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="(space separated, no dots)" id="258">
+                                            <font key="font" metaFont="miniSystem"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
                                     <textField verticalHuggingPriority="750" id="30">
                                         <rect key="frame" x="179" y="91" width="355" height="19"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="259">
-                                            <font key="font" metaFont="smallSystem"/>
-                                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="font" metaFont="message" size="11"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                         <connections>
-                                            <binding destination="120" name="value" keyPath="values.FilterOutExtensionsString" id="251"/>
+                                            <binding destination="120" name="value" keyPath="values.FilterOutExtensionsString" id="250"/>
                                             <binding destination="120" name="enabled" keyPath="values.OpenAllFilesWithinAFolder" id="155"/>
                                         </connections>
                                     </textField>
@@ -738,8 +858,8 @@
                                         <rect key="frame" x="129" y="16" width="350" height="19"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="264">
-                                            <font key="font" metaFont="smallSystem"/>
-                                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="font" metaFont="message" size="11"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                         <connections>
@@ -773,7 +893,7 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <popUpButtonCell key="cell" type="push" title="HTML (WebKit)" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="227" id="267">
                                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                            <font key="font" metaFont="smallSystem"/>
+                                            <font key="font" metaFont="message" size="11"/>
                                             <menu key="menu" title="OtherViews" id="224">
                                                 <items>
                                                     <menuItem title="HTML (WebKit)" state="on" id="227"/>
@@ -818,6 +938,30 @@
                                             </binding>
                                         </connections>
                                     </colorWell>
+                                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aU4-hM-fvV">
+                                        <rect key="frame" x="475" y="228" width="54" height="26"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <binding destination="120" name="value" keyPath="values.DMHighlightLineColourWell" id="ixI-5D-jdb">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </colorWell>
+                                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xhn-13-B4j">
+                                        <rect key="frame" x="475" y="196" width="54" height="26"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <binding destination="120" name="value" keyPath="values.DMInvisibleCharactersColourWell" id="dxs-cC-zaJ">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </colorWell>
                                     <textField verticalHuggingPriority="750" id="241">
                                         <rect key="frame" x="126" y="206" width="332" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
@@ -838,11 +982,11 @@
                                             <binding destination="120" name="value" keyPath="values.HighlightCurrentLine" id="245"/>
                                         </connections>
                                     </button>
-                                    <textField verticalHuggingPriority="750" id="250">
-                                        <rect key="frame" x="185" y="75" width="333" height="11"/>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GE6-iF-nQI">
+                                        <rect key="frame" x="467" y="256" width="71" height="13"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="(mehrere Suffixe durch Leerzeichen trennen und keine Punkte verweenden)" id="272">
-                                            <font key="font" metaFont="miniSystem"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Dark Mode" id="8tX-vc-vHh">
+                                            <font key="font" metaFont="system" size="10"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
@@ -853,7 +997,7 @@
                     </tabViewItems>
                 </tabView>
             </subviews>
-            <point key="canvasLocation" x="129" y="153.5"/>
+            <point key="canvasLocation" x="139" y="168.5"/>
         </customView>
         <arrayController mode="entity" entityName="Encoding" automaticallyPreparesContent="YES" id="109" userLabel="EncodingsArrayController">
             <declaredKeys>

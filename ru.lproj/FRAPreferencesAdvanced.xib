@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15705" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15705"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -18,17 +18,17 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customView id="5" userLabel="Advanced &lt;do not localise&gt;">
             <rect key="frame" x="0.0" y="0.0" width="607" height="513"/>
             <autoresizingMask key="autoresizingMask"/>
             <subviews>
-                <button verticalHuggingPriority="750" imageHugsTitle="YES" id="46">
+                <button verticalHuggingPriority="750" id="46">
                     <rect key="frame" x="22" y="13" width="221" height="28"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <buttonCell key="cell" type="push" title="Сбросить все настройки" bezelStyle="rounded" alignment="center" controlSize="small" borderStyle="border" inset="2" id="296">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="smallSystem"/>
+                        <font key="font" metaFont="message" size="11"/>
                     </buttonCell>
                     <connections>
                         <action selector="revertToStandardSettingsAction:" target="-2" id="113"/>
@@ -37,15 +37,15 @@
                 <tabView id="41">
                     <rect key="frame" x="13" y="40" width="581" height="467"/>
                     <autoresizingMask key="autoresizingMask"/>
-                    <font key="font" metaFont="message"/>
+                    <font key="font" metaFont="system"/>
                     <tabViewItems>
                         <tabViewItem label="Цвета подсветки синтаксиса" identifier="" id="43">
-                            <view key="view" id="45">
+                            <view key="view" wantsLayer="YES" id="45">
                                 <rect key="frame" x="10" y="33" width="561" height="421"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <colorWell id="50">
-                                        <rect key="frame" x="304" y="147" width="54" height="26"/>
+                                        <rect key="frame" x="297" y="142" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -57,7 +57,7 @@
                                         </connections>
                                     </colorWell>
                                     <colorWell id="51">
-                                        <rect key="frame" x="304" y="181" width="54" height="26"/>
+                                        <rect key="frame" x="297" y="176" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -69,7 +69,7 @@
                                         </connections>
                                     </colorWell>
                                     <colorWell id="52">
-                                        <rect key="frame" x="304" y="215" width="54" height="26"/>
+                                        <rect key="frame" x="297" y="210" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -80,8 +80,8 @@
                                             </binding>
                                         </connections>
                                     </colorWell>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="53">
-                                        <rect key="frame" x="126" y="186" width="89" height="17"/>
+                                    <textField verticalHuggingPriority="750" id="53">
+                                        <rect key="frame" x="112" y="181" width="89" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Коментарии:" id="272">
                                             <font key="font" metaFont="system"/>
@@ -89,8 +89,8 @@
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="54">
-                                        <rect key="frame" x="146" y="152" width="71" height="17"/>
+                                    <textField verticalHuggingPriority="750" id="54">
+                                        <rect key="frame" x="130" y="147" width="71" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Значения:" id="273">
                                             <font key="font" metaFont="system"/>
@@ -98,8 +98,8 @@
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="55">
-                                        <rect key="frame" x="126" y="254" width="89" height="17"/>
+                                    <textField verticalHuggingPriority="750" id="55">
+                                        <rect key="frame" x="112" y="249" width="89" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Инструкции:" id="274">
                                             <font key="font" metaFont="system"/>
@@ -108,7 +108,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <colorWell id="56">
-                                        <rect key="frame" x="304" y="249" width="54" height="26"/>
+                                        <rect key="frame" x="297" y="244" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -119,8 +119,8 @@
                                             </binding>
                                         </connections>
                                     </colorWell>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="57">
-                                        <rect key="frame" x="123" y="220" width="92" height="17"/>
+                                    <textField verticalHuggingPriority="750" id="57">
+                                        <rect key="frame" x="109" y="215" width="92" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Переменные:" id="275">
                                             <font key="font" metaFont="system"/>
@@ -129,7 +129,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <colorWell id="58">
-                                        <rect key="frame" x="304" y="351" width="54" height="26"/>
+                                        <rect key="frame" x="297" y="346" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -140,8 +140,8 @@
                                             </binding>
                                         </connections>
                                     </colorWell>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="59">
-                                        <rect key="frame" x="145" y="322" width="70" height="17"/>
+                                    <textField verticalHuggingPriority="750" id="59">
+                                        <rect key="frame" x="131" y="317" width="70" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Команды:" id="276">
                                             <font key="font" metaFont="system"/>
@@ -149,8 +149,8 @@
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="60">
-                                        <rect key="frame" x="156" y="356" width="59" height="17"/>
+                                    <textField verticalHuggingPriority="750" id="60">
+                                        <rect key="frame" x="142" y="351" width="59" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Строки:" id="277">
                                             <font key="font" metaFont="system"/>
@@ -159,7 +159,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <colorWell id="61">
-                                        <rect key="frame" x="304" y="317" width="54" height="26"/>
+                                        <rect key="frame" x="297" y="312" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -170,8 +170,8 @@
                                             </binding>
                                         </connections>
                                     </colorWell>
-                                    <button imageHugsTitle="YES" id="62">
-                                        <rect key="frame" x="68" y="37" width="415" height="18"/>
+                                    <button id="62">
+                                        <rect key="frame" x="61" y="32" width="415" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="Подсвечивать всю строку, если закрывающий тег не найден" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="278">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -181,8 +181,8 @@
                                             <binding destination="120" name="value" keyPath="values.OnlyColourTillTheEndOfLine" id="186"/>
                                         </connections>
                                     </button>
-                                    <button imageHugsTitle="YES" id="63">
-                                        <rect key="frame" x="68" y="63" width="216" height="18"/>
+                                    <button id="63">
+                                        <rect key="frame" x="61" y="58" width="216" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="Цвет многолинейных строк" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="279">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -192,8 +192,8 @@
                                             <binding destination="120" name="value" keyPath="values.ColourMultiLineStrings" id="184"/>
                                         </connections>
                                     </button>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="64">
-                                        <rect key="frame" x="98" y="118" width="117" height="17"/>
+                                    <textField verticalHuggingPriority="750" id="64">
+                                        <rect key="frame" x="84" y="113" width="117" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Автозавершение:" id="280">
                                             <font key="font" metaFont="system"/>
@@ -202,7 +202,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <colorWell id="65">
-                                        <rect key="frame" x="304" y="113" width="54" height="26"/>
+                                        <rect key="frame" x="297" y="108" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -213,21 +213,39 @@
                                             </binding>
                                         </connections>
                                     </colorWell>
-                                    <textField verticalHuggingPriority="750" misplaced="YES" allowsCharacterPickerTouchBarItem="NO" id="67">
-                                        <rect key="frame" x="220" y="390" width="63" height="13"/>
+                                    <textField verticalHuggingPriority="750" id="66">
+                                        <rect key="frame" x="295" y="385" width="58" height="13"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Светлый" id="281">
+                                            <font key="font" metaFont="system" size="10"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SKe-Bc-h7T">
+                                        <rect key="frame" x="295" y="400" width="137" height="13"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Цветовой режим" id="vRi-Oy-Bo0">
+                                            <font key="font" metaFont="system" size="10"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" id="67">
+                                        <rect key="frame" x="212" y="385" width="63" height="13"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Активный" id="282">
-                                            <font key="font" metaFont="label"/>
+                                            <font key="font" metaFont="system" size="10"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
                                     <box verticalHuggingPriority="750" boxType="separator" id="68">
-                                        <rect key="frame" x="215" y="382" width="143" height="5"/>
+                                        <rect key="frame" x="208" y="377" width="243" height="5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </box>
-                                    <button imageHugsTitle="YES" id="70">
-                                        <rect key="frame" x="240" y="355" width="22" height="18"/>
+                                    <button id="70">
+                                        <rect key="frame" x="233" y="350" width="22" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="283">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -237,8 +255,8 @@
                                             <binding destination="120" name="value" keyPath="values.ColourStrings" id="168"/>
                                         </connections>
                                     </button>
-                                    <button imageHugsTitle="YES" id="71">
-                                        <rect key="frame" x="240" y="321" width="22" height="18"/>
+                                    <button id="71">
+                                        <rect key="frame" x="233" y="316" width="22" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="284">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -248,8 +266,8 @@
                                             <binding destination="120" name="value" keyPath="values.ColourCommands" id="170"/>
                                         </connections>
                                     </button>
-                                    <button imageHugsTitle="YES" id="72">
-                                        <rect key="frame" x="240" y="117" width="22" height="18"/>
+                                    <button id="72">
+                                        <rect key="frame" x="233" y="112" width="22" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="285">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -259,8 +277,8 @@
                                             <binding destination="120" name="value" keyPath="values.ColourAutocomplete" id="182"/>
                                         </connections>
                                     </button>
-                                    <button imageHugsTitle="YES" id="73">
-                                        <rect key="frame" x="240" y="151" width="22" height="18"/>
+                                    <button id="73">
+                                        <rect key="frame" x="233" y="146" width="22" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="286">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -270,8 +288,8 @@
                                             <binding destination="120" name="value" keyPath="values.ColourKeywords" id="180"/>
                                         </connections>
                                     </button>
-                                    <button imageHugsTitle="YES" id="74">
-                                        <rect key="frame" x="240" y="185" width="22" height="18"/>
+                                    <button id="74">
+                                        <rect key="frame" x="233" y="180" width="22" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="287">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -281,8 +299,8 @@
                                             <binding destination="120" name="value" keyPath="values.ColourComments" id="178"/>
                                         </connections>
                                     </button>
-                                    <button imageHugsTitle="YES" id="75">
-                                        <rect key="frame" x="240" y="219" width="22" height="18"/>
+                                    <button id="75">
+                                        <rect key="frame" x="233" y="214" width="22" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="288">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -292,8 +310,8 @@
                                             <binding destination="120" name="value" keyPath="values.ColourVariables" id="176"/>
                                         </connections>
                                     </button>
-                                    <button imageHugsTitle="YES" id="76">
-                                        <rect key="frame" x="240" y="253" width="22" height="18"/>
+                                    <button id="76">
+                                        <rect key="frame" x="233" y="248" width="22" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="289">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -303,8 +321,8 @@
                                             <binding destination="120" name="value" keyPath="values.ColourInstructions" id="174"/>
                                         </connections>
                                     </button>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="78">
-                                        <rect key="frame" x="142" y="288" width="71" height="17"/>
+                                    <textField verticalHuggingPriority="750" id="78">
+                                        <rect key="frame" x="130" y="283" width="71" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Атрибуты:" id="290">
                                             <font key="font" metaFont="system"/>
@@ -313,7 +331,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <colorWell id="79">
-                                        <rect key="frame" x="304" y="283" width="54" height="26"/>
+                                        <rect key="frame" x="297" y="278" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -324,8 +342,113 @@
                                             </binding>
                                         </connections>
                                     </colorWell>
-                                    <button imageHugsTitle="YES" id="80">
-                                        <rect key="frame" x="240" y="287" width="22" height="18"/>
+                                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JsM-fV-4Rg">
+                                        <rect key="frame" x="376" y="142" width="54" height="26"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <binding destination="120" name="value" keyPath="values.DMKeywordsColourWell" id="LIU-pY-bt3">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </colorWell>
+                                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qNt-QT-rdW">
+                                        <rect key="frame" x="376" y="176" width="54" height="26"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <binding destination="120" name="value" keyPath="values.DMCommentsColourWell" id="yyX-sd-hRU">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </colorWell>
+                                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ve7-qZ-0gU">
+                                        <rect key="frame" x="376" y="210" width="54" height="26"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <binding destination="120" name="value" keyPath="values.DMVariablesColourWell" id="zG5-hV-6aj">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </colorWell>
+                                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rat-gB-cn1">
+                                        <rect key="frame" x="376" y="244" width="54" height="26"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <binding destination="120" name="value" keyPath="values.DMInstructionsColourWell" id="Dhg-Dm-DMg">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </colorWell>
+                                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RIh-eb-CFC">
+                                        <rect key="frame" x="376" y="346" width="54" height="26"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <binding destination="120" name="value" keyPath="values.DMStringsColourWell" id="RXz-hE-SRg">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </colorWell>
+                                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vdh-cl-NsB">
+                                        <rect key="frame" x="376" y="312" width="54" height="26"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <binding destination="120" name="value" keyPath="values.DMCommandsColourWell" id="ZYj-rI-Bba">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </colorWell>
+                                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VYF-O7-T16">
+                                        <rect key="frame" x="376" y="108" width="54" height="26"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <binding destination="120" name="value" keyPath="values.DMAutocompleteColourWell" id="oW2-Du-4KW">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </colorWell>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZWi-pk-1wj">
+                                        <rect key="frame" x="374" y="385" width="58" height="13"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Тьма" id="NN3-gs-n1R">
+                                            <font key="font" metaFont="system" size="10"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wdf-Kd-Dur">
+                                        <rect key="frame" x="376" y="278" width="54" height="26"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <binding destination="120" name="value" keyPath="values.DMAttributesColourWell" id="rhd-nu-nfZ">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </colorWell>
+                                    <button id="80">
+                                        <rect key="frame" x="233" y="282" width="22" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="291">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -336,25 +459,16 @@
                                         </connections>
                                     </button>
                                     <box verticalHuggingPriority="750" boxType="separator" id="81">
-                                        <rect key="frame" x="27" y="95" width="514" height="5"/>
+                                        <rect key="frame" x="20" y="90" width="514" height="5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </box>
-                                    <textField verticalHuggingPriority="750" misplaced="YES" allowsCharacterPickerTouchBarItem="NO" id="66">
-                                        <rect key="frame" x="313" y="390" width="37" height="13"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Цвет" id="281">
-                                            <font key="font" metaFont="label"/>
-                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                        </textFieldCell>
-                                    </textField>
                                 </subviews>
                             </view>
                         </tabViewItem>
                         <tabViewItem label="Языки синтаксиса" identifier="" id="48">
                             <view key="view" id="49">
                                 <rect key="frame" x="10" y="33" width="561" height="421"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <matrix verticalHuggingPriority="750" allowsEmptySelection="NO" autosizesCells="NO" id="83">
                                         <rect key="frame" x="122" y="361" width="215" height="40"/>
@@ -382,12 +496,12 @@
                                             <binding destination="120" name="selectedIndex" keyPath="values.SyntaxColouringMatrix" id="163"/>
                                         </connections>
                                     </matrix>
-                                    <popUpButton verticalHuggingPriority="750" imageHugsTitle="YES" id="86">
+                                    <popUpButton verticalHuggingPriority="750" id="86">
                                         <rect key="frame" x="342" y="371" width="202" height="22"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <popUpButtonCell key="cell" type="push" title="&lt;do not localise&gt;" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="88" id="292">
                                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                            <font key="font" metaFont="smallSystem"/>
+                                            <font key="font" metaFont="message" size="11"/>
                                             <menu key="menu" title="Другой вид" id="87">
                                                 <items>
                                                     <menuItem title="&lt;do not localise&gt;" state="on" id="88"/>
@@ -398,9 +512,9 @@
                                     <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="89">
                                         <rect key="frame" x="27" y="16" width="514" height="315"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <clipView key="contentView" id="Ztg-Wo-e0m">
-                                            <rect key="frame" x="1" y="23" width="512" height="291"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                        <clipView key="contentView" id="KpW-f8-Rdz">
+                                            <rect key="frame" x="1" y="0.0" width="512" height="314"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveName="SyntaxDefinitions" headerView="305" id="90">
                                                     <rect key="frame" x="0.0" y="0.0" width="512" height="291"/>
@@ -449,11 +563,11 @@
                                                 </tableView>
                                             </subviews>
                                         </clipView>
-                                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" controlSize="small" horizontal="YES" id="304">
+                                        <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" controlSize="small" horizontal="YES" id="304">
                                             <rect key="frame" x="1" y="-22" width="511" height="11"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
-                                        <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" controlSize="small" horizontal="NO" id="303">
+                                        <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" controlSize="small" horizontal="NO" id="303">
                                             <rect key="frame" x="-22" y="17" width="11" height="280"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
@@ -462,7 +576,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableHeaderView>
                                     </scrollView>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="94">
+                                    <textField verticalHuggingPriority="750" id="94">
                                         <rect key="frame" x="24" y="384" width="97" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Используемое расширение:" id="293">
@@ -505,12 +619,12 @@
                                             <binding destination="120" name="selectedIndex" keyPath="values.EncodingsMatrix" id="209"/>
                                         </connections>
                                     </matrix>
-                                    <popUpButton verticalHuggingPriority="750" imageHugsTitle="YES" id="100">
+                                    <popUpButton verticalHuggingPriority="750" id="100">
                                         <rect key="frame" x="304" y="364" width="226" height="22"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <popUpButtonCell key="cell" type="push" title="&lt;do not localise&gt;" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="102" id="294">
                                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                            <font key="font" metaFont="smallSystem"/>
+                                            <font key="font" metaFont="message" size="11"/>
                                             <menu key="menu" title="Другой вид" id="101">
                                                 <items>
                                                     <menuItem title="&lt;do not localise&gt;" state="on" id="102"/>
@@ -518,7 +632,7 @@
                                             </menu>
                                         </popUpButtonCell>
                                     </popUpButton>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="103">
+                                    <textField verticalHuggingPriority="750" id="103">
                                         <rect key="frame" x="24" y="386" width="83" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Кодировки:" id="295">
@@ -530,8 +644,8 @@
                                     <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="104">
                                         <rect key="frame" x="27" y="16" width="514" height="315"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <clipView key="contentView" id="9BI-i2-e3F">
-                                            <rect key="frame" x="1" y="23" width="512" height="291"/>
+                                        <clipView key="contentView" id="KDT-n4-P4f">
+                                            <rect key="frame" x="1" y="0.0" width="512" height="314"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" columnSelection="YES" columnResizing="NO" multipleSelection="NO" autosaveName="ActiveEncodings" headerView="308" id="105">
@@ -579,11 +693,11 @@
                                                 </tableView>
                                             </subviews>
                                         </clipView>
-                                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" controlSize="small" horizontal="YES" id="307">
+                                        <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" controlSize="small" horizontal="YES" id="307">
                                             <rect key="frame" x="1" y="-22" width="385" height="11"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
-                                        <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" controlSize="small" horizontal="NO" id="306">
+                                        <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" controlSize="small" horizontal="NO" id="306">
                                             <rect key="frame" x="-22" y="17" width="11" height="186"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
@@ -600,7 +714,7 @@
                                 <rect key="frame" x="10" y="33" width="561" height="421"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <button imageHugsTitle="YES" id="16">
+                                    <button id="16">
                                         <rect key="frame" x="124" y="319" width="403" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="Проверять изменен ли документ другой программой" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="252">
@@ -611,7 +725,7 @@
                                             <binding destination="120" name="value" keyPath="values.CheckIfDocumentHasBeenUpdated" id="138"/>
                                         </connections>
                                     </button>
-                                    <button imageHugsTitle="YES" id="17">
+                                    <button id="17">
                                         <rect key="frame" x="124" y="385" width="287" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="Оставлять с пробелами, без табуляции" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="253">
@@ -634,7 +748,7 @@
                                             </binding>
                                         </connections>
                                     </colorWell>
-                                    <button imageHugsTitle="YES" id="20">
+                                    <button id="20">
                                         <rect key="frame" x="124" y="158" width="337" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="Открывать все файлы, если выбрана папка" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="254">
@@ -645,7 +759,7 @@
                                             <binding destination="120" name="value" keyPath="values.OpenAllFilesWithinAFolder" id="149"/>
                                         </connections>
                                     </button>
-                                    <button imageHugsTitle="YES" id="23">
+                                    <button id="23">
                                         <rect key="frame" x="124" y="341" width="278" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="Разрешить умную вставку и удаление" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="255">
@@ -656,7 +770,7 @@
                                             <binding destination="120" name="value" keyPath="values.SmartInsertDelete" id="136"/>
                                         </connections>
                                     </button>
-                                    <button imageHugsTitle="YES" id="27">
+                                    <button id="27">
                                         <rect key="frame" x="154" y="136" width="120" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="Рекурсивный" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="256">
@@ -664,11 +778,11 @@
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
                                         <connections>
-                                            <binding destination="120" name="enabled" keyPath="values.OpenAllFilesWithinAFolder" id="151"/>
                                             <binding destination="120" name="value" keyPath="values.OpenAllFilesInAFolderRecursively" id="156"/>
+                                            <binding destination="120" name="enabled" keyPath="values.OpenAllFilesWithinAFolder" id="151"/>
                                         </connections>
                                     </button>
-                                    <button imageHugsTitle="YES" id="28">
+                                    <button id="28">
                                         <rect key="frame" x="154" y="114" width="299" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="Фильтровать документы такого типа:" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="257">
@@ -676,11 +790,11 @@
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
                                         <connections>
-                                            <binding destination="120" name="enabled" keyPath="values.OpenAllFilesWithinAFolder" id="153"/>
                                             <binding destination="120" name="value" keyPath="values.FilterOutExtensions" id="157"/>
+                                            <binding destination="120" name="enabled" keyPath="values.OpenAllFilesWithinAFolder" id="153"/>
                                         </connections>
                                     </button>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="29">
+                                    <textField verticalHuggingPriority="750" id="29">
                                         <rect key="frame" x="302" y="73" width="143" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="(Через пробел)" id="258">
@@ -689,38 +803,38 @@
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="30">
+                                    <textField verticalHuggingPriority="750" id="30">
                                         <rect key="frame" x="176" y="91" width="367" height="19"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="259">
-                                            <font key="font" metaFont="smallSystem"/>
-                                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="font" metaFont="message" size="11"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                         <connections>
-                                            <binding destination="120" name="enabled" keyPath="values.OpenAllFilesWithinAFolder" id="155"/>
                                             <binding destination="120" name="value" keyPath="values.FilterOutExtensionsString" id="250"/>
+                                            <binding destination="120" name="enabled" keyPath="values.OpenAllFilesWithinAFolder" id="155"/>
                                         </connections>
                                     </textField>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="32">
+                                    <textField verticalHuggingPriority="750" id="32">
                                         <rect key="frame" x="2" y="386" width="119" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Редактирование:" id="260">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Редактирование:" id="260">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="33">
-                                        <rect key="frame" x="49" y="159" width="72" height="17"/>
+                                    <textField verticalHuggingPriority="750" id="33">
+                                        <rect key="frame" x="26" y="159" width="95" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Открытие:" id="261">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Открытие:" id="261">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <button imageHugsTitle="YES" id="35">
+                                    <button id="35">
                                         <rect key="frame" x="124" y="297" width="361" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="Использовать RGB при выборе цветовых значений" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="262">
@@ -731,28 +845,28 @@
                                             <binding destination="120" name="value" keyPath="values.UseRGBRatherThanHexWhenInsertingColourValues" id="140"/>
                                         </connections>
                                     </button>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="37">
+                                    <textField verticalHuggingPriority="750" id="37">
                                         <rect key="frame" x="14" y="18" width="136" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Выполнение текста:" id="263">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Выполнение текста:" id="263">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="38">
+                                    <textField verticalHuggingPriority="750" id="38">
                                         <rect key="frame" x="155" y="16" width="321" height="19"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="264">
-                                            <font key="font" metaFont="smallSystem"/>
-                                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="font" metaFont="message" size="11"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                         <connections>
                                             <binding destination="120" name="value" keyPath="values.RunText" id="161"/>
                                         </connections>
                                     </textField>
-                                    <button imageHugsTitle="YES" id="215">
+                                    <button id="215">
                                         <rect key="frame" x="124" y="253" width="225" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="Авто-вставка закрывающей }" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="265">
@@ -763,7 +877,7 @@
                                             <binding destination="120" name="value" keyPath="values.AutoInsertAClosingBrace" id="222"/>
                                         </connections>
                                     </button>
-                                    <button imageHugsTitle="YES" id="216">
+                                    <button id="216">
                                         <rect key="frame" x="124" y="275" width="219" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="Авто-вставка закрывающей )" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="266">
@@ -774,12 +888,12 @@
                                             <binding destination="120" name="value" keyPath="values.AutoInsertAClosingParenthesis" id="221"/>
                                         </connections>
                                     </button>
-                                    <popUpButton verticalHuggingPriority="750" imageHugsTitle="YES" id="223">
+                                    <popUpButton verticalHuggingPriority="750" id="223">
                                         <rect key="frame" x="123" y="44" width="138" height="22"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <popUpButtonCell key="cell" type="push" title="HTML (WebKit)" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="227" id="267">
                                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                            <font key="font" metaFont="smallSystem"/>
+                                            <font key="font" metaFont="message" size="11"/>
                                             <menu key="menu" title="Другой вид" id="224">
                                                 <items>
                                                     <menuItem title="HTML (WebKit)" state="on" id="227"/>
@@ -792,16 +906,16 @@
                                             <binding destination="120" name="selectedTag" keyPath="values.PreviewParser" id="239"/>
                                         </connections>
                                     </popUpButton>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="231">
+                                    <textField verticalHuggingPriority="750" id="231">
                                         <rect key="frame" x="14" y="49" width="107" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Предпросмотр:" id="268">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Предпросмотр:" id="268">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <button imageHugsTitle="YES" id="234">
+                                    <button id="234">
                                         <rect key="frame" x="124" y="363" width="85" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="Tab stops" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="269">
@@ -824,7 +938,31 @@
                                             </binding>
                                         </connections>
                                     </colorWell>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="241">
+                                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aU4-hM-fvV">
+                                        <rect key="frame" x="484" y="228" width="54" height="26"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <binding destination="120" name="value" keyPath="values.DMHighlightLineColourWell" id="ixI-5D-jdb">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </colorWell>
+                                    <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xhn-13-B4j">
+                                        <rect key="frame" x="484" y="196" width="54" height="26"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <binding destination="120" name="value" keyPath="values.DMInvisibleCharactersColourWell" id="dxs-cC-zaJ">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </colorWell>
+                                    <textField verticalHuggingPriority="750" id="241">
                                         <rect key="frame" x="123" y="202" width="289" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Цвет невидимых символов (когда видны):" id="270">
@@ -833,7 +971,7 @@
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <button imageHugsTitle="YES" id="242">
+                                    <button id="242">
                                         <rect key="frame" x="124" y="231" width="255" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="Подсветить данную строку цветом" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="271">
@@ -844,14 +982,22 @@
                                             <binding destination="120" name="value" keyPath="values.HighlightCurrentLine" id="245"/>
                                         </connections>
                                     </button>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GE6-iF-nQI">
+                                        <rect key="frame" x="467" y="256" width="86" height="13"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Темный режим" id="8tX-vc-vHh">
+                                            <font key="font" metaFont="system" size="10"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
                                 </subviews>
                             </view>
                         </tabViewItem>
                     </tabViewItems>
                 </tabView>
             </subviews>
-            <metadata/>
-            <point key="canvasLocation" x="139.5" y="168.5"/>
+            <point key="canvasLocation" x="138.5" y="168.5"/>
         </customView>
         <arrayController mode="entity" entityName="Encoding" automaticallyPreparesContent="YES" id="109" userLabel="EncodingsArrayController">
             <declaredKeys>
