@@ -150,7 +150,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField verticalHuggingPriority="750" id="60">
-                                        <rect key="frame" x="147" y="351" width="52" height="17"/>
+                                        <rect key="frame" x="121" y="351" width="78" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="字符串:" id="277">
                                             <font key="font" metaFont="system"/>

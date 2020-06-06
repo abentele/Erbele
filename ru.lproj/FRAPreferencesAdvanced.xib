@@ -514,7 +514,7 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <clipView key="contentView" id="KpW-f8-Rdz">
                                             <rect key="frame" x="1" y="0.0" width="512" height="314"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveName="SyntaxDefinitions" headerView="305" id="90">
                                                     <rect key="frame" x="0.0" y="0.0" width="512" height="291"/>
@@ -591,7 +591,7 @@
                         <tabViewItem label="Кодировки" identifier="" id="95">
                             <view key="view" id="96">
                                 <rect key="frame" x="10" y="33" width="561" height="421"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <matrix verticalHuggingPriority="750" allowsEmptySelection="NO" autosizesCells="NO" id="97">
                                         <rect key="frame" x="104" y="363" width="301" height="40"/>
@@ -646,7 +646,7 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <clipView key="contentView" id="KDT-n4-P4f">
                                             <rect key="frame" x="1" y="0.0" width="512" height="314"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" columnSelection="YES" columnResizing="NO" multipleSelection="NO" autosaveName="ActiveEncodings" headerView="308" id="105">
                                                     <rect key="frame" x="0.0" y="0.0" width="512" height="291"/>

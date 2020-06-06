@@ -313,9 +313,9 @@
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CPW-DL-lyU">
-                    <rect key="frame" x="23" y="358" width="135" height="17"/>
+                    <rect key="frame" x="7" y="358" width="151" height="17"/>
                     <autoresizingMask key="autoresizingMask"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Gutter Text Colour:" id="hF2-GK-fmd">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Colore numeri di linea:" id="hF2-GK-fmd">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -372,7 +372,7 @@
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xtb-5z-V6u">
                     <rect key="frame" x="286" y="358" width="176" height="17"/>
                     <autoresizingMask key="autoresizingMask"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Gutter Background Colour:" id="F78-Zd-vfc">
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Sfondo numeri di linea:" id="F78-Zd-vfc">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>

@@ -468,13 +468,13 @@
                         <tabViewItem label="シンタックスの種類" identifier="" id="48">
                             <view key="view" id="49">
                                 <rect key="frame" x="10" y="33" width="618" height="421"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <matrix verticalHuggingPriority="750" allowsEmptySelection="NO" autosizesCells="NO" id="83">
-                                        <rect key="frame" x="115" y="361" width="207" height="40"/>
+                                        <rect key="frame" x="115" y="361" width="191" height="40"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                        <size key="cellSize" width="207" height="18"/>
+                                        <size key="cellSize" width="191" height="18"/>
                                         <size key="intercellSpacing" width="4" height="4"/>
                                         <buttonCell key="prototype" type="radio" title="Radio" imagePosition="leading" alignment="left" inset="2" id="298">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -497,7 +497,7 @@
                                         </connections>
                                     </matrix>
                                     <popUpButton verticalHuggingPriority="750" id="86">
-                                        <rect key="frame" x="299" y="371" width="302" height="22"/>
+                                        <rect key="frame" x="311" y="371" width="290" height="22"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <popUpButtonCell key="cell" type="push" title="&lt;do not localise&gt;" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="88" id="292">
                                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
@@ -514,7 +514,7 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <clipView key="contentView" id="KpW-f8-Rdz">
                                             <rect key="frame" x="1" y="0.0" width="576" height="314"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveName="SyntaxDefinitions" headerView="305" id="90">
                                                     <rect key="frame" x="0.0" y="0.0" width="576" height="291"/>
@@ -591,7 +591,7 @@
                         <tabViewItem label="エンコーディング" identifier="" id="95">
                             <view key="view" id="96">
                                 <rect key="frame" x="10" y="33" width="618" height="421"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <matrix verticalHuggingPriority="750" allowsEmptySelection="NO" autosizesCells="NO" id="97">
                                         <rect key="frame" x="133" y="361" width="209" height="40"/>
@@ -646,7 +646,7 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <clipView key="contentView" id="KDT-n4-P4f">
                                             <rect key="frame" x="1" y="0.0" width="576" height="314"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" columnSelection="YES" columnResizing="NO" multipleSelection="NO" autosaveName="ActiveEncodings" headerView="308" id="105">
                                                     <rect key="frame" x="0.0" y="0.0" width="576" height="291"/>

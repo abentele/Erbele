@@ -468,7 +468,7 @@
                         <tabViewItem label="Syntaxdefinitioner" identifier="" id="48">
                             <view key="view" id="49">
                                 <rect key="frame" x="10" y="33" width="554" height="421"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <matrix verticalHuggingPriority="750" allowsEmptySelection="NO" autosizesCells="NO" id="83">
                                         <rect key="frame" x="88" y="361" width="207" height="40"/>
@@ -514,7 +514,7 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <clipView key="contentView" id="KpW-f8-Rdz">
                                             <rect key="frame" x="1" y="0.0" width="512" height="314"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveName="SyntaxDefinitions" headerView="305" id="90">
                                                     <rect key="frame" x="0.0" y="0.0" width="512" height="291"/>
@@ -591,7 +591,7 @@
                         <tabViewItem label="Textkodningar" identifier="" id="95">
                             <view key="view" id="96">
                                 <rect key="frame" x="10" y="33" width="554" height="421"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <matrix verticalHuggingPriority="750" allowsEmptySelection="NO" autosizesCells="NO" id="97">
                                         <rect key="frame" x="107" y="361" width="192" height="40"/>
@@ -646,7 +646,7 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <clipView key="contentView" id="KDT-n4-P4f">
                                             <rect key="frame" x="1" y="0.0" width="512" height="314"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" columnSelection="YES" columnResizing="NO" multipleSelection="NO" autosaveName="ActiveEncodings" headerView="308" id="105">
                                                     <rect key="frame" x="0.0" y="0.0" width="512" height="291"/>
@@ -939,7 +939,7 @@
                                         </connections>
                                     </colorWell>
                                     <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aU4-hM-fvV">
-                                        <rect key="frame" x="475" y="228" width="54" height="26"/>
+                                        <rect key="frame" x="450" y="228" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -951,7 +951,7 @@
                                         </connections>
                                     </colorWell>
                                     <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xhn-13-B4j">
-                                        <rect key="frame" x="475" y="196" width="54" height="26"/>
+                                        <rect key="frame" x="450" y="196" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -983,7 +983,7 @@
                                         </connections>
                                     </button>
                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GE6-iF-nQI">
-                                        <rect key="frame" x="467" y="256" width="71" height="13"/>
+                                        <rect key="frame" x="442" y="256" width="71" height="13"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Mörk läge" id="8tX-vc-vHh">
                                             <font key="font" metaFont="system" size="10"/>

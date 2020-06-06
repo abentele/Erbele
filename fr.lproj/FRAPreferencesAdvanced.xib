@@ -81,7 +81,7 @@
                                         </connections>
                                     </colorWell>
                                     <textField verticalHuggingPriority="750" id="53">
-                                        <rect key="frame" x="51" y="181" width="95" height="17"/>
+                                        <rect key="frame" x="96" y="181" width="95" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Comments :" id="272">
                                             <font key="font" metaFont="system"/>
@@ -90,7 +90,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField verticalHuggingPriority="750" id="54">
-                                        <rect key="frame" x="66" y="147" width="80" height="17"/>
+                                        <rect key="frame" x="111" y="147" width="80" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Mots-clef :" id="273">
                                             <font key="font" metaFont="system"/>
@@ -99,7 +99,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField verticalHuggingPriority="750" id="55">
-                                        <rect key="frame" x="51" y="249" width="95" height="17"/>
+                                        <rect key="frame" x="96" y="249" width="95" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Instructions :" id="274">
                                             <font key="font" metaFont="system"/>
@@ -120,7 +120,7 @@
                                         </connections>
                                     </colorWell>
                                     <textField verticalHuggingPriority="750" id="57">
-                                        <rect key="frame" x="51" y="215" width="95" height="17"/>
+                                        <rect key="frame" x="96" y="215" width="95" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Variables :" id="275">
                                             <font key="font" metaFont="system"/>
@@ -141,7 +141,7 @@
                                         </connections>
                                     </colorWell>
                                     <textField verticalHuggingPriority="750" id="59">
-                                        <rect key="frame" x="51" y="317" width="95" height="17"/>
+                                        <rect key="frame" x="96" y="317" width="95" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Commandes :" id="276">
                                             <font key="font" metaFont="system"/>
@@ -150,7 +150,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField verticalHuggingPriority="750" id="60">
-                                        <rect key="frame" x="66" y="351" width="80" height="17"/>
+                                        <rect key="frame" x="111" y="351" width="80" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Chaînes :" id="277">
                                             <font key="font" metaFont="system"/>
@@ -193,7 +193,7 @@
                                         </connections>
                                     </button>
                                     <textField verticalHuggingPriority="750" id="64">
-                                        <rect key="frame" x="25" y="113" width="121" height="17"/>
+                                        <rect key="frame" x="70" y="113" width="121" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Auto-complétion :" id="280">
                                             <font key="font" metaFont="system"/>
@@ -322,7 +322,7 @@
                                         </connections>
                                     </button>
                                     <textField verticalHuggingPriority="750" id="78">
-                                        <rect key="frame" x="75" y="283" width="71" height="17"/>
+                                        <rect key="frame" x="120" y="283" width="71" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Attributs :" id="290">
                                             <font key="font" metaFont="system"/>
@@ -468,7 +468,7 @@
                         <tabViewItem label="Modes syntaxiques" identifier="" id="48">
                             <view key="view" id="49">
                                 <rect key="frame" x="10" y="33" width="606" height="421"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <matrix verticalHuggingPriority="750" allowsEmptySelection="NO" autosizesCells="NO" id="83">
                                         <rect key="frame" x="115" y="361" width="220" height="40"/>
@@ -514,7 +514,7 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <clipView key="contentView" id="KpW-f8-Rdz">
                                             <rect key="frame" x="1" y="0.0" width="512" height="314"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveName="SyntaxDefinitions" headerView="305" id="90">
                                                     <rect key="frame" x="0.0" y="0.0" width="512" height="291"/>
@@ -963,7 +963,7 @@
                                         </connections>
                                     </colorWell>
                                     <textField verticalHuggingPriority="750" id="241">
-                                        <rect key="frame" x="116" y="202" width="339" height="17"/>
+                                        <rect key="frame" x="116" y="202" width="327" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Couleur pour les caractères invisibles (si affichés) :" id="270">
                                             <font key="font" metaFont="system"/>

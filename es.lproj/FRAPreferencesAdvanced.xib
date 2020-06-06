@@ -737,7 +737,7 @@
                                         </connections>
                                     </button>
                                     <colorWell id="18">
-                                        <rect key="frame" x="381" y="228" width="54" height="26"/>
+                                        <rect key="frame" x="386" y="228" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -927,7 +927,7 @@
                                         </connections>
                                     </button>
                                     <colorWell id="240">
-                                        <rect key="frame" x="381" y="196" width="54" height="26"/>
+                                        <rect key="frame" x="386" y="196" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -939,7 +939,7 @@
                                         </connections>
                                     </colorWell>
                                     <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aU4-hM-fvV">
-                                        <rect key="frame" x="455" y="228" width="54" height="26"/>
+                                        <rect key="frame" x="460" y="228" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -951,7 +951,7 @@
                                         </connections>
                                     </colorWell>
                                     <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xhn-13-B4j">
-                                        <rect key="frame" x="455" y="196" width="54" height="26"/>
+                                        <rect key="frame" x="460" y="196" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -963,7 +963,7 @@
                                         </connections>
                                     </colorWell>
                                     <textField verticalHuggingPriority="750" id="241">
-                                        <rect key="frame" x="87" y="202" width="301" height="17"/>
+                                        <rect key="frame" x="87" y="202" width="293" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Color para caracteres invisibles (al mostrarlos):" id="270">
                                             <font key="font" metaFont="system"/>
@@ -983,7 +983,7 @@
                                         </connections>
                                     </button>
                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GE6-iF-nQI">
-                                        <rect key="frame" x="447" y="256" width="71" height="13"/>
+                                        <rect key="frame" x="452" y="256" width="71" height="13"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Modo oscuro" id="8tX-vc-vHh">
                                             <font key="font" metaFont="system" size="10"/>
