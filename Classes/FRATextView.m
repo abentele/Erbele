@@ -75,7 +75,9 @@
 	NSUserDefaultsController *defaultsController = [NSUserDefaultsController sharedUserDefaultsController];
 	[defaultsController addObserver:self forKeyPath:@"values.TextFont" options:NSKeyValueObservingOptionNew context:@"TextFontChanged"];
 	[defaultsController addObserver:self forKeyPath:@"values.TextColourWell" options:NSKeyValueObservingOptionNew context:@"TextColourChanged"];
+    [defaultsController addObserver:self forKeyPath:@"values.DMTextColourWell" options:NSKeyValueObservingOptionNew context:@"TextColourChanged"];
 	[defaultsController addObserver:self forKeyPath:@"values.BackgroundColourWell" options:NSKeyValueObservingOptionNew context:@"BackgroundColourChanged"];
+    [defaultsController addObserver:self forKeyPath:@"values.DMBackgroundColourWell" options:NSKeyValueObservingOptionNew context:@"BackgroundColourChanged"];
 	[defaultsController addObserver:self forKeyPath:@"values.SmartInsertDelete" options:NSKeyValueObservingOptionNew context:@"SmartInsertDeleteChanged"];
 	[defaultsController addObserver:self forKeyPath:@"values.TabWidth" options:NSKeyValueObservingOptionNew context:@"TabWidthChanged"];
 	[defaultsController addObserver:self forKeyPath:@"values.ShowPageGuide" options:NSKeyValueObservingOptionNew context:@"PageGuideChanged"];
@@ -91,7 +93,9 @@
     NSUserDefaultsController *defaultsController = [NSUserDefaultsController sharedUserDefaultsController];
     [defaultsController removeObserver:self forKeyPath:@"values.TextFont"];
     [defaultsController removeObserver:self forKeyPath:@"values.TextColourWell"];
+    [defaultsController removeObserver:self forKeyPath:@"values.DMTextColourWell"];
     [defaultsController removeObserver:self forKeyPath:@"values.BackgroundColourWell"];
+    [defaultsController removeObserver:self forKeyPath:@"values.DMBackgroundColourWell"];
     [defaultsController removeObserver:self forKeyPath:@"values.SmartInsertDelete"];
     [defaultsController removeObserver:self forKeyPath:@"values.TabWidth"];
     [defaultsController removeObserver:self forKeyPath:@"values.ShowPageGuide"];
@@ -108,12 +112,12 @@
 		[[FRACurrentDocument valueForKey:@"lineNumbers"] updateLineNumbersForClipView:[[self enclosingScrollView] contentView] checkWidth:NO recolour:YES];
 		[self setPageGuideValues];
 	} else if ([(__bridge NSString *)context isEqualToString:@"TextColourChanged"]) {
-		[self setTextColor:[NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"TextColourWell"]]];
-		[self setInsertionPointColor:[NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"TextColourWell"]]];
+		[self setTextColor:[NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[ FRABasic lightDarkPref: @"TextColourWell"] ]]];
+		[self setInsertionPointColor:[NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[ FRABasic lightDarkPref: @"TextColourWell"] ]]];
 		[self setPageGuideValues];
 		[self updateIBeamCursor];
 	} else if ([(__bridge NSString *)context isEqualToString:@"BackgroundColourChanged"]) {
-		[self setBackgroundColor:[NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"BackgroundColourWell"]]];
+		[self setBackgroundColor:[NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[ FRABasic lightDarkPref: @"BackgroundColourWell"]]]];
 	} else if ([(__bridge NSString *)context isEqualToString:@"SmartInsertDeleteChanged"]) {
 		[self setSmartInsertDeleteEnabled:[[FRADefaults valueForKey:@"SmartInsertDelete"] boolValue]];
 	} else if ([(__bridge NSString *)context isEqualToString:@"TabWidthChanged"]) {
