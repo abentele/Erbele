@@ -216,8 +216,8 @@
                                     <textField verticalHuggingPriority="750" id="66">
                                         <rect key="frame" x="295" y="385" width="58" height="13"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="明确" id="281">
-                                            <font key="font" metaFont="system" size="10"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="浅色" id="281">
+                                            <font key="font" size="10" name=".PingFangSC-Regular"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
@@ -225,8 +225,8 @@
                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SKe-Bc-h7T">
                                         <rect key="frame" x="325" y="400" width="77" height="13"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="色彩模式" id="vRi-Oy-Bo0">
-                                            <font key="font" metaFont="system" size="10"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="外观" id="vRi-Oy-Bo0">
+                                            <font key="font" size="10" name=".PingFangSC-Regular"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
@@ -429,8 +429,8 @@
                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZWi-pk-1wj">
                                         <rect key="frame" x="374" y="385" width="58" height="13"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="暗" id="NN3-gs-n1R">
-                                            <font key="font" metaFont="system" size="10"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="深色" id="NN3-gs-n1R">
+                                            <font key="font" size="10" name=".PingFangSC-Regular"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
@@ -577,9 +577,9 @@
                                         </tableHeaderView>
                                     </scrollView>
                                     <textField verticalHuggingPriority="750" id="94">
-                                        <rect key="frame" x="17" y="384" width="97" height="17"/>
+                                        <rect key="frame" x="13" y="384" width="97" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="使用定义:" id="293">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="使用定义:" id="293">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -633,9 +633,9 @@
                                         </popUpButtonCell>
                                     </popUpButton>
                                     <textField verticalHuggingPriority="750" id="103">
-                                        <rect key="frame" x="17" y="386" width="73" height="17"/>
+                                        <rect key="frame" x="13" y="384" width="73" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="编码:" id="295">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="编码:" id="295">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -737,7 +737,7 @@
                                         </connections>
                                     </button>
                                     <colorWell id="18">
-                                        <rect key="frame" x="410" y="228" width="54" height="26"/>
+                                        <rect key="frame" x="319" y="223" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -817,7 +817,7 @@
                                         </connections>
                                     </textField>
                                     <textField verticalHuggingPriority="750" id="32">
-                                        <rect key="frame" x="54" y="386" width="52" height="17"/>
+                                        <rect key="frame" x="62" y="386" width="52" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="编辑:" id="260">
                                             <font key="font" metaFont="system"/>
@@ -826,7 +826,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField verticalHuggingPriority="750" id="33">
-                                        <rect key="frame" x="44" y="159" width="62" height="17"/>
+                                        <rect key="frame" x="52" y="159" width="62" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="打开:" id="261">
                                             <font key="font" metaFont="system"/>
@@ -846,7 +846,7 @@
                                         </connections>
                                     </button>
                                     <textField verticalHuggingPriority="750" id="37">
-                                        <rect key="frame" x="24" y="16" width="82" height="19"/>
+                                        <rect key="frame" x="32" y="16" width="82" height="19"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="运行文本:" id="263">
                                             <font key="font" metaFont="system"/>
@@ -907,7 +907,7 @@
                                         </connections>
                                     </popUpButton>
                                     <textField verticalHuggingPriority="750" id="231">
-                                        <rect key="frame" x="-5" y="47" width="111" height="18"/>
+                                        <rect key="frame" x="3" y="47" width="111" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="预览使用解析器:" id="268">
                                             <font key="font" metaFont="system"/>
@@ -927,7 +927,7 @@
                                         </connections>
                                     </button>
                                     <colorWell id="240">
-                                        <rect key="frame" x="410" y="196" width="54" height="26"/>
+                                        <rect key="frame" x="319" y="191" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -939,7 +939,7 @@
                                         </connections>
                                     </colorWell>
                                     <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aU4-hM-fvV">
-                                        <rect key="frame" x="475" y="228" width="54" height="26"/>
+                                        <rect key="frame" x="384" y="223" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -951,7 +951,7 @@
                                         </connections>
                                     </colorWell>
                                     <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xhn-13-B4j">
-                                        <rect key="frame" x="475" y="196" width="54" height="26"/>
+                                        <rect key="frame" x="384" y="191" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -963,7 +963,7 @@
                                         </connections>
                                     </colorWell>
                                     <textField verticalHuggingPriority="750" id="241">
-                                        <rect key="frame" x="116" y="202" width="289" height="17"/>
+                                        <rect key="frame" x="117" y="197" width="200" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="隐藏字符以彩色显示 (当显示时):" id="270">
                                             <font key="font" metaFont="system"/>
@@ -972,7 +972,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <button id="242">
-                                        <rect key="frame" x="117" y="231" width="236" height="18"/>
+                                        <rect key="frame" x="117" y="226" width="200" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="高亮显示当前行，使用颜色：" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="271">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -983,10 +983,28 @@
                                         </connections>
                                     </button>
                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GE6-iF-nQI">
-                                        <rect key="frame" x="467" y="256" width="71" height="13"/>
+                                        <rect key="frame" x="382" y="251" width="58" height="13"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="暗模式" id="8tX-vc-vHh">
-                                            <font key="font" metaFont="system" size="10"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="深色" id="8tX-vc-vHh">
+                                            <font key="font" size="10" name=".PingFangSC-Regular"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="orc-Bz-NtD">
+                                        <rect key="frame" x="317" y="251" width="58" height="13"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="浅色" id="jDb-rA-6LU">
+                                            <font key="font" size="10" name=".PingFangSC-Regular"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R0M-fi-u7t">
+                                        <rect key="frame" x="317" y="264" width="123" height="13"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="外观" id="3ew-hX-c2j">
+                                            <font key="font" size="10" name=".PingFangSC-Regular"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>

@@ -68,14 +68,14 @@ static id sharedInstance = nil;
 	dictionary[@"StringsColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.95 green:0.0 blue:0.0 alpha:1.0]];
 	dictionary[@"AttributesColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.50 green:0.5 blue:0.2 alpha:1.0]];
 
-    dictionary[@"DMCommandsColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.4 green:0.5 blue:1.0 alpha:1.0]];
-    dictionary[@"DMCommentsColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.0 green:0.69 blue:0.001 alpha:1.0]];
-    dictionary[@"DMInstructionsColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.45 green:0.45 blue:0.45 alpha:1.0]];
-    dictionary[@"DMKeywordsColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.84 green:0.41 blue:0.0 alpha:1.0]];
-    dictionary[@"DMAutocompleteColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.84 green:0.41 blue:0.0 alpha:1.0]];
-    dictionary[@"DMVariablesColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.73 green:0.0 blue:0.74 alpha:1.0]];
-    dictionary[@"DMStringsColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.95 green:0.0 blue:0.0 alpha:1.0]];
-    dictionary[@"DMAttributesColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.65 green:0.55 blue:0.15 alpha:1.0]];
+    dictionary[DARK_MODE @"CommandsColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.4 green:0.5 blue:1.0 alpha:1.0]];
+    dictionary[DARK_MODE @"CommentsColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.0 green:0.69 blue:0.001 alpha:1.0]];
+    dictionary[DARK_MODE @"InstructionsColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.45 green:0.45 blue:0.45 alpha:1.0]];
+    dictionary[DARK_MODE @"KeywordsColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.84 green:0.41 blue:0.0 alpha:1.0]];
+    dictionary[DARK_MODE @"AutocompleteColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.84 green:0.41 blue:0.0 alpha:1.0]];
+    dictionary[DARK_MODE @"VariablesColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.73 green:0.0 blue:0.74 alpha:1.0]];
+    dictionary[DARK_MODE @"StringsColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.95 green:0.0 blue:0.0 alpha:1.0]];
+    dictionary[DARK_MODE @"AttributesColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.65 green:0.55 blue:0.15 alpha:1.0]];
 
     dictionary[@"ColourCommands"] = @YES;
 	dictionary[@"ColourComments"] = @YES;
@@ -91,15 +91,15 @@ static id sharedInstance = nil;
 	dictionary[@"InvisibleCharactersColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor blackColor]];
 	dictionary[@"HighlightLineColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.96 green:0.96 blue:0.71 alpha:1.0]];
 	
-    dictionary[@"DMBackgroundColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.13 green:0.16 blue:0.18 alpha:1.0]];
-    dictionary[@"DMTextColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.54 green:0.88 blue:0.67 alpha:1.0]];
-    dictionary[@"DMInvisibleCharactersColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.29 green:0.6 blue:0.1 alpha:1.0]];
-    dictionary[@"DMHighlightLineColourWell"] = [NSArchiver archivedDataWithRootObject: [NSColor colorWithCalibratedRed:0.15 green:0.26 blue:0.08 alpha:1.0]];
+    dictionary[DARK_MODE @"BackgroundColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.13 green:0.16 blue:0.18 alpha:1.0]];
+    dictionary[DARK_MODE @"TextColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.54 green:0.88 blue:0.67 alpha:1.0]];
+    dictionary[DARK_MODE @"InvisibleCharactersColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.29 green:0.6 blue:0.1 alpha:1.0]];
+    dictionary[DARK_MODE @"HighlightLineColourWell"] = [NSArchiver archivedDataWithRootObject: [NSColor colorWithCalibratedRed:0.15 green:0.26 blue:0.08 alpha:1.0]];
 
     dictionary[@"GutterBackgroundColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedWhite:0.94 alpha:1.0]];
     dictionary[@"GutterTextColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor textColor]];
-    dictionary[@"DMGutterBackgroundColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.17 green:0.2 blue:0.2 alpha:1.0]];
-    dictionary[@"DMGutterTextColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.42 green:0.56 blue:0.46 alpha:1.0]];
+    dictionary[DARK_MODE @"GutterBackgroundColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.17 green:0.2 blue:0.2 alpha:1.0]];
+    dictionary[DARK_MODE @"GutterTextColourWell"] = [NSArchiver archivedDataWithRootObject:[NSColor colorWithCalibratedRed:0.42 green:0.56 blue:0.46 alpha:1.0]];
     
     dictionary[@"EncodingsMatrix"] = @0;
 	dictionary[@"OpenMatrix"] = @(FRAOpenSaveRemember);

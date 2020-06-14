@@ -42,17 +42,17 @@
 		[defaultsController addObserver:self forKeyPath:@"values.TextFont" options:NSKeyValueObservingOptionNew context:@"TextFontChanged"];
         
         [defaultsController addObserver:self forKeyPath:@"values.GutterBackgroundColourWell" options:NSKeyValueObservingOptionNew context:@"GutterChanged"];
-        [defaultsController addObserver:self forKeyPath:@"values.DMGutterBackgroundColourWell" options:NSKeyValueObservingOptionNew context:@"GutterChanged"];
+        [defaultsController addObserver:self forKeyPath:@"values."DARK_MODE@"GutterBackgroundColourWell" options:NSKeyValueObservingOptionNew context:@"GutterChanged"];
         [defaultsController addObserver:self forKeyPath:@"values.GutterTextColourWell" options:NSKeyValueObservingOptionNew context:@"GutterChanged"];
-        [defaultsController addObserver:self forKeyPath:@"values.DMGutterTextColourWell" options:NSKeyValueObservingOptionNew context:@"GutterChanged"];
+        [defaultsController addObserver:self forKeyPath:@"values."DARK_MODE@"GutterTextColourWell" options:NSKeyValueObservingOptionNew context:@"GutterChanged"];
 		[[NSDistributedNotificationCenter defaultCenter] addObserver:self selector:@selector(darkModeChanged:) name:@"AppleInterfaceThemeChangedNotification" object:nil];
 	}
 	return self;
 }
 
 -(void) darkModeFix {
-    [self setBackgroundColor: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[ FRABasic lightDarkPref: @"GutterBackgroundColourWell" ] ]]];
-    [self setTextColor: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey: [ FRABasic lightDarkPref: @"GutterTextColourWell"] ]]];
+    [self setBackgroundColor: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[ FRABasic lightDarkPreference: @"GutterBackgroundColourWell" ] ]]];
+    [self setTextColor: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey: [ FRABasic lightDarkPreference: @"GutterTextColourWell"] ]]];
 }
 -(void)darkModeChanged:(NSNotification *)notif {
     [self darkModeFix];
@@ -63,9 +63,9 @@
     NSUserDefaultsController *defaultsController = [NSUserDefaultsController sharedUserDefaultsController];
     [defaultsController removeObserver:self forKeyPath:@"values.TextFont"];
     [defaultsController removeObserver:self forKeyPath:@"values.GutterBackgroundColourWell"];
-    [defaultsController removeObserver:self forKeyPath:@"values.DMGutterBackgroundColourWell"];
+    [defaultsController removeObserver:self forKeyPath:@"values."DARK_MODE@"GutterBackgroundColourWell"];
     [defaultsController removeObserver:self forKeyPath:@"values.GutterTextColourWell"];
-    [defaultsController removeObserver:self forKeyPath:@"values.DMGutterTextColourWell"];
+    [defaultsController removeObserver:self forKeyPath:@"values."DARK_MODE@"GutterTextColourWell"];
 }
 
 

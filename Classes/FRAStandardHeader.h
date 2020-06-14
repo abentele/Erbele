@@ -156,3 +156,6 @@ typedef NSUInteger FRAErrors;
 #define FRACurrentTextView [[FRAProjectsController sharedDocumentController] currentTextView]
 #define FRACurrentText [[FRAProjectsController sharedDocumentController] currentText]
 #define FRACurrentWindow [[[FRACurrentProject windowControllers] objectAtIndex:0] window]
+
+//Prefix for Dark Mode preference values
+#define DARK_MODE @"DM"

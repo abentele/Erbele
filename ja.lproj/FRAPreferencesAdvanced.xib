@@ -81,7 +81,7 @@
                                         </connections>
                                     </colorWell>
                                     <textField verticalHuggingPriority="750" id="53">
-                                        <rect key="frame" x="135" y="181" width="62" height="17"/>
+                                        <rect key="frame" x="87" y="181" width="110" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="コメント:" id="272">
                                             <font key="font" metaFont="system"/>
@@ -90,7 +90,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField verticalHuggingPriority="750" id="54">
-                                        <rect key="frame" x="122" y="147" width="75" height="17"/>
+                                        <rect key="frame" x="49" y="147" width="148" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="キーワード:" id="273">
                                             <font key="font" metaFont="system"/>
@@ -99,7 +99,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField verticalHuggingPriority="750" id="55">
-                                        <rect key="frame" x="146" y="249" width="51" height="17"/>
+                                        <rect key="frame" x="87" y="249" width="110" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="命令文:" id="274">
                                             <font key="font" metaFont="system"/>
@@ -120,7 +120,7 @@
                                         </connections>
                                     </colorWell>
                                     <textField verticalHuggingPriority="750" id="57">
-                                        <rect key="frame" x="159" y="215" width="38" height="17"/>
+                                        <rect key="frame" x="87" y="215" width="110" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="変数:" id="275">
                                             <font key="font" metaFont="system"/>
@@ -141,7 +141,7 @@
                                         </connections>
                                     </colorWell>
                                     <textField verticalHuggingPriority="750" id="59">
-                                        <rect key="frame" x="132" y="317" width="65" height="17"/>
+                                        <rect key="frame" x="87" y="317" width="110" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="コマンド:" id="276">
                                             <font key="font" metaFont="system"/>
@@ -150,7 +150,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField verticalHuggingPriority="750" id="60">
-                                        <rect key="frame" x="145" y="351" width="52" height="17"/>
+                                        <rect key="frame" x="87" y="351" width="110" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="文字列:" id="277">
                                             <font key="font" metaFont="system"/>
@@ -193,7 +193,7 @@
                                         </connections>
                                     </button>
                                     <textField verticalHuggingPriority="750" id="64">
-                                        <rect key="frame" x="70" y="113" width="127" height="17"/>
+                                        <rect key="frame" x="18" y="113" width="179" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="オートコンプリート:" id="280">
                                             <font key="font" metaFont="system"/>
@@ -216,8 +216,8 @@
                                     <textField verticalHuggingPriority="750" id="66">
                                         <rect key="frame" x="295" y="385" width="58" height="13"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="明るい" id="281">
-                                            <font key="font" metaFont="system" size="10"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="ライト" id="281">
+                                            <font key="font" size="10" name=".PingFangSC-Regular"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
@@ -225,8 +225,8 @@
                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SKe-Bc-h7T">
                                         <rect key="frame" x="325" y="400" width="77" height="13"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="カラーモード" id="vRi-Oy-Bo0">
-                                            <font key="font" metaFont="system" size="10"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="外観モード" id="vRi-Oy-Bo0">
+                                            <font key="font" size="10" name=".PingFangSC-Regular"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
@@ -322,7 +322,7 @@
                                         </connections>
                                     </button>
                                     <textField verticalHuggingPriority="750" id="78">
-                                        <rect key="frame" x="159" y="283" width="38" height="17"/>
+                                        <rect key="frame" x="87" y="283" width="110" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="属性:" id="290">
                                             <font key="font" metaFont="system"/>
@@ -430,7 +430,7 @@
                                         <rect key="frame" x="374" y="385" width="58" height="13"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="ダーク" id="NN3-gs-n1R">
-                                            <font key="font" metaFont="system" size="10"/>
+                                            <font key="font" size="10" name=".PingFangSC-Regular"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
@@ -459,7 +459,7 @@
                                         </connections>
                                     </button>
                                     <box verticalHuggingPriority="750" boxType="separator" id="81">
-                                        <rect key="frame" x="20" y="90" width="514" height="5"/>
+                                        <rect key="frame" x="20" y="90" width="578" height="5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </box>
                                 </subviews>
@@ -543,7 +543,7 @@
                                                                 </binding>
                                                             </connections>
                                                         </tableColumn>
-                                                        <tableColumn identifier="extensions" width="255.59569999999997" minWidth="223.59569999999999" maxWidth="1000" id="92">
+                                                        <tableColumn identifier="extensions" width="254.59569999999997" minWidth="223.59569999999999" maxWidth="1000" id="92">
                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="拡張子 (スペースで区切る、ドットは不要)">
                                                                 <font key="font" metaFont="smallSystem"/>
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
@@ -594,10 +594,10 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <matrix verticalHuggingPriority="750" allowsEmptySelection="NO" autosizesCells="NO" id="97">
-                                        <rect key="frame" x="133" y="361" width="209" height="40"/>
+                                        <rect key="frame" x="133" y="361" width="232" height="40"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                        <size key="cellSize" width="209" height="18"/>
+                                        <size key="cellSize" width="232" height="18"/>
                                         <size key="intercellSpacing" width="4" height="4"/>
                                         <buttonCell key="prototype" type="radio" title="Radio" imagePosition="leading" alignment="left" inset="2" id="299">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -620,7 +620,7 @@
                                         </connections>
                                     </matrix>
                                     <popUpButton verticalHuggingPriority="750" id="100">
-                                        <rect key="frame" x="345" y="366" width="256" height="22"/>
+                                        <rect key="frame" x="370" y="368" width="231" height="22"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <popUpButtonCell key="cell" type="push" title="&lt;do not localise&gt;" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="102" id="294">
                                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
@@ -633,7 +633,7 @@
                                         </popUpButtonCell>
                                     </popUpButton>
                                     <textField verticalHuggingPriority="750" id="103">
-                                        <rect key="frame" x="17" y="386" width="123" height="17"/>
+                                        <rect key="frame" x="9" y="384" width="123" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="エンコーディング:" id="295">
                                             <font key="font" metaFont="system"/>
@@ -715,7 +715,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button id="16">
-                                        <rect key="frame" x="117" y="319" width="464" height="18"/>
+                                        <rect key="frame" x="106" y="319" width="497" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="ドキュメントが他のアプリケーションによって更新されたかをチェックする" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="252">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -726,7 +726,7 @@
                                         </connections>
                                     </button>
                                     <button id="17">
-                                        <rect key="frame" x="117" y="385" width="269" height="18"/>
+                                        <rect key="frame" x="106" y="385" width="305" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="インデントはタブではなくスペースにする" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="253">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -737,7 +737,7 @@
                                         </connections>
                                     </button>
                                     <colorWell id="18">
-                                        <rect key="frame" x="410" y="228" width="54" height="26"/>
+                                        <rect key="frame" x="335" y="220" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -749,7 +749,7 @@
                                         </connections>
                                     </colorWell>
                                     <button id="20">
-                                        <rect key="frame" x="117" y="158" width="490" height="18"/>
+                                        <rect key="frame" x="106" y="158" width="509" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="フォルダを開くように指定した場合、フォルダ内にあるすべてのファイルを開く" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="254">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -760,7 +760,7 @@
                                         </connections>
                                     </button>
                                     <button id="23">
-                                        <rect key="frame" x="117" y="341" width="282" height="18"/>
+                                        <rect key="frame" x="106" y="341" width="305" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="スマートインサートとデリートを有効にする" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="255">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -771,7 +771,7 @@
                                         </connections>
                                     </button>
                                     <button id="27">
-                                        <rect key="frame" x="147" y="136" width="126" height="18"/>
+                                        <rect key="frame" x="137" y="136" width="141" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="回帰的処理を行う" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="256">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -783,7 +783,7 @@
                                         </connections>
                                     </button>
                                     <button id="28">
-                                        <rect key="frame" x="147" y="114" width="326" height="18"/>
+                                        <rect key="frame" x="137" y="114" width="347" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="以下の拡張子を持つファイルをフィルタリングする:" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="257">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -795,7 +795,7 @@
                                         </connections>
                                     </button>
                                     <textField verticalHuggingPriority="750" id="29">
-                                        <rect key="frame" x="281" y="79" width="151" height="11"/>
+                                        <rect key="frame" x="271" y="79" width="151" height="11"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="(スペースで区切る、ドットは不要)" id="258">
                                             <font key="font" metaFont="miniSystem"/>
@@ -804,7 +804,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField verticalHuggingPriority="750" id="30">
-                                        <rect key="frame" x="169" y="91" width="367" height="19"/>
+                                        <rect key="frame" x="159" y="91" width="367" height="19"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="259">
                                             <font key="font" metaFont="message" size="11"/>
@@ -817,25 +817,25 @@
                                         </connections>
                                     </textField>
                                     <textField verticalHuggingPriority="750" id="32">
-                                        <rect key="frame" x="62" y="386" width="52" height="17"/>
+                                        <rect key="frame" x="51" y="386" width="52" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="編集時:" id="260">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="編集時:" id="260">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
                                     <textField verticalHuggingPriority="750" id="33">
-                                        <rect key="frame" x="64" y="159" width="50" height="17"/>
+                                        <rect key="frame" x="53" y="159" width="50" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="開く時:" id="261">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="開く時:" id="261">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
                                     <button id="35">
-                                        <rect key="frame" x="117" y="297" width="361" height="18"/>
+                                        <rect key="frame" x="106" y="297" width="361" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="色の挿入時にはhex値ではなくRGB値を使う" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="262">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -846,16 +846,16 @@
                                         </connections>
                                     </button>
                                     <textField verticalHuggingPriority="750" id="37">
-                                        <rect key="frame" x="1" y="18" width="117" height="17"/>
+                                        <rect key="frame" x="0.0" y="18" width="128" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="実行するテキスト:" id="263">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="実行するテキスト:" id="263">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
                                     <textField verticalHuggingPriority="750" id="38">
-                                        <rect key="frame" x="121" y="16" width="350" height="19"/>
+                                        <rect key="frame" x="133" y="16" width="350" height="19"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="264">
                                             <font key="font" metaFont="message" size="11"/>
@@ -867,7 +867,7 @@
                                         </connections>
                                     </textField>
                                     <button id="215">
-                                        <rect key="frame" x="117" y="253" width="165" height="18"/>
+                                        <rect key="frame" x="106" y="253" width="192" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="閉じる } を自動的に挿入" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="265">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -878,7 +878,7 @@
                                         </connections>
                                     </button>
                                     <button id="216">
-                                        <rect key="frame" x="117" y="275" width="165" height="18"/>
+                                        <rect key="frame" x="106" y="275" width="192" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="閉じる ) を自動的に挿入" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="266">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -889,7 +889,7 @@
                                         </connections>
                                     </button>
                                     <popUpButton verticalHuggingPriority="750" id="223">
-                                        <rect key="frame" x="119" y="44" width="138" height="22"/>
+                                        <rect key="frame" x="130" y="44" width="138" height="22"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <popUpButtonCell key="cell" type="push" title="HTML (WebKit)" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="227" id="267">
                                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
@@ -907,16 +907,16 @@
                                         </connections>
                                     </popUpButton>
                                     <textField verticalHuggingPriority="750" id="231">
-                                        <rect key="frame" x="1" y="49" width="116" height="17"/>
+                                        <rect key="frame" x="0.0" y="49" width="128" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="プレビューパーサ:" id="268">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="プレビューパーサ:" id="268">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
                                     <button id="234">
-                                        <rect key="frame" x="117" y="363" width="100" height="18"/>
+                                        <rect key="frame" x="106" y="363" width="127" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="タブストップ" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="269">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -927,7 +927,7 @@
                                         </connections>
                                     </button>
                                     <colorWell id="240">
-                                        <rect key="frame" x="410" y="196" width="54" height="26"/>
+                                        <rect key="frame" x="335" y="188" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -939,7 +939,7 @@
                                         </connections>
                                     </colorWell>
                                     <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aU4-hM-fvV">
-                                        <rect key="frame" x="475" y="228" width="54" height="26"/>
+                                        <rect key="frame" x="400" y="220" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -951,7 +951,7 @@
                                         </connections>
                                     </colorWell>
                                     <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xhn-13-B4j">
-                                        <rect key="frame" x="475" y="196" width="54" height="26"/>
+                                        <rect key="frame" x="400" y="188" width="54" height="26"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
@@ -963,7 +963,7 @@
                                         </connections>
                                     </colorWell>
                                     <textField verticalHuggingPriority="750" id="241">
-                                        <rect key="frame" x="116" y="202" width="289" height="17"/>
+                                        <rect key="frame" x="106" y="194" width="224" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="制御文字の色 (表示時):" id="270">
                                             <font key="font" metaFont="system"/>
@@ -972,7 +972,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <button id="242">
-                                        <rect key="frame" x="117" y="231" width="236" height="18"/>
+                                        <rect key="frame" x="106" y="223" width="224" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="現在の行を次の色でハイライト:" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="271">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -983,10 +983,28 @@
                                         </connections>
                                     </button>
                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GE6-iF-nQI">
-                                        <rect key="frame" x="467" y="256" width="71" height="13"/>
+                                        <rect key="frame" x="398" y="248" width="58" height="13"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="ダークモード" id="8tX-vc-vHh">
-                                            <font key="font" metaFont="system" size="10"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="ダーク" id="8tX-vc-vHh">
+                                            <font key="font" size="10" name=".PingFangSC-Regular"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="orc-Bz-NtD">
+                                        <rect key="frame" x="333" y="248" width="58" height="13"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="ライト" id="jDb-rA-6LU">
+                                            <font key="font" size="10" name=".PingFangSC-Regular"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R0M-fi-u7t">
+                                        <rect key="frame" x="333" y="261" width="123" height="13"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="外観モード" id="3ew-hX-c2j">
+                                            <font key="font" size="10" name=".PingFangSC-Regular"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>

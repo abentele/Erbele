@@ -216,7 +216,7 @@
                                     <textField verticalHuggingPriority="750" id="66">
                                         <rect key="frame" x="295" y="385" width="58" height="13"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Светлый" id="281">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Светлое" id="281">
                                             <font key="font" metaFont="system" size="10"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -225,7 +225,7 @@
                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SKe-Bc-h7T">
                                         <rect key="frame" x="295" y="400" width="137" height="13"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Цветовой режим" id="vRi-Oy-Bo0">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Оформление" id="vRi-Oy-Bo0">
                                             <font key="font" metaFont="system" size="10"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -429,7 +429,7 @@
                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZWi-pk-1wj">
                                         <rect key="frame" x="374" y="385" width="58" height="13"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Тьма" id="NN3-gs-n1R">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Темное" id="NN3-gs-n1R">
                                             <font key="font" metaFont="system" size="10"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -459,7 +459,7 @@
                                         </connections>
                                     </button>
                                     <box verticalHuggingPriority="750" boxType="separator" id="81">
-                                        <rect key="frame" x="20" y="90" width="514" height="5"/>
+                                        <rect key="frame" x="20" y="90" width="521" height="5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </box>
                                 </subviews>
@@ -471,7 +471,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <matrix verticalHuggingPriority="750" allowsEmptySelection="NO" autosizesCells="NO" id="83">
-                                        <rect key="frame" x="122" y="361" width="215" height="40"/>
+                                        <rect key="frame" x="122" y="351" width="215" height="40"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         <size key="cellSize" width="215" height="18"/>
@@ -497,7 +497,7 @@
                                         </connections>
                                     </matrix>
                                     <popUpButton verticalHuggingPriority="750" id="86">
-                                        <rect key="frame" x="342" y="371" width="202" height="22"/>
+                                        <rect key="frame" x="342" y="361" width="202" height="22"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <popUpButtonCell key="cell" type="push" title="&lt;do not localise&gt;" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="88" id="292">
                                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
@@ -514,7 +514,7 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <clipView key="contentView" id="KpW-f8-Rdz">
                                             <rect key="frame" x="1" y="0.0" width="512" height="314"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveName="SyntaxDefinitions" headerView="305" id="90">
                                                     <rect key="frame" x="0.0" y="0.0" width="512" height="291"/>
@@ -577,9 +577,9 @@
                                         </tableHeaderView>
                                     </scrollView>
                                     <textField verticalHuggingPriority="750" id="94">
-                                        <rect key="frame" x="24" y="384" width="97" height="17"/>
+                                        <rect key="frame" x="4" y="374" width="117" height="32"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Используемое расширение:" id="293">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Используемое расширение:" id="293">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -593,47 +593,8 @@
                                 <rect key="frame" x="10" y="33" width="561" height="421"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <matrix verticalHuggingPriority="750" allowsEmptySelection="NO" autosizesCells="NO" id="97">
-                                        <rect key="frame" x="104" y="363" width="301" height="40"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                        <size key="cellSize" width="301" height="18"/>
-                                        <size key="intercellSpacing" width="4" height="4"/>
-                                        <buttonCell key="prototype" type="radio" title="Радио" imagePosition="leading" alignment="left" inset="2" id="299">
-                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                            <font key="font" metaFont="system"/>
-                                        </buttonCell>
-                                        <cells>
-                                            <column>
-                                                <buttonCell type="radio" title="Брать из расширения, если использовано:" imagePosition="leading" alignment="left" state="on" inset="2" id="99">
-                                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
-                                                </buttonCell>
-                                                <buttonCell type="radio" title="Всегда использовать:" imagePosition="leading" alignment="left" tag="1" inset="2" id="98">
-                                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                    <font key="font" metaFont="system"/>
-                                                </buttonCell>
-                                            </column>
-                                        </cells>
-                                        <connections>
-                                            <binding destination="120" name="selectedIndex" keyPath="values.EncodingsMatrix" id="209"/>
-                                        </connections>
-                                    </matrix>
-                                    <popUpButton verticalHuggingPriority="750" id="100">
-                                        <rect key="frame" x="304" y="364" width="226" height="22"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <popUpButtonCell key="cell" type="push" title="&lt;do not localise&gt;" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="102" id="294">
-                                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                            <font key="font" metaFont="message" size="11"/>
-                                            <menu key="menu" title="Другой вид" id="101">
-                                                <items>
-                                                    <menuItem title="&lt;do not localise&gt;" state="on" id="102"/>
-                                                </items>
-                                            </menu>
-                                        </popUpButtonCell>
-                                    </popUpButton>
                                     <textField verticalHuggingPriority="750" id="103">
-                                        <rect key="frame" x="24" y="386" width="83" height="17"/>
+                                        <rect key="frame" x="24" y="390" width="83" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Кодировки:" id="295">
                                             <font key="font" metaFont="system"/>
@@ -706,6 +667,45 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableHeaderView>
                                     </scrollView>
+                                    <matrix verticalHuggingPriority="750" allowsEmptySelection="NO" autosizesCells="NO" id="97">
+                                        <rect key="frame" x="40" y="343" width="305" height="40"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        <size key="cellSize" width="305" height="18"/>
+                                        <size key="intercellSpacing" width="4" height="4"/>
+                                        <buttonCell key="prototype" type="radio" title="Радио" imagePosition="leading" alignment="left" inset="2" id="299">
+                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <cells>
+                                            <column>
+                                                <buttonCell type="radio" title="Брать из расширения, если использовано:" imagePosition="leading" alignment="left" state="on" inset="2" id="99">
+                                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                    <font key="font" metaFont="system"/>
+                                                </buttonCell>
+                                                <buttonCell type="radio" title="Всегда использовать:" imagePosition="leading" alignment="left" tag="1" inset="2" id="98">
+                                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                    <font key="font" metaFont="system"/>
+                                                </buttonCell>
+                                            </column>
+                                        </cells>
+                                        <connections>
+                                            <binding destination="120" name="selectedIndex" keyPath="values.EncodingsMatrix" id="209"/>
+                                        </connections>
+                                    </matrix>
+                                    <popUpButton verticalHuggingPriority="750" id="100">
+                                        <rect key="frame" x="338" y="349" width="203" height="22"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <popUpButtonCell key="cell" type="push" title="&lt;do not localise&gt;" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="102" id="294">
+                                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="message" size="11"/>
+                                            <menu key="menu" title="Другой вид" id="101">
+                                                <items>
+                                                    <menuItem title="&lt;do not localise&gt;" state="on" id="102"/>
+                                                </items>
+                                            </menu>
+                                        </popUpButtonCell>
+                                    </popUpButton>
                                 </subviews>
                             </view>
                         </tabViewItem>
@@ -749,7 +749,7 @@
                                         </connections>
                                     </colorWell>
                                     <button id="20">
-                                        <rect key="frame" x="124" y="158" width="337" height="18"/>
+                                        <rect key="frame" x="124" y="158" width="321" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="Открывать все файлы, если выбрана папка" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="254">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -771,7 +771,7 @@
                                         </connections>
                                     </button>
                                     <button id="27">
-                                        <rect key="frame" x="154" y="136" width="120" height="18"/>
+                                        <rect key="frame" x="154" y="136" width="121" height="18"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <buttonCell key="cell" type="check" title="Рекурсивный" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="256">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -888,26 +888,8 @@
                                             <binding destination="120" name="value" keyPath="values.AutoInsertAClosingParenthesis" id="221"/>
                                         </connections>
                                     </button>
-                                    <popUpButton verticalHuggingPriority="750" id="223">
-                                        <rect key="frame" x="123" y="44" width="138" height="22"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <popUpButtonCell key="cell" type="push" title="HTML (WebKit)" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="227" id="267">
-                                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                            <font key="font" metaFont="message" size="11"/>
-                                            <menu key="menu" title="Другой вид" id="224">
-                                                <items>
-                                                    <menuItem title="HTML (WebKit)" state="on" id="227"/>
-                                                    <menuItem title="Markdown" tag="1" id="230"/>
-                                                    <menuItem title="MultiMarkdown" tag="2" id="228"/>
-                                                </items>
-                                            </menu>
-                                        </popUpButtonCell>
-                                        <connections>
-                                            <binding destination="120" name="selectedTag" keyPath="values.PreviewParser" id="239"/>
-                                        </connections>
-                                    </popUpButton>
                                     <textField verticalHuggingPriority="750" id="231">
-                                        <rect key="frame" x="14" y="49" width="107" height="17"/>
+                                        <rect key="frame" x="14" y="48" width="136" height="17"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Предпросмотр:" id="268">
                                             <font key="font" metaFont="system"/>
@@ -983,14 +965,50 @@
                                         </connections>
                                     </button>
                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GE6-iF-nQI">
-                                        <rect key="frame" x="467" y="256" width="86" height="13"/>
+                                        <rect key="frame" x="482" y="256" width="58" height="13"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Темный режим" id="8tX-vc-vHh">
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Темное" id="8tX-vc-vHh">
                                             <font key="font" metaFont="system" size="10"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="orc-Bz-NtD">
+                                        <rect key="frame" x="415" y="256" width="58" height="13"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Светлое" id="jDb-rA-6LU">
+                                            <font key="font" metaFont="system" size="10"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R0M-fi-u7t">
+                                        <rect key="frame" x="415" y="269" width="125" height="13"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Оформление" id="3ew-hX-c2j">
+                                            <font key="font" metaFont="system" size="10"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <popUpButton verticalHuggingPriority="750" id="223">
+                                        <rect key="frame" x="152" y="44" width="138" height="22"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <popUpButtonCell key="cell" type="push" title="HTML (WebKit)" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="227" id="267">
+                                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="message" size="11"/>
+                                            <menu key="menu" title="Другой вид" id="224">
+                                                <items>
+                                                    <menuItem title="HTML (WebKit)" state="on" id="227"/>
+                                                    <menuItem title="Markdown" tag="1" id="230"/>
+                                                    <menuItem title="MultiMarkdown" tag="2" id="228"/>
+                                                </items>
+                                            </menu>
+                                        </popUpButtonCell>
+                                        <connections>
+                                            <binding destination="120" name="selectedTag" keyPath="values.PreviewParser" id="239"/>
+                                        </connections>
+                                    </popUpButton>
                                 </subviews>
                             </view>
                         </tabViewItem>

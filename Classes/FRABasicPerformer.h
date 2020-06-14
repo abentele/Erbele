@@ -38,6 +38,6 @@
 - (NSString *)resolveAliasInPath:(NSString *)path;
 
 //returns string based on light/dark mode
-- (NSString *) lightDarkPref:(NSString *)lightPref;
+- (NSString *) lightDarkPreference:(NSString *)lightPreference;
 
 @end
