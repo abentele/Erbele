@@ -626,9 +626,9 @@
 	if (textColour != nil && [textColour whiteComponent] == 0.0 && [textColour alphaComponent] == 1.0) { // Keep the original cursor if it's black
 		[self setColouredIBeamCursor:[NSCursor IBeamCursor]];
 	} else if (floor(NSAppKitVersionNumber) >= NSAppKitVersionNumber10_14) {
-            //Mojave and newer already has an always visible IBeamCursor
-            [self setColouredIBeamCursor:[NSCursor IBeamCursor]];
-        } else {
+        //Mojave and newer already has an always visible IBeamCursor
+        [self setColouredIBeamCursor:[NSCursor IBeamCursor]];
+    } else {
 		NSImage *cursorImage = [[NSCursor IBeamCursor] image];
 		[cursorImage lockFocus];
 		[(NSColor *)[NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"TextColourWell"]] set];
