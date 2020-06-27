@@ -66,6 +66,8 @@
     [defaultsController removeObserver:self forKeyPath:@"values."DARK_MODE@"GutterBackgroundColourWell"];
     [defaultsController removeObserver:self forKeyPath:@"values.GutterTextColourWell"];
     [defaultsController removeObserver:self forKeyPath:@"values."DARK_MODE@"GutterTextColourWell"];
+    
+    [[NSDistributedNotificationCenter defaultCenter] removeObserver:self name:@"AppleInterfaceThemeChangedNotification" object:nil];
 }
 
 

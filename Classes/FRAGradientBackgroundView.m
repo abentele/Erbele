@@ -24,6 +24,11 @@
 	return self;
 }
 
+- (void) dealloc
+{
+    [[NSDistributedNotificationCenter defaultCenter] removeObserver:self name:@"AppleInterfaceThemeChangedNotification" object:nil];
+}
+
 -(void) darkModeFix {
     NSString *osxMode = [[NSUserDefaults standardUserDefaults] stringForKey:@"AppleInterfaceStyle"];
     if ([osxMode  isEqual: @"Dark"]) {

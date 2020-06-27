@@ -102,6 +102,8 @@
     [defaultsController removeObserver:self forKeyPath:@"values.ShowPageGuide"];
     [defaultsController removeObserver:self forKeyPath:@"values.ShowPageGuideAtColumn"];
     [defaultsController removeObserver:self forKeyPath:@"values.SmartInsertDelete"];
+
+    [[NSDistributedNotificationCenter defaultCenter] removeObserver:self name:@"AppleInterfaceThemeChangedNotification" object:nil];
 }
 
 
