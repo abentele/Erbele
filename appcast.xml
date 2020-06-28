@@ -3,34 +3,34 @@
     <channel>
         <title>Erbele</title>
         <item>
+            <title>3.8.6</title>
+            <pubDate>So., 28 Juni 2020 19:58:54 +0200</pubDate>
+            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/abentele/Erbele/releases/download/3.8.6/Erbele_3.8.6.dmg" sparkle:version="3.8.6" sparkle:shortVersionString="3.8.6" length="12333187" type="application/octet-stream" sparkle:dsaSignature="MCwCFCsjcTh+q3i3bZX5Ny2fDqcaXU5BAhQx8bbn9Vegm879ObKla+K4ApsABw=="/>
+        </item>
+        <item>
             <title>3.8.5</title>
             <pubDate>Sa., 23 Mai 2020 20:18:17 +0200</pubDate>
             <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/abentele/Erbele/releases/download/3.8.5/Erbele_3.8.5.dmg" sparkle:version="3.8.5" sparkle:shortVersionString="3.8.5" length="8668715" type="application/octet-stream" sparkle:dsaSignature="MC0CFGFi4emuf4XFao+9yanei6xXupHPAhUAvwmrPenTDqzFVwZirrLqYUYpWnE="/>
+            <enclosure url="https://github.com/abentele/Erbele/releases/download/3.8.5/Erbele_3.8.5.dmg" sparkle:version="3.8.5" sparkle:shortVersionString="3.8.5" length="8668715" type="application/octet-stream" sparkle:dsaSignature="MC0CFQClPEDmzmdHjy0/T+n4lFnnWjy04QIUAa3XwG2bUOjwuyB5X0zWyR4CXtw="/>
         </item>
         <item>
             <title>3.8.4</title>
             <pubDate>Di., 06 Nov. 2018 20:05:52 +0100</pubDate>
             <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/abentele/Erbele/releases/download/3.8.4/Erbele_3.8.4.dmg" sparkle:version="3.8.4" sparkle:shortVersionString="3.8.4" length="12513389" type="application/octet-stream" sparkle:dsaSignature="MCwCFFyHc7qjKWsMcFYoGbuRi39TTk8QAhQSTto7nOwm4V9QdVGz4mkNhX1OXw=="/>
+            <enclosure url="https://github.com/abentele/Erbele/releases/download/3.8.4/Erbele_3.8.4.dmg" sparkle:version="3.8.4" sparkle:shortVersionString="3.8.4" length="12513389" type="application/octet-stream" sparkle:dsaSignature="MCwCFDs42sSb8dCZkpgdafcGgpAdL8HrAhQ8HSufAv/p3e3+5hduIhIu6P/oLw=="/>
         </item>
         <item>
             <title>3.8.3</title>
             <pubDate>Mo., 20 Nov. 2017 19:12:39 +0100</pubDate>
             <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/abentele/Erbele/releases/download/3.8.3/Erbele_3.8.3.dmg" sparkle:version="3.8.3" sparkle:shortVersionString="3.8.3" length="6064514" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCtpx9ga8nMrF8PJ9gtNesTots91QIUPweLHqayDiCBpXLfNDdLAIqa5WE="/>
+            <enclosure url="https://github.com/abentele/Erbele/releases/download/3.8.3/Erbele_3.8.3.dmg" sparkle:version="3.8.3" sparkle:shortVersionString="3.8.3" length="6064514" type="application/octet-stream" sparkle:dsaSignature="MC0CFEwqLnpe+YKQnohDm3g5TelbvcdvAhUAncHIjazstn6sQU9HXzHSLExm63w="/>
         </item>
         <item>
             <title>3.8.2</title>
             <pubDate>So., 19 Feb. 2017 00:14:08 +0100</pubDate>
             <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/abentele/Erbele/releases/download/3.8.2/Erbele_3.8.2.dmg" sparkle:version="3.8.2" sparkle:shortVersionString="3.8.2" length="5744856" type="application/octet-stream" sparkle:dsaSignature="MC0CFHkyq+Ck20wIeRci0p6ZliMe/rRnAhUAjlGoTUjcBhr3Dn1fyTiy4P3z3sc="/>
-        </item>
-        <item>
-            <title>3.8.1</title>
-            <pubDate>So., 19 Feb. 2017 00:04:17 +0100</pubDate>
-            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/abentele/Erbele/releases/download/3.8.1/Erbele_3.8.1.dmg" sparkle:version="3.8.1" sparkle:shortVersionString="3.8.1" length="5744885" type="application/octet-stream" sparkle:dsaSignature="MCwCFEBPAqQeEnge3/nu2fcsiNnzxsdmAhRLX2NaA75nyi17azKg50T8Kud2eA=="/>
+            <enclosure url="https://github.com/abentele/Erbele/releases/download/3.8.2/Erbele_3.8.2.dmg" sparkle:version="3.8.2" sparkle:shortVersionString="3.8.2" length="5744856" type="application/octet-stream" sparkle:dsaSignature="MCwCFGbsNDyzQdFB//zk4Ay79F0JSZkHAhR4cL0CiJvCFvqxoh+oBpe3pap0Cg=="/>
         </item>
     </channel>
 </rss>
