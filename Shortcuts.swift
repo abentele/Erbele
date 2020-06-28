@@ -13,6 +13,19 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 import Foundation
 
+func OK_BUTTON() -> String {
+    return NSLocalizedString("OK", comment: "OK-button")
+}
+
+func CANCEL_BUTTON() -> String {
+    return NSLocalizedString("Cancel", comment: "Cancel-button")
+}
+
+func DELETE_BUTTON() -> String {
+    return NSLocalizedString("Delete", comment: "Delete-button")
+}
+
+
 func FRADefaults() -> Any {
     return NSUserDefaultsController.shared.values
 }
