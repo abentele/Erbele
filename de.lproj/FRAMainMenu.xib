@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16097" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication"/>
@@ -711,21 +711,21 @@
                             <menuItem isSeparatorItem="YES" id="361">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Codeschnipsel" id="467">
-                                <menu key="submenu" title="Codeschnipsel" id="468"/>
+                            <menuItem title="Textfragment" id="467">
+                                <menu key="submenu" title="Textfragment" id="468"/>
                                 <connections>
                                     <action selector="emptyDummyAction:" target="387" id="535"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Codeschnipsel verwalten" id="581">
-                                <menu key="submenu" title="Codeschnipsel verwalten" id="582">
+                            <menuItem title="Textfragmente verwalten" id="581">
+                                <menu key="submenu" title="Textfragmente verwalten" id="582">
                                     <items>
-                                        <menuItem title="Codeschnipsel-Fenster zeigen" keyEquivalent="y" id="584">
+                                        <menuItem title="Textfragment-Fenster zeigen" keyEquivalent="y" id="584">
                                             <connections>
                                                 <action selector="showSnippetsWindowAction:" target="387" id="598"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Codeschnipsel aus Auswahl erstellen" tag="5" keyEquivalent="Y" id="585">
+                                        <menuItem title="Textfragment aus Auswahl erstellen" tag="5" keyEquivalent="Y" id="585">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                             <connections>
                                                 <action selector="createSnippetFromSelectionAction:" target="387" id="599"/>
@@ -734,13 +734,13 @@
                                         <menuItem isSeparatorItem="YES" id="588">
                                             <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                                         </menuItem>
-                                        <menuItem title="Neues Codeschnipsel" tag="10" id="773">
+                                        <menuItem title="Neues Textfragment" tag="10" id="773">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                             <connections>
                                                 <action selector="newSnippetAction:" target="387" id="776"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Neue Codeschnipsel-Sammlung" tag="10" id="774">
+                                        <menuItem title="Neue Textfragment-Sammlung" tag="10" id="774">
                                             <connections>
                                                 <action selector="newSnippetCollectionAction:" target="387" id="777"/>
                                             </connections>
@@ -748,12 +748,12 @@
                                         <menuItem isSeparatorItem="YES" id="775">
                                             <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                                         </menuItem>
-                                        <menuItem title="Codeschnipsel importieren …" id="587">
+                                        <menuItem title="Textfragmente importieren …" id="587">
                                             <connections>
                                                 <action selector="importSnippetsAction:" target="387" id="600"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Codeschnipsel exportieren …" tag="7" id="586">
+                                        <menuItem title="Textfragmente exportieren …" tag="7" id="586">
                                             <connections>
                                                 <action selector="exportSnippetsAction:" target="387" id="601"/>
                                             </connections>
@@ -887,6 +887,7 @@
                     </menu>
                 </menuItem>
             </items>
+            <point key="canvasLocation" x="139" y="154"/>
         </menu>
         <customObject id="379" userLabel="FRAMainController" customClass="FRAMainController"/>
         <customObject id="380" userLabel="FRAApplicationMenuController" customClass="FRAApplicationMenuController"/>
