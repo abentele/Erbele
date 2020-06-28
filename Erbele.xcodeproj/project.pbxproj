@@ -103,7 +103,6 @@
 		7F980B0A0B73B6A2000A9140 /* FRAAdvancedFindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F980AA90B73B6A2000A9140 /* FRAAdvancedFindController.m */; };
 		7F980B0B0B73B6A2000A9140 /* FRAApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F980AAB0B73B6A2000A9140 /* FRAApplication.m */; };
 		7F980B0C0B73B6A2000A9140 /* FRAApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F980AAD0B73B6A2000A9140 /* FRAApplicationDelegate.m */; };
-		7F980B0D0B73B6A2000A9140 /* FRAApplicationMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F980AAF0B73B6A2000A9140 /* FRAApplicationMenuController.m */; };
 		7F980B0E0B73B6A2000A9140 /* FRAAuthenticationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F980AB10B73B6A2000A9140 /* FRAAuthenticationController.m */; };
 		7F980B100B73B6A2000A9140 /* FRACommandsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F980AB50B73B6A2000A9140 /* FRACommandsController.m */; };
 		7F980B120B73B6A2000A9140 /* FRADocumentsMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F980AB90B73B6A2000A9140 /* FRADocumentsMenuController.m */; };
@@ -149,6 +148,7 @@
 		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
 		E15820AB1FC350E900E23D83 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15820AA1FC350E800E23D83 /* Sparkle.framework */; };
 		E18170B71E58FD9A003D9893 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = E18170B61E58FD9A003D9893 /* dsa_pub.pem */; };
+		E1A5DEBF24A89020006F135A /* FRAApplicationMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5DEBE24A89020006F135A /* FRAApplicationMenuController.swift */; };
 		E1DB1D322070FE5E00A41EC3 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E15820AA1FC350E800E23D83 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E1E8E9D11DC8D6BC0072BEF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E8E9D01DC8D6BC0072BEF0 /* Images.xcassets */; };
 /* End PBXBuildFile section */
@@ -318,8 +318,6 @@
 		7F980AAB0B73B6A2000A9140 /* FRAApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRAApplication.m; path = Classes/FRAApplication.m; sourceTree = "<group>"; };
 		7F980AAC0B73B6A2000A9140 /* FRAApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRAApplicationDelegate.h; path = Classes/FRAApplicationDelegate.h; sourceTree = "<group>"; };
 		7F980AAD0B73B6A2000A9140 /* FRAApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRAApplicationDelegate.m; path = Classes/FRAApplicationDelegate.m; sourceTree = "<group>"; wrapsLines = 1; };
-		7F980AAE0B73B6A2000A9140 /* FRAApplicationMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRAApplicationMenuController.h; path = Classes/FRAApplicationMenuController.h; sourceTree = "<group>"; };
-		7F980AAF0B73B6A2000A9140 /* FRAApplicationMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRAApplicationMenuController.m; path = Classes/FRAApplicationMenuController.m; sourceTree = "<group>"; };
 		7F980AB00B73B6A2000A9140 /* FRAAuthenticationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRAAuthenticationController.h; path = Classes/FRAAuthenticationController.h; sourceTree = "<group>"; };
 		7F980AB10B73B6A2000A9140 /* FRAAuthenticationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRAAuthenticationController.m; path = Classes/FRAAuthenticationController.m; sourceTree = "<group>"; };
 		7F980AB40B73B6A2000A9140 /* FRACommandsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRACommandsController.h; path = Classes/FRACommandsController.h; sourceTree = "<group>"; };
@@ -537,6 +535,8 @@
 		E15820AA1FC350E800E23D83 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		E18170B61E58FD9A003D9893 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		E18EFF321DB378C000DA64C3 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E1A5DEBD24A8901F006F135A /* Erbele-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Erbele-Bridging-Header.h"; sourceTree = "<group>"; };
+		E1A5DEBE24A89020006F135A /* FRAApplicationMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRAApplicationMenuController.swift; sourceTree = "<group>"; };
 		E1AECE231E6C229600BAAE9A /* zh_CN */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; lineEnding = 0; name = zh_CN; path = zh_CN.lproj/Localizable3.strings; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
 		E1AECE241E6C22A700BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRAAdvancedFind.xib; sourceTree = "<group>"; };
 		E1AECE251E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRACommands.xib; sourceTree = "<group>"; };
@@ -825,7 +825,6 @@
 			isa = PBXGroup;
 			children = (
 				7F5C24920B73B89E00D2EDDC /* Headers */,
-				7F980AAF0B73B6A2000A9140 /* FRAApplicationMenuController.m */,
 				7F980AC10B73B6A2000A9140 /* FRAFileMenuController.m */,
 				7F980ABF0B73B6A2000A9140 /* FRAEditMenuController.m */,
 				7F980B080B73B6A2000A9140 /* FRAViewMenuController.m */,
@@ -833,6 +832,8 @@
 				7F980B040B73B6A2000A9140 /* FRAToolsMenuController.m */,
 				7F980AB90B73B6A2000A9140 /* FRADocumentsMenuController.m */,
 				7F980ACB0B73B6A2000A9140 /* FRAHelpMenuController.m */,
+				E1A5DEBE24A89020006F135A /* FRAApplicationMenuController.swift */,
+				E1A5DEBD24A8901F006F135A /* Erbele-Bridging-Header.h */,
 			);
 			name = "Menu Controllers";
 			sourceTree = "<group>";
@@ -840,7 +841,6 @@
 		7F5C24920B73B89E00D2EDDC /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				7F980AAE0B73B6A2000A9140 /* FRAApplicationMenuController.h */,
 				7F980AC00B73B6A2000A9140 /* FRAFileMenuController.h */,
 				7F980ABE0B73B6A2000A9140 /* FRAEditMenuController.h */,
 				7F980B070B73B6A2000A9140 /* FRAViewMenuController.h */,
@@ -1154,6 +1154,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1150;
+				TargetAttributes = {
+					8D15AC270486D014006FF6A4 = {
+						LastSwiftMigration = 1150;
+					};
+				};
 			};
 			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Erbele" */;
 			compatibilityVersion = "Xcode 8.0";
@@ -1258,7 +1263,6 @@
 				7F980B0A0B73B6A2000A9140 /* FRAAdvancedFindController.m in Sources */,
 				7F980B0B0B73B6A2000A9140 /* FRAApplication.m in Sources */,
 				7F980B0C0B73B6A2000A9140 /* FRAApplicationDelegate.m in Sources */,
-				7F980B0D0B73B6A2000A9140 /* FRAApplicationMenuController.m in Sources */,
 				7F980B0E0B73B6A2000A9140 /* FRAAuthenticationController.m in Sources */,
 				7F980B100B73B6A2000A9140 /* FRACommandsController.m in Sources */,
 				7F980B120B73B6A2000A9140 /* FRADocumentsMenuController.m in Sources */,
@@ -1317,6 +1321,7 @@
 				2F69A1BE0BB0406800D23876 /* FRADocumentsListCell.m in Sources */,
 				7F9C38DE0BD29AE200B45805 /* FRADataModel2.xcdatamodel in Sources */,
 				7F2B7FBD0C27272E0058BC55 /* FRASingleDocumentPanel.m in Sources */,
+				E1A5DEBF24A89020006F135A /* FRAApplicationMenuController.swift in Sources */,
 				7FBDDEFC0CF794F8003BAFB5 /* FRAProjectWindow.m in Sources */,
 				7F7444C90CF8DDEC00C947C1 /* FRAAdvancedFindPanel.m in Sources */,
 				7F79EE370D93D5500034017B /* NSString+Erbele.m in Sources */,
@@ -1731,6 +1736,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
@@ -1755,6 +1761,9 @@
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = org.erbele.Erbele;
 				PRODUCT_NAME = Erbele;
+				SWIFT_OBJC_BRIDGING_HEADER = "Erbele-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = x86_64;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
@@ -1765,6 +1774,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1786,6 +1796,8 @@
 				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = org.erbele.Erbele;
 				PRODUCT_NAME = Erbele;
+				SWIFT_OBJC_BRIDGING_HEADER = "Erbele-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = x86_64;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1813,6 +1825,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEFINES_MODULE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -1864,6 +1877,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_ENABLE_OBJC_GC = "";

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16097" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication"/>
@@ -30,7 +30,7 @@
                             </menuItem>
                             <menuItem title="Preferences…" keyEquivalent="," id="129">
                                 <connections>
-                                    <action selector="showPreferencesWindowAction:" target="380" id="486"/>
+                                    <action selector="showPreferencesWindowAction:" target="380" id="7dV-6g-R3A"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="143">
@@ -887,9 +887,10 @@
                     </menu>
                 </menuItem>
             </items>
+            <point key="canvasLocation" x="140" y="154"/>
         </menu>
         <customObject id="379" userLabel="FRAMainController" customClass="FRAMainController"/>
-        <customObject id="380" userLabel="FRAApplicationMenuController" customClass="FRAApplicationMenuController"/>
+        <customObject id="380" userLabel="FRAApplicationMenuController" customClass="FRAApplicationMenuController" customModule="Erbele" customModuleProvider="target"/>
         <customObject id="381" userLabel="FRADocumentsMenuController" customClass="FRADocumentsMenuController">
             <connections>
                 <outlet property="documentsMenu" destination="373" id="483"/>
