@@ -11,17 +11,28 @@ http://www.apache.org/licenses/LICENSE-2.0
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 */
 
+import Foundation
 
-//
-//  Use this file to import your target's public headers that you would like to expose to Swift.
-//
+func FRADefaults() -> Any {
+    return NSUserDefaultsController.shared.values
+}
 
-#import "FRAPreferencesController.h"
-#import "FRAAdvancedFindController.h"
-#import "FRAStandardHeader.h"
-#import "FRAProjectsController.h"
-#import "FRATextView.h"
-#import "FRAProject.h"
-#import "FRAProject+ToolbarController.h"
+func FRACurrentProject() -> FRAProject? {
+    return FRAProjectsController.shared.currentDocument as? FRAProject
+}
 
+func FRACurrentDocument() -> Any? {
+    return (FRAProjectsController.shared as! FRAProjectsController).currentFRADocument
+}
 
+func FRACurrentTextView() -> FRATextView? {
+    return (FRAProjectsController.shared as! FRAProjectsController).currentTextView()
+}
+
+func FRACurrentText() -> String? {
+    return (FRAProjectsController.shared as! FRAProjectsController).currentText()
+}
+
+func FRACurrentWindow() -> NSWindow? {
+    return FRACurrentProject()?.windowControllers[0].window
+}

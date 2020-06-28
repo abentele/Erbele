@@ -896,7 +896,7 @@
                 <outlet property="documentsMenu" destination="373" id="483"/>
             </connections>
         </customObject>
-        <customObject id="382" userLabel="FRAEditMenuController" customClass="FRAEditMenuController"/>
+        <customObject id="382" userLabel="FRAEditMenuController" customClass="FRAEditMenuController" customModule="Erbele" customModuleProvider="target"/>
         <customObject id="383" userLabel="FRAFileMenuController" customClass="FRAFileMenuController"/>
         <customObject id="385" userLabel="FRAHelpMenuController" customClass="FRAHelpMenuController"/>
         <customObject id="386" userLabel="FRATextMenuController" customClass="FRATextMenuController">
