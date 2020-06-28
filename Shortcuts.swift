@@ -49,3 +49,8 @@ func FRACurrentText() -> String? {
 func FRACurrentWindow() -> NSWindow? {
     return FRACurrentProject()?.windowControllers[0].window
 }
+
+// bridge define existing in Objective-C
+func NSLocalizedStringFromTable(_ key: String, _ tbl: String, _ comment: String) -> String {
+    return Bundle.main.localizedString(forKey: key, value: "", table: tbl)
+}

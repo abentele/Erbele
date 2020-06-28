@@ -17,7 +17,7 @@ class FRAApplicationMenuController : NSObject {
     
     @IBAction func showPreferencesWindowAction(_ sender: Any)
     {
-        FRAPreferencesController .sharedInstance()?.showPreferencesWindow()
+        FRAPreferencesController.sharedInstance().showPreferencesWindow()
     }
     
 }

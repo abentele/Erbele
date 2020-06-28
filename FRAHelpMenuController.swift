@@ -14,6 +14,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 import Foundation
 
 class FRAHelpMenuController : NSObject {
+    
     @IBAction func installCommandLineUtilityAction(_ sender: Any) {
         if let attachedSheet = FRACurrentWindow()?.attachedSheet {
             attachedSheet.close();
@@ -29,20 +30,20 @@ class FRAHelpMenuController : NSObject {
         alert.alertStyle = NSAlert.Style.informational;
         
         alert.beginSheetModal(for: FRACurrentWindow()!) { (response) in
-            if (response == NSApplication.ModalResponse.alertFirstButtonReturn) {
-                FRAAuthenticationController.sharedInstance()?.installCommandLineUtility()
-            } else if (response == NSApplication.ModalResponse.alertSecondButtonReturn) {
-                let fileManager = FileManager.default;
-                let pathToFolder = URL(fileURLWithPath: NSHomeDirectory())
-                    .appendingPathComponent("Desktop")
-                    .appendingPathComponent("Erbele command-line utility")
-                do {
+            do {
+                if (response == NSApplication.ModalResponse.alertFirstButtonReturn) {
+                    try FRAAuthenticationController.sharedInstance().installCommandLineUtility()
+                } else if (response == NSApplication.ModalResponse.alertSecondButtonReturn) {
+                    let fileManager = FileManager.default;
+                    let pathToFolder = URL(fileURLWithPath: NSHomeDirectory())
+                        .appendingPathComponent("Desktop")
+                        .appendingPathComponent("Erbele command-line utility")
                     try fileManager.createDirectory(at: pathToFolder, withIntermediateDirectories: true, attributes: nil)
                     try self.copyResource(resource: "erbele", pathToFolder: pathToFolder)
                     try self.copyResource(resource: "erbele.1", pathToFolder: pathToFolder)
-                } catch {
-                    // TODO error handling
                 }
+            } catch {
+                // TODO error handling
             }
         }
     }

@@ -18,13 +18,13 @@
 #import "FRAProjectsController.h"
 #import "FRASnippetsController.h"
 #import "FRABasicPerformer.h"
-#import "FRAAuthenticationController.h"
 #import "FRATextPerformer.h"
 #import "FRATextMenuController.h"
 #import "FRAApplicationDelegate.h"
 #import "FRAInterfacePerformer.h"
 #import "FRALineNumbers.h"
 #import "FRAProject.h"
+#import "Erbele-Swift.h"
 
 #import "ODBEditorSuite.h"
 
@@ -208,7 +208,11 @@ static id sharedInstance = nil;
 	}
 
 	if (string == nil) {
-		string = [[NSString alloc] initWithContentsOfFile:path encoding:encoding error:nil];
+        if (textData != nil) {
+            string = [[NSString alloc] initWithData: textData encoding:encoding];
+        } else {
+            string = [[NSString alloc] initWithContentsOfFile:path encoding:encoding error:nil];
+        }
 	}
 
 	if (string == nil) { // Test if encoding worked, else try NSUTF8StringEncoding

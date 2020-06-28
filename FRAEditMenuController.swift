@@ -34,7 +34,7 @@ class FRAEditMenuController : NSObject, NSMenuItemValidation {
     }
 
     @IBAction func advancedFindReplaceAction(_ sender: Any) {
-        FRAAdvancedFindController.sharedInstance()?.showAdvancedFindWindow()
+        FRAAdvancedFindController.sharedInstance().showAdvancedFindWindow()
     }
     
     @IBAction func liveFindAction(_ sender: Any) {

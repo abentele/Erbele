@@ -23,5 +23,5 @@ Unless required by applicable law or agreed to in writing, software distributed 
 #import "FRATextView.h"
 #import "FRAProject.h"
 #import "FRAProject+ToolbarController.h"
-#import "FRAAuthenticationController.h"
-
+#import "FRAVariousPerformer.h"
+#import "FRAOpenSavePerformer.h"

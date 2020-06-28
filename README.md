@@ -3,7 +3,6 @@
 Erbele is a feature-rich text editor for macOS. Forked in 2016 from the Fraise github repository which was discontinued years ago, my main interest is to keep the popular app alive.
 
 Supported macOS versions:
-* macOS Sierra (10.12)
 * macOS High Sierra (10.13)
 * macOS Mojave (10.14)
 * macOS Catalina (10.15)
