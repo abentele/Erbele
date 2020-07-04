@@ -1,0 +1,501 @@
+
+/* Class = "NSMenuItem"; title = "Lägg alla överst"; ObjectID = "5"; */
+"5.title" = "Lägg alla överst";
+
+/* Class = "NSMenuItem"; title = "Fönster"; ObjectID = "19"; */
+"19.title" = "Fönster";
+
+/* Class = "NSMenuItem"; title = "Minimera"; ObjectID = "23"; */
+"23.title" = "Minimera";
+
+/* Class = "NSMenu"; title = "Fönster"; ObjectID = "24"; */
+"24.title" = "Fönster";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "MainMenu";
+
+/* Class = "NSMenuItem"; title = "Erbele"; ObjectID = "56"; */
+"56.title" = "Erbele";
+
+/* Class = "NSMenu"; title = "Erbele"; ObjectID = "57"; */
+"57.title" = "Erbele";
+
+/* Class = "NSMenuItem"; title = "Om Erbele"; ObjectID = "58"; */
+"58.title" = "Om Erbele";
+
+/* Class = "NSMenuItem"; title = "Hjälp"; ObjectID = "103"; */
+"103.title" = "Hjälp";
+
+/* Class = "NSMenu"; title = "Hjälp"; ObjectID = "106"; */
+"106.title" = "Hjälp";
+
+/* Class = "NSMenuItem"; title = "Erbele Hjälp"; ObjectID = "111"; */
+"111.title" = "Erbele Hjälp";
+
+/* Class = "NSMenuItem"; title = "Inställningar…"; ObjectID = "129"; */
+"129.title" = "Inställningar…";
+
+/* Class = "NSMenu"; title = "Tjänster"; ObjectID = "130"; */
+"130.title" = "Tjänster";
+
+/* Class = "NSMenuItem"; title = "Tjänster"; ObjectID = "131"; */
+"131.title" = "Tjänster";
+
+/* Class = "NSMenuItem"; title = "Göm Erbele"; ObjectID = "134"; */
+"134.title" = "Göm Erbele";
+
+/* Class = "NSMenuItem"; title = "Avsluta Erbele"; ObjectID = "136"; */
+"136.title" = "Avsluta Erbele";
+
+/* Class = "NSMenuItem"; title = "Göm övriga"; ObjectID = "145"; */
+"145.title" = "Göm övriga";
+
+/* Class = "NSMenuItem"; title = "Visa alla"; ObjectID = "150"; */
+"150.title" = "Visa alla";
+
+/* Class = "NSMenuItem"; title = "Zooma"; ObjectID = "203"; */
+"203.title" = "Zooma";
+
+/* Class = "NSMenuItem"; title = "Arkiv"; ObjectID = "243"; */
+"243.title" = "Arkiv";
+
+/* Class = "NSMenu"; title = "Arkiv"; ObjectID = "244"; */
+"244.title" = "Arkiv";
+
+/* Class = "NSMenuItem"; title = "Skriv ut…"; ObjectID = "246"; */
+"246.title" = "Skriv ut…";
+
+/* Class = "NSMenuItem"; title = "Stäng"; ObjectID = "248"; */
+"248.title" = "Stäng";
+
+/* Class = "NSMenuItem"; title = "Spara"; ObjectID = "251"; */
+"251.title" = "Spara";
+
+/* Class = "NSMenuItem"; title = "Spara som…"; ObjectID = "252"; */
+"252.title" = "Spara som…";
+
+/* Class = "NSMenuItem"; title = "Spara en kopia som…"; ObjectID = "253"; */
+"253.title" = "Spara en kopia som…";
+
+/* Class = "NSMenuItem"; title = "Spara alla"; ObjectID = "254"; */
+"254.title" = "Spara alla";
+
+/* Class = "NSMenuItem"; title = "Spara dokumenten som projekt…"; ObjectID = "257"; */
+"257.title" = "Spara dokumenten som projekt…";
+
+/* Class = "NSMenuItem"; title = "Ny"; ObjectID = "258"; */
+"258.title" = "Ny";
+
+/* Class = "NSMenuItem"; title = "Återgå till sparad"; ObjectID = "259"; */
+"259.title" = "Återgå till sparad";
+
+/* Class = "NSMenuItem"; title = "Öppna..."; ObjectID = "262"; */
+"262.title" = "Öppna...";
+
+/* Class = "NSMenuItem"; title = "Öppna senaste"; ObjectID = "268"; */
+"268.title" = "Öppna senaste";
+
+/* Class = "NSMenu"; title = "Öppna senaste"; ObjectID = "269"; */
+"269.title" = "Öppna senaste";
+
+/* Class = "NSMenuItem"; title = "Clear Menu <do not localise>"; ObjectID = "270"; */
+"270.title" = "Clear Menu <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Visa i Finder"; ObjectID = "271"; */
+"271.title" = "Visa i Finder";
+
+/* Class = "NSMenuItem"; title = "Visa"; ObjectID = "289"; */
+"289.title" = "Visa";
+
+/* Class = "NSMenu"; title = "Visa"; ObjectID = "290"; */
+"290.title" = "Visa";
+
+/* Class = "NSMenuItem"; title = "Show Syntax Colours <do not localise>"; ObjectID = "292"; */
+"292.title" = "Show Syntax Colours <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Se dokumentet i separat fönster"; ObjectID = "297"; */
+"297.title" = "Se dokumentet i separat fönster";
+
+/* Class = "NSMenuItem"; title = "Show Documents View <do not localise>"; ObjectID = "300"; */
+"300.title" = "Show Documents View <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Show Tab Bar <do not localise>"; ObjectID = "301"; */
+"301.title" = "Show Tab Bar <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Show Status Bar <do not localise>"; ObjectID = "303"; */
+"303.title" = "Show Status Bar <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Show Invisible Characters <do not localise>"; ObjectID = "305"; */
+"305.title" = "Show Invisible Characters <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Anpassa verktygsfältet…"; ObjectID = "306"; */
+"306.title" = "Anpassa verktygsfältet…";
+
+/* Class = "NSMenuItem"; title = "Show Line Numbers <do not localise>"; ObjectID = "307"; */
+"307.title" = "Show Line Numbers <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Split Window <do not localise>"; ObjectID = "308"; */
+"308.title" = "Split Window <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Line Wrap Text <do not localise>"; ObjectID = "309"; */
+"309.title" = "Line Wrap Text <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Text"; ObjectID = "319"; */
+"319.title" = "Text";
+
+/* Class = "NSMenu"; title = "Text"; ObjectID = "320"; */
+"320.title" = "Text";
+
+/* Class = "NSMenuItem"; title = "Gå till rad…"; ObjectID = "321"; */
+"321.title" = "Gå till rad…";
+
+/* Class = "NSMenuItem"; title = "Ta bort radslut"; ObjectID = "322"; */
+"322.title" = "Ta bort radslut";
+
+/* Class = "NSMenuItem"; title = "Textkodning"; ObjectID = "325"; */
+"325.title" = "Textkodning";
+
+/* Class = "NSMenu"; title = "Textkodning"; ObjectID = "326"; */
+"326.title" = "Textkodning";
+
+/* Class = "NSMenuItem"; title = "Radslut"; ObjectID = "327"; */
+"327.title" = "Radslut";
+
+/* Class = "NSMenu"; title = "Radslut"; ObjectID = "328"; */
+"328.title" = "Radslut";
+
+/* Class = "NSMenuItem"; title = "Mac (CR)"; ObjectID = "329"; */
+"329.title" = "Mac (CR)";
+
+/* Class = "NSMenuItem"; title = "Unix - Mac OS X (LF)"; ObjectID = "330"; */
+"330.title" = "Unix - Mac OS X (LF)";
+
+/* Class = "NSMenuItem"; title = "Windows (CRLF)"; ObjectID = "331"; */
+"331.title" = "Windows (CRLF)";
+
+/* Class = "NSMenuItem"; title = "Tabba… (mellanslag till tabbar)"; ObjectID = "334"; */
+"334.title" = "Tabba… (mellanslag till tabbar)";
+
+/* Class = "NSMenuItem"; title = "Avtabba… (tabbar till mellanslag)"; ObjectID = "335"; */
+"335.title" = "Avtabba… (tabbar till mellanslag)";
+
+/* Class = "NSMenuItem"; title = "Ladda om med textkodning"; ObjectID = "337"; */
+"337.title" = "Ladda om med textkodning";
+
+/* Class = "NSMenu"; title = "Ladda om med textkodning"; ObjectID = "338"; */
+"338.title" = "Ladda om med textkodning";
+
+/* Class = "NSMenuItem"; title = "Första Bokstaven Som Versal I Alla Ord "; ObjectID = "339"; */
+"339.title" = "Första Bokstaven Som Versal I Alla Ord ";
+
+/* Class = "NSMenuItem"; title = "Till VERSALER"; ObjectID = "340"; */
+"340.title" = "Till VERSALER";
+
+/* Class = "NSMenuItem"; title = "Till gemener"; ObjectID = "341"; */
+"341.title" = "Till gemener";
+
+/* Class = "NSMenuItem"; title = "Förbered för XML"; ObjectID = "342"; */
+"342.title" = "Förbered för XML";
+
+/* Class = "NSMenuItem"; title = "Flytta åt vänster"; ObjectID = "343"; */
+"343.title" = "Flytta åt vänster";
+
+/* Class = "NSMenuItem"; title = "Byt intilliggande bokstäver"; ObjectID = "344"; */
+"344.title" = "Byt intilliggande bokstäver";
+
+/* Class = "NSMenuItem"; title = "Flytta åt höger"; ObjectID = "345"; */
+"345.title" = "Flytta åt höger";
+
+/* Class = "NSMenuItem"; title = "Kommentera eller avkommentera"; ObjectID = "347"; */
+"347.title" = "Kommentera eller avkommentera";
+
+/* Class = "NSMenuItem"; title = "Stäng kommando"; ObjectID = "348"; */
+"348.title" = "Stäng kommando";
+
+/* Class = "NSMenuItem"; title = "Ta bort onödiga tecken"; ObjectID = "349"; */
+"349.title" = "Ta bort onödiga tecken";
+
+/* Class = "NSMenuItem"; title = "Verktyg"; ObjectID = "350"; */
+"350.title" = "Verktyg";
+
+/* Class = "NSMenu"; title = "Verktyg"; ObjectID = "351"; */
+"351.title" = "Verktyg";
+
+/* Class = "NSMenuItem"; title = "Ladda om förhandsvisning"; ObjectID = "352"; */
+"352.title" = "Ladda om förhandsvisning";
+
+/* Class = "NSMenuItem"; title = "Kommandon"; ObjectID = "356"; */
+"356.title" = "Kommandon";
+
+/* Class = "NSMenu"; title = "Kommandon"; ObjectID = "357"; */
+"357.title" = "Kommandon";
+
+/* Class = "NSMenuItem"; title = "Infoga färg…"; ObjectID = "358"; */
+"358.title" = "Infoga färg…";
+
+/* Class = "NSMenuItem"; title = "Föregående funktion"; ObjectID = "362"; */
+"362.title" = "Föregående funktion";
+
+/* Class = "NSMenuItem"; title = "Nästa funktion"; ObjectID = "363"; */
+"363.title" = "Nästa funktion";
+
+/* Class = "NSMenuItem"; title = "Funktioner"; ObjectID = "364"; */
+"364.title" = "Funktioner";
+
+/* Class = "NSMenu"; title = "Funktioner"; ObjectID = "365"; */
+"365.title" = "Funktioner";
+
+/* Class = "NSMenuItem"; title = "Visa info"; ObjectID = "367"; */
+"367.title" = "Visa info";
+
+/* Class = "NSMenuItem"; title = "Uppdatera info"; ObjectID = "368"; */
+"368.title" = "Uppdatera info";
+
+/* Class = "NSMenuItem"; title = "Förhandsvisning"; ObjectID = "371"; */
+"371.title" = "Förhandsvisning";
+
+/* Class = "NSMenuItem"; title = "Dokument"; ObjectID = "372"; */
+"372.title" = "Dokument";
+
+/* Class = "NSMenu"; title = "Dokument"; ObjectID = "373"; */
+"373.title" = "Dokument";
+
+/* Class = "NSMenuItem"; title = "Föregående dokument"; ObjectID = "374"; */
+"374.title" = "Föregående dokument";
+
+/* Class = "NSMenuItem"; title = "Nästa dokument"; ObjectID = "375"; */
+"375.title" = "Nästa dokument";
+
+/* Class = "NSMenuItem"; title = "Installera kommandorads-verktyget"; ObjectID = "377"; */
+"377.title" = "Installera kommandorads-verktyget";
+
+/* Class = "NSMenuItem"; title = "Syntaxdefinition"; ObjectID = "391"; */
+"391.title" = "Syntaxdefinition";
+
+/* Class = "NSMenu"; title = "Syntaxdefinition"; ObjectID = "392"; */
+"392.title" = "Syntaxdefinition";
+
+/* Class = "NSMenuItem"; title = "Snuttar"; ObjectID = "467"; */
+"467.title" = "Snuttar";
+
+/* Class = "NSMenu"; title = "Snuttar"; ObjectID = "468"; */
+"468.title" = "Snuttar";
+
+/* Class = "NSMenuItem"; title = "Nytt projekt…"; ObjectID = "474"; */
+"474.title" = "Nytt projekt…";
+
+/* Class = "NSMenuItem"; title = "Öppna projekt…"; ObjectID = "566"; */
+"566.title" = "Öppna projekt…";
+
+/* Class = "NSMenuItem"; title = "Stäng projekt"; ObjectID = "571"; */
+"571.title" = "Stäng projekt";
+
+/* Class = "NSMenuItem"; title = "Hantera kommandon"; ObjectID = "576"; */
+"576.title" = "Hantera kommandon";
+
+/* Class = "NSMenu"; title = "Hantera kommandon"; ObjectID = "577"; */
+"577.title" = "Hantera kommandon";
+
+/* Class = "NSMenuItem"; title = "Visa kommandoresultatfönstret"; ObjectID = "578"; */
+"578.title" = "Visa kommandoresultatfönstret";
+
+/* Class = "NSMenuItem"; title = "Visa kommandofönstret"; ObjectID = "579"; */
+"579.title" = "Visa kommandofönstret";
+
+/* Class = "NSMenuItem"; title = "Kör text"; ObjectID = "580"; */
+"580.title" = "Kör text";
+
+/* Class = "NSMenuItem"; title = "Hantera snuttar"; ObjectID = "581"; */
+"581.title" = "Hantera snuttar";
+
+/* Class = "NSMenu"; title = "Hantera snuttar"; ObjectID = "582"; */
+"582.title" = "Hantera snuttar";
+
+/* Class = "NSMenuItem"; title = "Visa snuttarfönstret"; ObjectID = "584"; */
+"584.title" = "Visa snuttarfönstret";
+
+/* Class = "NSMenuItem"; title = "Skapa snutt från markering"; ObjectID = "585"; */
+"585.title" = "Skapa snutt från markering";
+
+/* Class = "NSMenuItem"; title = "Exportera snuttar…"; ObjectID = "586"; */
+"586.title" = "Exportera snuttar…";
+
+/* Class = "NSMenuItem"; title = "Importera snuttar…"; ObjectID = "587"; */
+"587.title" = "Importera snuttar…";
+
+/* Class = "NSMenuItem"; title = "Importera kommandon…"; ObjectID = "590"; */
+"590.title" = "Importera kommandon…";
+
+/* Class = "NSMenuItem"; title = "Exportera kommandon…"; ObjectID = "591"; */
+"591.title" = "Exportera kommandon…";
+
+/* Class = "NSMenuItem"; title = "Split Window Vertically <do not localise>"; ObjectID = "748"; */
+"748.title" = "Split Window Vertically <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Kör kommandot i texten"; ObjectID = "752"; */
+"752.title" = "Kör kommandot i texten";
+
+/* Class = "NSMenuItem"; title = "Ny kommandosamling"; ObjectID = "769"; */
+"769.title" = "Ny kommandosamling";
+
+/* Class = "NSMenuItem"; title = "Nytt kommando"; ObjectID = "770"; */
+"770.title" = "Nytt kommando";
+
+/* Class = "NSMenuItem"; title = "Kör kommando"; ObjectID = "771"; */
+"771.title" = "Kör kommando";
+
+/* Class = "NSMenuItem"; title = "Ny snutt"; ObjectID = "773"; */
+"773.title" = "Ny snutt";
+
+/* Class = "NSMenuItem"; title = "Ny snuttsamling"; ObjectID = "774"; */
+"774.title" = "Ny snuttsamling";
+
+/* Class = "NSMenuItem"; title = "Show Size Slider <do not localise>"; ObjectID = "788"; */
+"788.title" = "Show Size Slider <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Redigera"; ObjectID = "1023"; */
+"1023.title" = "Redigera";
+
+/* Class = "NSMenu"; title = "Redigera"; ObjectID = "1024"; */
+"1024.title" = "Redigera";
+
+/* Class = "NSMenuItem"; title = "Ångra"; ObjectID = "1025"; */
+"1025.title" = "Ångra";
+
+/* Class = "NSMenuItem"; title = "Gör om"; ObjectID = "1026"; */
+"1026.title" = "Gör om";
+
+/* Class = "NSMenuItem"; title = "Klipp ut"; ObjectID = "1028"; */
+"1028.title" = "Klipp ut";
+
+/* Class = "NSMenuItem"; title = "Kopiera"; ObjectID = "1029"; */
+"1029.title" = "Kopiera";
+
+/* Class = "NSMenuItem"; title = "Klistra in"; ObjectID = "1030"; */
+"1030.title" = "Klistra in";
+
+/* Class = "NSMenuItem"; title = "Klistra in och matcha stilen"; ObjectID = "1031"; */
+"1031.title" = "Klistra in och matcha stilen";
+
+/* Class = "NSMenuItem"; title = "Ta bort"; ObjectID = "1032"; */
+"1032.title" = "Ta bort";
+
+/* Class = "NSMenuItem"; title = "Markera allt"; ObjectID = "1033"; */
+"1033.title" = "Markera allt";
+
+/* Class = "NSMenuItem"; title = "Sök"; ObjectID = "1035"; */
+"1035.title" = "Sök";
+
+/* Class = "NSMenuItem"; title = "Stavning och grammatik"; ObjectID = "1036"; */
+"1036.title" = "Stavning och grammatik";
+
+/* Class = "NSMenuItem"; title = "Ersättningar"; ObjectID = "1037"; */
+"1037.title" = "Ersättningar";
+
+/* Class = "NSMenuItem"; title = "Skiftläge"; ObjectID = "1038"; */
+"1038.title" = "Skiftläge";
+
+/* Class = "NSMenuItem"; title = "Tal"; ObjectID = "1039"; */
+"1039.title" = "Tal";
+
+/* Class = "NSMenu"; title = "Tal"; ObjectID = "1040"; */
+"1040.title" = "Tal";
+
+/* Class = "NSMenuItem"; title = "Börja tala"; ObjectID = "1041"; */
+"1041.title" = "Börja tala";
+
+/* Class = "NSMenuItem"; title = "Avbryt tal"; ObjectID = "1042"; */
+"1042.title" = "Avbryt tal";
+
+/* Class = "NSMenu"; title = "Skiftläge"; ObjectID = "1043"; */
+"1043.title" = "Skiftläge";
+
+/* Class = "NSMenuItem"; title = "Stora bokstäver"; ObjectID = "1044"; */
+"1044.title" = "Stora bokstäver";
+
+/* Class = "NSMenuItem"; title = "Små bokstäver"; ObjectID = "1045"; */
+"1045.title" = "Små bokstäver";
+
+/* Class = "NSMenuItem"; title = "Börja med stor bokstav"; ObjectID = "1046"; */
+"1046.title" = "Börja med stor bokstav";
+
+/* Class = "NSMenu"; title = "Ersättningar"; ObjectID = "1047"; */
+"1047.title" = "Ersättningar";
+
+/* Class = "NSMenuItem"; title = "Visa ersättningar"; ObjectID = "1048"; */
+"1048.title" = "Visa ersättningar";
+
+/* Class = "NSMenuItem"; title = "Smart kopiering/inklistring"; ObjectID = "1050"; */
+"1050.title" = "Smart kopiering/inklistring";
+
+/* Class = "NSMenuItem"; title = "Smarta citationstecken"; ObjectID = "1051"; */
+"1051.title" = "Smarta citationstecken";
+
+/* Class = "NSMenuItem"; title = "Smarta streck"; ObjectID = "1052"; */
+"1052.title" = "Smarta streck";
+
+/* Class = "NSMenuItem"; title = "Smarta länkar"; ObjectID = "1053"; */
+"1053.title" = "Smarta länkar";
+
+/* Class = "NSMenuItem"; title = "Dataavkännare"; ObjectID = "1054"; */
+"1054.title" = "Dataavkännare";
+
+/* Class = "NSMenuItem"; title = "Textersättning"; ObjectID = "1055"; */
+"1055.title" = "Textersättning";
+
+/* Class = "NSMenu"; title = "Stavning"; ObjectID = "1056"; */
+"1056.title" = "Stavning";
+
+/* Class = "NSMenuItem"; title = "Visa stavning och grammatik"; ObjectID = "1057"; */
+"1057.title" = "Visa stavning och grammatik";
+
+/* Class = "NSMenuItem"; title = "Kontrollera dokument nu"; ObjectID = "1058"; */
+"1058.title" = "Kontrollera dokument nu";
+
+/* Class = "NSMenuItem"; title = "Kontrollera stavning medan jag skriver"; ObjectID = "1060"; */
+"1060.title" = "Kontrollera stavning medan jag skriver";
+
+/* Class = "NSMenuItem"; title = "Kontrollera grammatik med stavning"; ObjectID = "1061"; */
+"1061.title" = "Kontrollera grammatik med stavning";
+
+/* Class = "NSMenuItem"; title = "Rätta stavning automatiskt"; ObjectID = "1062"; */
+"1062.title" = "Rätta stavning automatiskt";
+
+/* Class = "NSMenu"; title = "Sök"; ObjectID = "1063"; */
+"1063.title" = "Sök";
+
+/* Class = "NSMenuItem"; title = "Sök…"; ObjectID = "1064"; */
+"1064.title" = "Sök…";
+
+/* Class = "NSMenuItem"; title = "Sök nästa"; ObjectID = "1065"; */
+"1065.title" = "Sök nästa";
+
+/* Class = "NSMenuItem"; title = "Sök föregående"; ObjectID = "1066"; */
+"1066.title" = "Sök föregående";
+
+/* Class = "NSMenuItem"; title = "Använd markering för sökning"; ObjectID = "1067"; */
+"1067.title" = "Använd markering för sökning";
+
+/* Class = "NSMenuItem"; title = "Gå till markering"; ObjectID = "1068"; */
+"1068.title" = "Gå till markering";
+
+/* Class = "NSMenuItem"; title = "Avancerad sök och ersätt…"; ObjectID = "1099"; */
+"1099.title" = "Avancerad sök och ersätt…";
+
+/* Class = "NSMenuItem"; title = "Direktsök"; ObjectID = "1100"; */
+"1100.title" = "Direktsök";
+
+/* Class = "NSMenuItem"; title = "Öppna dold…"; ObjectID = "1103"; */
+"1103.title" = "Öppna dold…";
+
+/* Class = "NSMenuItem"; title = "Duplicera rad"; ObjectID = "1142"; */
+"1142.title" = "Duplicera rad";
+
+/* Class = "NSMenuItem"; title = "Sök efter uppdateringar..."; ObjectID = "Nwz-pR-Bmf"; */
+"Nwz-pR-Bmf.title" = "Sök efter uppdateringar...";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Escape drücken, um den Vollbildmodus zu verlassen"; ObjectID = "T31-07-ROv"; */
+"T31-07-ROv.ibShadowedToolTip" = "Escape drücken, um den Vollbildmodus zu verlassen";
+
+/* Class = "NSMenuItem"; title = "Enter Full Screen <do not localise>"; ObjectID = "T31-07-ROv"; */
+"T31-07-ROv.title" = "Enter Full Screen <do not localise>";

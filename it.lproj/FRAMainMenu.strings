@@ -1,0 +1,501 @@
+
+/* Class = "NSMenuItem"; title = "Porta tutto in primo piano"; ObjectID = "5"; */
+"5.title" = "Porta tutto in primo piano";
+
+/* Class = "NSMenuItem"; title = "Finestra"; ObjectID = "19"; */
+"19.title" = "Finestra";
+
+/* Class = "NSMenuItem"; title = "Contrai"; ObjectID = "23"; */
+"23.title" = "Contrai";
+
+/* Class = "NSMenu"; title = "Finestra"; ObjectID = "24"; */
+"24.title" = "Finestra";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "MainMenu";
+
+/* Class = "NSMenuItem"; title = "Erbele"; ObjectID = "56"; */
+"56.title" = "Erbele";
+
+/* Class = "NSMenu"; title = "Erbele"; ObjectID = "57"; */
+"57.title" = "Erbele";
+
+/* Class = "NSMenuItem"; title = "Informazioni su Erbele"; ObjectID = "58"; */
+"58.title" = "Informazioni su Erbele";
+
+/* Class = "NSMenuItem"; title = "Aiuto"; ObjectID = "103"; */
+"103.title" = "Aiuto";
+
+/* Class = "NSMenu"; title = "Aiuto"; ObjectID = "106"; */
+"106.title" = "Aiuto";
+
+/* Class = "NSMenuItem"; title = "Aiuto Erbele"; ObjectID = "111"; */
+"111.title" = "Aiuto Erbele";
+
+/* Class = "NSMenuItem"; title = "Preferenze…"; ObjectID = "129"; */
+"129.title" = "Preferenze…";
+
+/* Class = "NSMenu"; title = "Servizi"; ObjectID = "130"; */
+"130.title" = "Servizi";
+
+/* Class = "NSMenuItem"; title = "Servizi"; ObjectID = "131"; */
+"131.title" = "Servizi";
+
+/* Class = "NSMenuItem"; title = "Nascondi Erbele"; ObjectID = "134"; */
+"134.title" = "Nascondi Erbele";
+
+/* Class = "NSMenuItem"; title = "Esci da Erbele"; ObjectID = "136"; */
+"136.title" = "Esci da Erbele";
+
+/* Class = "NSMenuItem"; title = "Nascondi altre"; ObjectID = "145"; */
+"145.title" = "Nascondi altre";
+
+/* Class = "NSMenuItem"; title = "Mostra tutte"; ObjectID = "150"; */
+"150.title" = "Mostra tutte";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "203"; */
+"203.title" = "Zoom";
+
+/* Class = "NSMenuItem"; title = "Archivio"; ObjectID = "243"; */
+"243.title" = "Archivio";
+
+/* Class = "NSMenu"; title = "Archivio"; ObjectID = "244"; */
+"244.title" = "Archivio";
+
+/* Class = "NSMenuItem"; title = "Stampa…"; ObjectID = "246"; */
+"246.title" = "Stampa…";
+
+/* Class = "NSMenuItem"; title = "Chiudi"; ObjectID = "248"; */
+"248.title" = "Chiudi";
+
+/* Class = "NSMenuItem"; title = "Registra"; ObjectID = "251"; */
+"251.title" = "Registra";
+
+/* Class = "NSMenuItem"; title = "Registra col nome…"; ObjectID = "252"; */
+"252.title" = "Registra col nome…";
+
+/* Class = "NSMenuItem"; title = "Registra una copia col nome…"; ObjectID = "253"; */
+"253.title" = "Registra una copia col nome…";
+
+/* Class = "NSMenuItem"; title = "Registra tutti"; ObjectID = "254"; */
+"254.title" = "Registra tutti";
+
+/* Class = "NSMenuItem"; title = "Registra i documenti come progetto…"; ObjectID = "257"; */
+"257.title" = "Registra i documenti come progetto…";
+
+/* Class = "NSMenuItem"; title = "Nuovo"; ObjectID = "258"; */
+"258.title" = "Nuovo";
+
+/* Class = "NSMenuItem"; title = "Ritorna alla versione precedente"; ObjectID = "259"; */
+"259.title" = "Ritorna alla versione precedente";
+
+/* Class = "NSMenuItem"; title = "Apri..."; ObjectID = "262"; */
+"262.title" = "Apri...";
+
+/* Class = "NSMenuItem"; title = "Apri recente"; ObjectID = "268"; */
+"268.title" = "Apri recente";
+
+/* Class = "NSMenu"; title = "Apri recente"; ObjectID = "269"; */
+"269.title" = "Apri recente";
+
+/* Class = "NSMenuItem"; title = "Clear Menu <do not localise>"; ObjectID = "270"; */
+"270.title" = "Clear Menu <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Mostra nel Finder"; ObjectID = "271"; */
+"271.title" = "Mostra nel Finder";
+
+/* Class = "NSMenuItem"; title = "Vista"; ObjectID = "289"; */
+"289.title" = "Vista";
+
+/* Class = "NSMenu"; title = "Vista"; ObjectID = "290"; */
+"290.title" = "Vista";
+
+/* Class = "NSMenuItem"; title = "Show Syntax Colours <do not localise>"; ObjectID = "292"; */
+"292.title" = "Show Syntax Colours <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Mostra il documento in una finestra separata"; ObjectID = "297"; */
+"297.title" = "Mostra il documento in una finestra separata";
+
+/* Class = "NSMenuItem"; title = "Show Documents View <do not localise>"; ObjectID = "300"; */
+"300.title" = "Show Documents View <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Show Tab Bar <do not localise>"; ObjectID = "301"; */
+"301.title" = "Show Tab Bar <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Show Status Bar <do not localise>"; ObjectID = "303"; */
+"303.title" = "Show Status Bar <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Show Invisible Characters <do not localise>"; ObjectID = "305"; */
+"305.title" = "Show Invisible Characters <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Personalizza la barra degli strumenti..."; ObjectID = "306"; */
+"306.title" = "Personalizza la barra degli strumenti...";
+
+/* Class = "NSMenuItem"; title = "Show Line Numbers <do not localise>"; ObjectID = "307"; */
+"307.title" = "Show Line Numbers <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Split Window <do not localise>"; ObjectID = "308"; */
+"308.title" = "Split Window <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Line Wrap Text <do not localise>"; ObjectID = "309"; */
+"309.title" = "Line Wrap Text <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Testo"; ObjectID = "319"; */
+"319.title" = "Testo";
+
+/* Class = "NSMenu"; title = "Testo"; ObjectID = "320"; */
+"320.title" = "Testo";
+
+/* Class = "NSMenuItem"; title = "Vai alla linea…"; ObjectID = "321"; */
+"321.title" = "Vai alla linea…";
+
+/* Class = "NSMenuItem"; title = "Rimuovi i terminatori di linea"; ObjectID = "322"; */
+"322.title" = "Rimuovi i terminatori di linea";
+
+/* Class = "NSMenuItem"; title = "Codifica del testo"; ObjectID = "325"; */
+"325.title" = "Codifica del testo";
+
+/* Class = "NSMenu"; title = "Codifica del testo"; ObjectID = "326"; */
+"326.title" = "Codifica del testo";
+
+/* Class = "NSMenuItem"; title = "Terminatore di linea"; ObjectID = "327"; */
+"327.title" = "Terminatore di linea";
+
+/* Class = "NSMenu"; title = "Terminatore di linea"; ObjectID = "328"; */
+"328.title" = "Terminatore di linea";
+
+/* Class = "NSMenuItem"; title = "Mac (CR)"; ObjectID = "329"; */
+"329.title" = "Mac (CR)";
+
+/* Class = "NSMenuItem"; title = "Unix - Mac OS X (LF)"; ObjectID = "330"; */
+"330.title" = "Unix - Mac OS X (LF)";
+
+/* Class = "NSMenuItem"; title = "Windows (CRLF)"; ObjectID = "331"; */
+"331.title" = "Windows (CRLF)";
+
+/* Class = "NSMenuItem"; title = "Inserisci tabulazioni… (dagli spazi alle tabulazioni)"; ObjectID = "334"; */
+"334.title" = "Inserisci tabulazioni… (dagli spazi alle tabulazioni)";
+
+/* Class = "NSMenuItem"; title = "Elimina tabulazioni… (dalle tabulazioni agli spazi)"; ObjectID = "335"; */
+"335.title" = "Elimina tabulazioni… (dalle tabulazioni agli spazi)";
+
+/* Class = "NSMenuItem"; title = "Ricarica il testo con la codifica"; ObjectID = "337"; */
+"337.title" = "Ricarica il testo con la codifica";
+
+/* Class = "NSMenu"; title = "Ricarica il testo con la codifica"; ObjectID = "338"; */
+"338.title" = "Ricarica il testo con la codifica";
+
+/* Class = "NSMenuItem"; title = "Metti in maiuscolo la prima lettera di ogni parola"; ObjectID = "339"; */
+"339.title" = "Metti in maiuscolo la prima lettera di ogni parola";
+
+/* Class = "NSMenuItem"; title = "in MAIUSCOLO"; ObjectID = "340"; */
+"340.title" = "in MAIUSCOLO";
+
+/* Class = "NSMenuItem"; title = "In minuscolo"; ObjectID = "341"; */
+"341.title" = "In minuscolo";
+
+/* Class = "NSMenuItem"; title = "Prepara per XML"; ObjectID = "342"; */
+"342.title" = "Prepara per XML";
+
+/* Class = "NSMenuItem"; title = "Sposta a sinistra"; ObjectID = "343"; */
+"343.title" = "Sposta a sinistra";
+
+/* Class = "NSMenuItem"; title = "Scambia caratteri adiacenti"; ObjectID = "344"; */
+"344.title" = "Scambia caratteri adiacenti";
+
+/* Class = "NSMenuItem"; title = "Sposta a destra"; ObjectID = "345"; */
+"345.title" = "Sposta a destra";
+
+/* Class = "NSMenuItem"; title = "Commenta o decommenta"; ObjectID = "347"; */
+"347.title" = "Commenta o decommenta";
+
+/* Class = "NSMenuItem"; title = "Chiudi tag"; ObjectID = "348"; */
+"348.title" = "Chiudi tag";
+
+/* Class = "NSMenuItem"; title = "Rimuovi gli spazi bianchi non necessari"; ObjectID = "349"; */
+"349.title" = "Rimuovi gli spazi bianchi non necessari";
+
+/* Class = "NSMenuItem"; title = "Strumenti"; ObjectID = "350"; */
+"350.title" = "Strumenti";
+
+/* Class = "NSMenu"; title = "Strumenti"; ObjectID = "351"; */
+"351.title" = "Strumenti";
+
+/* Class = "NSMenuItem"; title = "Ricarica anteprima"; ObjectID = "352"; */
+"352.title" = "Ricarica anteprima";
+
+/* Class = "NSMenuItem"; title = "Comandi"; ObjectID = "356"; */
+"356.title" = "Comandi";
+
+/* Class = "NSMenu"; title = "Comandi"; ObjectID = "357"; */
+"357.title" = "Comandi";
+
+/* Class = "NSMenuItem"; title = "Inserisci un colore…"; ObjectID = "358"; */
+"358.title" = "Inserisci un colore…";
+
+/* Class = "NSMenuItem"; title = "Funzione precedente"; ObjectID = "362"; */
+"362.title" = "Funzione precedente";
+
+/* Class = "NSMenuItem"; title = "Funzione successiva"; ObjectID = "363"; */
+"363.title" = "Funzione successiva";
+
+/* Class = "NSMenuItem"; title = "Funzioni"; ObjectID = "364"; */
+"364.title" = "Funzioni";
+
+/* Class = "NSMenu"; title = "Funzioni"; ObjectID = "365"; */
+"365.title" = "Funzioni";
+
+/* Class = "NSMenuItem"; title = "Ottieni informazioni"; ObjectID = "367"; */
+"367.title" = "Ottieni informazioni";
+
+/* Class = "NSMenuItem"; title = "Aggiorna le informazioni"; ObjectID = "368"; */
+"368.title" = "Aggiorna le informazioni";
+
+/* Class = "NSMenuItem"; title = "Anteprima"; ObjectID = "371"; */
+"371.title" = "Anteprima";
+
+/* Class = "NSMenuItem"; title = "Documenti"; ObjectID = "372"; */
+"372.title" = "Documenti";
+
+/* Class = "NSMenu"; title = "Documenti"; ObjectID = "373"; */
+"373.title" = "Documenti";
+
+/* Class = "NSMenuItem"; title = "Documento precedente"; ObjectID = "374"; */
+"374.title" = "Documento precedente";
+
+/* Class = "NSMenuItem"; title = "Documento successivo"; ObjectID = "375"; */
+"375.title" = "Documento successivo";
+
+/* Class = "NSMenuItem"; title = "Installa l'utilità a linea di comando"; ObjectID = "377"; */
+"377.title" = "Installa l'utilità a linea di comando";
+
+/* Class = "NSMenuItem"; title = "Definizione della sintassi"; ObjectID = "391"; */
+"391.title" = "Definizione della sintassi";
+
+/* Class = "NSMenu"; title = "Definizione della sintassi"; ObjectID = "392"; */
+"392.title" = "Definizione della sintassi";
+
+/* Class = "NSMenuItem"; title = "Frammenti di testo"; ObjectID = "467"; */
+"467.title" = "Frammenti di testo";
+
+/* Class = "NSMenu"; title = "Frammenti di testo"; ObjectID = "468"; */
+"468.title" = "Frammenti di testo";
+
+/* Class = "NSMenuItem"; title = "Nuovo progetto…"; ObjectID = "474"; */
+"474.title" = "Nuovo progetto…";
+
+/* Class = "NSMenuItem"; title = "Apri progetto…"; ObjectID = "566"; */
+"566.title" = "Apri progetto…";
+
+/* Class = "NSMenuItem"; title = "Chiudi progetto"; ObjectID = "571"; */
+"571.title" = "Chiudi progetto";
+
+/* Class = "NSMenuItem"; title = "Gestione comandi"; ObjectID = "576"; */
+"576.title" = "Gestione comandi";
+
+/* Class = "NSMenu"; title = "Gestione comandi"; ObjectID = "577"; */
+"577.title" = "Gestione comandi";
+
+/* Class = "NSMenuItem"; title = "Mostra la finestra del risultato del comando"; ObjectID = "578"; */
+"578.title" = "Mostra la finestra del risultato del comando";
+
+/* Class = "NSMenuItem"; title = "Mostra la finestra dei comandi"; ObjectID = "579"; */
+"579.title" = "Mostra la finestra dei comandi";
+
+/* Class = "NSMenuItem"; title = "Esegui il testo"; ObjectID = "580"; */
+"580.title" = "Esegui il testo";
+
+/* Class = "NSMenuItem"; title = "Gestione frammenti di testo"; ObjectID = "581"; */
+"581.title" = "Gestione frammenti di testo";
+
+/* Class = "NSMenu"; title = "Gestione frammenti di testo"; ObjectID = "582"; */
+"582.title" = "Gestione frammenti di testo";
+
+/* Class = "NSMenuItem"; title = "Mostra la finestra dei frammenti di testo"; ObjectID = "584"; */
+"584.title" = "Mostra la finestra dei frammenti di testo";
+
+/* Class = "NSMenuItem"; title = "Crea un frammento di testo dalla selezione"; ObjectID = "585"; */
+"585.title" = "Crea un frammento di testo dalla selezione";
+
+/* Class = "NSMenuItem"; title = "Esporta frammenti di testo…"; ObjectID = "586"; */
+"586.title" = "Esporta frammenti di testo…";
+
+/* Class = "NSMenuItem"; title = "Importa frammenti di testo…"; ObjectID = "587"; */
+"587.title" = "Importa frammenti di testo…";
+
+/* Class = "NSMenuItem"; title = "Importa i comandi…"; ObjectID = "590"; */
+"590.title" = "Importa i comandi…";
+
+/* Class = "NSMenuItem"; title = "Esporta i comandi…"; ObjectID = "591"; */
+"591.title" = "Esporta i comandi…";
+
+/* Class = "NSMenuItem"; title = "Split Window Vertically <do not localise>"; ObjectID = "748"; */
+"748.title" = "Split Window Vertically <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Esegui la selezione inline"; ObjectID = "752"; */
+"752.title" = "Esegui la selezione inline";
+
+/* Class = "NSMenuItem"; title = "Nuova collezione di comandi"; ObjectID = "769"; */
+"769.title" = "Nuova collezione di comandi";
+
+/* Class = "NSMenuItem"; title = "Nuovo comando"; ObjectID = "770"; */
+"770.title" = "Nuovo comando";
+
+/* Class = "NSMenuItem"; title = "Esegui il comando"; ObjectID = "771"; */
+"771.title" = "Esegui il comando";
+
+/* Class = "NSMenuItem"; title = "Nuovo frammento di testo"; ObjectID = "773"; */
+"773.title" = "Nuovo frammento di testo";
+
+/* Class = "NSMenuItem"; title = "Nuovo collezione di frammenti di testo"; ObjectID = "774"; */
+"774.title" = "Nuovo collezione di frammenti di testo";
+
+/* Class = "NSMenuItem"; title = "Show Size Slider <do not localise>"; ObjectID = "788"; */
+"788.title" = "Show Size Slider <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Modifica"; ObjectID = "1023"; */
+"1023.title" = "Modifica";
+
+/* Class = "NSMenu"; title = "Modifica"; ObjectID = "1024"; */
+"1024.title" = "Modifica";
+
+/* Class = "NSMenuItem"; title = "Annulla"; ObjectID = "1025"; */
+"1025.title" = "Annulla";
+
+/* Class = "NSMenuItem"; title = "Ripeti"; ObjectID = "1026"; */
+"1026.title" = "Ripeti";
+
+/* Class = "NSMenuItem"; title = "Taglia"; ObjectID = "1028"; */
+"1028.title" = "Taglia";
+
+/* Class = "NSMenuItem"; title = "Copia"; ObjectID = "1029"; */
+"1029.title" = "Copia";
+
+/* Class = "NSMenuItem"; title = "Incolla"; ObjectID = "1030"; */
+"1030.title" = "Incolla";
+
+/* Class = "NSMenuItem"; title = "Incolla e mantieni lo stile"; ObjectID = "1031"; */
+"1031.title" = "Incolla e mantieni lo stile";
+
+/* Class = "NSMenuItem"; title = "Cancella"; ObjectID = "1032"; */
+"1032.title" = "Cancella";
+
+/* Class = "NSMenuItem"; title = "Seleziona tutto"; ObjectID = "1033"; */
+"1033.title" = "Seleziona tutto";
+
+/* Class = "NSMenuItem"; title = "Cerca"; ObjectID = "1035"; */
+"1035.title" = "Cerca";
+
+/* Class = "NSMenuItem"; title = "Grammatica e ortografia"; ObjectID = "1036"; */
+"1036.title" = "Grammatica e ortografia";
+
+/* Class = "NSMenuItem"; title = "Sostituzioni"; ObjectID = "1037"; */
+"1037.title" = "Sostituzioni";
+
+/* Class = "NSMenuItem"; title = "Trasformazioni"; ObjectID = "1038"; */
+"1038.title" = "Trasformazioni";
+
+/* Class = "NSMenuItem"; title = "Voce"; ObjectID = "1039"; */
+"1039.title" = "Voce";
+
+/* Class = "NSMenu"; title = "Voce"; ObjectID = "1040"; */
+"1040.title" = "Voce";
+
+/* Class = "NSMenuItem"; title = "Inizia riproduzione"; ObjectID = "1041"; */
+"1041.title" = "Inizia riproduzione";
+
+/* Class = "NSMenuItem"; title = "Interrompi riproduzione"; ObjectID = "1042"; */
+"1042.title" = "Interrompi riproduzione";
+
+/* Class = "NSMenu"; title = "Trasformazioni"; ObjectID = "1043"; */
+"1043.title" = "Trasformazioni";
+
+/* Class = "NSMenuItem"; title = "Scrivi in lettere maiuscole"; ObjectID = "1044"; */
+"1044.title" = "Scrivi in lettere maiuscole";
+
+/* Class = "NSMenuItem"; title = "Scrivi in lettere minuscole"; ObjectID = "1045"; */
+"1045.title" = "Scrivi in lettere minuscole";
+
+/* Class = "NSMenuItem"; title = "Usa maiuscole"; ObjectID = "1046"; */
+"1046.title" = "Usa maiuscole";
+
+/* Class = "NSMenu"; title = "Sostituzioni"; ObjectID = "1047"; */
+"1047.title" = "Sostituzioni";
+
+/* Class = "NSMenuItem"; title = "Mostra sostituzioni"; ObjectID = "1048"; */
+"1048.title" = "Mostra sostituzioni";
+
+/* Class = "NSMenuItem"; title = "Copia/Incolla smart"; ObjectID = "1050"; */
+"1050.title" = "Copia/Incolla smart";
+
+/* Class = "NSMenuItem"; title = "Virgolette curve"; ObjectID = "1051"; */
+"1051.title" = "Virgolette curve";
+
+/* Class = "NSMenuItem"; title = "Trattini smart"; ObjectID = "1052"; */
+"1052.title" = "Trattini smart";
+
+/* Class = "NSMenuItem"; title = "Link smart"; ObjectID = "1053"; */
+"1053.title" = "Link smart";
+
+/* Class = "NSMenuItem"; title = "Rilevatori di dati"; ObjectID = "1054"; */
+"1054.title" = "Rilevatori di dati";
+
+/* Class = "NSMenuItem"; title = "Sostituzione testo"; ObjectID = "1055"; */
+"1055.title" = "Sostituzione testo";
+
+/* Class = "NSMenu"; title = "Ortografia"; ObjectID = "1056"; */
+"1056.title" = "Ortografia";
+
+/* Class = "NSMenuItem"; title = "Mostra ortografia e grammatica"; ObjectID = "1057"; */
+"1057.title" = "Mostra ortografia e grammatica";
+
+/* Class = "NSMenuItem"; title = "Controlla il documento adesso"; ObjectID = "1058"; */
+"1058.title" = "Controlla il documento adesso";
+
+/* Class = "NSMenuItem"; title = "Controlla ortografia durante l'inserimento"; ObjectID = "1060"; */
+"1060.title" = "Controlla ortografia durante l'inserimento";
+
+/* Class = "NSMenuItem"; title = "Controlla grammatica insieme all'ortografia"; ObjectID = "1061"; */
+"1061.title" = "Controlla grammatica insieme all'ortografia";
+
+/* Class = "NSMenuItem"; title = "Correggi automaticamente l'ortografia"; ObjectID = "1062"; */
+"1062.title" = "Correggi automaticamente l'ortografia";
+
+/* Class = "NSMenu"; title = "Cerca"; ObjectID = "1063"; */
+"1063.title" = "Cerca";
+
+/* Class = "NSMenuItem"; title = "Cerca…"; ObjectID = "1064"; */
+"1064.title" = "Cerca…";
+
+/* Class = "NSMenuItem"; title = "Cerca successivo"; ObjectID = "1065"; */
+"1065.title" = "Cerca successivo";
+
+/* Class = "NSMenuItem"; title = "Cerca precedente"; ObjectID = "1066"; */
+"1066.title" = "Cerca precedente";
+
+/* Class = "NSMenuItem"; title = "Usa selezione per cercare"; ObjectID = "1067"; */
+"1067.title" = "Usa selezione per cercare";
+
+/* Class = "NSMenuItem"; title = "Vai fino alla selezione"; ObjectID = "1068"; */
+"1068.title" = "Vai fino alla selezione";
+
+/* Class = "NSMenuItem"; title = "Cerca & sostituisci avanzato…"; ObjectID = "1099"; */
+"1099.title" = "Cerca & sostituisci avanzato…";
+
+/* Class = "NSMenuItem"; title = "Ricerca incrementale"; ObjectID = "1100"; */
+"1100.title" = "Ricerca incrementale";
+
+/* Class = "NSMenuItem"; title = "Apri nascosto…"; ObjectID = "1103"; */
+"1103.title" = "Apri nascosto…";
+
+/* Class = "NSMenuItem"; title = "Duplica linea"; ObjectID = "1142"; */
+"1142.title" = "Duplica linea";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Escape drücken, um den Vollbildmodus zu verlassen"; ObjectID = "Qm7-pi-e89"; */
+"Qm7-pi-e89.ibShadowedToolTip" = "Escape drücken, um den Vollbildmodus zu verlassen";
+
+/* Class = "NSMenuItem"; title = "Enter Full Screen <do not localise>"; ObjectID = "Qm7-pi-e89"; */
+"Qm7-pi-e89.title" = "Enter Full Screen <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Cerca aggiornamenti..."; ObjectID = "oVj-uH-7ys"; */
+"oVj-uH-7ys.title" = "Cerca aggiornamenti...";

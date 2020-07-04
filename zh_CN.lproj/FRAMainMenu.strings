@@ -1,0 +1,501 @@
+
+/* Class = "NSMenuItem"; title = "全部调到前面"; ObjectID = "5"; */
+"5.title" = "全部调到前面";
+
+/* Class = "NSMenuItem"; title = "窗口"; ObjectID = "19"; */
+"19.title" = "窗口";
+
+/* Class = "NSMenuItem"; title = "最小化"; ObjectID = "23"; */
+"23.title" = "最小化";
+
+/* Class = "NSMenu"; title = "窗口"; ObjectID = "24"; */
+"24.title" = "窗口";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "MainMenu";
+
+/* Class = "NSMenuItem"; title = "Erbele"; ObjectID = "56"; */
+"56.title" = "Erbele";
+
+/* Class = "NSMenu"; title = "Erbele"; ObjectID = "57"; */
+"57.title" = "Erbele";
+
+/* Class = "NSMenuItem"; title = "关于 Erbele"; ObjectID = "58"; */
+"58.title" = "关于 Erbele";
+
+/* Class = "NSMenuItem"; title = "帮助"; ObjectID = "103"; */
+"103.title" = "帮助";
+
+/* Class = "NSMenu"; title = "帮助"; ObjectID = "106"; */
+"106.title" = "帮助";
+
+/* Class = "NSMenuItem"; title = "Erbele 帮助"; ObjectID = "111"; */
+"111.title" = "Erbele 帮助";
+
+/* Class = "NSMenuItem"; title = "预置…"; ObjectID = "129"; */
+"129.title" = "预置…";
+
+/* Class = "NSMenu"; title = "服务"; ObjectID = "130"; */
+"130.title" = "服务";
+
+/* Class = "NSMenuItem"; title = "服务"; ObjectID = "131"; */
+"131.title" = "服务";
+
+/* Class = "NSMenuItem"; title = "隐藏 Erbele"; ObjectID = "134"; */
+"134.title" = "隐藏 Erbele";
+
+/* Class = "NSMenuItem"; title = "退出 Erbele"; ObjectID = "136"; */
+"136.title" = "退出 Erbele";
+
+/* Class = "NSMenuItem"; title = "隐藏其他"; ObjectID = "145"; */
+"145.title" = "隐藏其他";
+
+/* Class = "NSMenuItem"; title = "显示全部"; ObjectID = "150"; */
+"150.title" = "显示全部";
+
+/* Class = "NSMenuItem"; title = "缩放"; ObjectID = "203"; */
+"203.title" = "缩放";
+
+/* Class = "NSMenuItem"; title = "文件"; ObjectID = "243"; */
+"243.title" = "文件";
+
+/* Class = "NSMenu"; title = "文件"; ObjectID = "244"; */
+"244.title" = "文件";
+
+/* Class = "NSMenuItem"; title = "打印…"; ObjectID = "246"; */
+"246.title" = "打印…";
+
+/* Class = "NSMenuItem"; title = "打开..."; ObjectID = "248"; */
+"248.title" = "打开...";
+
+/* Class = "NSMenuItem"; title = "保存"; ObjectID = "251"; */
+"251.title" = "保存";
+
+/* Class = "NSMenuItem"; title = "另存为…"; ObjectID = "252"; */
+"252.title" = "另存为…";
+
+/* Class = "NSMenuItem"; title = "保存副本为…"; ObjectID = "253"; */
+"253.title" = "保存副本为…";
+
+/* Class = "NSMenuItem"; title = "全部保存"; ObjectID = "254"; */
+"254.title" = "全部保存";
+
+/* Class = "NSMenuItem"; title = "保存文档为项目…"; ObjectID = "257"; */
+"257.title" = "保存文档为项目…";
+
+/* Class = "NSMenuItem"; title = "新建"; ObjectID = "258"; */
+"258.title" = "新建";
+
+/* Class = "NSMenuItem"; title = "恢复"; ObjectID = "259"; */
+"259.title" = "恢复";
+
+/* Class = "NSMenuItem"; title = "打开..."; ObjectID = "262"; */
+"262.title" = "打开...";
+
+/* Class = "NSMenuItem"; title = "打开..."; ObjectID = "268"; */
+"268.title" = "打开...";
+
+/* Class = "NSMenu"; title = "打开..."; ObjectID = "269"; */
+"269.title" = "打开...";
+
+/* Class = "NSMenuItem"; title = "Clear Menu <do not localise>"; ObjectID = "270"; */
+"270.title" = "Clear Menu <do not localise>";
+
+/* Class = "NSMenuItem"; title = "转到Finder"; ObjectID = "271"; */
+"271.title" = "转到Finder";
+
+/* Class = "NSMenuItem"; title = "显示"; ObjectID = "289"; */
+"289.title" = "显示";
+
+/* Class = "NSMenu"; title = "显示"; ObjectID = "290"; */
+"290.title" = "显示";
+
+/* Class = "NSMenuItem"; title = "Show Syntax Colours <do not localise>"; ObjectID = "292"; */
+"292.title" = "Show Syntax Colours <do not localise>";
+
+/* Class = "NSMenuItem"; title = "于分割的窗口显示文档"; ObjectID = "297"; */
+"297.title" = "于分割的窗口显示文档";
+
+/* Class = "NSMenuItem"; title = "Show Documents View <do not localise>"; ObjectID = "300"; */
+"300.title" = "Show Documents View <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Show Tab Bar <do not localise>"; ObjectID = "301"; */
+"301.title" = "Show Tab Bar <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Show Status Bar <do not localise>"; ObjectID = "303"; */
+"303.title" = "Show Status Bar <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Show Invisible Characters <do not localise>"; ObjectID = "305"; */
+"305.title" = "Show Invisible Characters <do not localise>";
+
+/* Class = "NSMenuItem"; title = "自定义工具栏..."; ObjectID = "306"; */
+"306.title" = "自定义工具栏...";
+
+/* Class = "NSMenuItem"; title = "Show Line Numbers <do not localise>"; ObjectID = "307"; */
+"307.title" = "Show Line Numbers <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Split Window <do not localise>"; ObjectID = "308"; */
+"308.title" = "Split Window <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Line Wrap Text <do not localise>"; ObjectID = "309"; */
+"309.title" = "Line Wrap Text <do not localise>";
+
+/* Class = "NSMenuItem"; title = "文本"; ObjectID = "319"; */
+"319.title" = "文本";
+
+/* Class = "NSMenu"; title = "文本"; ObjectID = "320"; */
+"320.title" = "文本";
+
+/* Class = "NSMenuItem"; title = "转到行…"; ObjectID = "321"; */
+"321.title" = "转到行…";
+
+/* Class = "NSMenuItem"; title = "移除换行"; ObjectID = "322"; */
+"322.title" = "移除换行";
+
+/* Class = "NSMenuItem"; title = "文本编码"; ObjectID = "325"; */
+"325.title" = "文本编码";
+
+/* Class = "NSMenu"; title = "文本编码"; ObjectID = "326"; */
+"326.title" = "文本编码";
+
+/* Class = "NSMenuItem"; title = "换行方式"; ObjectID = "327"; */
+"327.title" = "换行方式";
+
+/* Class = "NSMenu"; title = "换行方式"; ObjectID = "328"; */
+"328.title" = "换行方式";
+
+/* Class = "NSMenuItem"; title = "Mac (CR)"; ObjectID = "329"; */
+"329.title" = "Mac (CR)";
+
+/* Class = "NSMenuItem"; title = "Unix - Mac OS X (LF)"; ObjectID = "330"; */
+"330.title" = "Unix - Mac OS X (LF)";
+
+/* Class = "NSMenuItem"; title = "Windows (CRLF)"; ObjectID = "331"; */
+"331.title" = "Windows (CRLF)";
+
+/* Class = "NSMenuItem"; title = "加tab… (空格转换为tabs)"; ObjectID = "334"; */
+"334.title" = "加tab… (空格转换为tabs)";
+
+/* Class = "NSMenuItem"; title = "去tab… (tabs转换为空格)"; ObjectID = "335"; */
+"335.title" = "去tab… (tabs转换为空格)";
+
+/* Class = "NSMenuItem"; title = "以指定编码重载入文本"; ObjectID = "337"; */
+"337.title" = "以指定编码重载入文本";
+
+/* Class = "NSMenu"; title = "以指定编码重载入文本"; ObjectID = "338"; */
+"338.title" = "以指定编码重载入文本";
+
+/* Class = "NSMenuItem"; title = "每单词的第一个字母大写"; ObjectID = "339"; */
+"339.title" = "每单词的第一个字母大写";
+
+/* Class = "NSMenuItem"; title = "转换为大写"; ObjectID = "340"; */
+"340.title" = "转换为大写";
+
+/* Class = "NSMenuItem"; title = "转换为小写"; ObjectID = "341"; */
+"341.title" = "转换为小写";
+
+/* Class = "NSMenuItem"; title = "XML预转换"; ObjectID = "342"; */
+"342.title" = "XML预转换";
+
+/* Class = "NSMenuItem"; title = "左移"; ObjectID = "343"; */
+"343.title" = "左移";
+
+/* Class = "NSMenuItem"; title = "切换字母"; ObjectID = "344"; */
+"344.title" = "切换字母";
+
+/* Class = "NSMenuItem"; title = "右移"; ObjectID = "345"; */
+"345.title" = "右移";
+
+/* Class = "NSMenuItem"; title = "注释/移除注释"; ObjectID = "347"; */
+"347.title" = "注释/移除注释";
+
+/* Class = "NSMenuItem"; title = "闭合标签"; ObjectID = "348"; */
+"348.title" = "闭合标签";
+
+/* Class = "NSMenuItem"; title = "移除无用空白占位"; ObjectID = "349"; */
+"349.title" = "移除无用空白占位";
+
+/* Class = "NSMenuItem"; title = "工具"; ObjectID = "350"; */
+"350.title" = "工具";
+
+/* Class = "NSMenu"; title = "工具"; ObjectID = "351"; */
+"351.title" = "工具";
+
+/* Class = "NSMenuItem"; title = "刷新预览"; ObjectID = "352"; */
+"352.title" = "刷新预览";
+
+/* Class = "NSMenuItem"; title = "命令"; ObjectID = "356"; */
+"356.title" = "命令";
+
+/* Class = "NSMenu"; title = "命令"; ObjectID = "357"; */
+"357.title" = "命令";
+
+/* Class = "NSMenuItem"; title = "插入颜色…"; ObjectID = "358"; */
+"358.title" = "插入颜色…";
+
+/* Class = "NSMenuItem"; title = "前一个函数"; ObjectID = "362"; */
+"362.title" = "前一个函数";
+
+/* Class = "NSMenuItem"; title = "下一个函数"; ObjectID = "363"; */
+"363.title" = "下一个函数";
+
+/* Class = "NSMenuItem"; title = "函数"; ObjectID = "364"; */
+"364.title" = "函数";
+
+/* Class = "NSMenu"; title = "函数"; ObjectID = "365"; */
+"365.title" = "函数";
+
+/* Class = "NSMenuItem"; title = "统计信息"; ObjectID = "367"; */
+"367.title" = "统计信息";
+
+/* Class = "NSMenuItem"; title = "刷新信息"; ObjectID = "368"; */
+"368.title" = "刷新信息";
+
+/* Class = "NSMenuItem"; title = "预览"; ObjectID = "371"; */
+"371.title" = "预览";
+
+/* Class = "NSMenuItem"; title = "文档"; ObjectID = "372"; */
+"372.title" = "文档";
+
+/* Class = "NSMenu"; title = "文档"; ObjectID = "373"; */
+"373.title" = "文档";
+
+/* Class = "NSMenuItem"; title = "前一个文档"; ObjectID = "374"; */
+"374.title" = "前一个文档";
+
+/* Class = "NSMenuItem"; title = "下一个文档"; ObjectID = "375"; */
+"375.title" = "下一个文档";
+
+/* Class = "NSMenuItem"; title = "安装命令行工具"; ObjectID = "377"; */
+"377.title" = "安装命令行工具";
+
+/* Class = "NSMenuItem"; title = "语法定义"; ObjectID = "391"; */
+"391.title" = "语法定义";
+
+/* Class = "NSMenu"; title = "语法定义"; ObjectID = "392"; */
+"392.title" = "语法定义";
+
+/* Class = "NSMenuItem"; title = "小片段"; ObjectID = "467"; */
+"467.title" = "小片段";
+
+/* Class = "NSMenu"; title = "小片段"; ObjectID = "468"; */
+"468.title" = "小片段";
+
+/* Class = "NSMenuItem"; title = "新建项目…"; ObjectID = "474"; */
+"474.title" = "新建项目…";
+
+/* Class = "NSMenuItem"; title = "打开项目…"; ObjectID = "566"; */
+"566.title" = "打开项目…";
+
+/* Class = "NSMenuItem"; title = "关闭项目"; ObjectID = "571"; */
+"571.title" = "关闭项目";
+
+/* Class = "NSMenuItem"; title = "管理命令"; ObjectID = "576"; */
+"576.title" = "管理命令";
+
+/* Class = "NSMenu"; title = "管理命令"; ObjectID = "577"; */
+"577.title" = "管理命令";
+
+/* Class = "NSMenuItem"; title = "Show Command Result Window"; ObjectID = "578"; */
+"578.title" = "Show Command Result Window";
+
+/* Class = "NSMenuItem"; title = "Show Commands Window"; ObjectID = "579"; */
+"579.title" = "Show Commands Window";
+
+/* Class = "NSMenuItem"; title = "Run Text"; ObjectID = "580"; */
+"580.title" = "Run Text";
+
+/* Class = "NSMenuItem"; title = "管理小片段"; ObjectID = "581"; */
+"581.title" = "管理小片段";
+
+/* Class = "NSMenu"; title = "管理小片段"; ObjectID = "582"; */
+"582.title" = "管理小片段";
+
+/* Class = "NSMenuItem"; title = "Show Snippets Window"; ObjectID = "584"; */
+"584.title" = "Show Snippets Window";
+
+/* Class = "NSMenuItem"; title = "Create Snippet From Selection"; ObjectID = "585"; */
+"585.title" = "Create Snippet From Selection";
+
+/* Class = "NSMenuItem"; title = "Export Snippets…"; ObjectID = "586"; */
+"586.title" = "Export Snippets…";
+
+/* Class = "NSMenuItem"; title = "Import Snippets…"; ObjectID = "587"; */
+"587.title" = "Import Snippets…";
+
+/* Class = "NSMenuItem"; title = "Import Commands…"; ObjectID = "590"; */
+"590.title" = "Import Commands…";
+
+/* Class = "NSMenuItem"; title = "Export Commands…"; ObjectID = "591"; */
+"591.title" = "Export Commands…";
+
+/* Class = "NSMenuItem"; title = "Split Window Vertically <do not localise>"; ObjectID = "748"; */
+"748.title" = "Split Window Vertically <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Run Selection Inline"; ObjectID = "752"; */
+"752.title" = "Run Selection Inline";
+
+/* Class = "NSMenuItem"; title = "New Command Collection"; ObjectID = "769"; */
+"769.title" = "New Command Collection";
+
+/* Class = "NSMenuItem"; title = "New Command"; ObjectID = "770"; */
+"770.title" = "New Command";
+
+/* Class = "NSMenuItem"; title = "Run Command"; ObjectID = "771"; */
+"771.title" = "Run Command";
+
+/* Class = "NSMenuItem"; title = "New Snippet"; ObjectID = "773"; */
+"773.title" = "New Snippet";
+
+/* Class = "NSMenuItem"; title = "New Snippet Collection"; ObjectID = "774"; */
+"774.title" = "New Snippet Collection";
+
+/* Class = "NSMenuItem"; title = "Show Size Slider <do not localise>"; ObjectID = "788"; */
+"788.title" = "Show Size Slider <do not localise>";
+
+/* Class = "NSMenuItem"; title = "编辑"; ObjectID = "1023"; */
+"1023.title" = "编辑";
+
+/* Class = "NSMenu"; title = "编辑"; ObjectID = "1024"; */
+"1024.title" = "编辑";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "1025"; */
+"1025.title" = "Undo";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "1026"; */
+"1026.title" = "Redo";
+
+/* Class = "NSMenuItem"; title = "剪切"; ObjectID = "1028"; */
+"1028.title" = "剪切";
+
+/* Class = "NSMenuItem"; title = "复制"; ObjectID = "1029"; */
+"1029.title" = "复制";
+
+/* Class = "NSMenuItem"; title = "粘贴"; ObjectID = "1030"; */
+"1030.title" = "粘贴";
+
+/* Class = "NSMenuItem"; title = "Paste and Match Style"; ObjectID = "1031"; */
+"1031.title" = "Paste and Match Style";
+
+/* Class = "NSMenuItem"; title = "删除"; ObjectID = "1032"; */
+"1032.title" = "删除";
+
+/* Class = "NSMenuItem"; title = "全选"; ObjectID = "1033"; */
+"1033.title" = "全选";
+
+/* Class = "NSMenuItem"; title = "查找"; ObjectID = "1035"; */
+"1035.title" = "查找";
+
+/* Class = "NSMenuItem"; title = "Spelling and Grammar"; ObjectID = "1036"; */
+"1036.title" = "Spelling and Grammar";
+
+/* Class = "NSMenuItem"; title = "Substitutions"; ObjectID = "1037"; */
+"1037.title" = "Substitutions";
+
+/* Class = "NSMenuItem"; title = "Transformations"; ObjectID = "1038"; */
+"1038.title" = "Transformations";
+
+/* Class = "NSMenuItem"; title = "发音"; ObjectID = "1039"; */
+"1039.title" = "发音";
+
+/* Class = "NSMenu"; title = "发音"; ObjectID = "1040"; */
+"1040.title" = "发音";
+
+/* Class = "NSMenuItem"; title = "开始朗读"; ObjectID = "1041"; */
+"1041.title" = "开始朗读";
+
+/* Class = "NSMenuItem"; title = "停止朗读"; ObjectID = "1042"; */
+"1042.title" = "停止朗读";
+
+/* Class = "NSMenu"; title = "Transformations"; ObjectID = "1043"; */
+"1043.title" = "Transformations";
+
+/* Class = "NSMenuItem"; title = "Make Upper Case"; ObjectID = "1044"; */
+"1044.title" = "Make Upper Case";
+
+/* Class = "NSMenuItem"; title = "Make Lower Case"; ObjectID = "1045"; */
+"1045.title" = "Make Lower Case";
+
+/* Class = "NSMenuItem"; title = "Capitalize"; ObjectID = "1046"; */
+"1046.title" = "Capitalize";
+
+/* Class = "NSMenu"; title = "Substitutions"; ObjectID = "1047"; */
+"1047.title" = "Substitutions";
+
+/* Class = "NSMenuItem"; title = "Show Substitutions"; ObjectID = "1048"; */
+"1048.title" = "Show Substitutions";
+
+/* Class = "NSMenuItem"; title = "Smart Copy/Paste"; ObjectID = "1050"; */
+"1050.title" = "Smart Copy/Paste";
+
+/* Class = "NSMenuItem"; title = "Smart Quotes"; ObjectID = "1051"; */
+"1051.title" = "Smart Quotes";
+
+/* Class = "NSMenuItem"; title = "Smart Dashes"; ObjectID = "1052"; */
+"1052.title" = "Smart Dashes";
+
+/* Class = "NSMenuItem"; title = "Smart Links"; ObjectID = "1053"; */
+"1053.title" = "Smart Links";
+
+/* Class = "NSMenuItem"; title = "Data Detectors"; ObjectID = "1054"; */
+"1054.title" = "Data Detectors";
+
+/* Class = "NSMenuItem"; title = "Text Replacement"; ObjectID = "1055"; */
+"1055.title" = "Text Replacement";
+
+/* Class = "NSMenu"; title = "Spelling"; ObjectID = "1056"; */
+"1056.title" = "Spelling";
+
+/* Class = "NSMenuItem"; title = "Show Spelling and Grammar"; ObjectID = "1057"; */
+"1057.title" = "Show Spelling and Grammar";
+
+/* Class = "NSMenuItem"; title = "Check Document Now"; ObjectID = "1058"; */
+"1058.title" = "Check Document Now";
+
+/* Class = "NSMenuItem"; title = "Check Spelling While Typing"; ObjectID = "1060"; */
+"1060.title" = "Check Spelling While Typing";
+
+/* Class = "NSMenuItem"; title = "Check Grammar With Spelling"; ObjectID = "1061"; */
+"1061.title" = "Check Grammar With Spelling";
+
+/* Class = "NSMenuItem"; title = "Correct Spelling Automatically"; ObjectID = "1062"; */
+"1062.title" = "Correct Spelling Automatically";
+
+/* Class = "NSMenu"; title = "查找"; ObjectID = "1063"; */
+"1063.title" = "查找";
+
+/* Class = "NSMenuItem"; title = "查找…"; ObjectID = "1064"; */
+"1064.title" = "查找…";
+
+/* Class = "NSMenuItem"; title = "查找下一个"; ObjectID = "1065"; */
+"1065.title" = "查找下一个";
+
+/* Class = "NSMenuItem"; title = "查找前一个"; ObjectID = "1066"; */
+"1066.title" = "查找前一个";
+
+/* Class = "NSMenuItem"; title = "查找当前选择项"; ObjectID = "1067"; */
+"1067.title" = "查找当前选择项";
+
+/* Class = "NSMenuItem"; title = "跳到选择项"; ObjectID = "1068"; */
+"1068.title" = "跳到选择项";
+
+/* Class = "NSMenuItem"; title = "高级查找和替换…"; ObjectID = "1099"; */
+"1099.title" = "高级查找和替换…";
+
+/* Class = "NSMenuItem"; title = "即时查找"; ObjectID = "1100"; */
+"1100.title" = "即时查找";
+
+/* Class = "NSMenuItem"; title = "打开隐藏文件…"; ObjectID = "1103"; */
+"1103.title" = "打开隐藏文件…";
+
+/* Class = "NSMenuItem"; title = "Duplicate Line"; ObjectID = "1142"; */
+"1142.title" = "Duplicate Line";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Escape drücken, um den Vollbildmodus zu verlassen"; ObjectID = "Zik-V7-IgQ"; */
+"Zik-V7-IgQ.ibShadowedToolTip" = "Escape drücken, um den Vollbildmodus zu verlassen";
+
+/* Class = "NSMenuItem"; title = "Enter Full Screen <do not localise>"; ObjectID = "Zik-V7-IgQ"; */
+"Zik-V7-IgQ.title" = "Enter Full Screen <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Check for Updates..."; ObjectID = "vYb-oL-J9P"; */
+"vYb-oL-J9P.title" = "Check for Updates...";
