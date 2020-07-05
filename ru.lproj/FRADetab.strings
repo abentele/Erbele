@@ -1,0 +1,15 @@
+
+/* Class = "NSWindow"; title = "Detab <do not localise>"; ObjectID = "7"; */
+"7.title" = "Detab <do not localise>";
+
+/* Class = "NSBox"; title = "Детабуляция"; ObjectID = "9"; */
+"9.title" = "Детабуляция";
+
+/* Class = "NSTextFieldCell"; title = "Пробелов на табуляцию:"; ObjectID = "24"; */
+"24.title" = "Пробелов на табуляцию:";
+
+/* Class = "NSButtonCell"; title = "Отмена"; ObjectID = "25"; */
+"25.title" = "Отмена";
+
+/* Class = "NSButtonCell"; title = "Детабуляция"; ObjectID = "26"; */
+"26.title" = "Детабуляция";

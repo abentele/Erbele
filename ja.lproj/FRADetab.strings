@@ -1,0 +1,15 @@
+
+/* Class = "NSWindow"; title = "Detab <do not localise>"; ObjectID = "7"; */
+"7.title" = "Detab <do not localise>";
+
+/* Class = "NSBox"; title = "Detab"; ObjectID = "9"; */
+"9.title" = "Detab";
+
+/* Class = "NSTextFieldCell"; title = "タブ毎のスペース数:"; ObjectID = "24"; */
+"24.title" = "タブ毎のスペース数:";
+
+/* Class = "NSButtonCell"; title = "キャンセル"; ObjectID = "25"; */
+"25.title" = "キャンセル";
+
+/* Class = "NSButtonCell"; title = "スペースに変換"; ObjectID = "26"; */
+"26.title" = "スペースに変換";

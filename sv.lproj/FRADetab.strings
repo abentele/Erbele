@@ -1,0 +1,15 @@
+
+/* Class = "NSWindow"; title = "Detab"; ObjectID = "7"; */
+"7.title" = "Detab";
+
+/* Class = "NSBox"; title = "Detab"; ObjectID = "9"; */
+"9.title" = "Detab";
+
+/* Class = "NSTextFieldCell"; title = "Mellanslag per tabb:"; ObjectID = "24"; */
+"24.title" = "Mellanslag per tabb:";
+
+/* Class = "NSButtonCell"; title = "Avbryt"; ObjectID = "25"; */
+"25.title" = "Avbryt";
+
+/* Class = "NSButtonCell"; title = "Avtabba"; ObjectID = "26"; */
+"26.title" = "Avtabba";

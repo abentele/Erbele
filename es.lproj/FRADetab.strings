@@ -1,0 +1,15 @@
+
+/* Class = "NSWindow"; title = "Detab <do not localise>"; ObjectID = "7"; */
+"7.title" = "Detab <do not localise>";
+
+/* Class = "NSBox"; title = "Detab"; ObjectID = "9"; */
+"9.title" = "Detab";
+
+/* Class = "NSTextFieldCell"; title = "Espacios por tabulado:"; ObjectID = "24"; */
+"24.title" = "Espacios por tabulado:";
+
+/* Class = "NSButtonCell"; title = "Cancelar"; ObjectID = "25"; */
+"25.title" = "Cancelar";
+
+/* Class = "NSButtonCell"; title = "Deshacer"; ObjectID = "26"; */
+"26.title" = "Deshacer";

@@ -206,8 +206,6 @@
 		1FF6CD8111554575002681B2 /* FRAProject.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FRAProject.xib; sourceTree = "<group>"; };
 		1FF6CECB1155497A002681B2 /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = sv; path = sv.lproj/FRAAdvancedFind.xib; sourceTree = "<group>"; };
 		1FF6CECC1155497A002681B2 /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = sv; path = sv.lproj/FRACommands.xib; sourceTree = "<group>"; };
-		1FF6CECD1155497A002681B2 /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = sv; path = sv.lproj/FRADetab.xib; sourceTree = "<group>"; };
-		1FF6CECE1155497A002681B2 /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = sv; path = sv.lproj/FRAEntab.xib; sourceTree = "<group>"; };
 		1FF6CECF1155497A002681B2 /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = sv; path = sv.lproj/FRAGoToLine.xib; sourceTree = "<group>"; };
 		1FF6CED01155497A002681B2 /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = sv; path = sv.lproj/FRAInfo.xib; sourceTree = "<group>"; };
 		1FF6CED21155497A002681B2 /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = sv; path = sv.lproj/FRANewProject.xib; sourceTree = "<group>"; };
@@ -390,6 +388,24 @@
 		7FD53F120D91A8F30071054F /* Erbele-Manual.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Erbele-Manual.pdf"; sourceTree = "<group>"; };
 		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* Erbele.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Erbele.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01CA52C24B14179000147E1 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/FRADetab.strings; sourceTree = "<group>"; };
+		B01CA52D24B14181000147E1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = zh_CN.lproj/FRADetab.strings; sourceTree = "<group>"; };
+		B01CA52E24B14184000147E1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/FRADetab.strings; sourceTree = "<group>"; };
+		B01CA52F24B14188000147E1 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/FRADetab.strings; sourceTree = "<group>"; };
+		B01CA53024B1418B000147E1 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/FRADetab.strings; sourceTree = "<group>"; };
+		B01CA53124B1418F000147E1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/FRADetab.strings; sourceTree = "<group>"; };
+		B01CA53224B14193000147E1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/FRADetab.strings; sourceTree = "<group>"; };
+		B01CA53324B14196000147E1 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/FRADetab.strings; sourceTree = "<group>"; };
+		B01CA53424B1419A000147E1 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/FRADetab.strings; sourceTree = "<group>"; };
+		B01CA53524B14C5A000147E1 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/FRAEntab.strings; sourceTree = "<group>"; };
+		B01CA53624B14C62000147E1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = zh_CN.lproj/FRAEntab.strings; sourceTree = "<group>"; };
+		B01CA53724B14C68000147E1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/FRAEntab.strings; sourceTree = "<group>"; };
+		B01CA53824B14C85000147E1 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/FRAEntab.strings; sourceTree = "<group>"; };
+		B01CA53924B14C8B000147E1 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/FRAEntab.strings; sourceTree = "<group>"; };
+		B01CA53A24B14C99000147E1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/FRAEntab.strings; sourceTree = "<group>"; };
+		B01CA53B24B14C9D000147E1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/FRAEntab.strings; sourceTree = "<group>"; };
+		B01CA53C24B14CA0000147E1 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/FRAEntab.strings; sourceTree = "<group>"; };
+		B01CA53D24B14CA3000147E1 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/FRAEntab.strings; sourceTree = "<group>"; };
 		B0BB6CDD24B0CC94002C2E1F /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/FRAMainMenu.strings; sourceTree = "<group>"; };
 		B0BB6CDE24B0CDB9002C2E1F /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/FRAMainMenu.strings; sourceTree = "<group>"; };
 		B0BB6CDF24B0CDC6002C2E1F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = zh_CN.lproj/FRAMainMenu.strings; sourceTree = "<group>"; };
@@ -406,8 +422,6 @@
 		E122980F247934120055CD43 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable3.strings; sourceTree = "<group>"; };
 		E1229810247934120055CD43 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/FRAAdvancedFind.xib; sourceTree = "<group>"; };
 		E1229811247934120055CD43 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/FRACommands.xib; sourceTree = "<group>"; };
-		E1229812247934120055CD43 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/FRADetab.xib; sourceTree = "<group>"; };
-		E1229813247934120055CD43 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/FRAEntab.xib; sourceTree = "<group>"; };
 		E1229814247934120055CD43 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/FRAGoToLine.xib; sourceTree = "<group>"; };
 		E1229815247934120055CD43 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/FRAInfo.xib; sourceTree = "<group>"; };
 		E1229817247934120055CD43 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/FRANewProject.xib; sourceTree = "<group>"; };
@@ -424,8 +438,6 @@
 		E1229822247934190055CD43 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable3.strings; sourceTree = "<group>"; };
 		E12298232479341A0055CD43 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/FRAAdvancedFind.xib; sourceTree = "<group>"; };
 		E12298242479341A0055CD43 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/FRACommands.xib; sourceTree = "<group>"; };
-		E12298252479341A0055CD43 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/FRADetab.xib; sourceTree = "<group>"; };
-		E12298262479341A0055CD43 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/FRAEntab.xib; sourceTree = "<group>"; };
 		E12298272479341A0055CD43 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/FRAGoToLine.xib; sourceTree = "<group>"; };
 		E12298282479341A0055CD43 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/FRAInfo.xib; sourceTree = "<group>"; };
 		E122982A2479341A0055CD43 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/FRANewProject.xib; sourceTree = "<group>"; };
@@ -442,8 +454,6 @@
 		E12298352479344B0055CD43 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable3.strings; sourceTree = "<group>"; };
 		E12298362479344B0055CD43 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/FRAAdvancedFind.xib; sourceTree = "<group>"; };
 		E12298372479344B0055CD43 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/FRACommands.xib; sourceTree = "<group>"; };
-		E12298382479344B0055CD43 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/FRADetab.xib; sourceTree = "<group>"; };
-		E12298392479344B0055CD43 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/FRAEntab.xib; sourceTree = "<group>"; };
 		E122983A2479344B0055CD43 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/FRAGoToLine.xib; sourceTree = "<group>"; };
 		E122983B2479344B0055CD43 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/FRAInfo.xib; sourceTree = "<group>"; };
 		E122983D2479344B0055CD43 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/FRANewProject.xib; sourceTree = "<group>"; };
@@ -477,8 +487,6 @@
 		E1229859247934630055CD43 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable3.strings; sourceTree = "<group>"; };
 		E122985A247934640055CD43 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/FRAAdvancedFind.xib; sourceTree = "<group>"; };
 		E122985B247934640055CD43 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/FRACommands.xib; sourceTree = "<group>"; };
-		E122985C247934640055CD43 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/FRADetab.xib; sourceTree = "<group>"; };
-		E122985D247934640055CD43 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/FRAEntab.xib; sourceTree = "<group>"; };
 		E122985E247934640055CD43 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/FRAGoToLine.xib; sourceTree = "<group>"; };
 		E122985F247934640055CD43 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/FRAInfo.xib; sourceTree = "<group>"; };
 		E1229861247934640055CD43 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/FRANewProject.xib; sourceTree = "<group>"; };
@@ -495,8 +503,6 @@
 		E122986C247934690055CD43 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable3.strings; sourceTree = "<group>"; };
 		E122986D247934690055CD43 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/FRAAdvancedFind.xib; sourceTree = "<group>"; };
 		E122986E247934690055CD43 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/FRACommands.xib; sourceTree = "<group>"; };
-		E122986F247934690055CD43 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/FRADetab.xib; sourceTree = "<group>"; };
-		E1229870247934690055CD43 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/FRAEntab.xib; sourceTree = "<group>"; };
 		E1229871247934690055CD43 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/FRAGoToLine.xib; sourceTree = "<group>"; };
 		E1229872247934690055CD43 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/FRAInfo.xib; sourceTree = "<group>"; };
 		E1229874247934690055CD43 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/FRANewProject.xib; sourceTree = "<group>"; };
@@ -515,8 +521,6 @@
 		E1229881247934710055CD43 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable3.strings; sourceTree = "<group>"; };
 		E1229882247934710055CD43 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/FRAAdvancedFind.xib; sourceTree = "<group>"; };
 		E1229883247934710055CD43 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/FRACommands.xib; sourceTree = "<group>"; };
-		E1229884247934710055CD43 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/FRADetab.xib; sourceTree = "<group>"; };
-		E1229885247934710055CD43 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/FRAEntab.xib; sourceTree = "<group>"; };
 		E1229886247934710055CD43 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/FRAGoToLine.xib; sourceTree = "<group>"; };
 		E1229887247934710055CD43 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/FRAInfo.xib; sourceTree = "<group>"; };
 		E1229889247934710055CD43 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/FRANewProject.xib; sourceTree = "<group>"; };
@@ -541,8 +545,6 @@
 		E1AECE231E6C229600BAAE9A /* zh_CN */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; lineEnding = 0; name = zh_CN; path = zh_CN.lproj/Localizable3.strings; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
 		E1AECE241E6C22A700BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRAAdvancedFind.xib; sourceTree = "<group>"; };
 		E1AECE251E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRACommands.xib; sourceTree = "<group>"; };
-		E1AECE261E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRADetab.xib; sourceTree = "<group>"; };
-		E1AECE271E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRAEntab.xib; sourceTree = "<group>"; };
 		E1AECE281E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRAGoToLine.xib; sourceTree = "<group>"; };
 		E1AECE291E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRAInfo.xib; sourceTree = "<group>"; };
 		E1AECE2B1E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRANewProject.xib; sourceTree = "<group>"; };
@@ -557,8 +559,6 @@
 		E1AECE341E6C22B200BAAE9A /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/FRASnippets.xib; sourceTree = "<group>"; };
 		E1D8D6912121A4C7000EBA7A /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ca; path = ca.lproj/FRAAdvancedFind.xib; sourceTree = "<group>"; };
 		E1D8D6922121A4C7000EBA7A /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ca; path = ca.lproj/FRACommands.xib; sourceTree = "<group>"; };
-		E1D8D6932121A4C7000EBA7A /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ca; path = ca.lproj/FRADetab.xib; sourceTree = "<group>"; };
-		E1D8D6942121A4C7000EBA7A /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ca; path = ca.lproj/FRAEntab.xib; sourceTree = "<group>"; };
 		E1D8D6952121A4C7000EBA7A /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ca; path = ca.lproj/FRAGoToLine.xib; sourceTree = "<group>"; };
 		E1D8D6962121A4C7000EBA7A /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ca; path = ca.lproj/FRAInfo.xib; sourceTree = "<group>"; };
 		E1D8D6982121A4C7000EBA7A /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ca; path = ca.lproj/FRANewProject.xib; sourceTree = "<group>"; };
@@ -1400,16 +1400,16 @@
 		1FF6CE2D1155470C002681B2 /* FRADetab.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1FF6CECD1155497A002681B2 /* sv */,
-				E1AECE261E6C22B200BAAE9A /* zh_CN */,
-				E1D8D6932121A4C7000EBA7A /* ca */,
-				E1229812247934120055CD43 /* it */,
-				E12298252479341A0055CD43 /* es */,
-				E12298382479344B0055CD43 /* de */,
 				E1229849247934600055CD43 /* Base */,
-				E122985C247934640055CD43 /* fr */,
-				E122986F247934690055CD43 /* ru */,
-				E1229884247934710055CD43 /* ja */,
+				B01CA52C24B14179000147E1 /* ca */,
+				B01CA52D24B14181000147E1 /* zh-Hans */,
+				B01CA52E24B14184000147E1 /* fr */,
+				B01CA52F24B14188000147E1 /* de */,
+				B01CA53024B1418B000147E1 /* it */,
+				B01CA53124B1418F000147E1 /* ja */,
+				B01CA53224B14193000147E1 /* ru */,
+				B01CA53324B14196000147E1 /* es */,
+				B01CA53424B1419A000147E1 /* sv */,
 			);
 			name = FRADetab.xib;
 			sourceTree = "<group>";
@@ -1417,16 +1417,16 @@
 		1FF6CE2F1155470C002681B2 /* FRAEntab.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1FF6CECE1155497A002681B2 /* sv */,
-				E1AECE271E6C22B200BAAE9A /* zh_CN */,
-				E1D8D6942121A4C7000EBA7A /* ca */,
-				E1229813247934120055CD43 /* it */,
-				E12298262479341A0055CD43 /* es */,
-				E12298392479344B0055CD43 /* de */,
 				E122984A247934600055CD43 /* Base */,
-				E122985D247934640055CD43 /* fr */,
-				E1229870247934690055CD43 /* ru */,
-				E1229885247934710055CD43 /* ja */,
+				B01CA53524B14C5A000147E1 /* ca */,
+				B01CA53624B14C62000147E1 /* zh-Hans */,
+				B01CA53724B14C68000147E1 /* fr */,
+				B01CA53824B14C85000147E1 /* de */,
+				B01CA53924B14C8B000147E1 /* it */,
+				B01CA53A24B14C99000147E1 /* ja */,
+				B01CA53B24B14C9D000147E1 /* ru */,
+				B01CA53C24B14CA0000147E1 /* es */,
+				B01CA53D24B14CA3000147E1 /* sv */,
 			);
 			name = FRAEntab.xib;
 			sourceTree = "<group>";

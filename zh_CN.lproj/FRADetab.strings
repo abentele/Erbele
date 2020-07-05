@@ -1,0 +1,15 @@
+
+/* Class = "NSWindow"; title = "Detab <do not localise>"; ObjectID = "7"; */
+"7.title" = "Detab <do not localise>";
+
+/* Class = "NSBox"; title = "Detab"; ObjectID = "9"; */
+"9.title" = "Detab";
+
+/* Class = "NSTextFieldCell"; title = "占位符空格数："; ObjectID = "24"; */
+"24.title" = "占位符空格数:";
+
+/* Class = "NSButtonCell"; title = "取消"; ObjectID = "25"; */
+"25.title" = "取消";
+
+/* Class = "NSButtonCell"; title = "清除"; ObjectID = "26"; */
+"26.title" = "清除";

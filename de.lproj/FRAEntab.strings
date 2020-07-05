@@ -1,0 +1,15 @@
+
+/* Class = "NSWindow"; title = "Entab <do not localise>"; ObjectID = "7"; */
+"7.title" = "Entab <do not localise>";
+
+/* Class = "NSBox"; title = "Title"; ObjectID = "9"; */
+"9.title" = "Title";
+
+/* Class = "NSTextFieldCell"; title = "Einrücken um                  Leerzeichen pro Tab"; ObjectID = "23"; */
+"23.title" = "Leerzeichen pro Tab:";
+
+/* Class = "NSButtonCell"; title = "Einrücken"; ObjectID = "24"; */
+"24.title" = "Einrücken";
+
+/* Class = "NSButtonCell"; title = "Abbrechen"; ObjectID = "25"; */
+"25.title" = "Abbrechen";

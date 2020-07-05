@@ -1,0 +1,15 @@
+
+/* Class = "NSWindow"; title = "Detab <do not localise>"; ObjectID = "7"; */
+"7.title" = "Detab <do not localise>";
+
+/* Class = "NSBox"; title = "Detab"; ObjectID = "9"; */
+"9.title" = "Detab";
+
+/* Class = "NSTextFieldCell"; title = "Espaces par tabulation :"; ObjectID = "24"; */
+"24.title" = "Espaces par tabulation :";
+
+/* Class = "NSButtonCell"; title = "Annuler"; ObjectID = "25"; */
+"25.title" = "Annuler";
+
+/* Class = "NSButtonCell"; title = "Détabuler"; ObjectID = "26"; */
+"26.title" = "Détabuler";

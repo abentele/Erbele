@@ -1,0 +1,15 @@
+
+/* Class = "NSWindow"; title = "Detab <do not localise>"; ObjectID = "7"; */
+"7.title" = "Detab <do not localise>";
+
+/* Class = "NSBox"; title = "Detab"; ObjectID = "9"; */
+"9.title" = "Detab";
+
+/* Class = "NSTextFieldCell"; title = "Ausrücken um              Zeichen"; ObjectID = "24"; */
+"24.title" = "Zeichen pro Tab:";
+
+/* Class = "NSButtonCell"; title = "Abbrechen"; ObjectID = "25"; */
+"25.title" = "Abbrechen";
+
+/* Class = "NSButtonCell"; title = "Ausrücken"; ObjectID = "26"; */
+"26.title" = "Ausrücken";
