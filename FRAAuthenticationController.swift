@@ -36,7 +36,12 @@ class FRAAuthenticationController : NSObject {
         let pipe = Pipe()
         let fileHandle = pipe.fileHandleForReading
 
-        process.executableURL = URL(fileURLWithPath: "/usr/libexec/authopen")
+        if #available(OSX 10.13, *) {
+            process.executableURL = URL(fileURLWithPath: "/usr/libexec/authopen")
+        } else {
+            // Fallback on earlier versions
+            process.launchPath = "/usr/libexec/authopen"
+        }
         process.arguments = [ path ]
         process.standardOutput = pipe
         
@@ -67,7 +72,12 @@ class FRAAuthenticationController : NSObject {
         let pipe = Pipe()
         let writeHandle = pipe.fileHandleForWriting
 
-        process.executableURL = URL(fileURLWithPath: "/usr/libexec/authopen")
+        if #available(OSX 10.13, *) {
+            process.executableURL = URL(fileURLWithPath: "/usr/libexec/authopen")
+        } else {
+            // Fallback on earlier versions
+            process.launchPath = "/usr/libexec/authopen"
+        }
         process.arguments = [ "-c", "-w", path]
         process.standardInput = pipe
 
@@ -122,7 +132,12 @@ class FRAAuthenticationController : NSObject {
         let pipe = Pipe()
         let writeHandle = pipe.fileHandleForWriting
 
-        process.executableURL = URL(fileURLWithPath: "/usr/libexec/authopen")
+        if #available(OSX 10.13, *) {
+            process.executableURL = URL(fileURLWithPath: "/usr/libexec/authopen")
+        } else {
+            // Fallback on earlier versions
+            process.launchPath = "/usr/libexec/authopen"
+        }
         process.arguments = [ "-c", "-m", "0755", "-w", "/usr/local/bin/erbele"]
         process.standardInput = pipe
 
@@ -143,7 +158,12 @@ class FRAAuthenticationController : NSObject {
         let pipe = Pipe()
         let writeHandle = pipe.fileHandleForWriting
 
-        process.executableURL = URL(fileURLWithPath: "/usr/libexec/authopen")
+        if #available(OSX 10.13, *) {
+            process.executableURL = URL(fileURLWithPath: "/usr/libexec/authopen")
+        } else {
+            // Fallback on earlier versions
+            process.launchPath = "/usr/libexec/authopen"
+        }
         process.arguments = [ "-c", "-w", "/usr/local/share/man/man1/erbele.1"]
         process.standardInput = pipe
 
