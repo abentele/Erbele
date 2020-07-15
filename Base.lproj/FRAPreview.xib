@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15705" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="14113"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15705"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="15705"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -19,27 +19,25 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="184" y="367" width="572" height="375"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2048" height="1129"/>
             <value key="minSize" type="size" width="572" height="375"/>
             <view key="contentView" id="6">
                 <rect key="frame" x="0.0" y="0.0" width="572" height="375"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" id="7">
-                        <rect key="frame" x="87" y="348" width="269" height="22"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7">
+                        <rect key="frame" x="82" y="349" width="276" height="21"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="21">
                             <font key="font" metaFont="system"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                         <connections>
                             <binding destination="14" name="value" keyPath="values.BaseURL" id="16"/>
                         </connections>
                     </textField>
-                    <button id="9">
-                        <rect key="frame" x="379" y="350" width="96" height="18"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <button translatesAutoresizingMaskIntoConstraints="NO" id="9">
+                        <rect key="frame" x="381" y="350" width="95" height="18"/>
                         <buttonCell key="cell" type="check" title="Live Update" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="23">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
@@ -48,9 +46,8 @@
                             <binding destination="14" name="value" keyPath="values.LiveUpdatePreview" id="15"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" id="10">
-                        <rect key="frame" x="475" y="341" width="83" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="10">
+                        <rect key="frame" x="476" y="341" width="82" height="32"/>
                         <buttonCell key="cell" type="push" title="Reload" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="24">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -62,20 +59,17 @@ DQ
                             <action selector="reloadAction:" target="-2" id="19"/>
                         </connections>
                     </button>
-                    <box verticalHuggingPriority="750" boxType="separator" id="11">
+                    <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="11">
                         <rect key="frame" x="0.0" y="339" width="572" height="5"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                     </box>
-                    <webView id="13">
+                    <webView translatesAutoresizingMaskIntoConstraints="NO" id="13">
                         <rect key="frame" x="0.0" y="0.0" width="572" height="341"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12">
                             <nil key="identifier"/>
                         </webPreferences>
                     </webView>
-                    <textField verticalHuggingPriority="750" misplaced="YES" allowsCharacterPickerTouchBarItem="YES" id="8">
-                        <rect key="frame" x="9" y="350" width="72" height="17"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8">
+                        <rect key="frame" x="9" y="351" width="67" height="16"/>
                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Base URL:" id="22">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -83,6 +77,24 @@ DQ
                         </textFieldCell>
                     </textField>
                 </subviews>
+                <constraints>
+                    <constraint firstItem="9" firstAttribute="leading" secondItem="7" secondAttribute="trailing" constant="25" id="DzF-Ze-ogB"/>
+                    <constraint firstItem="10" firstAttribute="top" secondItem="6" secondAttribute="top" constant="6" id="Ilw-Bk-S8Z"/>
+                    <constraint firstItem="9" firstAttribute="top" secondItem="6" secondAttribute="top" constant="9" id="ONL-WA-3rj"/>
+                    <constraint firstAttribute="trailing" secondItem="13" secondAttribute="trailing" id="PA5-f2-hbE"/>
+                    <constraint firstItem="13" firstAttribute="top" secondItem="7" secondAttribute="bottom" constant="8" id="RDt-cl-QGY"/>
+                    <constraint firstAttribute="bottom" secondItem="13" secondAttribute="bottom" id="RrA-0i-Cna"/>
+                    <constraint firstItem="7" firstAttribute="leading" secondItem="8" secondAttribute="trailing" constant="8" id="Xuk-VB-olA"/>
+                    <constraint firstAttribute="trailing" secondItem="10" secondAttribute="trailing" constant="20" id="fxO-hJ-LPh"/>
+                    <constraint firstItem="8" firstAttribute="top" secondItem="6" secondAttribute="top" constant="8" id="giQ-DW-lDI"/>
+                    <constraint firstItem="13" firstAttribute="trailing" secondItem="11" secondAttribute="trailing" id="glu-WT-1td"/>
+                    <constraint firstItem="13" firstAttribute="leading" secondItem="6" secondAttribute="leading" id="kTu-9B-dzm"/>
+                    <constraint firstItem="10" firstAttribute="leading" secondItem="9" secondAttribute="trailing" constant="8" id="mqZ-Js-5oQ"/>
+                    <constraint firstItem="13" firstAttribute="leading" secondItem="11" secondAttribute="leading" id="nSf-U9-rTo"/>
+                    <constraint firstItem="13" firstAttribute="top" secondItem="11" secondAttribute="bottom" id="pfp-7G-Kuh"/>
+                    <constraint firstItem="7" firstAttribute="top" secondItem="6" secondAttribute="top" constant="5" id="qVb-ke-39M"/>
+                    <constraint firstItem="8" firstAttribute="leading" secondItem="6" secondAttribute="leading" constant="11" id="v7e-yC-4gU"/>
+                </constraints>
             </view>
             <point key="canvasLocation" x="132" y="161.5"/>
         </window>

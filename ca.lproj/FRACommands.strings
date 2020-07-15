@@ -1,0 +1,51 @@
+
+/* Class = "NSWindow"; title = "Commands - Erbele"; ObjectID = "5"; */
+"5.title" = "Commands - Erbele";
+
+/* Class = "NSTableColumn"; headerCell.title = "Col·leccions"; ObjectID = "138"; */
+"138.headerCell.title" = "Col·leccions";
+
+/* Class = "NSTableColumn"; headerCell.title = "Nom"; ObjectID = "141"; */
+"141.headerCell.title" = "Nom";
+
+/* Class = "NSTableColumn"; headerCell.title = "Drecera"; ObjectID = "142"; */
+"142.headerCell.title" = "Drecera";
+
+/* Class = "NSTableColumn"; headerCell.title = "Inline"; ObjectID = "188"; */
+"188.headerCell.title" = "Inline";
+
+/* Class = "NSTableColumn"; headerCell.title = "Intèrpret"; ObjectID = "203"; */
+"203.headerCell.title" = "Intèrpret";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedDisplayName = "Current collection"; ObjectID = "231"; */
+"231.ibShadowedDisplayName" = "Current collection";
+
+/* Class = "NSButtonCell"; title = "Inserta camí"; ObjectID = "234"; */
+"234.title" = "Inserta camí";
+
+/* Class = "NSTextFieldCell"; title = "%%s = selecció"; ObjectID = "235"; */
+"235.title" = "%%s = selecció";
+
+/* Class = "NSTextFieldCell"; title = "%%p = camí actual"; ObjectID = "236"; */
+"236.title" = "%%p = camí actual";
+
+/* Class = "NSTextFieldCell"; title = "%%d = directori actual"; ObjectID = "237"; */
+"237.title" = "%%d = directori actual";
+
+/* Class = "NSTextFieldCell"; title = "Inclou el camí complert al comandament\n"; ObjectID = "238"; */
+"238.title" = "Inclou el camí complert al comandament\n";
+
+/* Class = "NSSearchFieldCell"; placeholderString = "Current collection"; ObjectID = "239"; */
+"239.placeholderString" = "Current collection";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "240"; */
+"240.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "241"; */
+"241.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "242"; */
+"242.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "243"; */
+"243.title" = "Text Cell";

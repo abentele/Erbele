@@ -1,0 +1,24 @@
+
+/* Class = "NSButtonCell"; title = "设置字体..."; ObjectID = "31"; */
+"31.title" = "设置字体...";
+
+/* Class = "NSTextFieldCell"; title = "字体:"; ObjectID = "32"; */
+"32.title" = "字体:";
+
+/* Class = "NSButtonCell"; title = "只打印选择项"; ObjectID = "33"; */
+"33.title" = "只打印选择项";
+
+/* Class = "NSButtonCell"; title = "打印页眉"; ObjectID = "34"; */
+"34.title" = "打印页眉";
+
+/* Class = "NSTextFieldCell"; title = "页边空白不小于"; ObjectID = "35"; */
+"35.title" = "页边空白不小于";
+
+/* Class = "NSTextFieldCell"; title = "点"; ObjectID = "37"; */
+"37.title" = "点";
+
+/* Class = "NSTextFieldCell"; title = "(24 - 500)"; ObjectID = "38"; */
+"38.title" = "(24 - 500)";
+
+/* Class = "NSButtonCell"; title = "打印语法颜色"; ObjectID = "39"; */
+"39.title" = "打印语法颜色";

@@ -1,0 +1,54 @@
+
+/* Class = "NSWindow"; title = "Ricerca avanzata - Erbele"; ObjectID = "7"; */
+"7.title" = "Ricerca avanzata - Erbele";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "48"; */
+"48.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "Cancella le ricerche recenti"; ObjectID = "49"; */
+"49.title" = "Cancella le ricerche recenti";
+
+/* Class = "NSMenuItem"; title = "Recents <do not localise>"; ObjectID = "51"; */
+"51.title" = "Recents <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Ricerche recenti"; ObjectID = "52"; */
+"52.title" = "Ricerche recenti";
+
+/* Class = "NSTableColumn"; headerCell.title = "Mostra stringa"; ObjectID = "123"; */
+"123.headerCell.title" = "Mostra stringa";
+
+/* Class = "NSTextFieldCell"; title = "Sostituisci:"; ObjectID = "207"; */
+"207.title" = "Sostituisci:";
+
+/* Class = "NSButtonCell"; title = "Cerca"; ObjectID = "208"; */
+"208.title" = "Cerca";
+
+/* Class = "NSButtonCell"; title = "Usa le espressioni regolari"; ObjectID = "209"; */
+"209.title" = "Usa le espressioni regolari";
+
+/* Class = "NSButtonCell"; title = "Sostituisci"; ObjectID = "210"; */
+"210.title" = "Sostituisci";
+
+/* Class = "NSButtonCell"; title = "Ignora maiuscole/minuscole"; ObjectID = "211"; */
+"211.title" = "Ignora maiuscole/minuscole";
+
+/* Class = "NSTextFieldCell"; title = "Cerca:"; ObjectID = "212"; */
+"212.title" = "Cerca:";
+
+/* Class = "NSButtonCell"; title = "Solo nella selezione"; ObjectID = "213"; */
+"213.title" = "Solo nella selezione";
+
+/* Class = "NSButtonCell"; title = "Documento attuale"; ObjectID = "216"; */
+"216.title" = "Documento attuale";
+
+/* Class = "NSButtonCell"; title = "Progetto attuale"; ObjectID = "217"; */
+"217.title" = "Progetto attuale";
+
+/* Class = "NSButtonCell"; title = "Tutti i documenti"; ObjectID = "218"; */
+"218.title" = "Tutti i documenti";
+
+/* Class = "NSTextFieldCell"; title = "Casella di testo"; ObjectID = "219"; */
+"219.title" = "Casella di testo";
+
+/* Class = "NSButtonCell"; title = "Cartella superiore"; ObjectID = "226"; */
+"226.title" = "Cartella superiore";

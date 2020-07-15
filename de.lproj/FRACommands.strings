@@ -1,0 +1,51 @@
+
+/* Class = "NSWindow"; title = "Kommandos - Erbele"; ObjectID = "5"; */
+"5.title" = "Kommandos - Erbele";
+
+/* Class = "NSTableColumn"; headerCell.title = "Gruppe"; ObjectID = "138"; */
+"138.headerCell.title" = "Gruppe";
+
+/* Class = "NSTableColumn"; headerCell.title = "Befehl"; ObjectID = "141"; */
+"141.headerCell.title" = "Befehl";
+
+/* Class = "NSTableColumn"; headerCell.title = "Tastenkürzel"; ObjectID = "142"; */
+"142.headerCell.title" = "Tastenkürzel";
+
+/* Class = "NSTableColumn"; headerCell.title = "Inline"; ObjectID = "188"; */
+"188.headerCell.title" = "Inline";
+
+/* Class = "NSTableColumn"; headerCell.title = "Interpreter"; ObjectID = "203"; */
+"203.headerCell.title" = "Interpreter";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedDisplayName = "Current collection"; ObjectID = "231"; */
+"231.ibShadowedDisplayName" = "Current collection";
+
+/* Class = "NSButtonCell"; title = "Pfad einfügen"; ObjectID = "234"; */
+"234.title" = "Pfad einfügen";
+
+/* Class = "NSTextFieldCell"; title = "%%s = aktuelle Auswahl"; ObjectID = "235"; */
+"235.title" = "%%s = aktuelle Auswahl";
+
+/* Class = "NSTextFieldCell"; title = "%%p = aktueller Pfad"; ObjectID = "236"; */
+"236.title" = "%%p = aktueller Pfad";
+
+/* Class = "NSTextFieldCell"; title = "%%d = aktuelles Verzeichnis"; ObjectID = "237"; */
+"237.title" = "%%d = aktuelles Verzeichnis";
+
+/* Class = "NSTextFieldCell"; title = "Immer ganzen Pfad angeben!"; ObjectID = "238"; */
+"238.title" = "Immer ganzen Pfad angeben!";
+
+/* Class = "NSSearchFieldCell"; placeholderString = "Aktuelle Gruppe"; ObjectID = "239"; */
+"239.placeholderString" = "Aktuelle Gruppe";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "240"; */
+"240.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "241"; */
+"241.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "242"; */
+"242.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "243"; */
+"243.title" = "Text Cell";

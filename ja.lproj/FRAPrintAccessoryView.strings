@@ -1,0 +1,24 @@
+
+/* Class = "NSButtonCell"; title = "フォント設定..."; ObjectID = "31"; */
+"31.title" = "フォント設定...";
+
+/* Class = "NSTextFieldCell"; title = "フォント:"; ObjectID = "32"; */
+"32.title" = "フォント:";
+
+/* Class = "NSButtonCell"; title = "選択範囲のみを印刷"; ObjectID = "33"; */
+"33.title" = "選択範囲のみを印刷";
+
+/* Class = "NSButtonCell"; title = "ヘッダを印刷"; ObjectID = "34"; */
+"34.title" = "ヘッダを印刷";
+
+/* Class = "NSTextFieldCell"; title = "最小マージンを"; ObjectID = "35"; */
+"35.title" = "最小マージンを";
+
+/* Class = "NSTextFieldCell"; title = "ポイントに設定する"; ObjectID = "37"; */
+"37.title" = "ポイントに設定する";
+
+/* Class = "NSTextFieldCell"; title = "(24 - 500)"; ObjectID = "38"; */
+"38.title" = "(24 - 500)";
+
+/* Class = "NSButtonCell"; title = "シンタックスカラーを印刷"; ObjectID = "39"; */
+"39.title" = "シンタックスカラーを印刷";

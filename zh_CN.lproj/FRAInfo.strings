@@ -1,0 +1,57 @@
+
+/* Class = "NSWindow"; title = "简介 - Erbele"; ObjectID = "5"; */
+"5.title" = "简介 - Erbele";
+
+/* Class = "NSTextFieldCell"; title = "文件大小:"; ObjectID = "82"; */
+"82.title" = "文件大小:";
+
+/* Class = "NSTextFieldCell"; title = "位置:"; ObjectID = "83"; */
+"83.title" = "位置:";
+
+/* Class = "NSTextFieldCell"; title = "创建日期:"; ObjectID = "84"; */
+"84.title" = "创建日期:";
+
+/* Class = "NSTextFieldCell"; title = "修改日期:"; ObjectID = "85"; */
+"85.title" = "修改日期:";
+
+/* Class = "NSTextFieldCell"; title = "作者:"; ObjectID = "86"; */
+"86.title" = "作者:";
+
+/* Class = "NSTextFieldCell"; title = "种类:"; ObjectID = "87"; */
+"87.title" = "种类:";
+
+/* Class = "NSTextFieldCell"; title = "权限:"; ObjectID = "88"; */
+"88.title" = "权限:";
+
+/* Class = "NSTextFieldCell"; title = "所属群組:"; ObjectID = "89"; */
+"89.title" = "所属群組:";
+
+/* Class = "NSTextFieldCell"; title = "所有者:"; ObjectID = "90"; */
+"90.title" = "所有者:";
+
+/* Class = "NSTextFieldCell"; title = "选取范围长度:"; ObjectID = "91"; */
+"91.title" = "选取范围长度:";
+
+/* Class = "NSTextFieldCell"; title = "单字数:"; ObjectID = "92"; */
+"92.title" = "单字数:";
+
+/* Class = "NSTextFieldCell"; title = "光标位置:"; ObjectID = "93"; */
+"93.title" = "光标位置:";
+
+/* Class = "NSTextFieldCell"; title = "语法:"; ObjectID = "94"; */
+"94.title" = "语法:";
+
+/* Class = "NSTextFieldCell"; title = "编码:"; ObjectID = "95"; */
+"95.title" = "编码:";
+
+/* Class = "NSTextFieldCell"; title = "Spotlight:"; ObjectID = "96"; */
+"96.title" = "Spotlight:";
+
+/* Class = "NSTextFieldCell"; title = "长度:"; ObjectID = "111"; */
+"111.title" = "长度:";
+
+/* Class = "NSTextFieldCell"; title = "行号:"; ObjectID = "114"; */
+"114.title" = "行号:";
+
+/* Class = "NSTextFieldCell"; title = "函数数量:"; ObjectID = "116"; */
+"116.title" = "函数数量:";

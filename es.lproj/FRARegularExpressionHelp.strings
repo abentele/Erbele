@@ -1,0 +1,23 @@
+
+/* Class = "NSWindow"; title = "Regular Expressions"; ObjectID = "8"; */
+"8.title" = "Expresión regular";
+/* Class = "NSTextFieldCell"; title = ""; ObjectID = "SdR-an-3fW"; */
+"SdR-an-3fW.title" = "^ \t Comienzo de una cadena de caracteres
+$ \t Final de una cadena de caracteres
+. \t Cualquier caracter (excepto \\n)
+* \t 0 o más de la expresión previa
++ \t 1 o más de la expresión previa
+? \t 0 o 1 de la expresión previa
+
+\\w \t Corresponde a cualquier caracter que sea palabra
+\\W \t Corresponde a cualquier caracter que no sea palabra
+\\s \t Corresponde a cualquier caracter que sea espacio en blanco
+\\S \t Corresponde a cualquier caracter que no sea espacio en blanco
+\\d \t Corresponde a cualquier dígito decimal
+\\D \t Corresponde a cualquier caracter que no sea dígito
+
+[abc] \t Corresponde a cualquier caracter individual incluído en el grupo
+[^abc] \t Corresponde a cualquier caracter individual no incluído en el grupo
+[a-z]  \t Rango de bordes contiguos al caracter
+(a|b)  \t a o b
+ab{2} \t Corresponde a dos caracteres b";

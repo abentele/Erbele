@@ -1,0 +1,60 @@
+
+/* Class = "NSButtonCell"; title = "Skapa nytt dokument"; ObjectID = "134"; */
+"134.title" = "Skapa nytt dokument";
+
+/* Class = "NSButtonCell"; title = "Visa radnummer-fält, bredd (i pixlar):"; ObjectID = "135"; */
+"135.title" = "Visa radnummer-fält, bredd (i pixlar):";
+
+/* Class = "NSButtonCell"; title = "Radbryt"; ObjectID = "136"; */
+"136.title" = "Radbryt";
+
+/* Class = "NSTextFieldCell"; title = "Antal i senaste-menyn:"; ObjectID = "138"; */
+"138.title" = "Antal i senaste-menyn:";
+
+/* Class = "NSTextFieldCell"; title = "40"; ObjectID = "139"; */
+"139.title" = "40";
+
+/* Class = "NSButtonCell"; title = "Visa matchande par (t.ex. parenteser)"; ObjectID = "140"; */
+"140.title" = "Visa matchande par (t.ex. parenteser)";
+
+/* Class = "NSButtonCell"; title = "Dra in början på raden lika mycket som föregående rad"; ObjectID = "141"; */
+"141.title" = "Dra in början på raden lika mycket som föregående rad";
+
+/* Class = "NSButtonCell"; title = "Visa osynliga tecken"; ObjectID = "142"; */
+"142.title" = "Visa osynliga tecken";
+
+/* Class = "NSTextFieldCell"; title = "(25-99)"; ObjectID = "143"; */
+"143.title" = "(25-99)";
+
+/* Class = "NSButtonCell"; title = "Föreslå automatiskt, efter (sekunder):"; ObjectID = "144"; */
+"144.title" = "Föreslå automatiskt, efter (sekunder):";
+
+/* Class = "NSButtonCell"; title = "Inkludera standardord"; ObjectID = "145"; */
+"145.title" = "Inkludera standardord";
+
+/* Class = "NSTextFieldCell"; title = "(0.1-99)"; ObjectID = "147"; */
+"147.title" = "(0.1-99)";
+
+/* Class = "NSButtonCell"; title = "Kontrollera stavningen medan du skriver"; ObjectID = "148"; */
+"148.title" = "Kontrollera stavningen medan du skriver";
+
+/* Class = "NSTextFieldCell"; title = "Auto-komplettering:"; ObjectID = "152"; */
+"152.title" = "Auto-komplettering:";
+
+/* Class = "NSTextFieldCell"; title = "Vid start:"; ObjectID = "153"; */
+"153.title" = "Vid start:";
+
+/* Class = "NSTextFieldCell"; title = "Nya dokument:"; ObjectID = "154"; */
+"154.title" = "Nya dokument:";
+
+/* Class = "NSTextFieldCell"; title = "Redigering:"; ObjectID = "155"; */
+"155.title" = "Redigering:";
+
+/* Class = "NSButtonCell"; title = "Behandla { och } på ett smart sätt"; ObjectID = "156"; */
+"156.title" = "Behandla { och } på ett smart sätt";
+
+/* Class = "NSButtonCell"; title = "Syntaxfärgning"; ObjectID = "157"; */
+"157.title" = "Syntaxfärgning";
+
+/* Class = "NSTextFieldCell"; title = "Övrigt:"; ObjectID = "160"; */
+"160.title" = "Övrigt:";

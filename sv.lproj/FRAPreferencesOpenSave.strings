@@ -1,0 +1,72 @@
+
+/* Class = "NSButtonCell"; title = "Använd nuvarande dokuments mapp"; ObjectID = "7"; */
+"7.title" = "Använd nuvarande dokuments mapp";
+
+/* Class = "NSButtonCell"; title = "Använd alltid:"; ObjectID = "8"; */
+"8.title" = "Använd alltid:";
+
+/* Class = "NSButtonCell"; title = "Kom ihåg senaste ”Öppna”-mappen"; ObjectID = "9"; */
+"9.title" = "Kom ihåg senaste ”Öppna”-mappen";
+
+/* Class = "NSButtonCell"; title = "Använd nuvarande dokuments mapp"; ObjectID = "19"; */
+"19.title" = "Använd nuvarande dokuments mapp";
+
+/* Class = "NSButtonCell"; title = "Använd alltid:"; ObjectID = "20"; */
+"20.title" = "Använd alltid:";
+
+/* Class = "NSButtonCell"; title = "Kom ihåg senaste ”Spara som\"-mappen"; ObjectID = "21"; */
+"21.title" = "Kom ihåg senaste ”Spara som\"-mappen";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "53"; */
+"53.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Unix - Mac OS X (LF)"; ObjectID = "55"; */
+"55.title" = "Unix - Mac OS X (LF)";
+
+/* Class = "NSMenuItem"; title = "Mac (CR)"; ObjectID = "56"; */
+"56.title" = "Mac (CR)";
+
+/* Class = "NSMenuItem"; title = "Windows (CRLF)"; ObjectID = "57"; */
+"57.title" = "Windows (CRLF)";
+
+/* Class = "NSMenuItem"; title = "Lämna oförändrade"; ObjectID = "59"; */
+"59.title" = "Lämna oförändrade";
+
+/* Class = "NSButtonCell"; title = "Välj…"; ObjectID = "76"; */
+"76.title" = "Välj…";
+
+/* Class = "NSButtonCell"; title = "Välj…"; ObjectID = "78"; */
+"78.title" = "Välj…";
+
+/* Class = "NSTextFieldCell"; title = "Öppna:"; ObjectID = "80"; */
+"80.title" = "Öppna:";
+
+/* Class = "NSTextFieldCell"; title = "Spara som:"; ObjectID = "81"; */
+"81.title" = "Spara som:";
+
+/* Class = "NSButtonCell"; title = "Tilldela dokumentet till Erbele"; ObjectID = "82"; */
+"82.title" = "Tilldela dokumentet till Erbele";
+
+/* Class = "NSTextFieldCell"; title = "Radslut:"; ObjectID = "84"; */
+"84.title" = "Radslut:";
+
+/* Class = "NSTextFieldCell"; title = "Vid spara:"; ObjectID = "85"; */
+"85.title" = "Vid spara:";
+
+/* Class = "NSButtonCell"; title = "Lägg till namnet i ”Spara som”:"; ObjectID = "86"; */
+"86.title" = "Lägg till namnet i ”Spara som”:";
+
+/* Class = "NSButtonCell"; title = "Öppna alla dokument jag hade öppna när jag avslutade"; ObjectID = "88"; */
+"88.title" = "Öppna alla dokument jag hade öppna när jag avslutade";
+
+/* Class = "NSTextFieldCell"; title = "Vid start:"; ObjectID = "89"; */
+"89.title" = "Vid start:";
+
+/* Class = "NSButtonCell"; title = "Öppna alla projekt jag hade öppna när jag avslutade"; ObjectID = "90"; */
+"90.title" = "Öppna alla projekt jag hade öppna när jag avslutade";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "91"; */
+"91.title" = "Radio";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "92"; */
+"92.title" = "Radio";

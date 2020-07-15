@@ -1,0 +1,24 @@
+
+/* Class = "NSButtonCell"; title = "Choisir..."; ObjectID = "31"; */
+"31.title" = "Choisir...";
+
+/* Class = "NSTextFieldCell"; title = "Police :"; ObjectID = "32"; */
+"32.title" = "Police :";
+
+/* Class = "NSButtonCell"; title = "Imprimer seulement la sélection"; ObjectID = "33"; */
+"33.title" = "Imprimer seulement la sélection";
+
+/* Class = "NSButtonCell"; title = "Imprimer l'entête"; ObjectID = "34"; */
+"34.title" = "Imprimer l'entête";
+
+/* Class = "NSTextFieldCell"; title = "Les marges sont au minimum de"; ObjectID = "35"; */
+"35.title" = "Les marges sont au minimum de";
+
+/* Class = "NSTextFieldCell"; title = "points"; ObjectID = "37"; */
+"37.title" = "points";
+
+/* Class = "NSTextFieldCell"; title = "(24 - 500)"; ObjectID = "38"; */
+"38.title" = "(24 - 500)";
+
+/* Class = "NSButtonCell"; title = "Imprimer les couleurs syntaxiques"; ObjectID = "39"; */
+"39.title" = "Imprimer les couleurs syntaxiques";

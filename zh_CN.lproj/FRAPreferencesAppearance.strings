@@ -1,0 +1,123 @@
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "8"; */
+"8.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "小"; ObjectID = "9"; */
+"9.title" = "小";
+
+/* Class = "NSMenuItem"; title = "大"; ObjectID = "10"; */
+"10.title" = "大";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "40"; */
+"40.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "0"; ObjectID = "41"; */
+"41.title" = "0";
+
+/* Class = "NSMenuItem"; title = "6"; ObjectID = "42"; */
+"42.title" = "6";
+
+/* Class = "NSMenuItem"; title = "2"; ObjectID = "43"; */
+"43.title" = "2";
+
+/* Class = "NSMenuItem"; title = "3"; ObjectID = "44"; */
+"44.title" = "3";
+
+/* Class = "NSMenuItem"; title = "7"; ObjectID = "45"; */
+"45.title" = "7";
+
+/* Class = "NSMenuItem"; title = "8"; ObjectID = "46"; */
+"46.title" = "8";
+
+/* Class = "NSMenuItem"; title = "1"; ObjectID = "47"; */
+"47.title" = "1";
+
+/* Class = "NSMenuItem"; title = "4"; ObjectID = "48"; */
+"48.title" = "4";
+
+/* Class = "NSMenuItem"; title = "5"; ObjectID = "49"; */
+"49.title" = "5";
+
+/* Class = "NSButtonCell"; title = "窗口标题栏显示完整路径"; ObjectID = "93"; */
+"93.title" = "窗口标题栏显示完整路径";
+
+/* Class = "NSTextFieldCell"; title = "文本字体大小"; ObjectID = "95"; */
+"95.title" = "文本字体大小";
+
+/* Class = "NSButtonCell"; title = "设置字体"; ObjectID = "96"; */
+"96.title" = "设置字体";
+
+/* Class = "NSTextFieldCell"; title = "文本字体:"; ObjectID = "97"; */
+"97.title" = "文本字体:";
+
+/* Class = "NSTextFieldCell"; title = "背景颜色:"; ObjectID = "99"; */
+"99.title" = "背景颜色:";
+
+/* Class = "NSTextFieldCell"; title = "文本颜色:"; ObjectID = "100"; */
+"100.title" = "文本颜色:";
+
+/* Class = "NSTextFieldCell"; title = "Tab 宽度:"; ObjectID = "102"; */
+"102.title" = "Tab 宽度:";
+
+/* Class = "NSButtonCell"; title = "显示页标，在行:"; ObjectID = "103"; */
+"103.title" = "显示页标，在行:";
+
+/* Class = "NSButtonCell"; title = "文档长度"; ObjectID = "105"; */
+"105.title" = "文档长度";
+
+/* Class = "NSButtonCell"; title = "选择项的长度"; ObjectID = "106"; */
+"106.title" = "选择项的长度";
+
+/* Class = "NSButtonCell"; title = "语法定义"; ObjectID = "107"; */
+"107.title" = "语法定义";
+
+/* Class = "NSButtonCell"; title = "最后保存时间，格式"; ObjectID = "108"; */
+"108.title" = "最后保存时间，格式";
+
+/* Class = "NSButtonCell"; title = "文本编码"; ObjectID = "109"; */
+"109.title" = "文本编码";
+
+/* Class = "NSButtonCell"; title = "位置"; ObjectID = "110"; */
+"110.title" = "位置";
+
+/* Class = "NSTextFieldCell"; title = "状态栏显示:"; ObjectID = "111"; */
+"111.title" = "状态栏显示:";
+
+/* Class = "NSTextFieldCell"; title = "文档列表:"; ObjectID = "112"; */
+"112.title" = "文档列表:";
+
+/* Class = "NSTextFieldCell"; title = "80"; ObjectID = "113"; */
+"113.title" = "80";
+
+/* Class = "NSTextFieldCell"; title = "其他:"; ObjectID = "114"; */
+"114.title" = "其他:";
+
+/* Class = "NSButtonCell"; title = "显示文档的完整路径"; ObjectID = "116"; */
+"116.title" = "显示文档的完整路径";
+
+/* Class = "NSTextFieldCell"; title = "缩进宽度:"; ObjectID = "118"; */
+"118.title" = "缩进宽度:";
+
+/* Class = "NSTextFieldCell"; title = "外观"; ObjectID = "8p5-Oq-MiT"; */
+"8p5-Oq-MiT.title" = "外观";
+
+/* Class = "NSTextFieldCell"; title = "行号的背景颜色:"; ObjectID = "F78-Zd-vfc"; */
+"F78-Zd-vfc.title" = "行号的背景颜色:";
+
+/* Class = "NSTextFieldCell"; title = "外观"; ObjectID = "Riw-54-UWj"; */
+"Riw-54-UWj.title" = "外观";
+
+/* Class = "NSTextFieldCell"; title = "深色"; ObjectID = "Ysg-NX-idf"; */
+"Ysg-NX-idf.title" = "深色";
+
+/* Class = "NSTextFieldCell"; title = "行号颜色:"; ObjectID = "hF2-GK-fmd"; */
+"hF2-GK-fmd.title" = "行号颜色:";
+
+/* Class = "NSTextFieldCell"; title = "深色"; ObjectID = "tMg-5Z-aHI"; */
+"tMg-5Z-aHI.title" = "深色";
+
+/* Class = "NSTextFieldCell"; title = "浅色"; ObjectID = "xFq-Xu-kFU"; */
+"xFq-Xu-kFU.title" = "浅色";
+
+/* Class = "NSTextFieldCell"; title = "浅色"; ObjectID = "yKg-Qd-czz"; */
+"yKg-Qd-czz.title" = "浅色";

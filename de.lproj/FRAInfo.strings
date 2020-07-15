@@ -1,0 +1,57 @@
+
+/* Class = "NSWindow"; title = "Info - Erbele"; ObjectID = "5"; */
+"5.title" = "Info - Erbele";
+
+/* Class = "NSTextFieldCell"; title = "Dateigröße:"; ObjectID = "82"; */
+"82.title" = "Dateigröße:";
+
+/* Class = "NSTextFieldCell"; title = "Pfad:"; ObjectID = "83"; */
+"83.title" = "Pfad:";
+
+/* Class = "NSTextFieldCell"; title = "Erstellt:"; ObjectID = "84"; */
+"84.title" = "Erstellt:";
+
+/* Class = "NSTextFieldCell"; title = "Geändert:"; ObjectID = "85"; */
+"85.title" = "Geändert:";
+
+/* Class = "NSTextFieldCell"; title = "Autor:\n"; ObjectID = "86"; */
+"86.title" = "Autor:\n";
+
+/* Class = "NSTextFieldCell"; title = "Typ:"; ObjectID = "87"; */
+"87.title" = "Typ:";
+
+/* Class = "NSTextFieldCell"; title = "Rechte:"; ObjectID = "88"; */
+"88.title" = "Rechte:";
+
+/* Class = "NSTextFieldCell"; title = "Gruppe:"; ObjectID = "89"; */
+"89.title" = "Gruppe:";
+
+/* Class = "NSTextFieldCell"; title = "Besitzer:"; ObjectID = "90"; */
+"90.title" = "Besitzer:";
+
+/* Class = "NSTextFieldCell"; title = "Auswahl:"; ObjectID = "91"; */
+"91.title" = "Auswahl:";
+
+/* Class = "NSTextFieldCell"; title = "Wörter:"; ObjectID = "92"; */
+"92.title" = "Wörter:";
+
+/* Class = "NSTextFieldCell"; title = "Position:"; ObjectID = "93"; */
+"93.title" = "Position:";
+
+/* Class = "NSTextFieldCell"; title = "Syntax:"; ObjectID = "94"; */
+"94.title" = "Syntax:";
+
+/* Class = "NSTextFieldCell"; title = "Kodierung"; ObjectID = "95"; */
+"95.title" = "Kodierung";
+
+/* Class = "NSTextFieldCell"; title = "Spotlight:"; ObjectID = "96"; */
+"96.title" = "Spotlight:";
+
+/* Class = "NSTextFieldCell"; title = "Größe:"; ObjectID = "111"; */
+"111.title" = "Größe:";
+
+/* Class = "NSTextFieldCell"; title = "Zeilen:"; ObjectID = "114"; */
+"114.title" = "Zeilen:";
+
+/* Class = "NSTextFieldCell"; title = "Funktion:"; ObjectID = "116"; */
+"116.title" = "Funktion:";

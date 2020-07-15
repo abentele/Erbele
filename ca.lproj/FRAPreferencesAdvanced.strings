@@ -1,0 +1,177 @@
+
+/* Class = "NSTabViewItem"; label = "Molt avançat"; ObjectID = "42"; */
+"42.label" = "Molt avançat";
+
+/* Class = "NSTabViewItem"; label = "Colors de sintaxi"; ObjectID = "43"; */
+"43.label" = "Colors de sintaxi";
+
+/* Class = "NSTabViewItem"; label = "Definicions de sintaxi"; ObjectID = "48"; */
+"48.label" = "Definicions de sintaxi";
+
+/* Class = "NSButtonCell"; title = "Utilitza sempre..."; ObjectID = "84"; */
+"84.title" = "Utilitza sempre...";
+
+/* Class = "NSButtonCell"; title = "Esbrina per l'extensió; sinó utilitza..."; ObjectID = "85"; */
+"85.title" = "Esbrina per l'extensió; sinó utilitza...";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "87"; */
+"87.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "<do not localise>"; ObjectID = "88"; */
+"88.title" = "<do not localise>";
+
+/* Class = "NSTableColumn"; headerCell.title = "Nom"; ObjectID = "91"; */
+"91.headerCell.title" = "Nom";
+
+/* Class = "NSTableColumn"; headerCell.title = "Extensions (separades per espais, sense punts)"; ObjectID = "92"; */
+"92.headerCell.title" = "Extensions (separades per espais, sense punts)";
+
+/* Class = "NSTabViewItem"; label = "Codificació"; ObjectID = "95"; */
+"95.label" = "Codificació";
+
+/* Class = "NSButtonCell"; title = "Utilitza sempre..."; ObjectID = "98"; */
+"98.title" = "Utilitza sempre...";
+
+/* Class = "NSButtonCell"; title = "Esbrina, i sinó utilitza..."; ObjectID = "99"; */
+"99.title" = "Esbrina, i sinó utilitza...";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "101"; */
+"101.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "<do not localise>"; ObjectID = "102"; */
+"102.title" = "<do not localise>";
+
+/* Class = "NSTableColumn"; headerCell.title = "Codificació"; ObjectID = "106"; */
+"106.headerCell.title" = "Codificació";
+
+/* Class = "NSTableColumn"; headerCell.title = "Activa"; ObjectID = "107"; */
+"107.headerCell.title" = "Activa";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "224"; */
+"224.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "HTML (WebKit)"; ObjectID = "227"; */
+"227.title" = "HTML (WebKit)";
+
+/* Class = "NSMenuItem"; title = "MultiMarkdown"; ObjectID = "228"; */
+"228.title" = "MultiMarkdown";
+
+/* Class = "NSMenuItem"; title = "Markdown"; ObjectID = "230"; */
+"230.title" = "Markdown";
+
+/* Class = "NSButtonCell"; title = "Comproba si el document ha sigut modificat per un altre programa"; ObjectID = "252"; */
+"252.title" = "Comproba si el document ha sigut modificat per un altre programa";
+
+/* Class = "NSButtonCell"; title = "Sagna amb espai, no tabulats"; ObjectID = "253"; */
+"253.title" = "Sagna amb espai, no tabulats";
+
+/* Class = "NSButtonCell"; title = "Si decideixo obrir una carpeta, obre tots els arxius en ella:"; ObjectID = "254"; */
+"254.title" = "Si decideixo obrir una carpeta, obre tots els arxius en ella:";
+
+/* Class = "NSButtonCell"; title = "Activa inserció i esborrat intel·ligents"; ObjectID = "255"; */
+"255.title" = "Activa inserció i esborrat intel·ligents";
+
+/* Class = "NSButtonCell"; title = "De mode recursiu"; ObjectID = "256"; */
+"256.title" = "De mode recursiu";
+
+/* Class = "NSButtonCell"; title = "Eliminant mitjançant un filtre documents amb extensions:"; ObjectID = "257"; */
+"257.title" = "Eliminant mitjançant un filtre documents amb extensions:";
+
+/* Class = "NSTextFieldCell"; title = "(Separats per un espai, sense punts)"; ObjectID = "258"; */
+"258.title" = "(Separats per un espai, sense punts)";
+
+/* Class = "NSTextFieldCell"; title = "A l'editar:"; ObjectID = "260"; */
+"260.title" = "A l'editar:";
+
+/* Class = "NSTextFieldCell"; title = "A l'obrir:"; ObjectID = "261"; */
+"261.title" = "A l'obrir:";
+
+/* Class = "NSButtonCell"; title = "Utilitza RGB enlloc de hex a l'insertar valors de color"; ObjectID = "262"; */
+"262.title" = "Utilitza RGB enlloc de hex a l'insertar valors de color";
+
+/* Class = "NSTextFieldCell"; title = "Executa text:"; ObjectID = "263"; */
+"263.title" = "Executa text:";
+
+/* Class = "NSButtonCell"; title = "Inserta automàticament al final }"; ObjectID = "265"; */
+"265.title" = "Inserta automàticament al final }";
+
+/* Class = "NSButtonCell"; title = "Inserta automàticament al final )"; ObjectID = "266"; */
+"266.title" = "Inserta automàticament al final )";
+
+/* Class = "NSTextFieldCell"; title = "Motor de vista prèvia:"; ObjectID = "268"; */
+"268.title" = "Motor de vista prèvia:";
+
+/* Class = "NSButtonCell"; title = "Atura de tabulats"; ObjectID = "269"; */
+"269.title" = "Atura de tabulats";
+
+/* Class = "NSTextFieldCell"; title = "Color per caràcters invisibles (al mostrar-los):"; ObjectID = "270"; */
+"270.title" = "Color per caràcters invisibles (al mostrar-los):";
+
+/* Class = "NSButtonCell"; title = "Destaca la línia actual, amb el color:"; ObjectID = "271"; */
+"271.title" = "Destaca la línia actual, amb el color:";
+
+/* Class = "NSTextFieldCell"; title = "Comentaris:"; ObjectID = "272"; */
+"272.title" = "Comentaris:";
+
+/* Class = "NSTextFieldCell"; title = "Paraules clau:"; ObjectID = "273"; */
+"273.title" = "Paraules clau:";
+
+/* Class = "NSTextFieldCell"; title = "Instruccions:"; ObjectID = "274"; */
+"274.title" = "Instruccions:";
+
+/* Class = "NSTextFieldCell"; title = "Variables:"; ObjectID = "275"; */
+"275.title" = "Variables:";
+
+/* Class = "NSTextFieldCell"; title = "Comandaments:"; ObjectID = "276"; */
+"276.title" = "Comandaments:";
+
+/* Class = "NSTextFieldCell"; title = "Cadenes de caràcters:"; ObjectID = "277"; */
+"277.title" = "Cadenes de caràcters:";
+
+/* Class = "NSButtonCell"; title = "Coloreja només fins al final de línia si no es troba l'etiqueta de tancament"; ObjectID = "278"; */
+"278.title" = "Coloreja només fins al final de línia si no es troba l'etiqueta de tancament";
+
+/* Class = "NSButtonCell"; title = "Coloreja cadenes de caràcters de vàries línies"; ObjectID = "279"; */
+"279.title" = "Coloreja cadenes de caràcters de vàries línies";
+
+/* Class = "NSTextFieldCell"; title = "Completa automàticament:"; ObjectID = "280"; */
+"280.title" = "Completa automàticament:";
+
+/* Class = "NSTextFieldCell"; title = "Clar"; ObjectID = "281"; */
+"281.title" = "Clar";
+
+/* Class = "NSTextFieldCell"; title = "Actiu"; ObjectID = "282"; */
+"282.title" = "Actiu";
+
+/* Class = "NSTextFieldCell"; title = "Atributs:"; ObjectID = "290"; */
+"290.title" = "Atributs:";
+
+/* Class = "NSTextFieldCell"; title = "Utilitza definició:"; ObjectID = "293"; */
+"293.title" = "Utilitza definició:";
+
+/* Class = "NSTextFieldCell"; title = "Codificació:"; ObjectID = "295"; */
+"295.title" = "Codificació:";
+
+/* Class = "NSButtonCell"; title = "Torna totes les opcions als seus valors per defecte"; ObjectID = "296"; */
+"296.title" = "Torna totes les opcions als seus valors per defecte";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "298"; */
+"298.title" = "Radio";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "299"; */
+"299.title" = "Radio";
+
+/* Class = "NSTextFieldCell"; title = "Aspecte"; ObjectID = "3ew-hX-c2j"; */
+"3ew-hX-c2j.title" = "Aspecte";
+
+/* Class = "NSTextFieldCell"; title = "Fosc"; ObjectID = "8tX-vc-vHh"; */
+"8tX-vc-vHh.title" = "Fosc";
+
+/* Class = "NSTextFieldCell"; title = "Fosc"; ObjectID = "NN3-gs-n1R"; */
+"NN3-gs-n1R.title" = "Fosc";
+
+/* Class = "NSTextFieldCell"; title = "Clar"; ObjectID = "jDb-rA-6LU"; */
+"jDb-rA-6LU.title" = "Clar";
+
+/* Class = "NSTextFieldCell"; title = "Aspecte"; ObjectID = "vRi-Oy-Bo0"; */
+"vRi-Oy-Bo0.title" = "Aspecte";

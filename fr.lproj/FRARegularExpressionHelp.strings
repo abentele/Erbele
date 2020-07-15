@@ -1,0 +1,23 @@
+
+/* Class = "NSWindow"; title = "Regular Expressions"; ObjectID = "8"; */
+"8.title" = "Expression régulière";
+/* Class = "NSTextFieldCell"; title = ""; ObjectID = "SdR-an-3fW"; */
+"SdR-an-3fW.title" = "^ \t Début d'un chaine
+$ \t Fin d'une chaine
+. \t Tout caractère (sauf \\n)
+* \t 0 ou plus de l'expression précédente
++ \t 1 ou plus de l'expression précédente
+? \t 0 ou 1 de l'expression précédente
+
+\\w \t Correspond à tout caractère mot
+\\W \t Correspond à tout caractère non mot
+\\s \t Correspond à tout caractère espace blanc
+\\S \t Correspond à tout caractère espace non blanc
+\\d \t Correspond à tout chiffre décimal
+\\D \t Correspond à tout caractère non chiffre
+
+[abc] \t Correspond à tout caractère dans l'ensemble
+[^abc] \t Correspond à tout caractère pas dans l'ensemble
+[a-z]  \t Plages de caractères continues
+(a|b)  \t a ou b
+ab{2} \t Correspond à deux caractères b";

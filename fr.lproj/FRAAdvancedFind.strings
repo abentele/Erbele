@@ -1,0 +1,54 @@
+
+/* Class = "NSWindow"; title = "Recherche avancée - Erbele"; ObjectID = "7"; */
+"7.title" = "Recherche avancée - Erbele";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "48"; */
+"48.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "Effacer les recherches récentes"; ObjectID = "49"; */
+"49.title" = "Effacer les recherches récentes";
+
+/* Class = "NSMenuItem"; title = "Recents <do not localise>"; ObjectID = "51"; */
+"51.title" = "Recents <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Recherches récentes"; ObjectID = "52"; */
+"52.title" = "Recherches récentes";
+
+/* Class = "NSTableColumn"; headerCell.title = "Display String"; ObjectID = "123"; */
+"123.headerCell.title" = "Display String";
+
+/* Class = "NSTextFieldCell"; title = "Remplacer :"; ObjectID = "207"; */
+"207.title" = "Remplacer :";
+
+/* Class = "NSButtonCell"; title = "Chercher"; ObjectID = "208"; */
+"208.title" = "Chercher";
+
+/* Class = "NSButtonCell"; title = "Expressions régulières"; ObjectID = "209"; */
+"209.title" = "Expressions régulières";
+
+/* Class = "NSButtonCell"; title = "Remplacer"; ObjectID = "210"; */
+"210.title" = "Remplacer";
+
+/* Class = "NSButtonCell"; title = "Ignorer la casse"; ObjectID = "211"; */
+"211.title" = "Ignorer la casse";
+
+/* Class = "NSTextFieldCell"; title = "Chercher :"; ObjectID = "212"; */
+"212.title" = "Chercher :";
+
+/* Class = "NSButtonCell"; title = "Dans la sélection"; ObjectID = "213"; */
+"213.title" = "Dans la sélection";
+
+/* Class = "NSButtonCell"; title = "Document actuel"; ObjectID = "216"; */
+"216.title" = "Document actuel";
+
+/* Class = "NSButtonCell"; title = "Projet actuel"; ObjectID = "217"; */
+"217.title" = "Projet actuel";
+
+/* Class = "NSButtonCell"; title = "Tous les documents"; ObjectID = "218"; */
+"218.title" = "Tous les documents";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "219"; */
+"219.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Répertoire parent"; ObjectID = "226"; */
+"226.title" = "Répertoire parent";

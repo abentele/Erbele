@@ -1,0 +1,24 @@
+
+/* Class = "NSWindow"; title = "Neues Projekt - Erbele"; ObjectID = "5"; */
+"5.title" = "Neues Projekt - Erbele";
+
+/* Class = "NSButtonCell"; title = "Virtuelles Projekt - temporäre Zusammenstellung von Dokumenten"; ObjectID = "9"; */
+"9.title" = "Virtuelles Projekt - temporäre Zusammenstellung von Dokumenten";
+
+/* Class = "NSButtonCell"; title = "Projekt im Dateisystem - Änderungen werden automatisch gespeichert"; ObjectID = "10"; */
+"10.title" = "Projekt im Dateisystem - Änderungen werden automatisch gespeichert";
+
+/* Class = "NSTextFieldCell"; title = "Typ des Projektes festlegen"; ObjectID = "26"; */
+"26.title" = "Typ des Projektes festlegen";
+
+/* Class = "NSTextFieldCell"; title = "Ein virtuelles Projekt kann jederzeit später als Projekt gespeichert werden. Ein Projekt enthält immer die Pfade zu den Dateien."; ObjectID = "27"; */
+"27.title" = "Ein virtuelles Projekt kann jederzeit später als Projekt gespeichert werden. Ein Projekt enthält immer die Pfade zu den Dateien.";
+
+/* Class = "NSButtonCell"; title = "Erstellen"; ObjectID = "28"; */
+"28.title" = "Erstellen";
+
+/* Class = "NSButtonCell"; title = "Abbrechen"; ObjectID = "29"; */
+"29.title" = "Abbrechen";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "30"; */
+"30.title" = "Radio";

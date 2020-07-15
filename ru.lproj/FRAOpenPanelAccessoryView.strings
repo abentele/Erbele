@@ -1,0 +1,9 @@
+
+/* Class = "NSMenu"; title = "Другой вид"; ObjectID = "7"; */
+"7.title" = "Другой вид";
+
+/* Class = "NSMenuItem"; title = "<do not localise>"; ObjectID = "8"; */
+"8.title" = "<do not localise>";
+
+/* Class = "NSTextFieldCell"; title = "Кодировка:"; ObjectID = "18"; */
+"18.title" = "Кодировка:";

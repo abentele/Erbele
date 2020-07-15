@@ -1,0 +1,24 @@
+
+/* Class = "NSWindow"; title = "新项目 - Erbele"; ObjectID = "5"; */
+"5.title" = "新项目 - Erbele";
+
+/* Class = "NSButtonCell"; title = "虚拟 - 文档的临时集合"; ObjectID = "9"; */
+"9.title" = "虚拟 - 文档的临时集合";
+
+/* Class = "NSButtonCell"; title = "永久 - 自动保存所有变动到一个项目文件"; ObjectID = "10"; */
+"10.title" = "永久 - 自动保存所有变动到一个项目文件";
+
+/* Class = "NSTextFieldCell"; title = "你想创建何种形式的项目？"; ObjectID = "26"; */
+"26.title" = "你想创建何种形式的项目？";
+
+/* Class = "NSTextFieldCell"; title = "假如你选择创建一个虚拟项目，你可以以后在文件菜单选择保存文档成一个项目。请注意文档不会保存到项目文件里面，仅仅保存文件的相对路径。"; ObjectID = "27"; */
+"27.title" = "假如你选择创建一个虚拟项目，你可以以后在文件菜单选择保存文档成一个项目。请注意文档不会保存到项目文件里面，仅仅保存文件的相对路径。";
+
+/* Class = "NSButtonCell"; title = "创建"; ObjectID = "28"; */
+"28.title" = "创建";
+
+/* Class = "NSButtonCell"; title = "取消"; ObjectID = "29"; */
+"29.title" = "取消";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "30"; */
+"30.title" = "Radio";

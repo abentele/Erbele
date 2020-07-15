@@ -1,0 +1,24 @@
+
+/* Class = "NSButtonCell"; title = "Выбрать шрифт..."; ObjectID = "31"; */
+"31.title" = "Выбрать шрифт...";
+
+/* Class = "NSTextFieldCell"; title = "Шрифт:"; ObjectID = "32"; */
+"32.title" = "Шрифт:";
+
+/* Class = "NSButtonCell"; title = "Печатать только выделенное"; ObjectID = "33"; */
+"33.title" = "Печатать только выделенное";
+
+/* Class = "NSButtonCell"; title = "Печатать название документа"; ObjectID = "34"; */
+"34.title" = "Печатать название документа";
+
+/* Class = "NSTextFieldCell"; title = "Границы должны быть не меньше чем"; ObjectID = "35"; */
+"35.title" = "Границы должны быть не меньше чем";
+
+/* Class = "NSTextFieldCell"; title = "точек"; ObjectID = "37"; */
+"37.title" = "точек";
+
+/* Class = "NSTextFieldCell"; title = "(24 - 500)"; ObjectID = "38"; */
+"38.title" = "(24 - 500)";
+
+/* Class = "NSButtonCell"; title = "Печатать цвета синтаксиса"; ObjectID = "39"; */
+"39.title" = "Печатать цвета синтаксиса";

@@ -1,0 +1,33 @@
+
+/* Class = "NSWindow"; title = "Snippets - Erbele"; ObjectID = "5"; */
+"5.title" = "Snippets - Erbele";
+
+/* Class = "NSTableColumn"; headerCell.title = "Collections"; ObjectID = "138"; */
+"138.headerCell.title" = "Collections";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "141"; */
+"141.headerCell.title" = "Name";
+
+/* Class = "NSTableColumn"; headerCell.title = "Shortcut"; ObjectID = "142"; */
+"142.headerCell.title" = "Shortcut";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedDisplayName = "Current collection"; ObjectID = "195"; */
+"195.ibShadowedDisplayName" = "Current collection";
+
+/* Class = "NSTextFieldCell"; title = "%%s = selection"; ObjectID = "197"; */
+"197.title" = "%%s = selection";
+
+/* Class = "NSTextFieldCell"; title = "%%c = cursor position after insert"; ObjectID = "198"; */
+"198.title" = "%%c = cursor position after insert";
+
+/* Class = "NSSearchFieldCell"; placeholderString = "Current collection"; ObjectID = "199"; */
+"199.placeholderString" = "Current collection";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "200"; */
+"200.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "201"; */
+"201.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "202"; */
+"202.title" = "Text Cell";

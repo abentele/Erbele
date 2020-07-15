@@ -1,0 +1,177 @@
+
+/* Class = "NSTabViewItem"; label = "Riktigt avancerat"; ObjectID = "42"; */
+"42.label" = "Riktigt avancerat";
+
+/* Class = "NSTabViewItem"; label = "Syntaxfärger"; ObjectID = "43"; */
+"43.label" = "Syntaxfärger";
+
+/* Class = "NSTabViewItem"; label = "Syntaxdefinitioner"; ObjectID = "48"; */
+"48.label" = "Syntaxdefinitioner";
+
+/* Class = "NSButtonCell"; title = "Använd alltid:"; ObjectID = "84"; */
+"84.title" = "Använd alltid:";
+
+/* Class = "NSButtonCell"; title = "Gissa från filtillägg, annars:"; ObjectID = "85"; */
+"85.title" = "Gissa från filtillägg, annars:";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "87"; */
+"87.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "<do not localise>"; ObjectID = "88"; */
+"88.title" = "<do not localise>";
+
+/* Class = "NSTableColumn"; headerCell.title = "Namn"; ObjectID = "91"; */
+"91.headerCell.title" = "Namn";
+
+/* Class = "NSTableColumn"; headerCell.title = "Filtillägg (mellanslag emellan, inga punkter)"; ObjectID = "92"; */
+"92.headerCell.title" = "Filtillägg (mellanslag emellan, inga punkter)";
+
+/* Class = "NSTabViewItem"; label = "Textkodningar"; ObjectID = "95"; */
+"95.label" = "Textkodningar";
+
+/* Class = "NSButtonCell"; title = "Använd alltid:"; ObjectID = "98"; */
+"98.title" = "Använd alltid:";
+
+/* Class = "NSButtonCell"; title = "Gissa textkodning, annars:"; ObjectID = "99"; */
+"99.title" = "Gissa textkodning, annars:";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "101"; */
+"101.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "<do not localise>"; ObjectID = "102"; */
+"102.title" = "<do not localise>";
+
+/* Class = "NSTableColumn"; headerCell.title = "Textkodning"; ObjectID = "106"; */
+"106.headerCell.title" = "Textkodning";
+
+/* Class = "NSTableColumn"; headerCell.title = "Aktiv"; ObjectID = "107"; */
+"107.headerCell.title" = "Aktiv";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "224"; */
+"224.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "HTML (WebKit)"; ObjectID = "227"; */
+"227.title" = "HTML (WebKit)";
+
+/* Class = "NSMenuItem"; title = "MultiMarkdown"; ObjectID = "228"; */
+"228.title" = "MultiMarkdown";
+
+/* Class = "NSMenuItem"; title = "Markdown"; ObjectID = "230"; */
+"230.title" = "Markdown";
+
+/* Class = "NSButtonCell"; title = "Kolla om något annat program har uppdaterat filen"; ObjectID = "252"; */
+"252.title" = "Kolla om något annat program har uppdaterat filen";
+
+/* Class = "NSButtonCell"; title = "Dra in början på rad med mellanslag, inte tabbar"; ObjectID = "253"; */
+"253.title" = "Dra in början på rad med mellanslag, inte tabbar";
+
+/* Class = "NSButtonCell"; title = "Om jag väljer att öppna en mapp, öppna alla filer i den"; ObjectID = "254"; */
+"254.title" = "Om jag väljer att öppna en mapp, öppna alla filer i den";
+
+/* Class = "NSButtonCell"; title = "Aktivera smart infogning och ta bort"; ObjectID = "255"; */
+"255.title" = "Aktivera smart infogning och ta bort";
+
+/* Class = "NSButtonCell"; title = "Rekursivt"; ObjectID = "256"; */
+"256.title" = "Rekursivt";
+
+/* Class = "NSButtonCell"; title = "Filtrera ut dokument med dessa filtillägg:"; ObjectID = "257"; */
+"257.title" = "Filtrera ut dokument med dessa filtillägg:";
+
+/* Class = "NSTextFieldCell"; title = "(mellanslag emellan, inga punkter)"; ObjectID = "258"; */
+"258.title" = "(mellanslag emellan, inga punkter)";
+
+/* Class = "NSTextFieldCell"; title = "Redigering:"; ObjectID = "260"; */
+"260.title" = "Redigering:";
+
+/* Class = "NSTextFieldCell"; title = "Öppna:"; ObjectID = "261"; */
+"261.title" = "Öppna:";
+
+/* Class = "NSButtonCell"; title = "Använd RGB istället för hex när ett färgvärde infogas"; ObjectID = "262"; */
+"262.title" = "Använd RGB istället för hex när ett färgvärde infogas";
+
+/* Class = "NSTextFieldCell"; title = "Kör text:"; ObjectID = "263"; */
+"263.title" = "Kör text:";
+
+/* Class = "NSButtonCell"; title = "Auto-insättning av en stängnings }"; ObjectID = "265"; */
+"265.title" = "Auto-insättning av en stängnings }";
+
+/* Class = "NSButtonCell"; title = "Auto-insättning av en stängnings )"; ObjectID = "266"; */
+"266.title" = "Auto-insättning av en stängnings )";
+
+/* Class = "NSTextFieldCell"; title = "Förhandsvisning:"; ObjectID = "268"; */
+"268.title" = "Förhandsvisning:";
+
+/* Class = "NSButtonCell"; title = "Tabbstoppar"; ObjectID = "269"; */
+"269.title" = "Tabbstoppar";
+
+/* Class = "NSTextFieldCell"; title = "Färg på osynliga tecken (när de visas):"; ObjectID = "270"; */
+"270.title" = "Färg på osynliga tecken (när de visas):";
+
+/* Class = "NSButtonCell"; title = "Visa aktuell rad, med färg:"; ObjectID = "271"; */
+"271.title" = "Visa aktuell rad, med färg:";
+
+/* Class = "NSTextFieldCell"; title = "Kommentarer:"; ObjectID = "272"; */
+"272.title" = "Kommentarer:";
+
+/* Class = "NSTextFieldCell"; title = "Nyckelord:"; ObjectID = "273"; */
+"273.title" = "Nyckelord:";
+
+/* Class = "NSTextFieldCell"; title = "Instruktioner:"; ObjectID = "274"; */
+"274.title" = "Instruktioner:";
+
+/* Class = "NSTextFieldCell"; title = "Variablar:"; ObjectID = "275"; */
+"275.title" = "Variablar:";
+
+/* Class = "NSTextFieldCell"; title = "Kommandon:"; ObjectID = "276"; */
+"276.title" = "Kommandon:";
+
+/* Class = "NSTextFieldCell"; title = "Strängar:"; ObjectID = "277"; */
+"277.title" = "Strängar:";
+
+/* Class = "NSButtonCell"; title = "Färga endast till radslutet om slut-kommandot inte kan hittas"; ObjectID = "278"; */
+"278.title" = "Färga endast till radslutet om slut-kommandot inte kan hittas";
+
+/* Class = "NSButtonCell"; title = "Färga flerrads-strängar"; ObjectID = "279"; */
+"279.title" = "Färga flerrads-strängar";
+
+/* Class = "NSTextFieldCell"; title = "Auto-komplettering:"; ObjectID = "280"; */
+"280.title" = "Auto-komplettering:";
+
+/* Class = "NSTextFieldCell"; title = "Ljust"; ObjectID = "281"; */
+"281.title" = "Ljust";
+
+/* Class = "NSTextFieldCell"; title = "Aktiv"; ObjectID = "282"; */
+"282.title" = "Aktiv";
+
+/* Class = "NSTextFieldCell"; title = "Attribut:"; ObjectID = "290"; */
+"290.title" = "Attribut:";
+
+/* Class = "NSTextFieldCell"; title = "Definition:"; ObjectID = "293"; */
+"293.title" = "Definition:";
+
+/* Class = "NSTextFieldCell"; title = "Textkodning:"; ObjectID = "295"; */
+"295.title" = "Textkodning:";
+
+/* Class = "NSButtonCell"; title = "Återställ alla inställningar till standardvärden"; ObjectID = "296"; */
+"296.title" = "Återställ alla inställningar till standardvärden";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "298"; */
+"298.title" = "Radio";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "299"; */
+"299.title" = "Radio";
+
+/* Class = "NSTextFieldCell"; title = "Utseende"; ObjectID = "3ew-hX-c2j"; */
+"3ew-hX-c2j.title" = "Utseende";
+
+/* Class = "NSTextFieldCell"; title = "Mörkt"; ObjectID = "8tX-vc-vHh"; */
+"8tX-vc-vHh.title" = "Mörkt";
+
+/* Class = "NSTextFieldCell"; title = "Mörkt"; ObjectID = "NN3-gs-n1R"; */
+"NN3-gs-n1R.title" = "Mörkt";
+
+/* Class = "NSTextFieldCell"; title = "Ljust"; ObjectID = "jDb-rA-6LU"; */
+"jDb-rA-6LU.title" = "Ljust";
+
+/* Class = "NSTextFieldCell"; title = "Utseende"; ObjectID = "vRi-Oy-Bo0"; */
+"vRi-Oy-Bo0.title" = "Utseende";

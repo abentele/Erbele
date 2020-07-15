@@ -1,0 +1,72 @@
+
+/* Class = "NSButtonCell"; title = "Verzeichnis des aktuellen Dokumentes"; ObjectID = "7"; */
+"7.title" = "Verzeichnis des aktuellen Dokumentes";
+
+/* Class = "NSButtonCell"; title = "Benutze immer:"; ObjectID = "8"; */
+"8.title" = "Benutze immer:";
+
+/* Class = "NSButtonCell"; title = "Merke das zuletzt verwendete Verzeichnis"; ObjectID = "9"; */
+"9.title" = "Merke das zuletzt verwendete Verzeichnis";
+
+/* Class = "NSButtonCell"; title = "Verzeichnis des aktuellen Dokumentes"; ObjectID = "19"; */
+"19.title" = "Verzeichnis des aktuellen Dokumentes";
+
+/* Class = "NSButtonCell"; title = "Benutze immer:"; ObjectID = "20"; */
+"20.title" = "Benutze immer:";
+
+/* Class = "NSButtonCell"; title = "Merke zuletzt verwendetes \"Speichern unter\" Verzeichnis"; ObjectID = "21"; */
+"21.title" = "Merke zuletzt verwendetes \"Speichern unter\" Verzeichnis";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "53"; */
+"53.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Unix - Mac OS X (LF)"; ObjectID = "55"; */
+"55.title" = "Unix - Mac OS X (LF)";
+
+/* Class = "NSMenuItem"; title = "Mac (CR)"; ObjectID = "56"; */
+"56.title" = "Mac (CR)";
+
+/* Class = "NSMenuItem"; title = "Windows (CRLF)"; ObjectID = "57"; */
+"57.title" = "Windows (CRLF)";
+
+/* Class = "NSMenuItem"; title = "nicht ändern"; ObjectID = "59"; */
+"59.title" = "nicht ändern";
+
+/* Class = "NSButtonCell"; title = "Verzeichnis..."; ObjectID = "76"; */
+"76.title" = "Verzeichnis...";
+
+/* Class = "NSButtonCell"; title = "Verzeichnis..."; ObjectID = "78"; */
+"78.title" = "Verzeichnis...";
+
+/* Class = "NSTextFieldCell"; title = "Öffnen:"; ObjectID = "80"; */
+"80.title" = "Öffnen:";
+
+/* Class = "NSTextFieldCell"; title = "Speichern unter:"; ObjectID = "81"; */
+"81.title" = "Speichern unter:";
+
+/* Class = "NSButtonCell"; title = "Erbele als Standardanwendung dem Dokument zuordnen"; ObjectID = "82"; */
+"82.title" = "Erbele als Standardanwendung dem Dokument zuordnen";
+
+/* Class = "NSTextFieldCell"; title = "Zeilenumbruch:"; ObjectID = "84"; */
+"84.title" = "Zeilenumbruch:";
+
+/* Class = "NSTextFieldCell"; title = "Beim Speichern:"; ObjectID = "85"; */
+"85.title" = "Beim Speichern:";
+
+/* Class = "NSButtonCell"; title = "Suffix anfügen:"; ObjectID = "86"; */
+"86.title" = "Suffix anfügen:";
+
+/* Class = "NSButtonCell"; title = "Beim Start alle Dokumente wiederherstellen"; ObjectID = "88"; */
+"88.title" = "Beim Start alle Dokumente wiederherstellen";
+
+/* Class = "NSTextFieldCell"; title = "Öffnen:"; ObjectID = "90"; */
+"89.title" = "Öffnen:";
+
+/* Class = "NSButtonCell"; title = "Beim Start alle Projekte wiederherstellen"; ObjectID = "90"; */
+"90.title" = "Beim Start alle Projekte wiederherstellen";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "92"; */
+"92.title" = "Radio";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "93"; */
+"93.title" = "Radio";

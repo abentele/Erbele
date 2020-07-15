@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15705" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15705"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -18,18 +18,19 @@
             <rect key="frame" x="0.0" y="0.0" width="380" height="38"/>
             <autoresizingMask key="autoresizingMask"/>
             <subviews>
-                <textField verticalHuggingPriority="750" misplaced="YES" id="9">
-                    <rect key="frame" x="18" y="12" width="81" height="17"/>
-                    <autoresizingMask key="autoresizingMask"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Codificació:" id="18">
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="9">
+                    <rect key="frame" x="18" y="12" width="65" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="T4R-mj-PGf"/>
+                    </constraints>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Encoding:" id="18">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <popUpButton verticalHuggingPriority="750" misplaced="YES" id="6">
-                    <rect key="frame" x="103" y="6" width="260" height="26"/>
-                    <autoresizingMask key="autoresizingMask"/>
+                <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6">
+                    <rect key="frame" x="87" y="7" width="276" height="25"/>
                     <popUpButtonCell key="cell" type="push" title="&lt;do not localise&gt;" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="8" id="17">
                         <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="menu"/>
@@ -41,6 +42,14 @@
                     </popUpButtonCell>
                 </popUpButton>
             </subviews>
+            <constraints>
+                <constraint firstItem="9" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" id="06B-Y4-hNA"/>
+                <constraint firstItem="6" firstAttribute="leading" secondItem="9" secondAttribute="trailing" constant="8" symbolic="YES" id="9MY-18-Vt2"/>
+                <constraint firstAttribute="trailing" secondItem="6" secondAttribute="trailing" constant="20" symbolic="YES" id="BxZ-w0-0Fk"/>
+                <constraint firstItem="9" firstAttribute="firstBaseline" secondItem="6" secondAttribute="firstBaseline" id="Tl1-GB-zcS"/>
+                <constraint firstItem="9" firstAttribute="top" secondItem="5" secondAttribute="top" constant="9" id="jkG-ZT-aaJ"/>
+            </constraints>
+            <point key="canvasLocation" x="131" y="154"/>
         </customView>
         <userDefaultsController representsSharedInstance="YES" id="13" userLabel="Shared Defaults"/>
     </objects>

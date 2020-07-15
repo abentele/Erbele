@@ -1,0 +1,177 @@
+
+/* Class = "NSTabViewItem"; label = "真.高级设置"; ObjectID = "42"; */
+"42.label" = "真.高级设置";
+
+/* Class = "NSTabViewItem"; label = "语法颜色"; ObjectID = "43"; */
+"43.label" = "语法颜色";
+
+/* Class = "NSTabViewItem"; label = "语法定义"; ObjectID = "48"; */
+"48.label" = "语法定义";
+
+/* Class = "NSButtonCell"; title = "终始使用..."; ObjectID = "84"; */
+"84.title" = "终始使用...";
+
+/* Class = "NSButtonCell"; title = "使用扩展名猜测，除非..."; ObjectID = "85"; */
+"85.title" = "使用扩展名猜测，除非...";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "87"; */
+"87.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "<do not localise>"; ObjectID = "88"; */
+"88.title" = "<do not localise>";
+
+/* Class = "NSTableColumn"; headerCell.title = "名称"; ObjectID = "91"; */
+"91.headerCell.title" = "名称";
+
+/* Class = "NSTableColumn"; headerCell.title = "扩展 (空格分割，没有点标)"; ObjectID = "92"; */
+"92.headerCell.title" = "扩展 (空格分割，没有点标)";
+
+/* Class = "NSTabViewItem"; label = "编码"; ObjectID = "95"; */
+"95.label" = "编码";
+
+/* Class = "NSButtonCell"; title = "始终使用..."; ObjectID = "98"; */
+"98.title" = "始终使用...";
+
+/* Class = "NSButtonCell"; title = "猜测编码，其余使用..."; ObjectID = "99"; */
+"99.title" = "猜测编码，其余使用...";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "101"; */
+"101.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "<do not localise>"; ObjectID = "102"; */
+"102.title" = "<do not localise>";
+
+/* Class = "NSTableColumn"; headerCell.title = "编码"; ObjectID = "106"; */
+"106.headerCell.title" = "编码";
+
+/* Class = "NSTableColumn"; headerCell.title = "激活"; ObjectID = "107"; */
+"107.headerCell.title" = "激活";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "224"; */
+"224.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "HTML (WebKit)"; ObjectID = "227"; */
+"227.title" = "HTML (WebKit)";
+
+/* Class = "NSMenuItem"; title = "MultiMarkdown"; ObjectID = "228"; */
+"228.title" = "MultiMarkdown";
+
+/* Class = "NSMenuItem"; title = "Markdown"; ObjectID = "230"; */
+"230.title" = "Markdown";
+
+/* Class = "NSButtonCell"; title = "检查文档是否被其他程序更新"; ObjectID = "252"; */
+"252.title" = "检查文档是否被其他程序更新";
+
+/* Class = "NSButtonCell"; title = "使用空格缩进，非制表符(Tab)"; ObjectID = "253"; */
+"253.title" = "使用空格缩进，非制表符(Tab)";
+
+/* Class = "NSButtonCell"; title = "当打开目录时，打开里面所有的文件"; ObjectID = "254"; */
+"254.title" = "当打开目录时，打开里面所有的文件";
+
+/* Class = "NSButtonCell"; title = "使用智能插入和智能删除"; ObjectID = "255"; */
+"255.title" = "使用智能插入和智能删除";
+
+/* Class = "NSButtonCell"; title = "递归打开（子目录）"; ObjectID = "256"; */
+"256.title" = "递归打开（子目录）";
+
+/* Class = "NSButtonCell"; title = "过滤掉以下扩展名的文档："; ObjectID = "257"; */
+"257.title" = "过滤掉以下扩展名的文档：";
+
+/* Class = "NSTextFieldCell"; title = "（空格分隔，不用加点号）"; ObjectID = "258"; */
+"258.title" = "（空格分隔，不用加点号）";
+
+/* Class = "NSTextFieldCell"; title = "编辑:"; ObjectID = "260"; */
+"260.title" = "编辑:";
+
+/* Class = "NSTextFieldCell"; title = "打开:"; ObjectID = "261"; */
+"261.title" = "打开:";
+
+/* Class = "NSButtonCell"; title = "插入颜色代码是使用RGB值不使用十六进制(Hex)值"; ObjectID = "262"; */
+"262.title" = "插入颜色代码是使用RGB值不使用十六进制(Hex)值";
+
+/* Class = "NSTextFieldCell"; title = "运行文本:"; ObjectID = "263"; */
+"263.title" = "运行文本:";
+
+/* Class = "NSButtonCell"; title = "自动完成插入 }"; ObjectID = "265"; */
+"265.title" = "自动完成插入 }";
+
+/* Class = "NSButtonCell"; title = "自动完成插入 )"; ObjectID = "266"; */
+"266.title" = "自动完成插入 )";
+
+/* Class = "NSTextFieldCell"; title = "预览使用解析器:"; ObjectID = "268"; */
+"268.title" = "预览使用解析器:";
+
+/* Class = "NSButtonCell"; title = "制表符限制"; ObjectID = "269"; */
+"269.title" = "制表符限制";
+
+/* Class = "NSTextFieldCell"; title = "隐藏字符以彩色显示 (当显示时):"; ObjectID = "270"; */
+"270.title" = "隐藏字符以彩色显示 (当显示时):";
+
+/* Class = "NSButtonCell"; title = "高亮显示当前行，使用颜色："; ObjectID = "271"; */
+"271.title" = "高亮显示当前行，使用颜色：";
+
+/* Class = "NSTextFieldCell"; title = "注释:"; ObjectID = "272"; */
+"272.title" = "注释:";
+
+/* Class = "NSTextFieldCell"; title = "关键字:"; ObjectID = "273"; */
+"273.title" = "关键字:";
+
+/* Class = "NSTextFieldCell"; title = "指令:"; ObjectID = "274"; */
+"274.title" = "指令:";
+
+/* Class = "NSTextFieldCell"; title = "变量:"; ObjectID = "275"; */
+"275.title" = "变量:";
+
+/* Class = "NSTextFieldCell"; title = "命令:"; ObjectID = "276"; */
+"276.title" = "命令:";
+
+/* Class = "NSTextFieldCell"; title = "字符串:"; ObjectID = "277"; */
+"277.title" = "字符串:";
+
+/* Class = "NSButtonCell"; title = "如果没有最后标签，彩色字符串只显示到行末"; ObjectID = "278"; */
+"278.title" = "如果没有最后标签，彩色字符串只显示到行末";
+
+/* Class = "NSButtonCell"; title = "字符串跨行显示彩色"; ObjectID = "279"; */
+"279.title" = "字符串跨行显示彩色";
+
+/* Class = "NSTextFieldCell"; title = "自动完成:"; ObjectID = "280"; */
+"280.title" = "自动完成:";
+
+/* Class = "NSTextFieldCell"; title = "浅色"; ObjectID = "281"; */
+"281.title" = "浅色";
+
+/* Class = "NSTextFieldCell"; title = "激活"; ObjectID = "282"; */
+"282.title" = "激活";
+
+/* Class = "NSTextFieldCell"; title = "属性:"; ObjectID = "290"; */
+"290.title" = "属性:";
+
+/* Class = "NSTextFieldCell"; title = "使用定义:"; ObjectID = "293"; */
+"293.title" = "使用定义:";
+
+/* Class = "NSTextFieldCell"; title = "编码:"; ObjectID = "295"; */
+"295.title" = "编码:";
+
+/* Class = "NSButtonCell"; title = "还原全部到默认设置"; ObjectID = "296"; */
+"296.title" = "还原全部到默认设置";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "298"; */
+"298.title" = "Radio";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "299"; */
+"299.title" = "Radio";
+
+/* Class = "NSTextFieldCell"; title = "外观"; ObjectID = "3ew-hX-c2j"; */
+"3ew-hX-c2j.title" = "外观";
+
+/* Class = "NSTextFieldCell"; title = "深色"; ObjectID = "8tX-vc-vHh"; */
+"8tX-vc-vHh.title" = "深色";
+
+/* Class = "NSTextFieldCell"; title = "深色"; ObjectID = "NN3-gs-n1R"; */
+"NN3-gs-n1R.title" = "深色";
+
+/* Class = "NSTextFieldCell"; title = "浅色"; ObjectID = "jDb-rA-6LU"; */
+"jDb-rA-6LU.title" = "浅色";
+
+/* Class = "NSTextFieldCell"; title = "外观"; ObjectID = "vRi-Oy-Bo0"; */
+"vRi-Oy-Bo0.title" = "外观";

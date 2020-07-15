@@ -1,0 +1,24 @@
+
+/* Class = "NSWindow"; title = "Стандартные выражения"; ObjectID = "8"; */
+"8.title" = "Регулярные выражения";
+
+/* Class = "NSTextFieldCell"; title = ""; ObjectID = "SdR-an-3fW"; */
+"SdR-an-3fW.title" = "^ \t Start of a string
+$ \t End of a string
+. \t Any character (except \\n)
+* \t 0 or more of previous expression
++ \t 1 or more of previous expression
+? \t 0 or 1 of previous expression
+
+\w \t Matches any word character
+\W \t Matches any non-word character
+\s \t Matches any white-space character
+\S \t Matches any non-white-space character
+\d \t Matches any decimal digit
+\D \t Matches any nondigit
+
+[abc] \t Matches any single character included in the set
+[^abc] \t Matches any single character not in the set
+[a-z]  \t Contiguous character ranges
+(a|b)  \t a or b
+ab{2} \t Matches two b characters";

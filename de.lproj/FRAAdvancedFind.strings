@@ -1,0 +1,54 @@
+
+/* Class = "NSWindow"; title = "Erweiterte Suche - Erbele"; ObjectID = "7"; */
+"7.title" = "Erweiterte Suche - Erbele";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "48"; */
+"48.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "Suchläufe-Liste leeren"; ObjectID = "49"; */
+"49.title" = "Suchläufe-Liste leeren";
+
+/* Class = "NSMenuItem"; title = "Recents <do not localise>"; ObjectID = "51"; */
+"51.title" = "Recents <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Vergangene Suchläufe"; ObjectID = "52"; */
+"52.title" = "Vergangene Suchläufe";
+
+/* Class = "NSTableColumn"; headerCell.title = "Display String"; ObjectID = "123"; */
+"123.headerCell.title" = "Display String";
+
+/* Class = "NSTextFieldCell"; title = "Ersetze:"; ObjectID = "207"; */
+"207.title" = "Ersetze:";
+
+/* Class = "NSButtonCell"; title = "Suche"; ObjectID = "208"; */
+"208.title" = "Suche";
+
+/* Class = "NSButtonCell"; title = "Reguläre Ausdrücke verwenden"; ObjectID = "209"; */
+"209.title" = "Reguläre Ausdrücke verwenden";
+
+/* Class = "NSButtonCell"; title = "Ersetze"; ObjectID = "210"; */
+"210.title" = "Ersetze";
+
+/* Class = "NSButtonCell"; title = "Groß/Kleinschreibung ignorieren"; ObjectID = "211"; */
+"211.title" = "Groß/Kleinschreibung ignorieren";
+
+/* Class = "NSTextFieldCell"; title = "Suche:"; ObjectID = "212"; */
+"212.title" = "Suche:";
+
+/* Class = "NSButtonCell"; title = "Suche nur in markierten Elementen"; ObjectID = "213"; */
+"213.title" = "Suche nur in markierten Elementen";
+
+/* Class = "NSButtonCell"; title = "Aktuelles Dokument"; ObjectID = "216"; */
+"216.title" = "Aktuelles Dokument";
+
+/* Class = "NSButtonCell"; title = "Aktuelles Projekt"; ObjectID = "217"; */
+"217.title" = "Aktuelles Projekt";
+
+/* Class = "NSButtonCell"; title = "Alle Dokumente"; ObjectID = "218"; */
+"218.title" = "Alle Dokumente";
+
+/* Class = "NSTextFieldCell"; title = "Textzelle"; ObjectID = "219"; */
+"219.title" = "Textzelle";
+
+/* Class = "NSButtonCell"; title = "Übergeordnetes Verzeichnis"; ObjectID = "226"; */
+"226.title" = "Übergeordnetes Verzeichnis";

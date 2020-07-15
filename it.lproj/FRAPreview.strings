@@ -1,0 +1,12 @@
+
+/* Class = "NSWindow"; title = "Preview - Erbele <do not localise>"; ObjectID = "5"; */
+"5.title" = "Preview - Erbele <do not localise>";
+
+/* Class = "NSTextFieldCell"; title = "URL base:"; ObjectID = "22"; */
+"22.title" = "URL base:";
+
+/* Class = "NSButtonCell"; title = "Aggiorna in tempo reale"; ObjectID = "23"; */
+"23.title" = "Aggiorna in tempo reale";
+
+/* Class = "NSButtonCell"; title = "Ricarica"; ObjectID = "24"; */
+"24.title" = "Ricarica";

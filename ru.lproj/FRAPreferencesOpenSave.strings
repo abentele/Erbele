@@ -1,0 +1,72 @@
+
+/* Class = "NSButtonCell"; title = "Использовать папку текущего документа"; ObjectID = "7"; */
+"7.title" = "Использовать папку текущего документа";
+
+/* Class = "NSButtonCell"; title = "Всегда использовать:"; ObjectID = "8"; */
+"8.title" = "Всегда использовать:";
+
+/* Class = "NSButtonCell"; title = "Помнить что было открыто в последний раз"; ObjectID = "9"; */
+"9.title" = "Помнить что было открыто в последний раз";
+
+/* Class = "NSButtonCell"; title = "Использовать папку текущего документа"; ObjectID = "19"; */
+"19.title" = "Использовать папку текущего документа";
+
+/* Class = "NSButtonCell"; title = "Всегда использовать:"; ObjectID = "20"; */
+"20.title" = "Всегда использовать:";
+
+/* Class = "NSButtonCell"; title = "Помнить последнее место “Сохранить как”"; ObjectID = "21"; */
+"21.title" = "Помнить последнее место “Сохранить как”";
+
+/* Class = "NSMenu"; title = "Другой вид"; ObjectID = "53"; */
+"53.title" = "Другой вид";
+
+/* Class = "NSMenuItem"; title = "Unix - Mac OS X (LF)"; ObjectID = "55"; */
+"55.title" = "Unix - Mac OS X (LF)";
+
+/* Class = "NSMenuItem"; title = "Mac (CR)"; ObjectID = "56"; */
+"56.title" = "Mac (CR)";
+
+/* Class = "NSMenuItem"; title = "Windows (CRLF)"; ObjectID = "57"; */
+"57.title" = "Windows (CRLF)";
+
+/* Class = "NSMenuItem"; title = "Покинуть без изменений "; ObjectID = "59"; */
+"59.title" = "Покинуть без изменений ";
+
+/* Class = "NSButtonCell"; title = "Назначить папку…"; ObjectID = "76"; */
+"76.title" = "Назначить папку…";
+
+/* Class = "NSButtonCell"; title = "Назначить папку…"; ObjectID = "78"; */
+"78.title" = "Назначить папку…";
+
+/* Class = "NSTextFieldCell"; title = "Открыть:"; ObjectID = "80"; */
+"80.title" = "Открыть:";
+
+/* Class = "NSTextFieldCell"; title = "Сохранить как:"; ObjectID = "81"; */
+"81.title" = "Сохранить как:";
+
+/* Class = "NSButtonCell"; title = "Assign document to Erbele"; ObjectID = "82"; */
+"82.title" = "Назначить документ в Erbele";
+
+/* Class = "NSTextFieldCell"; title = "Окончания строк:"; ObjectID = "84"; */
+"84.title" = "Окончания строк:";
+
+/* Class = "NSTextFieldCell"; title = "При сохранении:"; ObjectID = "85"; */
+"85.title" = "При сохранении:";
+
+/* Class = "NSButtonCell"; title = "Связать имя при “Сохранить как” с:"; ObjectID = "86"; */
+"86.title" = "Связать имя при “Сохранить как” с:";
+
+/* Class = "NSButtonCell"; title = "При запуске открывать документы которые были открыты в последний раз"; ObjectID = "88"; */
+"88.title" = "При запуске открывать документы которые были открыты в последний раз";
+
+/* Class = "NSTextFieldCell"; title = "При запуске:"; ObjectID = "89"; */
+"89.title" = "При запуске:";
+
+/* Class = "NSButtonCell"; title = "Открыть все проекты которые были открыты в последний раз"; ObjectID = "90"; */
+"90.title" = "Открыть все проекты которые были открыты в последний раз";
+
+/* Class = "NSButtonCell"; title = "Радио"; ObjectID = "91"; */
+"91.title" = "Радио";
+
+/* Class = "NSButtonCell"; title = "Радио"; ObjectID = "92"; */
+"92.title" = "Радио";

@@ -1,0 +1,24 @@
+
+/* Class = "NSWindow"; title = "Nytt projekt - Erbele"; ObjectID = "5"; */
+"5.title" = "Nytt projekt - Erbele";
+
+/* Class = "NSButtonCell"; title = "Virtuellt - en temporär samling av dokument"; ObjectID = "9"; */
+"9.title" = "Virtuellt - en temporär samling av dokument";
+
+/* Class = "NSButtonCell"; title = "Permanent - alla ändringar sparas till en projektfil"; ObjectID = "10"; */
+"10.title" = "Permanent - alla ändringar sparas till en projektfil";
+
+/* Class = "NSTextFieldCell"; title = "Vilken sorts projekt vill du skapa?"; ObjectID = "26"; */
+"26.title" = "Vilken sorts projekt vill du skapa?";
+
+/* Class = "NSTextFieldCell"; title = "Om du väljer att skapa ett virtuellt projekt kan du senare välja att spara dokumenten som ett projekt från Arkiv-menyn. Var vänlig att notera att dokumenten sparas inte i projektfilen utan endast sökvägen till filerna sparas."; ObjectID = "27"; */
+"27.title" = "Om du väljer att skapa ett virtuellt projekt kan du senare välja att spara dokumenten som ett projekt från Arkiv-menyn. Var vänlig att notera att dokumenten sparas inte i projektfilen utan endast sökvägen till filerna sparas.";
+
+/* Class = "NSButtonCell"; title = "Skapa"; ObjectID = "28"; */
+"28.title" = "Skapa";
+
+/* Class = "NSButtonCell"; title = "Avbryt"; ObjectID = "29"; */
+"29.title" = "Avbryt";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "30"; */
+"30.title" = "Radio";

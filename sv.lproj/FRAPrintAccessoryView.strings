@@ -1,0 +1,24 @@
+
+/* Class = "NSButtonCell"; title = "Välj…"; ObjectID = "31"; */
+"31.title" = "Välj…";
+
+/* Class = "NSTextFieldCell"; title = "Typsnitt:"; ObjectID = "32"; */
+"32.title" = "Typsnitt:";
+
+/* Class = "NSButtonCell"; title = "Skriv endast ut markering"; ObjectID = "33"; */
+"33.title" = "Skriv endast ut markering";
+
+/* Class = "NSButtonCell"; title = "Skriv ut huvud"; ObjectID = "34"; */
+"34.title" = "Skriv ut huvud";
+
+/* Class = "NSTextFieldCell"; title = "Marginaler ska inte vara mindre än"; ObjectID = "35"; */
+"35.title" = "Marginaler ska inte vara mindre än";
+
+/* Class = "NSTextFieldCell"; title = "punkter"; ObjectID = "37"; */
+"37.title" = "punkter";
+
+/* Class = "NSTextFieldCell"; title = "(24 - 500)"; ObjectID = "38"; */
+"38.title" = "(24 - 500)";
+
+/* Class = "NSButtonCell"; title = "Skriv ut syntax färger"; ObjectID = "39"; */
+"39.title" = "Skriv ut syntax färger";

@@ -1,0 +1,15 @@
+
+/* Class = "NSWindow"; title = "Go To Line"; ObjectID = "7"; */
+"7.title" = "Go To Line";
+
+/* Class = "NSBox"; title = "Title"; ObjectID = "9"; */
+"9.title" = "Title";
+
+/* Class = "NSTextFieldCell"; title = "Gå till rad:"; ObjectID = "22"; */
+"22.title" = "Gå till rad:";
+
+/* Class = "NSButtonCell"; title = "Gå"; ObjectID = "24"; */
+"24.title" = "Gå";
+
+/* Class = "NSButtonCell"; title = "Avbryt"; ObjectID = "25"; */
+"25.title" = "Avbryt";

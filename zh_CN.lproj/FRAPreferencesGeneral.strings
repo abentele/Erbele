@@ -1,0 +1,60 @@
+
+/* Class = "NSButtonCell"; title = "创建新文档"; ObjectID = "134"; */
+"134.title" = "创建新文档";
+
+/* Class = "NSButtonCell"; title = "Show line number gutter, width (in pixels):"; ObjectID = "135"; */
+"135.title" = "Show line number gutter, width (in pixels):";
+
+/* Class = "NSButtonCell"; title = "换行"; ObjectID = "136"; */
+"136.title" = "换行";
+
+/* Class = "NSTextFieldCell"; title = "最近打开菜单文件显示数："; ObjectID = "138"; */
+"138.title" = "最近打开菜单文件显示数：";
+
+/* Class = "NSTextFieldCell"; title = "40"; ObjectID = "139"; */
+"139.title" = "40";
+
+/* Class = "NSButtonCell"; title = "Show matching braces"; ObjectID = "140"; */
+"140.title" = "Show matching braces";
+
+/* Class = "NSButtonCell"; title = "Indent new lines the same as the line above"; ObjectID = "141"; */
+"141.title" = "Indent new lines the same as the line above";
+
+/* Class = "NSButtonCell"; title = "显示不可见字符"; ObjectID = "142"; */
+"142.title" = "显示不可见字符";
+
+/* Class = "NSTextFieldCell"; title = "(25-99)"; ObjectID = "143"; */
+"143.title" = "(25-99)";
+
+/* Class = "NSButtonCell"; title = "自动提示, 延迟（秒）:"; ObjectID = "144"; */
+"144.title" = "自动提示, 延迟（秒:";
+
+/* Class = "NSButtonCell"; title = "包含标准单词"; ObjectID = "145"; */
+"145.title" = "包含标准单词";
+
+/* Class = "NSTextFieldCell"; title = "(0.1-99)"; ObjectID = "147"; */
+"147.title" = "(0.1-99)";
+
+/* Class = "NSButtonCell"; title = "输入时拼写检查"; ObjectID = "148"; */
+"148.title" = "输入时拼写检查";
+
+/* Class = "NSTextFieldCell"; title = "自动完成:"; ObjectID = "152"; */
+"152.title" = "自动完成:";
+
+/* Class = "NSTextFieldCell"; title = "程序启动时:"; ObjectID = "153"; */
+"153.title" = "程序启动时:";
+
+/* Class = "NSTextFieldCell"; title = "新建文档:"; ObjectID = "154"; */
+"154.title" = "新建文档:";
+
+/* Class = "NSTextFieldCell"; title = "编辑时:"; ObjectID = "155"; */
+"155.title" = "编辑时:";
+
+/* Class = "NSButtonCell"; title = "Treat { and } intelligently"; ObjectID = "156"; */
+"156.title" = "Treat { and } intelligently";
+
+/* Class = "NSButtonCell"; title = "语法颜色"; ObjectID = "157"; */
+"157.title" = "语法颜色";
+
+/* Class = "NSTextFieldCell"; title = "杂项:"; ObjectID = "160"; */
+"160.title" = "杂项:";

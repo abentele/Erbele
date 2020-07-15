@@ -1,0 +1,72 @@
+
+/* Class = "NSButtonCell"; title = "Utilitza el directori del document actual"; ObjectID = "7"; */
+"7.title" = "Utilitza el directori del document actual";
+
+/* Class = "NSButtonCell"; title = "Utilitza sempre:"; ObjectID = "8"; */
+"8.title" = "Utilitza sempre:";
+
+/* Class = "NSButtonCell"; title = "Recorda on vaig obrir per última vegada"; ObjectID = "9"; */
+"9.title" = "Recorda on vaig obrir per última vegada";
+
+/* Class = "NSButtonCell"; title = "Utilitza el directori del document actual"; ObjectID = "19"; */
+"19.title" = "Utilitza el directori del document actual";
+
+/* Class = "NSButtonCell"; title = "Utilitza sempre:"; ObjectID = "20"; */
+"20.title" = "Utilitza sempre:";
+
+/* Class = "NSButtonCell"; title = "Recorda l'últim directori de \"Desa-ho com\""; ObjectID = "21"; */
+"21.title" = "Recorda l'últim directori de \"Desa-ho com\"";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "53"; */
+"53.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Unix - Mac OS X (LF)"; ObjectID = "55"; */
+"55.title" = "Unix - Mac OS X (LF)";
+
+/* Class = "NSMenuItem"; title = "Mac (CR)"; ObjectID = "56"; */
+"56.title" = "Mac (CR)";
+
+/* Class = "NSMenuItem"; title = "Windows (CRLF)"; ObjectID = "57"; */
+"57.title" = "Windows (CRLF)";
+
+/* Class = "NSMenuItem"; title = "No canviar"; ObjectID = "59"; */
+"59.title" = "No canviar";
+
+/* Class = "NSButtonCell"; title = "Defineix directori..."; ObjectID = "76"; */
+"76.title" = "Defineix directori...";
+
+/* Class = "NSButtonCell"; title = "Defineix directori..."; ObjectID = "78"; */
+"78.title" = "Defineix directori...";
+
+/* Class = "NSTextFieldCell"; title = "Obre:"; ObjectID = "80"; */
+"80.title" = "Obre:";
+
+/* Class = "NSTextFieldCell"; title = "Desa-ho com:"; ObjectID = "81"; */
+"81.title" = "Desa-ho com:";
+
+/* Class = "NSButtonCell"; title = "Associa el document a Erbele"; ObjectID = "82"; */
+"82.title" = "Associa el document a Erbele";
+
+/* Class = "NSTextFieldCell"; title = "Retorn de línia"; ObjectID = "84"; */
+"84.title" = "Retorn de línia";
+
+/* Class = "NSTextFieldCell"; title = "Al desar:"; ObjectID = "85"; */
+"85.title" = "Al desar:";
+
+/* Class = "NSButtonCell"; title = "Afegeix el nom al final en \"Desar com\", amb:"; ObjectID = "86"; */
+"86.title" = "Afegeix el nom al final en \"Desar com\", amb:";
+
+/* Class = "NSButtonCell"; title = "Obre tots els documents que tenia oberts quan vaig tancar"; ObjectID = "88"; */
+"88.title" = "Obre tots els documents que tenia oberts quan vaig tancar";
+
+/* Class = "NSTextFieldCell"; title = "A l'encendre:"; ObjectID = "89"; */
+"89.title" = "A l'encendre:";
+
+/* Class = "NSButtonCell"; title = "Obre tots els projectes que tenía oberts quan vaig tancar"; ObjectID = "90"; */
+"90.title" = "Obre tots els projectes que tenía oberts quan vaig tancar";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "91"; */
+"91.title" = "Radio";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "92"; */
+"92.title" = "Radio";

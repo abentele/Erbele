@@ -1,0 +1,123 @@
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "8"; */
+"8.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Small"; ObjectID = "9"; */
+"9.title" = "Small";
+
+/* Class = "NSMenuItem"; title = "Large"; ObjectID = "10"; */
+"10.title" = "Large";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "40"; */
+"40.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "0"; ObjectID = "41"; */
+"41.title" = "0";
+
+/* Class = "NSMenuItem"; title = "6"; ObjectID = "42"; */
+"42.title" = "6";
+
+/* Class = "NSMenuItem"; title = "2"; ObjectID = "43"; */
+"43.title" = "2";
+
+/* Class = "NSMenuItem"; title = "3"; ObjectID = "44"; */
+"44.title" = "3";
+
+/* Class = "NSMenuItem"; title = "7"; ObjectID = "45"; */
+"45.title" = "7";
+
+/* Class = "NSMenuItem"; title = "8"; ObjectID = "46"; */
+"46.title" = "8";
+
+/* Class = "NSMenuItem"; title = "1"; ObjectID = "47"; */
+"47.title" = "1";
+
+/* Class = "NSMenuItem"; title = "4"; ObjectID = "48"; */
+"48.title" = "4";
+
+/* Class = "NSMenuItem"; title = "5"; ObjectID = "49"; */
+"49.title" = "5";
+
+/* Class = "NSButtonCell"; title = "ウィンドウタイトルにフルパスを表示"; ObjectID = "93"; */
+"93.title" = "ウィンドウタイトルにフルパスを表示";
+
+/* Class = "NSTextFieldCell"; title = "テキストのサイズ:"; ObjectID = "95"; */
+"95.title" = "テキストのサイズ:";
+
+/* Class = "NSButtonCell"; title = "フォント設定..."; ObjectID = "96"; */
+"96.title" = "フォント設定...";
+
+/* Class = "NSTextFieldCell"; title = "テキストフォント:"; ObjectID = "97"; */
+"97.title" = "テキストフォント:";
+
+/* Class = "NSTextFieldCell"; title = "背景色:"; ObjectID = "99"; */
+"99.title" = "背景色:";
+
+/* Class = "NSTextFieldCell"; title = "テキストの色:"; ObjectID = "100"; */
+"100.title" = "テキストの色:";
+
+/* Class = "NSTextFieldCell"; title = "タブ幅:"; ObjectID = "102"; */
+"102.title" = "タブ幅:";
+
+/* Class = "NSButtonCell"; title = "次の列にページガイドを表示する:"; ObjectID = "103"; */
+"103.title" = "次の列にページガイドを表示する:";
+
+/* Class = "NSButtonCell"; title = "ドキュメントの文字数"; ObjectID = "105"; */
+"105.title" = "ドキュメントの文字数";
+
+/* Class = "NSButtonCell"; title = "選択範囲の文字数"; ObjectID = "106"; */
+"106.title" = "選択範囲の文字数";
+
+/* Class = "NSButtonCell"; title = "シンタックス定義の種類"; ObjectID = "107"; */
+"107.title" = "シンタックス定義の種類";
+
+/* Class = "NSButtonCell"; title = "最終更新日を次の書式で:"; ObjectID = "108"; */
+"108.title" = "最終更新日を次の書式で:";
+
+/* Class = "NSButtonCell"; title = "テキストエンコーディング"; ObjectID = "109"; */
+"109.title" = "テキストエンコーディング";
+
+/* Class = "NSButtonCell"; title = "キャレットの位置"; ObjectID = "110"; */
+"110.title" = "キャレットの位置";
+
+/* Class = "NSTextFieldCell"; title = "ステータスバーに表示:"; ObjectID = "111"; */
+"111.title" = "ステータスバーに表示:";
+
+/* Class = "NSTextFieldCell"; title = "ドキュメントリスト:"; ObjectID = "112"; */
+"112.title" = "ドキュメントリスト:";
+
+/* Class = "NSTextFieldCell"; title = "80"; ObjectID = "113"; */
+"113.title" = "80";
+
+/* Class = "NSTextFieldCell"; title = "その他:"; ObjectID = "114"; */
+"114.title" = "その他:";
+
+/* Class = "NSButtonCell"; title = "ドキュメントのフルパスを表示"; ObjectID = "116"; */
+"116.title" = "ドキュメントのフルパスを表示";
+
+/* Class = "NSTextFieldCell"; title = "インデント幅:"; ObjectID = "118"; */
+"118.title" = "インデント幅:";
+
+/* Class = "NSTextFieldCell"; title = "外観モード"; ObjectID = "8p5-Oq-MiT"; */
+"8p5-Oq-MiT.title" = "外観モード";
+
+/* Class = "NSTextFieldCell"; title = "行番号の背景色:"; ObjectID = "F78-Zd-vfc"; */
+"F78-Zd-vfc.title" = "行番号の背景色:";
+
+/* Class = "NSTextFieldCell"; title = "外観モード"; ObjectID = "Riw-54-UWj"; */
+"Riw-54-UWj.title" = "外観モード";
+
+/* Class = "NSTextFieldCell"; title = "ダーク"; ObjectID = "Ysg-NX-idf"; */
+"Ysg-NX-idf.title" = "ダーク";
+
+/* Class = "NSTextFieldCell"; title = "行番号の色:"; ObjectID = "hF2-GK-fmd"; */
+"hF2-GK-fmd.title" = "行番号の色:";
+
+/* Class = "NSTextFieldCell"; title = "ダーク"; ObjectID = "tMg-5Z-aHI"; */
+"tMg-5Z-aHI.title" = "ダーク";
+
+/* Class = "NSTextFieldCell"; title = "ライト"; ObjectID = "xFq-Xu-kFU"; */
+"xFq-Xu-kFU.title" = "ライト";
+
+/* Class = "NSTextFieldCell"; title = "ライト"; ObjectID = "yKg-Qd-czz"; */
+"yKg-Qd-czz.title" = "ライト";

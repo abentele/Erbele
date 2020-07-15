@@ -6,7 +6,7 @@
 "9.title" = "Detab";
 
 /* Class = "NSTextFieldCell"; title = "Ausrücken um              Zeichen"; ObjectID = "24"; */
-"24.title" = "Zeichen pro Tab:";
+"24.title" = "Leerzeichen pro Tab:";
 
 /* Class = "NSButtonCell"; title = "Abbrechen"; ObjectID = "25"; */
 "25.title" = "Abbrechen";

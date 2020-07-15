@@ -1,0 +1,60 @@
+
+/* Class = "NSButtonCell"; title = "Crea un nou document"; ObjectID = "134"; */
+"134.title" = "Crea un nou document";
+
+/* Class = "NSButtonCell"; title = "Mostra la columna de numeració de línies, amplada (píxels):"; ObjectID = "135"; */
+"135.title" = "Mostra la columna de numeració de línies, amplada (píxels):";
+
+/* Class = "NSButtonCell"; title = "Retorn automàtic de línia"; ObjectID = "136"; */
+"136.title" = "Retorn automàtic de línia";
+
+/* Class = "NSTextFieldCell"; title = "Número d'elements en el menú recent:"; ObjectID = "138"; */
+"138.title" = "Número d'elements en el menú recent:";
+
+/* Class = "NSTextFieldCell"; title = "40"; ObjectID = "139"; */
+"139.title" = "40";
+
+/* Class = "NSButtonCell"; title = "Mostra les etiquetes corresponents"; ObjectID = "140"; */
+"140.title" = "Mostra les etiquetes corresponents";
+
+/* Class = "NSButtonCell"; title = "Sagnrat de la línia igual al de la línia anterior"; ObjectID = "141"; */
+"141.title" = "Sagnrat de la línia igual al de la línia anterior";
+
+/* Class = "NSButtonCell"; title = "Mostra caràcters invisibles"; ObjectID = "142"; */
+"142.title" = "Mostra caràcters invisibles";
+
+/* Class = "NSTextFieldCell"; title = "(25-99)"; ObjectID = "143"; */
+"143.title" = "(25-99)";
+
+/* Class = "NSButtonCell"; title = "Sugereix automàticament, després d'un interval (en segons):"; ObjectID = "144"; */
+"144.title" = "Sugereix automàticament, després d'un interval (en segons):";
+
+/* Class = "NSButtonCell"; title = "Inclou paraules estàndard"; ObjectID = "145"; */
+"145.title" = "Inclou paraules estàndard";
+
+/* Class = "NSTextFieldCell"; title = "(0.1-99)"; ObjectID = "147"; */
+"147.title" = "(0.1-99)";
+
+/* Class = "NSButtonCell"; title = "Comproba l'ortografía a l'escriure"; ObjectID = "148"; */
+"148.title" = "Comproba l'ortografía a l'escriure";
+
+/* Class = "NSTextFieldCell"; title = "Auto Completar:"; ObjectID = "152"; */
+"152.title" = "Auto Completar:";
+
+/* Class = "NSTextFieldCell"; title = "A l'encendre:"; ObjectID = "153"; */
+"153.title" = "A l'encendre:";
+
+/* Class = "NSTextFieldCell"; title = "Nous documents:"; ObjectID = "154"; */
+"154.title" = "Nous documents:";
+
+/* Class = "NSTextFieldCell"; title = "A l'editar:"; ObjectID = "155"; */
+"155.title" = "A l'editar:";
+
+/* Class = "NSButtonCell"; title = "Tracta { i } de mode intel·ligent"; ObjectID = "156"; */
+"156.title" = "Tracta { i } de mode intel·ligent";
+
+/* Class = "NSButtonCell"; title = "Color de sintaxi"; ObjectID = "157"; */
+"157.title" = "Color de sintaxi";
+
+/* Class = "NSTextFieldCell"; title = "Miscelània:"; ObjectID = "160"; */
+"160.title" = "Miscelània:";

@@ -1,0 +1,23 @@
+
+/* Class = "NSWindow"; title = "Reguläre Ausdrücke"; ObjectID = "8"; */
+"8.title" = "Reguläre Ausdrücke";
+/* Class = "NSTextFieldCell"; title = ""; ObjectID = "SdR-an-3fW"; */
+"SdR-an-3fW.title" = "^ \t Zeilenanfang
+$ \t Zeilenende
+. \t Beliebiges Zeichen (außer Zeilenumbruch \\n)
+* \t 0 oder öfteres Auftreten eines Ausdrucks
++ \t 1 oder öfteres Auftreten eines Ausdrucks
+? \t 0 oder einmaliges Auftreten eines Ausdrucks
+
+\\w \t beliebiges 'Wort' Zeichen
+\\W \t beliebiges 'Nicht-Wort' Zeichen
+\\s \t white-space Zeichen (z.B. Leerzeichen)
+\\S \t kein white-space Zeichen
+\\d \t Ziffer
+\\D \t keine Ziffer
+
+[abc] \t Jedes einzelne Zeichen im Set
+[^abc] \t Jedes Zeichen nicht im Set
+[a-z]  \t Zeichen im angegebenen Bereich
+(a|b)  \t a oder b
+ab{2}  \t Zweifaches Auftreten von 'b'";

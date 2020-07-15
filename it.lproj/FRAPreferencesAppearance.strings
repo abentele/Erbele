@@ -1,0 +1,123 @@
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "8"; */
+"8.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Piccolo"; ObjectID = "9"; */
+"9.title" = "Piccolo";
+
+/* Class = "NSMenuItem"; title = "Grande"; ObjectID = "10"; */
+"10.title" = "Grande";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "40"; */
+"40.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "0"; ObjectID = "41"; */
+"41.title" = "0";
+
+/* Class = "NSMenuItem"; title = "6"; ObjectID = "42"; */
+"42.title" = "6";
+
+/* Class = "NSMenuItem"; title = "2"; ObjectID = "43"; */
+"43.title" = "2";
+
+/* Class = "NSMenuItem"; title = "3"; ObjectID = "44"; */
+"44.title" = "3";
+
+/* Class = "NSMenuItem"; title = "7"; ObjectID = "45"; */
+"45.title" = "7";
+
+/* Class = "NSMenuItem"; title = "8"; ObjectID = "46"; */
+"46.title" = "8";
+
+/* Class = "NSMenuItem"; title = "1"; ObjectID = "47"; */
+"47.title" = "1";
+
+/* Class = "NSMenuItem"; title = "4"; ObjectID = "48"; */
+"48.title" = "4";
+
+/* Class = "NSMenuItem"; title = "5"; ObjectID = "49"; */
+"49.title" = "5";
+
+/* Class = "NSButtonCell"; title = "Mostra il percorso completo nel titolo della finestra"; ObjectID = "93"; */
+"93.title" = "Mostra il percorso completo nel titolo della finestra";
+
+/* Class = "NSTextFieldCell"; title = "Grandezza del testo:"; ObjectID = "95"; */
+"95.title" = "Grandezza del testo:";
+
+/* Class = "NSButtonCell"; title = "Seleziona Font..."; ObjectID = "96"; */
+"96.title" = "Seleziona Font...";
+
+/* Class = "NSTextFieldCell"; title = "Font del testo:"; ObjectID = "97"; */
+"97.title" = "Font del testo:";
+
+/* Class = "NSTextFieldCell"; title = "Colore dello sfondo:"; ObjectID = "99"; */
+"99.title" = "Colore dello sfondo:";
+
+/* Class = "NSTextFieldCell"; title = "Colore del testo:"; ObjectID = "100"; */
+"100.title" = "Colore del testo:";
+
+/* Class = "NSTextFieldCell"; title = "Larghezza tabulazione:"; ObjectID = "102"; */
+"102.title" = "Larghezza tabulazione:";
+
+/* Class = "NSButtonCell"; title = "Mostra la guida della pagina alla colonna"; ObjectID = "103"; */
+"103.title" = "Mostra la guida della pagina alla colonna";
+
+/* Class = "NSButtonCell"; title = "Lunghezza del documento"; ObjectID = "105"; */
+"105.title" = "Lunghezza del documento";
+
+/* Class = "NSButtonCell"; title = "Lunghezza della selezione"; ObjectID = "106"; */
+"106.title" = "Lunghezza della selezione";
+
+/* Class = "NSButtonCell"; title = "Definizione della sintassi"; ObjectID = "107"; */
+"107.title" = "Definizione della sintassi";
+
+/* Class = "NSButtonCell"; title = "L'ultimo salvato, nel formato:"; ObjectID = "108"; */
+"108.title" = "L'ultimo salvato, nel formato:";
+
+/* Class = "NSButtonCell"; title = "Codifica del testo"; ObjectID = "109"; */
+"109.title" = "Codifica del testo";
+
+/* Class = "NSButtonCell"; title = "Posizione"; ObjectID = "110"; */
+"110.title" = "Posizione";
+
+/* Class = "NSTextFieldCell"; title = "Mostra nella barra di stato:"; ObjectID = "111"; */
+"111.title" = "Mostra nella barra di stato:";
+
+/* Class = "NSTextFieldCell"; title = "Lista dei documenti:"; ObjectID = "112"; */
+"112.title" = "Lista dei documenti:";
+
+/* Class = "NSTextFieldCell"; title = "80"; ObjectID = "113"; */
+"113.title" = "80";
+
+/* Class = "NSTextFieldCell"; title = "Varie:"; ObjectID = "114"; */
+"114.title" = "Varie:";
+
+/* Class = "NSButtonCell"; title = "Mostra il percorso completo del documento"; ObjectID = "116"; */
+"116.title" = "Mostra il percorso completo del documento";
+
+/* Class = "NSTextFieldCell"; title = "Larghezza indentazione:"; ObjectID = "118"; */
+"118.title" = "Larghezza indentazione:";
+
+/* Class = "NSTextFieldCell"; title = "Aspetto"; ObjectID = "8p5-Oq-MiT"; */
+"8p5-Oq-MiT.title" = "Aspetto";
+
+/* Class = "NSTextFieldCell"; title = "Sfondo numeri di linea:"; ObjectID = "F78-Zd-vfc"; */
+"F78-Zd-vfc.title" = "Sfondo numeri di linea:";
+
+/* Class = "NSTextFieldCell"; title = "Aspetto"; ObjectID = "Riw-54-UWj"; */
+"Riw-54-UWj.title" = "Aspetto";
+
+/* Class = "NSTextFieldCell"; title = "Scuro"; ObjectID = "Ysg-NX-idf"; */
+"Ysg-NX-idf.title" = "Scuro";
+
+/* Class = "NSTextFieldCell"; title = "Colore numeri di linea:"; ObjectID = "hF2-GK-fmd"; */
+"hF2-GK-fmd.title" = "Colore numeri di linea:";
+
+/* Class = "NSTextFieldCell"; title = "Scuro"; ObjectID = "tMg-5Z-aHI"; */
+"tMg-5Z-aHI.title" = "Scuro";
+
+/* Class = "NSTextFieldCell"; title = "Chiaro"; ObjectID = "xFq-Xu-kFU"; */
+"xFq-Xu-kFU.title" = "Chiaro";
+
+/* Class = "NSTextFieldCell"; title = "Chiaro"; ObjectID = "yKg-Qd-czz"; */
+"yKg-Qd-czz.title" = "Chiaro";

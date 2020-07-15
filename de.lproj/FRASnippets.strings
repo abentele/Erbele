@@ -1,0 +1,33 @@
+
+/* Class = "NSWindow"; title = "Textfragmente - Erbele"; ObjectID = "5"; */
+"5.title" = "Textfragmente - Erbele";
+
+/* Class = "NSTableColumn"; headerCell.title = "Gruppe"; ObjectID = "138"; */
+"138.headerCell.title" = "Gruppe";
+
+/* Class = "NSTableColumn"; headerCell.title = "Bezeichnung"; ObjectID = "141"; */
+"141.headerCell.title" = "Bezeichnung";
+
+/* Class = "NSTableColumn"; headerCell.title = "Kürzel"; ObjectID = "142"; */
+"142.headerCell.title" = "Kürzel";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedDisplayName = "Current collection"; ObjectID = "195"; */
+"195.ibShadowedDisplayName" = "Current collection";
+
+/* Class = "NSTextFieldCell"; title = "%%s = Selektion"; ObjectID = "197"; */
+"197.title" = "%%s = Selektion";
+
+/* Class = "NSTextFieldCell"; title = "%%c = Cursor Position danach"; ObjectID = "198"; */
+"198.title" = "%%c = Cursor Position danach";
+
+/* Class = "NSSearchFieldCell"; placeholderString = "Aktuelle Gruppe"; ObjectID = "199"; */
+"199.placeholderString" = "Aktuelle Gruppe";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "200"; */
+"200.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "201"; */
+"201.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "202"; */
+"202.title" = "Text Cell";

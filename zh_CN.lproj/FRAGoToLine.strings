@@ -1,0 +1,15 @@
+
+/* Class = "NSWindow"; title = "Go To Line <do not localise>"; ObjectID = "7"; */
+"7.title" = "Go To Line <do not localise>";
+
+/* Class = "NSBox"; title = "Title"; ObjectID = "9"; */
+"9.title" = "Title";
+
+/* Class = "NSTextFieldCell"; title = "转到行："; ObjectID = "22"; */
+"22.title" = "转到行：";
+
+/* Class = "NSButtonCell"; title = "转到"; ObjectID = "24"; */
+"24.title" = "转到";
+
+/* Class = "NSButtonCell"; title = "取消"; ObjectID = "25"; */
+"25.title" = "取消";

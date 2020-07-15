@@ -1,0 +1,54 @@
+
+/* Class = "NSWindow"; title = "検索オプション - Erbele"; ObjectID = "7"; */
+"7.title" = "検索オプション - Erbele";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "48"; */
+"48.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "検索履歴を消去"; ObjectID = "49"; */
+"49.title" = "検索履歴を消去";
+
+/* Class = "NSMenuItem"; title = "Recents <do not localise>"; ObjectID = "51"; */
+"51.title" = "Recents <do not localise>";
+
+/* Class = "NSMenuItem"; title = "検索履歴"; ObjectID = "52"; */
+"52.title" = "検索履歴";
+
+/* Class = "NSTableColumn"; headerCell.title = "Display String"; ObjectID = "123"; */
+"123.headerCell.title" = "Display String";
+
+/* Class = "NSTextFieldCell"; title = "置換:"; ObjectID = "207"; */
+"207.title" = "置換:";
+
+/* Class = "NSButtonCell"; title = "検索"; ObjectID = "208"; */
+"208.title" = "検索";
+
+/* Class = "NSButtonCell"; title = "正規表現を使用する"; ObjectID = "209"; */
+"209.title" = "正規表現を使用する";
+
+/* Class = "NSButtonCell"; title = "置換"; ObjectID = "210"; */
+"210.title" = "置換";
+
+/* Class = "NSButtonCell"; title = "大文字／小文字を無視"; ObjectID = "211"; */
+"211.title" = "大文字／小文字を無視";
+
+/* Class = "NSTextFieldCell"; title = "検索:"; ObjectID = "212"; */
+"212.title" = "検索:";
+
+/* Class = "NSButtonCell"; title = "選択部分のみ"; ObjectID = "213"; */
+"213.title" = "選択部分のみ";
+
+/* Class = "NSButtonCell"; title = "現在のドキュメント"; ObjectID = "216"; */
+"216.title" = "現在のドキュメント";
+
+/* Class = "NSButtonCell"; title = "現在のプロジェクト"; ObjectID = "217"; */
+"217.title" = "現在のプロジェクト";
+
+/* Class = "NSButtonCell"; title = "すべてのドキュメント"; ObjectID = "218"; */
+"218.title" = "すべてのドキュメント";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "219"; */
+"219.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "親ディレクトリ"; ObjectID = "226"; */
+"226.title" = "親ディレクトリ";

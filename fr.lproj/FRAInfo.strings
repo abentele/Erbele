@@ -1,0 +1,57 @@
+
+/* Class = "NSWindow"; title = "Info - Erbele"; ObjectID = "5"; */
+"5.title" = "Info - Erbele";
+
+/* Class = "NSTextFieldCell"; title = "Taille :"; ObjectID = "82"; */
+"82.title" = "Taille :";
+
+/* Class = "NSTextFieldCell"; title = "Où :"; ObjectID = "83"; */
+"83.title" = "Où :";
+
+/* Class = "NSTextFieldCell"; title = "Créé : "; ObjectID = "84"; */
+"84.title" = "Créé : ";
+
+/* Class = "NSTextFieldCell"; title = "Modifié :"; ObjectID = "85"; */
+"85.title" = "Modifié :";
+
+/* Class = "NSTextFieldCell"; title = "Créateur :"; ObjectID = "86"; */
+"86.title" = "Créateur :";
+
+/* Class = "NSTextFieldCell"; title = "Type :"; ObjectID = "87"; */
+"87.title" = "Type :";
+
+/* Class = "NSTextFieldCell"; title = "Autorisations :"; ObjectID = "88"; */
+"88.title" = "Autorisations :";
+
+/* Class = "NSTextFieldCell"; title = "Groupe : :"; ObjectID = "89"; */
+"89.title" = "Groupe:";
+
+/* Class = "NSTextFieldCell"; title = "Propriétaire :"; ObjectID = "90"; */
+"90.title" = "Propriétaire :";
+
+/* Class = "NSTextFieldCell"; title = "Sélection :"; ObjectID = "91"; */
+"91.title" = "Sélection :";
+
+/* Class = "NSTextFieldCell"; title = "Mots :"; ObjectID = "92"; */
+"92.title" = "Mots :";
+
+/* Class = "NSTextFieldCell"; title = "Position :"; ObjectID = "93"; */
+"93.title" = "Position :";
+
+/* Class = "NSTextFieldCell"; title = "Syntaxe :"; ObjectID = "94"; */
+"94.title" = "Syntaxe :";
+
+/* Class = "NSTextFieldCell"; title = "Encodage :"; ObjectID = "95"; */
+"95.title" = "Encodage :";
+
+/* Class = "NSTextFieldCell"; title = "Spotlight : :"; ObjectID = "96"; */
+"96.title" = "Spotlight :";
+
+/* Class = "NSTextFieldCell"; title = "Longueur :"; ObjectID = "111"; */
+"111.title" = "Longueur :";
+
+/* Class = "NSTextFieldCell"; title = "Lignes :"; ObjectID = "114"; */
+"114.title" = "Lignes :";
+
+/* Class = "NSTextFieldCell"; title = "Fonction :"; ObjectID = "116"; */
+"116.title" = "Fonction :";

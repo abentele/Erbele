@@ -1,0 +1,54 @@
+
+/* Class = "NSWindow"; title = "Расширенный поиск - Erbele"; ObjectID = "7"; */
+"7.title" = "Расширенный поиск - Erbele";
+
+/* Class = "NSMenu"; title = "Меню"; ObjectID = "48"; */
+"48.title" = "Меню";
+
+/* Class = "NSMenuItem"; title = "Очистить историю поиска"; ObjectID = "49"; */
+"49.title" = "Очистить историю поиска";
+
+/* Class = "NSMenuItem"; title = "Recents <do not localise>"; ObjectID = "51"; */
+"51.title" = "Recents <do not localise>";
+
+/* Class = "NSMenuItem"; title = "История поиска"; ObjectID = "52"; */
+"52.title" = "История поиска";
+
+/* Class = "NSTableColumn"; headerCell.title = "Строка отображения"; ObjectID = "123"; */
+"123.headerCell.title" = "Строка отображения";
+
+/* Class = "NSTextFieldCell"; title = "Заменить:"; ObjectID = "207"; */
+"207.title" = "Заменить:";
+
+/* Class = "NSButtonCell"; title = "Найти"; ObjectID = "208"; */
+"208.title" = "Найти";
+
+/* Class = "NSButtonCell"; title = "Использовать стандартные выражения"; ObjectID = "209"; */
+"209.title" = "Использовать стандартные выражения";
+
+/* Class = "NSButtonCell"; title = "Заменить"; ObjectID = "210"; */
+"210.title" = "Заменить";
+
+/* Class = "NSButtonCell"; title = "Игнорировать регистр"; ObjectID = "211"; */
+"211.title" = "Игнорировать регистр";
+
+/* Class = "NSTextFieldCell"; title = "Найти:"; ObjectID = "212"; */
+"212.title" = "Найти:";
+
+/* Class = "NSButtonCell"; title = "В выделенном"; ObjectID = "213"; */
+"213.title" = "В выделенном";
+
+/* Class = "NSButtonCell"; title = "Текущий документ"; ObjectID = "216"; */
+"216.title" = "Текущий документ";
+
+/* Class = "NSButtonCell"; title = "Текущий проект"; ObjectID = "217"; */
+"217.title" = "Текущий проект";
+
+/* Class = "NSButtonCell"; title = "Все документы"; ObjectID = "218"; */
+"218.title" = "Все документы";
+
+/* Class = "NSTextFieldCell"; title = "Строка"; ObjectID = "219"; */
+"219.title" = "Строка";
+
+/* Class = "NSButtonCell"; title = "Директория"; ObjectID = "226"; */
+"226.title" = "Директория";

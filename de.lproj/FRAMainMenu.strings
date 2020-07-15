@@ -113,8 +113,8 @@
 /* Class = "NSMenuItem"; title = "Show Syntax Colours <do not localise>"; ObjectID = "292"; */
 "292.title" = "Show Syntax Colours <do not localise>";
 
-/* Class = "NSMenuItem"; title = "Dokument in separatem Fenster öffnen"; ObjectID = "297"; */
-"297.title" = "Dokument in separatem Fenster öffnen";
+/* Class = "NSMenuItem"; title = "Dokument in separaten Fenster öffnen"; ObjectID = "297"; */
+"297.title" = "Dokument in separaten Fenster öffnen";
 
 /* Class = "NSMenuItem"; title = "Show Documents View <do not localise>"; ObjectID = "300"; */
 "300.title" = "Show Documents View <do not localise>";

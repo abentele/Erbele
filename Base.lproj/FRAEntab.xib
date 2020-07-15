@@ -20,21 +20,64 @@
             <rect key="contentRect" x="449" y="298" width="222" height="140"/>
             <rect key="screenRect" x="0.0" y="0.0" width="2048" height="1129"/>
             <value key="minSize" type="size" width="213" height="107"/>
-            <view key="contentView" id="8">
+            <view key="contentView" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8">
                 <rect key="frame" x="0.0" y="0.0" width="222" height="140"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <box fixedFrame="YES" title="Title" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="9">
                         <rect key="frame" x="17" y="16" width="188" height="106"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <view key="contentView" ambiguous="YES" id="XAl-ch-Dyk">
+                        <view key="contentView" id="XAl-ch-Dyk">
                             <rect key="frame" x="3" y="3" width="182" height="100"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
-                                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="14">
-                                    <rect key="frame" x="118" y="59" width="45" height="21"/>
+                                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="12">
+                                    <rect key="frame" x="97" y="14" width="75" height="32"/>
                                     <constraints>
-                                        <constraint firstAttribute="width" constant="45" id="C3a-vJ-7T8"/>
+                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="63" id="Cvt-UN-2rn"/>
+                                    </constraints>
+                                    <buttonCell key="cell" type="push" title="Entab" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="24">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                        <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="entabButtonEntabWindowAction:" target="-2" id="18"/>
+                                    </connections>
+                                </button>
+                                <textField horizontalHuggingPriority="249" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="11">
+                                    <rect key="frame" x="13" y="62" width="100" height="18"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="18" id="LvP-tm-ZPh"/>
+                                    </constraints>
+                                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Spaces per tab:" id="23">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <button horizontalHuggingPriority="249" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="13">
+                                    <rect key="frame" x="10" y="14" width="87" height="32"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="hhk-Af-Cwq"/>
+                                    </constraints>
+                                    <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="25">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                        <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="cancelButtonEntabDetabGoToLineWindowsAction:" target="-2" id="19"/>
+                                    </connections>
+                                </button>
+                                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="14">
+                                    <rect key="frame" x="117" y="61" width="49" height="21"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="49" id="C3a-vJ-7T8"/>
                                     </constraints>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" drawsBackground="YES" id="26">
                                         <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" localizesFormat="NO" hasThousandSeparators="NO" thousandSeparator="," id="15">
@@ -56,59 +99,19 @@
                                         <binding destination="20" name="value" keyPath="values.SpacesPerTabEntabDetab" id="21"/>
                                     </connections>
                                 </textField>
-                                <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="12">
-                                    <rect key="frame" x="97" y="14" width="75" height="32"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="63" id="Cvt-UN-2rn"/>
-                                    </constraints>
-                                    <buttonCell key="cell" type="push" title="Entab" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="24">
-                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                        <font key="font" metaFont="system"/>
-                                        <string key="keyEquivalent" base64-UTF8="YES">
-DQ
-</string>
-                                    </buttonCell>
-                                    <connections>
-                                        <action selector="entabButtonEntabWindowAction:" target="-2" id="18"/>
-                                    </connections>
-                                </button>
-                                <textField verticalHuggingPriority="1000" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="11">
-                                    <rect key="frame" x="13" y="62" width="100" height="16"/>
-                                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Spaces per tab:" id="23">
-                                        <font key="font" metaFont="system"/>
-                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                    </textFieldCell>
-                                </textField>
-                                <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="13">
-                                    <rect key="frame" x="10" y="14" width="82" height="32"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="hhk-Af-Cwq"/>
-                                    </constraints>
-                                    <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="25">
-                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                        <font key="font" metaFont="system"/>
-                                        <string key="keyEquivalent" base64-UTF8="YES">
-Gw
-</string>
-                                    </buttonCell>
-                                    <connections>
-                                        <action selector="cancelButtonEntabDetabGoToLineWindowsAction:" target="-2" id="19"/>
-                                    </connections>
-                                </button>
                             </subviews>
                             <constraints>
-                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="12" secondAttribute="trailing" constant="16" id="0ae-BI-IKT"/>
+                                <constraint firstAttribute="trailing" secondItem="12" secondAttribute="trailing" constant="16" id="0ae-BI-IKT"/>
                                 <constraint firstItem="13" firstAttribute="top" secondItem="11" secondAttribute="bottom" constant="20" id="12E-dn-LCf"/>
-                                <constraint firstAttribute="bottom" secondItem="13" secondAttribute="bottom" constant="21" id="2Re-0q-HqL"/>
-                                <constraint firstItem="12" firstAttribute="leading" secondItem="13" secondAttribute="trailing" constant="12" id="2Vr-hC-Q0K"/>
-                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="14" secondAttribute="trailing" constant="15" id="6we-Xq-kgR"/>
+                                <constraint firstItem="12" firstAttribute="leading" secondItem="13" secondAttribute="trailing" constant="12" symbolic="YES" id="2Vr-hC-Q0K"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="14" secondAttribute="trailing" constant="16" id="6we-Xq-kgR"/>
                                 <constraint firstItem="11" firstAttribute="leading" secondItem="XAl-ch-Dyk" secondAttribute="leading" constant="15" id="Dtw-qh-IW8"/>
                                 <constraint firstItem="12" firstAttribute="centerY" secondItem="13" secondAttribute="centerY" id="Gbh-zb-gOF"/>
                                 <constraint firstItem="14" firstAttribute="firstBaseline" secondItem="11" secondAttribute="firstBaseline" id="Tkl-Qh-61J"/>
-                                <constraint firstItem="14" firstAttribute="leading" secondItem="11" secondAttribute="trailing" constant="7" id="Xcl-lu-FzE"/>
-                                <constraint firstItem="13" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="XAl-ch-Dyk" secondAttribute="leading" constant="16" id="tnE-45-0O9"/>
-                                <constraint firstItem="11" firstAttribute="top" secondItem="XAl-ch-Dyk" secondAttribute="top" constant="21" id="vOA-OV-5x6"/>
+                                <constraint firstItem="14" firstAttribute="leading" secondItem="11" secondAttribute="trailing" constant="6" id="Xcl-lu-FzE"/>
+                                <constraint firstItem="13" firstAttribute="leading" secondItem="XAl-ch-Dyk" secondAttribute="leading" constant="16" id="tnE-45-0O9"/>
+                                <constraint firstItem="11" firstAttribute="top" secondItem="XAl-ch-Dyk" secondAttribute="top" constant="20" id="vOA-OV-5x6"/>
+                                <constraint firstAttribute="bottom" secondItem="13" secondAttribute="bottom" constant="21" id="wcF-SY-bBW"/>
                             </constraints>
                         </view>
                     </box>

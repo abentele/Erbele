@@ -21,19 +21,19 @@
             <rect key="screenRect" x="0.0" y="0.0" width="2048" height="1129"/>
             <value key="minSize" type="size" width="213" height="107"/>
             <view key="contentView" id="8">
-                <rect key="frame" x="0.0" y="0.0" width="232" height="142"/>
+                <rect key="frame" x="0.0" y="0.0" width="227" height="142"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <box title="Detab" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="9">
-                        <rect key="frame" x="17" y="16" width="198" height="108"/>
+                        <rect key="frame" x="17" y="16" width="193" height="108"/>
                         <view key="contentView" id="QAt-2h-Aiq">
-                            <rect key="frame" x="3" y="3" width="192" height="102"/>
+                            <rect key="frame" x="3" y="3" width="187" height="102"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="14">
-                                    <rect key="frame" x="123" y="62" width="50" height="21"/>
+                                    <rect key="frame" x="118" y="62" width="49" height="21"/>
                                     <constraints>
-                                        <constraint firstAttribute="width" constant="50" id="c4Y-Rj-MFY"/>
+                                        <constraint firstAttribute="width" constant="49" id="c4Y-Rj-MFY"/>
                                     </constraints>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" drawsBackground="YES" id="27">
                                         <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" localizesFormat="NO" hasThousandSeparators="NO" thousandSeparator="," id="15">
@@ -55,8 +55,8 @@
                                         <binding destination="21" name="value" keyPath="values.SpacesPerTabEntabDetab" id="22"/>
                                     </connections>
                                 </textField>
-                                <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="13">
-                                    <rect key="frame" x="105" y="14" width="77" height="32"/>
+                                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="13">
+                                    <rect key="frame" x="100" y="14" width="77" height="32"/>
                                     <constraints>
                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="65" id="VXV-As-4JE"/>
                                     </constraints>
@@ -72,9 +72,8 @@ DQ
                                     </connections>
                                 </button>
                                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="11">
-                                    <rect key="frame" x="18" y="64" width="100" height="17"/>
+                                    <rect key="frame" x="14" y="64" width="100" height="17"/>
                                     <constraints>
-                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="96" id="4D7-AD-NqE"/>
                                         <constraint firstAttribute="height" constant="17" id="AkO-vD-JVV"/>
                                     </constraints>
                                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Spaces per tab:" id="24">
@@ -83,8 +82,8 @@ DQ
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="12">
-                                    <rect key="frame" x="10" y="14" width="82" height="32"/>
+                                <button horizontalHuggingPriority="249" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="12">
+                                    <rect key="frame" x="10" y="14" width="90" height="32"/>
                                     <constraints>
                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="2qL-cl-WT8"/>
                                     </constraints>
@@ -105,13 +104,13 @@ Gw
                                 <constraint firstItem="14" firstAttribute="firstBaseline" secondItem="11" secondAttribute="firstBaseline" id="D6c-3v-eAr"/>
                                 <constraint firstAttribute="bottom" secondItem="12" secondAttribute="bottom" constant="21" id="F6O-a2-Vff"/>
                                 <constraint firstItem="11" firstAttribute="top" secondItem="QAt-2h-Aiq" secondAttribute="top" constant="21" id="G77-8Y-Is4"/>
-                                <constraint firstItem="13" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="12" secondAttribute="trailing" constant="16" id="JJD-Y8-hsb"/>
-                                <constraint firstItem="11" firstAttribute="leading" secondItem="QAt-2h-Aiq" secondAttribute="leading" constant="20" id="Jca-aQ-KOk"/>
-                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="13" secondAttribute="trailing" constant="16" id="TSA-za-gGN"/>
-                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="14" secondAttribute="trailing" constant="19" id="aIw-ew-wYz"/>
+                                <constraint firstItem="13" firstAttribute="leading" secondItem="12" secondAttribute="trailing" constant="12" symbolic="YES" id="JJD-Y8-hsb"/>
+                                <constraint firstItem="11" firstAttribute="leading" secondItem="QAt-2h-Aiq" secondAttribute="leading" constant="16" id="Jca-aQ-KOk"/>
+                                <constraint firstAttribute="trailing" secondItem="13" secondAttribute="trailing" constant="16" id="TSA-za-gGN"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="14" secondAttribute="trailing" constant="16" id="aIw-ew-wYz"/>
                                 <constraint firstItem="12" firstAttribute="top" secondItem="11" secondAttribute="bottom" constant="22" id="c8a-yp-GEA"/>
-                                <constraint firstItem="14" firstAttribute="leading" secondItem="11" secondAttribute="trailing" constant="7" id="dFP-mK-UTv"/>
-                                <constraint firstItem="12" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="QAt-2h-Aiq" secondAttribute="leading" constant="16" id="j2g-A9-NyQ"/>
+                                <constraint firstItem="14" firstAttribute="leading" secondItem="11" secondAttribute="trailing" constant="6" id="dFP-mK-UTv"/>
+                                <constraint firstItem="12" firstAttribute="leading" secondItem="QAt-2h-Aiq" secondAttribute="leading" constant="16" id="j2g-A9-NyQ"/>
                             </constraints>
                         </view>
                     </box>

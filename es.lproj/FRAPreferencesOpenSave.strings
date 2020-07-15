@@ -1,0 +1,72 @@
+
+/* Class = "NSButtonCell"; title = "Usar directorio del documento actual"; ObjectID = "7"; */
+"7.title" = "Usar directorio del documento actual";
+
+/* Class = "NSButtonCell"; title = "Usar siempre:"; ObjectID = "8"; */
+"8.title" = "Usar siempre:";
+
+/* Class = "NSButtonCell"; title = "Recordar dónde abrí por última vez"; ObjectID = "9"; */
+"9.title" = "Recordar dónde abrí por última vez";
+
+/* Class = "NSButtonCell"; title = "Usar directorio del documento actual"; ObjectID = "19"; */
+"19.title" = "Usar directorio del documento actual";
+
+/* Class = "NSButtonCell"; title = "Usar siempre:"; ObjectID = "20"; */
+"20.title" = "Usar siempre:";
+
+/* Class = "NSButtonCell"; title = "Recordar el último directorio de \"Guardar Como\""; ObjectID = "21"; */
+"21.title" = "Recordar el último directorio de \"Guardar Como\"";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "53"; */
+"53.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Unix - Mac OS X (LF)"; ObjectID = "55"; */
+"55.title" = "Unix - Mac OS X (LF)";
+
+/* Class = "NSMenuItem"; title = "Mac (CR)"; ObjectID = "56"; */
+"56.title" = "Mac (CR)";
+
+/* Class = "NSMenuItem"; title = "Windows (CRLF)"; ObjectID = "57"; */
+"57.title" = "Windows (CRLF)";
+
+/* Class = "NSMenuItem"; title = "No Cambiar"; ObjectID = "59"; */
+"59.title" = "No Cambiar";
+
+/* Class = "NSButtonCell"; title = "Seleccionar"; ObjectID = "76"; */
+"76.title" = "Seleccionar";
+
+/* Class = "NSButtonCell"; title = "Seleccionar"; ObjectID = "78"; */
+"78.title" = "Seleccionar";
+
+/* Class = "NSTextFieldCell"; title = "Abrir:"; ObjectID = "80"; */
+"80.title" = "Abrir:";
+
+/* Class = "NSTextFieldCell"; title = "Guardar Como:"; ObjectID = "81"; */
+"81.title" = "Guardar Como:";
+
+/* Class = "NSButtonCell"; title = "Asociar documento a Erbele"; ObjectID = "82"; */
+"82.title" = "Asociar documento a Erbele";
+
+/* Class = "NSTextFieldCell"; title = "Formato fin de Línea"; ObjectID = "84"; */
+"84.title" = "Formato fin de Línea";
+
+/* Class = "NSTextFieldCell"; title = "Al Guardar:"; ObjectID = "85"; */
+"85.title" = "Al Guardar:";
+
+/* Class = "NSButtonCell"; title = "Añadir nombre al final en \"Guardar Como\", con:"; ObjectID = "86"; */
+"86.title" = "Añadir nombre al final en \"Guardar Como\", con:";
+
+/* Class = "NSButtonCell"; title = "Abrir todos los documentos que tenía abiertos cuando cerré."; ObjectID = "88"; */
+"88.title" = "Abrir todos los documentos que tenía abiertos cuando cerré.";
+
+/* Class = "NSTextFieldCell"; title = "Al Arrancar:"; ObjectID = "89"; */
+"89.title" = "Al Arrancar:";
+
+/* Class = "NSButtonCell"; title = "Abrir todos los proyectos que tenía abiertos cuando cerré."; ObjectID = "90"; */
+"90.title" = "Abrir todos los proyectos que tenía abiertos cuando cerré.";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "91"; */
+"91.title" = "Radio";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "92"; */
+"92.title" = "Radio";

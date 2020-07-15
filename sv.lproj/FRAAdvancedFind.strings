@@ -1,0 +1,54 @@
+
+/* Class = "NSWindow"; title = "Avancerad sök - Erbele"; ObjectID = "7"; */
+"7.title" = "Avancerad sök - Erbele";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "48"; */
+"48.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "Rensa senate sökningar"; ObjectID = "49"; */
+"49.title" = "Rensa senate sökningar";
+
+/* Class = "NSMenuItem"; title = "Recents <do not localise>"; ObjectID = "51"; */
+"51.title" = "Recents <do not localise>";
+
+/* Class = "NSMenuItem"; title = "Senaste sökningar"; ObjectID = "52"; */
+"52.title" = "Senaste sökningar";
+
+/* Class = "NSTableColumn"; headerCell.title = "Display String"; ObjectID = "123"; */
+"123.headerCell.title" = "Display String";
+
+/* Class = "NSTextFieldCell"; title = "Ersätt:"; ObjectID = "207"; */
+"207.title" = "Ersätt:";
+
+/* Class = "NSButtonCell"; title = "Sök"; ObjectID = "208"; */
+"208.title" = "Sök";
+
+/* Class = "NSButtonCell"; title = "Använd reguljära uttryck"; ObjectID = "209"; */
+"209.title" = "Använd reguljära uttryck";
+
+/* Class = "NSButtonCell"; title = "Ersätt"; ObjectID = "210"; */
+"210.title" = "Ersätt";
+
+/* Class = "NSButtonCell"; title = "Ignorera skiftläge"; ObjectID = "211"; */
+"211.title" = "Ignorera skiftläge";
+
+/* Class = "NSTextFieldCell"; title = "Sök:"; ObjectID = "212"; */
+"212.title" = "Sök:";
+
+/* Class = "NSButtonCell"; title = "Bara i markering"; ObjectID = "213"; */
+"213.title" = "Bara i markering";
+
+/* Class = "NSButtonCell"; title = "Aktuellt dokument"; ObjectID = "216"; */
+"216.title" = "Aktuellt dokument";
+
+/* Class = "NSButtonCell"; title = "Aktuellt projekt"; ObjectID = "217"; */
+"217.title" = "Aktuellt projekt";
+
+/* Class = "NSButtonCell"; title = "Alla dokument"; ObjectID = "218"; */
+"218.title" = "Alla dokument";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "219"; */
+"219.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Aktuell katalog"; ObjectID = "226"; */
+"226.title" = "Aktuell katalog";

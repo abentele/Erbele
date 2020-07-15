@@ -1,0 +1,23 @@
+
+/* Class = "NSWindow"; title = "Regular Expressions"; ObjectID = "8"; */
+"8.title" = "Espressioni regolari";
+/* Class = "NSTextFieldCell"; title = ""; ObjectID = "SdR-an-3fW"; */
+"SdR-an-3fW.title" = "^ \t Inizio della stringa
+$ \t Fine della stringa
+. \t Qualunque carattere (eccetto \\n)
+* \t 0 o più instanze della precedente espressione
++ \t 1 o più instanze della precedente espressione
+? \t 0 o 1 instanza della precedente espressione
+
+\\w \t Cerca ogni singolo carattere
+\\W \t Cerca ogni cosa che non sia un carattere
+\\s \t Cerca ogni spazio
+\\S \t Cerca ogni carattere che non sia uno spazio
+\\d \t Cerca ogni singola cifra da 0 a 9
+\\D \t Cerca ogni carattere che non sia una cifra
+
+[abc] \t Cerca ogni carattere incluso nell'insieme
+[^abc] \t Cerca ogni carattere che non sia nell'insieme
+[a-z]  \t Intervalli contigui di caratteri
+(a|b)  \t a o b
+ab{2} \t Cerca due caratteri b";

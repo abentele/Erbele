@@ -1,0 +1,33 @@
+
+/* Class = "NSWindow"; title = "Снипеты - Erbele"; ObjectID = "5"; */
+"5.title" = "Снипеты - Erbele";
+
+/* Class = "NSTableColumn"; headerCell.title = "Группы"; ObjectID = "138"; */
+"138.headerCell.title" = "Группы";
+
+/* Class = "NSTableColumn"; headerCell.title = "Имя"; ObjectID = "141"; */
+"141.headerCell.title" = "Имя";
+
+/* Class = "NSTableColumn"; headerCell.title = "Горячие клавиши"; ObjectID = "142"; */
+"142.headerCell.title" = "Горячие клавиши";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedDisplayName = "Current collection"; ObjectID = "195"; */
+"195.ibShadowedDisplayName" = "Current collection";
+
+/* Class = "NSTextFieldCell"; title = "%%s = Выделенное"; ObjectID = "197"; */
+"197.title" = "%%s = Выделенное";
+
+/* Class = "NSTextFieldCell"; title = "%%c = Положение курсора после вставки"; ObjectID = "198"; */
+"198.title" = "%%c = Положение курсора после вставки";
+
+/* Class = "NSSearchFieldCell"; placeholderString = "Текущая группа"; ObjectID = "199"; */
+"199.placeholderString" = "Текущая группа";
+
+/* Class = "NSTextFieldCell"; title = "Текстовая ячейка"; ObjectID = "200"; */
+"200.title" = "Текстовая ячейка";
+
+/* Class = "NSTextFieldCell"; title = "Текстовая ячейка"; ObjectID = "201"; */
+"201.title" = "Текстовая ячейка";
+
+/* Class = "NSTextFieldCell"; title = "Текстовая ячейка"; ObjectID = "202"; */
+"202.title" = "Текстовая ячейка";

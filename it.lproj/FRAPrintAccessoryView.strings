@@ -1,0 +1,24 @@
+
+/* Class = "NSButtonCell"; title = "Seleziona Font..."; ObjectID = "31"; */
+"31.title" = "Seleziona Font...";
+
+/* Class = "NSTextFieldCell"; title = "Font:"; ObjectID = "32"; */
+"32.title" = "Font:";
+
+/* Class = "NSButtonCell"; title = "Stampa soltanto la selezione"; ObjectID = "33"; */
+"33.title" = "Stampa soltanto la selezione";
+
+/* Class = "NSButtonCell"; title = "Stampa l'intestazione"; ObjectID = "34"; */
+"34.title" = "Stampa l'intestazione";
+
+/* Class = "NSTextFieldCell"; title = "I margini non dovrebbero essere più piccoli di"; ObjectID = "35"; */
+"35.title" = "I margini non dovrebbero essere più piccoli di";
+
+/* Class = "NSTextFieldCell"; title = "punti"; ObjectID = "37"; */
+"37.title" = "punti";
+
+/* Class = "NSTextFieldCell"; title = "(24 - 500)"; ObjectID = "38"; */
+"38.title" = "(24 - 500)";
+
+/* Class = "NSButtonCell"; title = "Stampa i colori della sintassi"; ObjectID = "39"; */
+"39.title" = "Stampa i colori della sintassi";

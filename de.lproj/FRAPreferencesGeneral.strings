@@ -1,0 +1,60 @@
+
+/* Class = "NSButtonCell"; title = "Neues, leeres Dokument erstellen "; ObjectID = "134"; */
+"134.title" = "Neues, leeres Dokument erstellen ";
+
+/* Class = "NSButtonCell"; title = "Zeige Raster mit Zeilennummer, Breite (in Pixel):"; ObjectID = "135"; */
+"135.title" = "Zeige Raster mit Zeilennummer, Breite (in Pixel):";
+
+/* Class = "NSButtonCell"; title = "Zeilen umbrechen"; ObjectID = "136"; */
+"136.title" = "Zeilen umbrechen";
+
+/* Class = "NSTextFieldCell"; title = "Anzahl der zuletzt geöffneten Dokumente im Menü:\n"; ObjectID = "138"; */
+"138.title" = "Anzahl der zuletzt geöffneten Dokumente im Menü:\n";
+
+/* Class = "NSTextFieldCell"; title = "40"; ObjectID = "139"; */
+"139.title" = "40";
+
+/* Class = "NSButtonCell"; title = "Zusammen gehörende Klammerung anzeigen"; ObjectID = "140"; */
+"140.title" = "Zusammen gehörende Klammerung anzeigen";
+
+/* Class = "NSButtonCell"; title = "Neue Zeile wie Zeile oberhalb einrücken"; ObjectID = "141"; */
+"141.title" = "Neue Zeile wie Zeile oberhalb einrücken";
+
+/* Class = "NSButtonCell"; title = "Nicht sichtbare Zeichen anzeigen"; ObjectID = "142"; */
+"142.title" = "Nicht sichtbare Zeichen anzeigen";
+
+/* Class = "NSTextFieldCell"; title = "(25-99)"; ObjectID = "143"; */
+"143.title" = "(25-99)";
+
+/* Class = "NSButtonCell"; title = "Automatisch vorschlagen nach Verzögerung (in Sekunden):"; ObjectID = "144"; */
+"144.title" = "Automatisch vorschlagen nach Verzögerung (in Sekunden):";
+
+/* Class = "NSButtonCell"; title = "Auch Standardwörter verwenden (nicht nur Syntaxdefinition)"; ObjectID = "145"; */
+"145.title" = "Auch Standardwörter verwenden (nicht nur Syntaxdefinition)";
+
+/* Class = "NSTextFieldCell"; title = "(0.1-99)"; ObjectID = "147"; */
+"147.title" = "(0.1-99)";
+
+/* Class = "NSButtonCell"; title = "Rechtschreibprüfung während der Eingabe"; ObjectID = "148"; */
+"148.title" = "Rechtschreibprüfung während der Eingabe";
+
+/* Class = "NSTextFieldCell"; title = "Auto-Vervollständigung:"; ObjectID = "152"; */
+"152.title" = "Auto-Vervollständigung:";
+
+/* Class = "NSTextFieldCell"; title = "Beim Start:"; ObjectID = "153"; */
+"153.title" = "Beim Start:";
+
+/* Class = "NSTextFieldCell"; title = "Neue Dokumente:"; ObjectID = "154"; */
+"154.title" = "Neue Dokumente:";
+
+/* Class = "NSTextFieldCell"; title = "Bearbeiten:"; ObjectID = "155"; */
+"155.title" = "Bearbeiten:";
+
+/* Class = "NSButtonCell"; title = "{ Geschweifte Klammern } automatisch einrücken"; ObjectID = "156"; */
+"156.title" = "{ Geschweifte Klammern } automatisch einrücken";
+
+/* Class = "NSButtonCell"; title = "Syntaxhervorhebung"; ObjectID = "157"; */
+"157.title" = "Syntaxhervorhebung";
+
+/* Class = "NSTextFieldCell"; title = "Verschiedenes:"; ObjectID = "160"; */
+"160.title" = "Verschiedenes:";

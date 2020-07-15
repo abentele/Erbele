@@ -1,0 +1,51 @@
+
+/* Class = "NSWindow"; title = "Comandi - Erbele"; ObjectID = "5"; */
+"5.title" = "Comandi - Erbele";
+
+/* Class = "NSTableColumn"; headerCell.title = "Collezioni"; ObjectID = "138"; */
+"138.headerCell.title" = "Collezioni";
+
+/* Class = "NSTableColumn"; headerCell.title = "Nome"; ObjectID = "141"; */
+"141.headerCell.title" = "Nome";
+
+/* Class = "NSTableColumn"; headerCell.title = "Scorciatoia"; ObjectID = "142"; */
+"142.headerCell.title" = "Scorciatoia";
+
+/* Class = "NSTableColumn"; headerCell.title = "Inline"; ObjectID = "188"; */
+"188.headerCell.title" = "Inline";
+
+/* Class = "NSTableColumn"; headerCell.title = "Interprete"; ObjectID = "203"; */
+"203.headerCell.title" = "Interprete";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedDisplayName = "Current collection"; ObjectID = "231"; */
+"231.ibShadowedDisplayName" = "Current collection";
+
+/* Class = "NSButtonCell"; title = "Inserisci percorso"; ObjectID = "234"; */
+"234.title" = "Inserisci percorso";
+
+/* Class = "NSTextFieldCell"; title = "%%s = selezione"; ObjectID = "235"; */
+"235.title" = "%%s = selezione";
+
+/* Class = "NSTextFieldCell"; title = "%%p = percorso attuale"; ObjectID = "236"; */
+"236.title" = "%%p = percorso attuale";
+
+/* Class = "NSTextFieldCell"; title = "%%d = cartella attuale"; ObjectID = "237"; */
+"237.title" = "%%d = cartella attuale";
+
+/* Class = "NSTextFieldCell"; title = "Include il percorso completo per i comandi"; ObjectID = "238"; */
+"238.title" = "Include il percorso completo per i comandi";
+
+/* Class = "NSSearchFieldCell"; placeholderString = "Collezione attuale"; ObjectID = "239"; */
+"239.placeholderString" = "Collezione attuale";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "240"; */
+"240.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "241"; */
+"241.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "242"; */
+"242.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "243"; */
+"243.title" = "Text Cell";

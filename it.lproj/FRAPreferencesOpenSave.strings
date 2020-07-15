@@ -1,0 +1,72 @@
+
+/* Class = "NSButtonCell"; title = "Usa la cartella del documento corrente"; ObjectID = "7"; */
+"7.title" = "Usa la cartella del documento corrente";
+
+/* Class = "NSButtonCell"; title = "Usa sempre:"; ObjectID = "8"; */
+"8.title" = "Usa sempre:";
+
+/* Class = "NSButtonCell"; title = "Ricorda dove ho aperto l'ultimo"; ObjectID = "9"; */
+"9.title" = "Ricorda dove ho aperto l'ultimo";
+
+/* Class = "NSButtonCell"; title = "Usa la cartella del documento corrente"; ObjectID = "19"; */
+"19.title" = "Usa la cartella del documento corrente";
+
+/* Class = "NSButtonCell"; title = "Usa sempre:"; ObjectID = "20"; */
+"20.title" = "Usa sempre:";
+
+/* Class = "NSButtonCell"; title = "Ricorda l'ultima cartella usata in \"Registra col nome\""; ObjectID = "21"; */
+"21.title" = "Ricorda l'ultima cartella usata in \"Registra col nome\"";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "53"; */
+"53.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Unix - Mac OS X (LF)"; ObjectID = "55"; */
+"55.title" = "Unix - Mac OS X (LF)";
+
+/* Class = "NSMenuItem"; title = "Mac (CR)"; ObjectID = "56"; */
+"56.title" = "Mac (CR)";
+
+/* Class = "NSMenuItem"; title = "Windows (CRLF)"; ObjectID = "57"; */
+"57.title" = "Windows (CRLF)";
+
+/* Class = "NSMenuItem"; title = "Lascia quella attuale"; ObjectID = "59"; */
+"59.title" = "Lascia quella attuale";
+
+/* Class = "NSButtonCell"; title = "Seleziona cartella…"; ObjectID = "76"; */
+"76.title" = "Seleziona cartella…";
+
+/* Class = "NSButtonCell"; title = "Seleziona cartella…"; ObjectID = "78"; */
+"78.title" = "Seleziona cartella…";
+
+/* Class = "NSTextFieldCell"; title = "Apri:"; ObjectID = "80"; */
+"80.title" = "Apri:";
+
+/* Class = "NSTextFieldCell"; title = "Registra col nome:"; ObjectID = "81"; */
+"81.title" = "Registra col nome:";
+
+/* Class = "NSButtonCell"; title = "Associa il documento a Erbele"; ObjectID = "82"; */
+"82.title" = "Associa il documento a Erbele";
+
+/* Class = "NSTextFieldCell"; title = "Terminazione di linea:"; ObjectID = "84"; */
+"84.title" = "Terminazione di linea:";
+
+/* Class = "NSTextFieldCell"; title = "Quando registri:"; ObjectID = "85"; */
+"85.title" = "Quando registri:";
+
+/* Class = "NSButtonCell"; title = "Aggiungi al nome specificato in \"Registra col nome\":"; ObjectID = "86"; */
+"86.title" = "Aggiungi al nome specificato in \"Registra col nome\":";
+
+/* Class = "NSButtonCell"; title = "Apri tutti i documenti che erano aperti l'ultima volta"; ObjectID = "88"; */
+"88.title" = "Apri tutti i documenti che erano aperti l'ultima volta";
+
+/* Class = "NSTextFieldCell"; title = "All'apertura:"; ObjectID = "89"; */
+"89.title" = "All'apertura:";
+
+/* Class = "NSButtonCell"; title = "Apri tutti i progetti che erano aperti l'ultima volta"; ObjectID = "90"; */
+"90.title" = "Apri tutti i progetti che erano aperti l'ultima volta";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "91"; */
+"91.title" = "Radio";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "92"; */
+"92.title" = "Radio";

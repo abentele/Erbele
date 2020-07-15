@@ -1,0 +1,23 @@
+
+/* Class = "NSWindow"; title = "Reguljära uttryck"; ObjectID = "8"; */
+"8.title" = "Reguljära uttryck";
+/* Class = "NSTextFieldCell"; title = ""; ObjectID = "SdR-an-3fW"; */
+"SdR-an-3fW.title" = "^ \t Start på sträng
+$ \t Slut på sträng
+. \t Alla tecken (utom radbryt)
+* \t 0 eller mer av föregående uttryck
++ \t 1 eller mer av föregående uttryck
+? \t 0 eller 1 av föregående uttryck
+
+\\w \t Matchar all ord-bokstäver
+\\W \t Matchar alla icke ord-bokstäver
+\\s \t Matchar mellanslag och tabb
+\\S \t Matchar alla icke mellanslag och tabb
+\\d \t Matchar alla siffror
+\\D \t Matchar alla icke-siffror
+
+[abc] \t Matchar varje enskild bokstav i samlingen
+[^abc] \t Matchar varje enskild bokstav inte i samlingen
+[a-z]  \t Matchar allt mellan a och z
+(a|b)  \t a eller b
+ab{2} \t Matchar två b bokstäver";

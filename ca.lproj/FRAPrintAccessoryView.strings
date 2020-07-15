@@ -1,0 +1,24 @@
+
+/* Class = "NSButtonCell"; title = "Defineix tipus..."; ObjectID = "31"; */
+"31.title" = "Defineix tipus...";
+
+/* Class = "NSTextFieldCell"; title = "Tipus de lletra:"; ObjectID = "32"; */
+"32.title" = "Tipus de lletra:";
+
+/* Class = "NSButtonCell"; title = "Imprimeix només la selecció"; ObjectID = "33"; */
+"33.title" = "Imprimeix només la selecció";
+
+/* Class = "NSButtonCell"; title = "Imprimeix capçalera"; ObjectID = "34"; */
+"34.title" = "Imprimeix capçalera";
+
+/* Class = "NSTextFieldCell"; title = "Vores no menors a"; ObjectID = "35"; */
+"35.title" = "Vores no menors a";
+
+/* Class = "NSTextFieldCell"; title = "punts"; ObjectID = "37"; */
+"37.title" = "punts";
+
+/* Class = "NSTextFieldCell"; title = "(24 - 500)"; ObjectID = "38"; */
+"38.title" = "(24 - 500)";
+
+/* Class = "NSButtonCell"; title = "Imprimeix colors de sintaxi"; ObjectID = "39"; */
+"39.title" = "Imprimeix colors de sintaxi";

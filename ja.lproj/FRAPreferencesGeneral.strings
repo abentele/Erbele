@@ -1,0 +1,60 @@
+
+/* Class = "NSButtonCell"; title = "新規ドキュメントを作成"; ObjectID = "134"; */
+"134.title" = "新規ドキュメントを作成";
+
+/* Class = "NSButtonCell"; title = "行番号枠を表示。幅 (ピクセル単位):"; ObjectID = "135"; */
+"135.title" = "行番号枠を表示。幅 (ピクセル単位):";
+
+/* Class = "NSButtonCell"; title = "行の折り返し"; ObjectID = "136"; */
+"136.title" = "行の折り返し";
+
+/* Class = "NSTextFieldCell"; title = "「最近開いた項目」に保存する数:"; ObjectID = "138"; */
+"138.title" = "「最近開いた項目」に保存する数:";
+
+/* Class = "NSTextFieldCell"; title = "40"; ObjectID = "139"; */
+"139.title" = "40";
+
+/* Class = "NSButtonCell"; title = "対応する括弧を表示"; ObjectID = "140"; */
+"140.title" = "対応する括弧を表示";
+
+/* Class = "NSButtonCell"; title = "改行時、前行に合わせてインデント"; ObjectID = "141"; */
+"141.title" = "改行時、前行に合わせてインデント";
+
+/* Class = "NSButtonCell"; title = "非表示文字を表示"; ObjectID = "142"; */
+"142.title" = "非表示文字を表示";
+
+/* Class = "NSTextFieldCell"; title = "(25-99)"; ObjectID = "143"; */
+"143.title" = "(25-99)";
+
+/* Class = "NSButtonCell"; title = "候補を自動表示。遅らせて表示 (秒):"; ObjectID = "144"; */
+"144.title" = "候補を自動表示。遅らせて表示 (秒):";
+
+/* Class = "NSButtonCell"; title = "標準言語を含める"; ObjectID = "145"; */
+"145.title" = "標準言語を含める";
+
+/* Class = "NSTextFieldCell"; title = "(0.1-99)"; ObjectID = "147"; */
+"147.title" = "(0.1-99)";
+
+/* Class = "NSButtonCell"; title = "入力中に自動スペルチェック"; ObjectID = "148"; */
+"148.title" = "入力中に自動スペルチェック";
+
+/* Class = "NSTextFieldCell"; title = "入力補完:"; ObjectID = "152"; */
+"152.title" = "入力補完:";
+
+/* Class = "NSTextFieldCell"; title = "起動時:"; ObjectID = "153"; */
+"153.title" = "起動時:";
+
+/* Class = "NSTextFieldCell"; title = "新規ドキュメント:"; ObjectID = "154"; */
+"154.title" = "新規ドキュメント:";
+
+/* Class = "NSTextFieldCell"; title = "編集時:"; ObjectID = "155"; */
+"155.title" = "編集時:";
+
+/* Class = "NSButtonCell"; title = "{ と } を解釈する"; ObjectID = "156"; */
+"156.title" = "{ と } を解釈する";
+
+/* Class = "NSButtonCell"; title = "シンタックスカラーを使用"; ObjectID = "157"; */
+"157.title" = "シンタックスカラーを使用";
+
+/* Class = "NSTextFieldCell"; title = "その他:"; ObjectID = "160"; */
+"160.title" = "その他:";

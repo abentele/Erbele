@@ -1,0 +1,123 @@
+
+/* Class = "NSMenu"; title = "Друго вид"; ObjectID = "8"; */
+"8.title" = "Друго вид";
+
+/* Class = "NSMenuItem"; title = "Маленький"; ObjectID = "9"; */
+"9.title" = "Маленький";
+
+/* Class = "NSMenuItem"; title = "Большой"; ObjectID = "10"; */
+"10.title" = "Большой";
+
+/* Class = "NSMenu"; title = "Другой вид"; ObjectID = "40"; */
+"40.title" = "Другой вид";
+
+/* Class = "NSMenuItem"; title = "0"; ObjectID = "41"; */
+"41.title" = "0";
+
+/* Class = "NSMenuItem"; title = "6"; ObjectID = "42"; */
+"42.title" = "6";
+
+/* Class = "NSMenuItem"; title = "2"; ObjectID = "43"; */
+"43.title" = "2";
+
+/* Class = "NSMenuItem"; title = "3"; ObjectID = "44"; */
+"44.title" = "3";
+
+/* Class = "NSMenuItem"; title = "7"; ObjectID = "45"; */
+"45.title" = "7";
+
+/* Class = "NSMenuItem"; title = "8"; ObjectID = "46"; */
+"46.title" = "8";
+
+/* Class = "NSMenuItem"; title = "1"; ObjectID = "47"; */
+"47.title" = "1";
+
+/* Class = "NSMenuItem"; title = "4"; ObjectID = "48"; */
+"48.title" = "4";
+
+/* Class = "NSMenuItem"; title = "5"; ObjectID = "49"; */
+"49.title" = "5";
+
+/* Class = "NSButtonCell"; title = "Показывать путь к документу в заголовке окна"; ObjectID = "93"; */
+"93.title" = "Показывать путь к документу в заголовке окна";
+
+/* Class = "NSTextFieldCell"; title = "Размер текста:"; ObjectID = "95"; */
+"95.title" = "Размер текста:";
+
+/* Class = "NSButtonCell"; title = "Выбрать шрифт..."; ObjectID = "96"; */
+"96.title" = "Выбрать шрифт...";
+
+/* Class = "NSTextFieldCell"; title = "Шрифт текста:"; ObjectID = "97"; */
+"97.title" = "Шрифт текста:";
+
+/* Class = "NSTextFieldCell"; title = "Цвет фона:"; ObjectID = "99"; */
+"99.title" = "Цвет фона:";
+
+/* Class = "NSTextFieldCell"; title = "Цвет текста:"; ObjectID = "100"; */
+"100.title" = "Цвет текста:";
+
+/* Class = "NSTextFieldCell"; title = "Ширина вкладки:"; ObjectID = "102"; */
+"102.title" = "Ширина вкладки:";
+
+/* Class = "NSButtonCell"; title = "Отображать список файлов колонкой"; ObjectID = "103"; */
+"103.title" = "Отображать список файлов колонкой";
+
+/* Class = "NSButtonCell"; title = "Длинна документа"; ObjectID = "105"; */
+"105.title" = "Длинна документа";
+
+/* Class = "NSButtonCell"; title = "Длинна выделения"; ObjectID = "106"; */
+"106.title" = "Длинна выделения";
+
+/* Class = "NSButtonCell"; title = "Язык синтаксиса"; ObjectID = "107"; */
+"107.title" = "Язык синтаксиса";
+
+/* Class = "NSButtonCell"; title = "Последнее сохранение, в формате:"; ObjectID = "108"; */
+"108.title" = "Последнее сохранение, в формате:";
+
+/* Class = "NSButtonCell"; title = "Кодировка текста"; ObjectID = "109"; */
+"109.title" = "Кодировка текста";
+
+/* Class = "NSButtonCell"; title = "Положение"; ObjectID = "110"; */
+"110.title" = "Положение";
+
+/* Class = "NSTextFieldCell"; title = "Показывать в строке состояния:"; ObjectID = "111"; */
+"111.title" = "Показывать в строке состояния:";
+
+/* Class = "NSTextFieldCell"; title = "Список документов:"; ObjectID = "112"; */
+"112.title" = "Список документов:";
+
+/* Class = "NSTextFieldCell"; title = "80"; ObjectID = "113"; */
+"113.title" = "80";
+
+/* Class = "NSTextFieldCell"; title = "Другое:"; ObjectID = "114"; */
+"114.title" = "Другое:";
+
+/* Class = "NSButtonCell"; title = "Показывать полный путь к документу"; ObjectID = "116"; */
+"116.title" = "Показывать полный путь к документу";
+
+/* Class = "NSTextFieldCell"; title = "Размер отступа:"; ObjectID = "118"; */
+"118.title" = "Размер отступа:";
+
+/* Class = "NSTextFieldCell"; title = "Оформление"; ObjectID = "8p5-Oq-MiT"; */
+"8p5-Oq-MiT.title" = "Оформление";
+
+/* Class = "NSTextFieldCell"; title = "Фон нумерации строк:"; ObjectID = "F78-Zd-vfc"; */
+"F78-Zd-vfc.title" = "Фон нумерации строк:";
+
+/* Class = "NSTextFieldCell"; title = "Оформление"; ObjectID = "Riw-54-UWj"; */
+"Riw-54-UWj.title" = "Оформление";
+
+/* Class = "NSTextFieldCell"; title = "Темное"; ObjectID = "Ysg-NX-idf"; */
+"Ysg-NX-idf.title" = "Темное";
+
+/* Class = "NSTextFieldCell"; title = "Цвет нумерации строк:"; ObjectID = "hF2-GK-fmd"; */
+"hF2-GK-fmd.title" = "Цвет нумерации строк:";
+
+/* Class = "NSTextFieldCell"; title = "Темное"; ObjectID = "tMg-5Z-aHI"; */
+"tMg-5Z-aHI.title" = "Темное";
+
+/* Class = "NSTextFieldCell"; title = "Светлое"; ObjectID = "xFq-Xu-kFU"; */
+"xFq-Xu-kFU.title" = "Светлое";
+
+/* Class = "NSTextFieldCell"; title = "Светлое"; ObjectID = "yKg-Qd-czz"; */
+"yKg-Qd-czz.title" = "Светлое";

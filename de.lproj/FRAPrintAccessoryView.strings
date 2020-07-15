@@ -1,0 +1,24 @@
+
+/* Class = "NSButtonCell"; title = "Schrift..."; ObjectID = "31"; */
+"31.title" = "Schrift...";
+
+/* Class = "NSTextFieldCell"; title = "Schrift:\n"; ObjectID = "32"; */
+"32.title" = "Schrift:\n";
+
+/* Class = "NSButtonCell"; title = "Nur markierten Text drucken"; ObjectID = "33"; */
+"33.title" = "Nur markierten Text drucken";
+
+/* Class = "NSButtonCell"; title = "Kopfzeilen drucken"; ObjectID = "34"; */
+"34.title" = "Kopfzeilen drucken";
+
+/* Class = "NSTextFieldCell"; title = "Randbereich mindestens:"; ObjectID = "35"; */
+"35.title" = "Randbereich mindestens:";
+
+/* Class = "NSTextFieldCell"; title = "Punkte\n"; ObjectID = "37"; */
+"37.title" = "Punkte\n";
+
+/* Class = "NSTextFieldCell"; title = "(24 - 500)"; ObjectID = "38"; */
+"38.title" = "(24 - 500)";
+
+/* Class = "NSButtonCell"; title = "Syntaxhervorhebung drucken"; ObjectID = "39"; */
+"39.title" = "Syntaxhervorhebung drucken";

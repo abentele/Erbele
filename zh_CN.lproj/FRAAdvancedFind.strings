@@ -1,0 +1,54 @@
+
+/* Class = "NSWindow"; title = "高级查找 - Erbele"; ObjectID = "7"; */
+"7.title" = "高级查找 - Erbele";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "48"; */
+"48.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "清除最近搜索记录"; ObjectID = "49"; */
+"49.title" = "清除最近搜索记录";
+
+/* Class = "NSMenuItem"; title = "Recents <do not localise>"; ObjectID = "51"; */
+"51.title" = "Recents <do not localise>";
+
+/* Class = "NSMenuItem"; title = "最近搜索记录"; ObjectID = "52"; */
+"52.title" = "最近搜索记录";
+
+/* Class = "NSTableColumn"; headerCell.title = "Display String"; ObjectID = "123"; */
+"123.headerCell.title" = "Display String";
+
+/* Class = "NSTextFieldCell"; title = "替换:"; ObjectID = "207"; */
+"207.title" = "替换:";
+
+/* Class = "NSButtonCell"; title = "查找"; ObjectID = "208"; */
+"208.title" = "查找";
+
+/* Class = "NSButtonCell"; title = "使用正则表达式"; ObjectID = "209"; */
+"209.title" = "使用正则表达式";
+
+/* Class = "NSButtonCell"; title = "替换"; ObjectID = "210"; */
+"210.title" = "替换";
+
+/* Class = "NSButtonCell"; title = "忽略大小写"; ObjectID = "211"; */
+"211.title" = "忽略大小写";
+
+/* Class = "NSTextFieldCell"; title = "查找:"; ObjectID = "212"; */
+"212.title" = "查找:";
+
+/* Class = "NSButtonCell"; title = "只查找选中的"; ObjectID = "213"; */
+"213.title" = "只查找选中的";
+
+/* Class = "NSButtonCell"; title = "当前文档"; ObjectID = "216"; */
+"216.title" = "当前文档";
+
+/* Class = "NSButtonCell"; title = "当前项目"; ObjectID = "217"; */
+"217.title" = "当前项目";
+
+/* Class = "NSButtonCell"; title = "全部文档"; ObjectID = "218"; */
+"218.title" = "全部文档";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "219"; */
+"219.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Parent Directory"; ObjectID = "226"; */
+"226.title" = "Parent Directory";

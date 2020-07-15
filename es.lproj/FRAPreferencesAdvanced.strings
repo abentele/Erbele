@@ -1,0 +1,177 @@
+
+/* Class = "NSTabViewItem"; label = "Muy Avanzado"; ObjectID = "42"; */
+"42.label" = "Muy Avanzado";
+
+/* Class = "NSTabViewItem"; label = "Colores de Sintaxis"; ObjectID = "43"; */
+"43.label" = "Colores de Sintaxis";
+
+/* Class = "NSTabViewItem"; label = "Definiciones de Sintaxis"; ObjectID = "48"; */
+"48.label" = "Definiciones de Sintaxis";
+
+/* Class = "NSButtonCell"; title = "Siempre usar…"; ObjectID = "84"; */
+"84.title" = "Siempre usar…";
+
+/* Class = "NSButtonCell"; title = "Adivinar por la extensión, si no usar..."; ObjectID = "85"; */
+"85.title" = "Adivinar por la extensión, si no usar...";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "87"; */
+"87.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Seleccionar app"; ObjectID = "88"; */
+"88.title" = "Seleccionar app";
+
+/* Class = "NSTableColumn"; headerCell.title = "Nombre"; ObjectID = "91"; */
+"91.headerCell.title" = "Nombre";
+
+/* Class = "NSTableColumn"; headerCell.title = "Extensiones (separadas por espacios, sin puntos)"; ObjectID = "92"; */
+"92.headerCell.title" = "Extensiones (separadas por espacios, sin puntos)";
+
+/* Class = "NSTabViewItem"; label = "Codificación"; ObjectID = "95"; */
+"95.label" = "Codificación";
+
+/* Class = "NSButtonCell"; title = "Siempre usar:"; ObjectID = "98"; */
+"98.title" = "Siempre usar:";
+
+/* Class = "NSButtonCell"; title = "Adivinar, y si no usar:"; ObjectID = "99"; */
+"99.title" = "Adivinar, y si no usar:";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "101"; */
+"101.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Seleccionar app"; ObjectID = "102"; */
+"102.title" = "Seleccionar app";
+
+/* Class = "NSTableColumn"; headerCell.title = "Codificación"; ObjectID = "106"; */
+"106.headerCell.title" = "Codificación";
+
+/* Class = "NSTableColumn"; headerCell.title = "Activa"; ObjectID = "107"; */
+"107.headerCell.title" = "Activa";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "224"; */
+"224.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "HTML (WebKit)"; ObjectID = "227"; */
+"227.title" = "HTML (WebKit)";
+
+/* Class = "NSMenuItem"; title = "MultiMarkdown"; ObjectID = "228"; */
+"228.title" = "MultiMarkdown";
+
+/* Class = "NSMenuItem"; title = "Markdown"; ObjectID = "230"; */
+"230.title" = "Markdown";
+
+/* Class = "NSButtonCell"; title = "Comprobar si el documento ha sido modificado por otro programa"; ObjectID = "252"; */
+"252.title" = "Comprobar si el documento ha sido modificado por otro programa";
+
+/* Class = "NSButtonCell"; title = "Sangrar con espacio, no tabulados"; ObjectID = "253"; */
+"253.title" = "Sangrar con espacio, no tabulados";
+
+/* Class = "NSButtonCell"; title = "Si decido abrir una carpeta, abrir todos los archivos en ella:"; ObjectID = "254"; */
+"254.title" = "Si decido abrir una carpeta, abrir todos los archivos en ella:";
+
+/* Class = "NSButtonCell"; title = "Activar inserción y borrado inteligentes"; ObjectID = "255"; */
+"255.title" = "Activar inserción y borrado inteligentes";
+
+/* Class = "NSButtonCell"; title = "De modo recursivo"; ObjectID = "256"; */
+"256.title" = "De modo recursivo";
+
+/* Class = "NSButtonCell"; title = "Eliminando mediante filtro documentos con extensiones"; ObjectID = "257"; */
+"257.title" = "Eliminando mediante filtro documentos con extensiones";
+
+/* Class = "NSTextFieldCell"; title = "(separados por espacio, sin puntos)"; ObjectID = "258"; */
+"258.title" = "(separados por espacio, sin puntos)";
+
+/* Class = "NSTextFieldCell"; title = "Al Editar:"; ObjectID = "260"; */
+"260.title" = "Al Editar:";
+
+/* Class = "NSTextFieldCell"; title = "Al Abrir:"; ObjectID = "261"; */
+"261.title" = "Al Abrir:";
+
+/* Class = "NSButtonCell"; title = "Usar RGB en lugar de hex al insertar valores de color"; ObjectID = "262"; */
+"262.title" = "Usar RGB en lugar de hex al insertar valores de color";
+
+/* Class = "NSTextFieldCell"; title = "Ejecutar Texto:"; ObjectID = "263"; */
+"263.title" = "Ejecutar Texto:";
+
+/* Class = "NSButtonCell"; title = "Auto-insertar al final }"; ObjectID = "265"; */
+"265.title" = "Auto-insertar al final }";
+
+/* Class = "NSButtonCell"; title = "Auto-insertar al final )"; ObjectID = "266"; */
+"266.title" = "Auto-insertar al final )";
+
+/* Class = "NSTextFieldCell"; title = "Motor de Vista Previa:"; ObjectID = "268"; */
+"268.title" = "Motor de Vista Previa:";
+
+/* Class = "NSButtonCell"; title = "Parada de Tabulados"; ObjectID = "269"; */
+"269.title" = "Parada de Tabulados";
+
+/* Class = "NSTextFieldCell"; title = "Color para caracteres invisibles (al mostrarlos):"; ObjectID = "270"; */
+"270.title" = "Color para caracteres invisibles (al mostrarlos):";
+
+/* Class = "NSButtonCell"; title = "Destacar línea actual, con color:"; ObjectID = "271"; */
+"271.title" = "Destacar línea actual, con color:";
+
+/* Class = "NSTextFieldCell"; title = "Comentarios:"; ObjectID = "272"; */
+"272.title" = "Comentarios:";
+
+/* Class = "NSTextFieldCell"; title = "Palabras Clave:"; ObjectID = "273"; */
+"273.title" = "Palabras Clave:";
+
+/* Class = "NSTextFieldCell"; title = "Instrucciones:"; ObjectID = "274"; */
+"274.title" = "Instrucciones:";
+
+/* Class = "NSTextFieldCell"; title = "Variables:"; ObjectID = "275"; */
+"275.title" = "Variables:";
+
+/* Class = "NSTextFieldCell"; title = "Comandos:"; ObjectID = "276"; */
+"276.title" = "Comandos:";
+
+/* Class = "NSTextFieldCell"; title = "Cadenas de caracteres:"; ObjectID = "277"; */
+"277.title" = "Cadenas de caracteres:";
+
+/* Class = "NSButtonCell"; title = "Colorear sólo hasta fin de línea si no se encuentra la etiqueta de cierre"; ObjectID = "278"; */
+"278.title" = "Colorear sólo hasta fin de línea si no se encuentra la etiqueta de cierre";
+
+/* Class = "NSButtonCell"; title = "Colorear cadenas de caracteres de varias líneas"; ObjectID = "279"; */
+"279.title" = "Colorear cadenas de caracteres de varias líneas";
+
+/* Class = "NSTextFieldCell"; title = "Auto-completar:"; ObjectID = "280"; */
+"280.title" = "Auto-completar:";
+
+/* Class = "NSTextFieldCell"; title = "Claro"; ObjectID = "281"; */
+"281.title" = "Claro";
+
+/* Class = "NSTextFieldCell"; title = "Activo"; ObjectID = "282"; */
+"282.title" = "Activo";
+
+/* Class = "NSTextFieldCell"; title = "Atributos:"; ObjectID = "290"; */
+"290.title" = "Atributos:";
+
+/* Class = "NSTextFieldCell"; title = "Usar Definición:"; ObjectID = "293"; */
+"293.title" = "Usar Definición:";
+
+/* Class = "NSTextFieldCell"; title = "Codificación:"; ObjectID = "295"; */
+"295.title" = "Codificación:";
+
+/* Class = "NSButtonCell"; title = "Devolver Valores por Defecto"; ObjectID = "296"; */
+"296.title" = "Devolver Valores por Defecto";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "298"; */
+"298.title" = "Radio";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "299"; */
+"299.title" = "Radio";
+
+/* Class = "NSTextFieldCell"; title = "Aspecto"; ObjectID = "3ew-hX-c2j"; */
+"3ew-hX-c2j.title" = "Aspecto";
+
+/* Class = "NSTextFieldCell"; title = "Oscuro"; ObjectID = "8tX-vc-vHh"; */
+"8tX-vc-vHh.title" = "Oscuro";
+
+/* Class = "NSTextFieldCell"; title = "Oscuro"; ObjectID = "NN3-gs-n1R"; */
+"NN3-gs-n1R.title" = "Oscuro";
+
+/* Class = "NSTextFieldCell"; title = "Claro"; ObjectID = "jDb-rA-6LU"; */
+"jDb-rA-6LU.title" = "Claro";
+
+/* Class = "NSTextFieldCell"; title = "Aspecto"; ObjectID = "vRi-Oy-Bo0"; */
+"vRi-Oy-Bo0.title" = "Aspecto";

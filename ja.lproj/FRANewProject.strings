@@ -1,0 +1,24 @@
+
+/* Class = "NSWindow"; title = "New Project - Erbele"; ObjectID = "5"; */
+"5.title" = "New Project - Erbele";
+
+/* Class = "NSButtonCell"; title = "仮想 - 複数のドキュメントを一時的にまとめたもの"; ObjectID = "9"; */
+"9.title" = "仮想 - 複数のドキュメントを一時的にまとめたもの";
+
+/* Class = "NSButtonCell"; title = "完全 - すべての変更をプロジェクトファイルに自動保存"; ObjectID = "10"; */
+"10.title" = "完全 - すべての変更をプロジェクトファイルに自動保存";
+
+/* Class = "NSTextFieldCell"; title = "どのタイプのプロジェクトを作成しますか?"; ObjectID = "26"; */
+"26.title" = "どのタイプのプロジェクトを作成しますか?";
+
+/* Class = "NSTextFieldCell"; title = "仮想プロジェクトを選択した場合でも、「ファイル」メニューからドキュメントをプロジェクトとして保存するように変更ことが出来ます。仮想プロジェクトではパスが参照されるだけで、プロジェクトファイルは作成されません。"; ObjectID = "27"; */
+"27.title" = "仮想プロジェクトを選択した場合でも、「ファイル」メニューからドキュメントをプロジェクトとして保存するように変更ことが出来ます。仮想プロジェクトではパスが参照されるだけで、プロジェクトファイルは作成されません。";
+
+/* Class = "NSButtonCell"; title = "作成"; ObjectID = "28"; */
+"28.title" = "作成";
+
+/* Class = "NSButtonCell"; title = "キャンセル"; ObjectID = "29"; */
+"29.title" = "キャンセル";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "30"; */
+"30.title" = "Radio";

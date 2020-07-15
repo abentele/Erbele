@@ -1,0 +1,54 @@
+
+/* Class = "NSWindow"; title = "Commandes - Erbele"; ObjectID = "5"; */
+"5.title" = "Commandes - Erbele";
+
+/* Class = "NSTableColumn"; headerCell.title = "Collections"; ObjectID = "138"; */
+"138.headerCell.title" = "Collections";
+
+/* Class = "NSTableColumn"; headerCell.title = "Nom"; ObjectID = "141"; */
+"141.headerCell.title" = "Nom";
+
+/* Class = "NSTableColumn"; headerCell.title = "Raccourci"; ObjectID = "142"; */
+"142.headerCell.title" = "Raccourci";
+
+/* Class = "NSTableColumn"; headerCell.title = "Inline"; ObjectID = "188"; */
+"188.headerCell.title" = "Inline";
+
+/* Class = "NSTableColumn"; headerCell.title = "Interpreteur"; ObjectID = "203"; */
+"203.headerCell.title" = "Interpreteur";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedDisplayName = "Current collection"; ObjectID = "231"; */
+"231.ibShadowedDisplayName" = "Current collection";
+
+/* Class = "NSButtonCell"; title = "Insérer chemin"; ObjectID = "234"; */
+"234.title" = "Insérer chemin";
+
+/* Class = "NSTextFieldCell"; title = "%%s = sélection"; ObjectID = "235"; */
+"235.title" = "%%s = sélection";
+
+/* Class = "NSTextFieldCell"; title = "%%p = chemin en cours"; ObjectID = "236"; */
+"236.title" = "%%p = chemin en cours";
+
+/* Class = "NSTextFieldCell"; title = "%%d = répertoire en cours"; ObjectID = "237"; */
+"237.title" = "%%d = répertoire en cours";
+
+/* Class = "NSTextFieldCell"; title = "Inclure le chemin complet de  la commande"; ObjectID = "238"; */
+"238.title" = "Inclure le chemin complet de  la commande";
+
+/* Class = "NSSearchFieldCell"; placeholderString = "Current collection"; ObjectID = "239"; */
+"239.placeholderString" = "Current collection";
+
+/* Class = "NSSearchFieldCell"; title = "Collection en cours"; ObjectID = "239"; */
+"239.title" = "Collection en cours";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "240"; */
+"240.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "241"; */
+"241.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "242"; */
+"242.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "243"; */
+"243.title" = "Text Cell";

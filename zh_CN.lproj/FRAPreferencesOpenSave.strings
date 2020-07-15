@@ -1,0 +1,72 @@
+
+/* Class = "NSButtonCell"; title = "使用当前文档的目录"; ObjectID = "7"; */
+"7.title" = "使用当前文档的目录";
+
+/* Class = "NSButtonCell"; title = "总是使用:"; ObjectID = "8"; */
+"8.title" = "总是使用:";
+
+/* Class = "NSButtonCell"; title = "记住最后打开位置"; ObjectID = "9"; */
+"9.title" = "记住最后打开位置";
+
+/* Class = "NSButtonCell"; title = "使用当前文档的目录"; ObjectID = "19"; */
+"19.title" = "使用当前文档的目录";
+
+/* Class = "NSButtonCell"; title = "总是使用:"; ObjectID = "20"; */
+"20.title" = "总是使用:";
+
+/* Class = "NSButtonCell"; title = "记住最后的“另存为”目录"; ObjectID = "21"; */
+"21.title" = "记住最后的“另存为”目录";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "53"; */
+"53.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Unix - Mac OS X (LF)"; ObjectID = "55"; */
+"55.title" = "Unix - Mac OS X (LF)";
+
+/* Class = "NSMenuItem"; title = "Mac (CR)"; ObjectID = "56"; */
+"56.title" = "Mac (CR)";
+
+/* Class = "NSMenuItem"; title = "Windows (CRLF)"; ObjectID = "57"; */
+"57.title" = "Windows (CRLF)";
+
+/* Class = "NSMenuItem"; title = "保持不变"; ObjectID = "59"; */
+"59.title" = "保持不变";
+
+/* Class = "NSButtonCell"; title = "设置目录..."; ObjectID = "76"; */
+"76.title" = "设置目录...";
+
+/* Class = "NSButtonCell"; title = "设置目录..."; ObjectID = "78"; */
+"78.title" = "设置目录...";
+
+/* Class = "NSTextFieldCell"; title = "打开:"; ObjectID = "80"; */
+"80.title" = "打开:";
+
+/* Class = "NSTextFieldCell"; title = "另存为:"; ObjectID = "81"; */
+"81.title" = "另存为:";
+
+/* Class = "NSButtonCell"; title = "关联文档到 Erbele"; ObjectID = "82"; */
+"82.title" = "关联文档到 Erbele";
+
+/* Class = "NSTextFieldCell"; title = "换行方式:"; ObjectID = "84"; */
+"84.title" = "换行方式:";
+
+/* Class = "NSTextFieldCell"; title = "保存时:"; ObjectID = "85"; */
+"85.title" = "保存时:";
+
+/* Class = "NSButtonCell"; title = "另存时添加文件名后缀为:"; ObjectID = "86"; */
+"86.title" = "另存时添加文件名后缀为:";
+
+/* Class = "NSButtonCell"; title = "重新打开上次退出程序时打开的全部文档"; ObjectID = "88"; */
+"88.title" = "重新打开上次退出程序时打开的全部文档";
+
+/* Class = "NSTextFieldCell"; title = "启动时:"; ObjectID = "89"; */
+"89.title" = "启动时:";
+
+/* Class = "NSButtonCell"; title = "重新打开上次退出程序时打开的全部项目"; ObjectID = "90"; */
+"90.title" = "重新打开上次退出程序时打开的全部项目";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "91"; */
+"91.title" = "Radio";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "92"; */
+"92.title" = "Radio";

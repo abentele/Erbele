@@ -1,0 +1,177 @@
+
+/* Class = "NSTabViewItem"; label = "詳細"; ObjectID = "42"; */
+"42.label" = "詳細";
+
+/* Class = "NSTabViewItem"; label = "シンタックスカラー"; ObjectID = "43"; */
+"43.label" = "シンタックスカラー";
+
+/* Class = "NSTabViewItem"; label = "シンタックスの種類"; ObjectID = "48"; */
+"48.label" = "シンタックスの種類";
+
+/* Class = "NSButtonCell"; title = "常に既定値を使用…"; ObjectID = "84"; */
+"84.title" = "常に既定値を使用…";
+
+/* Class = "NSButtonCell"; title = "拡張子から判断、または…"; ObjectID = "85"; */
+"85.title" = "拡張子から判断、または…";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "87"; */
+"87.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "<do not localise>"; ObjectID = "88"; */
+"88.title" = "<do not localise>";
+
+/* Class = "NSTableColumn"; headerCell.title = "名前"; ObjectID = "91"; */
+"91.headerCell.title" = "名前";
+
+/* Class = "NSTableColumn"; headerCell.title = "拡張子 (スペースで区切る、ドットは不要)"; ObjectID = "92"; */
+"92.headerCell.title" = "拡張子 (スペースで区切る、ドットは不要)";
+
+/* Class = "NSTabViewItem"; label = "エンコーディング"; ObjectID = "95"; */
+"95.label" = "エンコーディング";
+
+/* Class = "NSButtonCell"; title = "常に指定値を使用:"; ObjectID = "98"; */
+"98.title" = "常に指定値を使用:";
+
+/* Class = "NSButtonCell"; title = "自動判別、または指定値を使用:"; ObjectID = "99"; */
+"99.title" = "自動判別、または指定値を使用:";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "101"; */
+"101.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "<do not localise>"; ObjectID = "102"; */
+"102.title" = "<do not localise>";
+
+/* Class = "NSTableColumn"; headerCell.title = "エンコーディング"; ObjectID = "106"; */
+"106.headerCell.title" = "エンコーディング";
+
+/* Class = "NSTableColumn"; headerCell.title = "有効"; ObjectID = "107"; */
+"107.headerCell.title" = "有効";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "224"; */
+"224.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "HTML (WebKit)"; ObjectID = "227"; */
+"227.title" = "HTML (WebKit)";
+
+/* Class = "NSMenuItem"; title = "MultiMarkdown"; ObjectID = "228"; */
+"228.title" = "MultiMarkdown";
+
+/* Class = "NSMenuItem"; title = "Markdown"; ObjectID = "230"; */
+"230.title" = "Markdown";
+
+/* Class = "NSButtonCell"; title = "ドキュメントが他のアプリケーションによって更新されたかをチェックする"; ObjectID = "252"; */
+"252.title" = "ドキュメントが他のアプリケーションによって更新されたかをチェックする";
+
+/* Class = "NSButtonCell"; title = "インデントはタブではなくスペースにする"; ObjectID = "253"; */
+"253.title" = "インデントはタブではなくスペースにする";
+
+/* Class = "NSButtonCell"; title = "フォルダを開くように指定した場合、フォルダ内にあるすべてのファイルを開く"; ObjectID = "254"; */
+"254.title" = "フォルダを開くように指定した場合、フォルダ内にあるすべてのファイルを開く";
+
+/* Class = "NSButtonCell"; title = "スマートインサートとデリートを有効にする"; ObjectID = "255"; */
+"255.title" = "スマートインサートとデリートを有効にする";
+
+/* Class = "NSButtonCell"; title = "回帰的処理を行う"; ObjectID = "256"; */
+"256.title" = "回帰的処理を行う";
+
+/* Class = "NSButtonCell"; title = "以下の拡張子を持つファイルをフィルタリングする:"; ObjectID = "257"; */
+"257.title" = "以下の拡張子を持つファイルをフィルタリングする:";
+
+/* Class = "NSTextFieldCell"; title = "(スペースで区切る、ドットは不要)"; ObjectID = "258"; */
+"258.title" = "(スペースで区切る、ドットは不要)";
+
+/* Class = "NSTextFieldCell"; title = "編集時:"; ObjectID = "260"; */
+"260.title" = "編集時:";
+
+/* Class = "NSTextFieldCell"; title = "開く時:"; ObjectID = "261"; */
+"261.title" = "開く時:";
+
+/* Class = "NSButtonCell"; title = "色の挿入時にはhex値ではなくRGB値を使う"; ObjectID = "262"; */
+"262.title" = "色の挿入時にはhex値ではなくRGB値を使う";
+
+/* Class = "NSTextFieldCell"; title = "実行するテキスト:"; ObjectID = "263"; */
+"263.title" = "実行するテキスト:";
+
+/* Class = "NSButtonCell"; title = "閉じる } を自動的に挿入"; ObjectID = "265"; */
+"265.title" = "閉じる } を自動的に挿入";
+
+/* Class = "NSButtonCell"; title = "閉じる ) を自動的に挿入"; ObjectID = "266"; */
+"266.title" = "閉じる ) を自動的に挿入";
+
+/* Class = "NSTextFieldCell"; title = "プレビューパーサ:"; ObjectID = "268"; */
+"268.title" = "プレビューパーサ:";
+
+/* Class = "NSButtonCell"; title = "タブストップ"; ObjectID = "269"; */
+"269.title" = "タブストップ";
+
+/* Class = "NSTextFieldCell"; title = "制御文字の色 (表示時):"; ObjectID = "270"; */
+"270.title" = "制御文字の色 (表示時):";
+
+/* Class = "NSButtonCell"; title = "現在の行を次の色でハイライト:"; ObjectID = "271"; */
+"271.title" = "現在の行を次の色でハイライト:";
+
+/* Class = "NSTextFieldCell"; title = "コメント:"; ObjectID = "272"; */
+"272.title" = "コメント:";
+
+/* Class = "NSTextFieldCell"; title = "キーワード:"; ObjectID = "273"; */
+"273.title" = "キーワード:";
+
+/* Class = "NSTextFieldCell"; title = "命令文:"; ObjectID = "274"; */
+"274.title" = "命令文:";
+
+/* Class = "NSTextFieldCell"; title = "変数:"; ObjectID = "275"; */
+"275.title" = "変数:";
+
+/* Class = "NSTextFieldCell"; title = "コマンド:"; ObjectID = "276"; */
+"276.title" = "コマンド:";
+
+/* Class = "NSTextFieldCell"; title = "文字列:"; ObjectID = "277"; */
+"277.title" = "文字列:";
+
+/* Class = "NSButtonCell"; title = "終了タグが見つからない場合、行末でカラーリングを止める"; ObjectID = "278"; */
+"278.title" = "終了タグが見つからない場合、行末でカラーリングを止める";
+
+/* Class = "NSButtonCell"; title = "複数行にわたるカラーリングを使用"; ObjectID = "279"; */
+"279.title" = "複数行にわたるカラーリングを使用";
+
+/* Class = "NSTextFieldCell"; title = "オートコンプリート:"; ObjectID = "280"; */
+"280.title" = "オートコンプリート:";
+
+/* Class = "NSTextFieldCell"; title = "ライト"; ObjectID = "281"; */
+"281.title" = "ライト";
+
+/* Class = "NSTextFieldCell"; title = "有効"; ObjectID = "282"; */
+"282.title" = "有効";
+
+/* Class = "NSTextFieldCell"; title = "属性:"; ObjectID = "290"; */
+"290.title" = "属性:";
+
+/* Class = "NSTextFieldCell"; title = "使用する定義:"; ObjectID = "293"; */
+"293.title" = "使用する定義:";
+
+/* Class = "NSTextFieldCell"; title = "エンコーディング:"; ObjectID = "295"; */
+"295.title" = "エンコーディング:";
+
+/* Class = "NSButtonCell"; title = "すべての設定をデフォルトに戻す"; ObjectID = "296"; */
+"296.title" = "すべての設定をデフォルトに戻す";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "298"; */
+"298.title" = "Radio";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "299"; */
+"299.title" = "Radio";
+
+/* Class = "NSTextFieldCell"; title = "外観モード"; ObjectID = "3ew-hX-c2j"; */
+"3ew-hX-c2j.title" = "外観モード";
+
+/* Class = "NSTextFieldCell"; title = "ダーク"; ObjectID = "8tX-vc-vHh"; */
+"8tX-vc-vHh.title" = "ダーク";
+
+/* Class = "NSTextFieldCell"; title = "ダーク"; ObjectID = "NN3-gs-n1R"; */
+"NN3-gs-n1R.title" = "ダーク";
+
+/* Class = "NSTextFieldCell"; title = "ライト"; ObjectID = "jDb-rA-6LU"; */
+"jDb-rA-6LU.title" = "ライト";
+
+/* Class = "NSTextFieldCell"; title = "外観モード"; ObjectID = "vRi-Oy-Bo0"; */
+"vRi-Oy-Bo0.title" = "外観モード";

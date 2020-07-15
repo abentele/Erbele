@@ -1,0 +1,72 @@
+
+/* Class = "NSButtonCell"; title = "編集中のドキュメントがある場所"; ObjectID = "7"; */
+"7.title" = "編集中のドキュメントがある場所";
+
+/* Class = "NSButtonCell"; title = "指定した場所:"; ObjectID = "8"; */
+"8.title" = "指定した場所:";
+
+/* Class = "NSButtonCell"; title = "最後に開いた場所を使用"; ObjectID = "9"; */
+"9.title" = "最後に開いた場所を使用";
+
+/* Class = "NSButtonCell"; title = "編集中のドキュメントがある場所"; ObjectID = "19"; */
+"19.title" = "編集中のドキュメントがある場所";
+
+/* Class = "NSButtonCell"; title = "指定した場所:"; ObjectID = "20"; */
+"20.title" = "指定した場所:";
+
+/* Class = "NSButtonCell"; title = "最後に保存した場所を使用"; ObjectID = "21"; */
+"21.title" = "最後に保存した場所を使用";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "53"; */
+"53.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Unix - Mac OS X (LF)"; ObjectID = "55"; */
+"55.title" = "Unix - Mac OS X (LF)";
+
+/* Class = "NSMenuItem"; title = "Mac (CR)"; ObjectID = "56"; */
+"56.title" = "Mac (CR)";
+
+/* Class = "NSMenuItem"; title = "Windows (CRLF)"; ObjectID = "57"; */
+"57.title" = "Windows (CRLF)";
+
+/* Class = "NSMenuItem"; title = "変更しない"; ObjectID = "59"; */
+"59.title" = "変更しない";
+
+/* Class = "NSButtonCell"; title = "フォルダを選択…"; ObjectID = "76"; */
+"76.title" = "フォルダを選択…";
+
+/* Class = "NSButtonCell"; title = "フォルダを選択…"; ObjectID = "78"; */
+"78.title" = "フォルダを選択…";
+
+/* Class = "NSTextFieldCell"; title = "開く:"; ObjectID = "80"; */
+"80.title" = "開く:";
+
+/* Class = "NSTextFieldCell"; title = "別名で保存:"; ObjectID = "81"; */
+"81.title" = "別名で保存:";
+
+/* Class = "NSButtonCell"; title = "ドキュメントをErbeleに関連づける"; ObjectID = "82"; */
+"82.title" = "ドキュメントをErbeleに関連づける";
+
+/* Class = "NSTextFieldCell"; title = "改行コード:"; ObjectID = "84"; */
+"84.title" = "改行コード:";
+
+/* Class = "NSTextFieldCell"; title = "保存時:"; ObjectID = "85"; */
+"85.title" = "保存時:";
+
+/* Class = "NSButtonCell"; title = "\"別名で保存\"時に付加する文字列:"; ObjectID = "86"; */
+"86.title" = "\"別名で保存\"時に付加する文字列:";
+
+/* Class = "NSButtonCell"; title = "最後に終了した際に開いていたドキュメントを次回起動時に再び開く"; ObjectID = "88"; */
+"88.title" = "最後に終了した際に開いていたドキュメントを次回起動時に再び開く";
+
+/* Class = "NSTextFieldCell"; title = "起動時:"; ObjectID = "89"; */
+"89.title" = "起動時:";
+
+/* Class = "NSButtonCell"; title = "最後に終了した際に開いていたプロジェクトを次回起動時に再び開く"; ObjectID = "90"; */
+"90.title" = "最後に終了した際に開いていたプロジェクトを次回起動時に再び開く";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "91"; */
+"91.title" = "Radio";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "92"; */
+"92.title" = "Radio";

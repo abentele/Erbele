@@ -1,0 +1,177 @@
+
+/* Class = "NSTabViewItem"; label = "Расширенные"; ObjectID = "42"; */
+"42.label" = "Расширенные";
+
+/* Class = "NSTabViewItem"; label = "Цвета подсветки синтаксиса"; ObjectID = "43"; */
+"43.label" = "Цвета подсветки синтаксиса";
+
+/* Class = "NSTabViewItem"; label = "Языки синтаксиса"; ObjectID = "48"; */
+"48.label" = "Языки синтаксиса";
+
+/* Class = "NSButtonCell"; title = "Всегда использовать…"; ObjectID = "84"; */
+"84.title" = "Всегда использовать…";
+
+/* Class = "NSButtonCell"; title = "Брать из расширения, если…"; ObjectID = "85"; */
+"85.title" = "Брать из расширения, если…";
+
+/* Class = "NSMenu"; title = "Другой вид"; ObjectID = "87"; */
+"87.title" = "Другой вид";
+
+/* Class = "NSMenuItem"; title = "<do not localise>"; ObjectID = "88"; */
+"88.title" = "<do not localise>";
+
+/* Class = "NSTableColumn"; headerCell.title = "Имя"; ObjectID = "91"; */
+"91.headerCell.title" = "Имя";
+
+/* Class = "NSTableColumn"; headerCell.title = "Расширено"; ObjectID = "92"; */
+"92.headerCell.title" = "Расширено";
+
+/* Class = "NSTabViewItem"; label = "Кодировки"; ObjectID = "95"; */
+"95.label" = "Кодировки";
+
+/* Class = "NSButtonCell"; title = "Всегда использовать:"; ObjectID = "98"; */
+"98.title" = "Всегда использовать:";
+
+/* Class = "NSButtonCell"; title = "Брать из расширения, если использовано:"; ObjectID = "99"; */
+"99.title" = "Брать из расширения, если использовано:";
+
+/* Class = "NSMenu"; title = "Другой вид"; ObjectID = "101"; */
+"101.title" = "Другой вид";
+
+/* Class = "NSMenuItem"; title = "<do not localise>"; ObjectID = "102"; */
+"102.title" = "<do not localise>";
+
+/* Class = "NSTableColumn"; headerCell.title = "Кодировка"; ObjectID = "106"; */
+"106.headerCell.title" = "Кодировка";
+
+/* Class = "NSTableColumn"; headerCell.title = "Активный"; ObjectID = "107"; */
+"107.headerCell.title" = "Активный";
+
+/* Class = "NSMenu"; title = "Другой вид"; ObjectID = "224"; */
+"224.title" = "Другой вид";
+
+/* Class = "NSMenuItem"; title = "HTML (WebKit)"; ObjectID = "227"; */
+"227.title" = "HTML (WebKit)";
+
+/* Class = "NSMenuItem"; title = "MultiMarkdown"; ObjectID = "228"; */
+"228.title" = "MultiMarkdown";
+
+/* Class = "NSMenuItem"; title = "Markdown"; ObjectID = "230"; */
+"230.title" = "Markdown";
+
+/* Class = "NSButtonCell"; title = "Проверять изменен ли документ другой программой"; ObjectID = "252"; */
+"252.title" = "Проверять изменен ли документ другой программой";
+
+/* Class = "NSButtonCell"; title = "Оставлять с пробелами, без табуляции"; ObjectID = "253"; */
+"253.title" = "Оставлять с пробелами, без табуляции";
+
+/* Class = "NSButtonCell"; title = "Открывать все файлы, если выбрана папка"; ObjectID = "254"; */
+"254.title" = "Открывать все файлы, если выбрана папка";
+
+/* Class = "NSButtonCell"; title = "Разрешить умную вставку и удаление"; ObjectID = "255"; */
+"255.title" = "Разрешить умную вставку и удаление";
+
+/* Class = "NSButtonCell"; title = "Рекурсивный"; ObjectID = "256"; */
+"256.title" = "Рекурсивный";
+
+/* Class = "NSButtonCell"; title = "Фильтровать документы такого типа:"; ObjectID = "257"; */
+"257.title" = "Фильтровать документы такого типа:";
+
+/* Class = "NSTextFieldCell"; title = "(Через пробел)"; ObjectID = "258"; */
+"258.title" = "(Через пробел)";
+
+/* Class = "NSTextFieldCell"; title = "Редактирование:"; ObjectID = "260"; */
+"260.title" = "Редактирование:";
+
+/* Class = "NSTextFieldCell"; title = "Открытие:"; ObjectID = "261"; */
+"261.title" = "Открытие:";
+
+/* Class = "NSButtonCell"; title = "Использовать RGB при выборе цветовых значений"; ObjectID = "262"; */
+"262.title" = "Использовать RGB при выборе цветовых значений";
+
+/* Class = "NSTextFieldCell"; title = "Выполнение текста:"; ObjectID = "263"; */
+"263.title" = "Выполнение текста:";
+
+/* Class = "NSButtonCell"; title = "Авто-вставка закрывающей }"; ObjectID = "265"; */
+"265.title" = "Авто-вставка закрывающей }";
+
+/* Class = "NSButtonCell"; title = "Авто-вставка закрывающей )"; ObjectID = "266"; */
+"266.title" = "Авто-вставка закрывающей )";
+
+/* Class = "NSTextFieldCell"; title = "Предпросмотр:"; ObjectID = "268"; */
+"268.title" = "Предпросмотр:";
+
+/* Class = "NSButtonCell"; title = "Tab stops"; ObjectID = "269"; */
+"269.title" = "Tab stops";
+
+/* Class = "NSTextFieldCell"; title = "Цвет невидимых символов (когда видны):"; ObjectID = "270"; */
+"270.title" = "Цвет невидимых символов (когда видны):";
+
+/* Class = "NSButtonCell"; title = "Подсветить данную строку цветом"; ObjectID = "271"; */
+"271.title" = "Подсветить данную строку цветом";
+
+/* Class = "NSTextFieldCell"; title = "Коментарии:"; ObjectID = "272"; */
+"272.title" = "Коментарии:";
+
+/* Class = "NSTextFieldCell"; title = "Значения:"; ObjectID = "273"; */
+"273.title" = "Значения:";
+
+/* Class = "NSTextFieldCell"; title = "Инструкции:"; ObjectID = "274"; */
+"274.title" = "Инструкции:";
+
+/* Class = "NSTextFieldCell"; title = "Переменные:"; ObjectID = "275"; */
+"275.title" = "Переменные:";
+
+/* Class = "NSTextFieldCell"; title = "Команды:"; ObjectID = "276"; */
+"276.title" = "Команды:";
+
+/* Class = "NSTextFieldCell"; title = "Строки:"; ObjectID = "277"; */
+"277.title" = "Строки:";
+
+/* Class = "NSButtonCell"; title = "Подсвечивать всю строку, если закрывающий тег не найден"; ObjectID = "278"; */
+"278.title" = "Подсвечивать всю строку, если закрывающий тег не найден";
+
+/* Class = "NSButtonCell"; title = "Цвет многолинейных строк"; ObjectID = "279"; */
+"279.title" = "Цвет многолинейных строк";
+
+/* Class = "NSTextFieldCell"; title = "Автозавершение:"; ObjectID = "280"; */
+"280.title" = "Автозавершение:";
+
+/* Class = "NSTextFieldCell"; title = "Светлое"; ObjectID = "281"; */
+"281.title" = "Светлое";
+
+/* Class = "NSTextFieldCell"; title = "Активный"; ObjectID = "282"; */
+"282.title" = "Активный";
+
+/* Class = "NSTextFieldCell"; title = "Атрибуты:"; ObjectID = "290"; */
+"290.title" = "Атрибуты:";
+
+/* Class = "NSTextFieldCell"; title = "Используемое расширение:"; ObjectID = "293"; */
+"293.title" = "Используемое расширение:";
+
+/* Class = "NSTextFieldCell"; title = "Кодировки:"; ObjectID = "295"; */
+"295.title" = "Кодировки:";
+
+/* Class = "NSButtonCell"; title = "Сбросить все настройки"; ObjectID = "296"; */
+"296.title" = "Сбросить все настройки";
+
+/* Class = "NSButtonCell"; title = "Радио"; ObjectID = "298"; */
+"298.title" = "Радио";
+
+/* Class = "NSButtonCell"; title = "Радио"; ObjectID = "299"; */
+"299.title" = "Радио";
+
+/* Class = "NSTextFieldCell"; title = "Оформление"; ObjectID = "3ew-hX-c2j"; */
+"3ew-hX-c2j.title" = "Оформление";
+
+/* Class = "NSTextFieldCell"; title = "Темное"; ObjectID = "8tX-vc-vHh"; */
+"8tX-vc-vHh.title" = "Темное";
+
+/* Class = "NSTextFieldCell"; title = "Темное"; ObjectID = "NN3-gs-n1R"; */
+"NN3-gs-n1R.title" = "Темное";
+
+/* Class = "NSTextFieldCell"; title = "Светлое"; ObjectID = "jDb-rA-6LU"; */
+"jDb-rA-6LU.title" = "Светлое";
+
+/* Class = "NSTextFieldCell"; title = "Оформление"; ObjectID = "vRi-Oy-Bo0"; */
+"vRi-Oy-Bo0.title" = "Оформление";

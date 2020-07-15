@@ -1,0 +1,24 @@
+
+/* Class = "NSWindow"; title = "New Project - Erbele"; ObjectID = "5"; */
+"5.title" = "New Project - Erbele";
+
+/* Class = "NSButtonCell"; title = "Virtual - una col·lecció temporal de documents"; ObjectID = "9"; */
+"9.title" = "Virtual - una col·lecció temporal de documents";
+
+/* Class = "NSButtonCell"; title = "Permanent - desa els canvis automàticament a l'arxiu del projecte"; ObjectID = "10"; */
+"10.title" = "Permanent - desa els canvis automàticament a l'arxiu del projecte";
+
+/* Class = "NSTextFieldCell"; title = "Quin tipus de projecte vol crear?"; ObjectID = "26"; */
+"26.title" = "Quin tipus de projecte vol crear?";
+
+/* Class = "NSTextFieldCell"; title = "Si opta per crear un projecte virtual, pot decidir desar més tard  aquells documents com un projecte des del menú Arxiu. Fixi's que els documents no es desen en l'arxiu del projecte, només són una referència a les seves dreceres."; ObjectID = "27"; */
+"27.title" = "Si opta per crear un projecte virtual, pot decidir desar més tard  aquells documents com un projecte des del menú Arxiu. Fixi's que els documents no es desen en l'arxiu del projecte, només són una referència a les seves dreceres.";
+
+/* Class = "NSButtonCell"; title = "Crea"; ObjectID = "28"; */
+"28.title" = "Crea";
+
+/* Class = "NSButtonCell"; title = "Cancel·la"; ObjectID = "29"; */
+"29.title" = "Cancel·la";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "30"; */
+"30.title" = "Radio";

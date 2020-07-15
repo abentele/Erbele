@@ -1,0 +1,51 @@
+
+/* Class = "NSWindow"; title = "Комманды - Erbele"; ObjectID = "5"; */
+"5.title" = "Комманды - Erbele";
+
+/* Class = "NSTableColumn"; headerCell.title = "Группы"; ObjectID = "138"; */
+"138.headerCell.title" = "Группы";
+
+/* Class = "NSTableColumn"; headerCell.title = "Имя"; ObjectID = "141"; */
+"141.headerCell.title" = "Имя";
+
+/* Class = "NSTableColumn"; headerCell.title = "Быстрые клавиши"; ObjectID = "142"; */
+"142.headerCell.title" = "Быстрые клавиши";
+
+/* Class = "NSTableColumn"; headerCell.title = "Выбор"; ObjectID = "188"; */
+"188.headerCell.title" = "Выбор";
+
+/* Class = "NSTableColumn"; headerCell.title = "Место"; ObjectID = "203"; */
+"203.headerCell.title" = "Место";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedDisplayName = "Текущая группа"; ObjectID = "231"; */
+"231.ibShadowedDisplayName" = "Текущая группа";
+
+/* Class = "NSButtonCell"; title = "Вставить путь"; ObjectID = "234"; */
+"234.title" = "Вставить путь";
+
+/* Class = "NSTextFieldCell"; title = "%%s = выделение"; ObjectID = "235"; */
+"235.title" = "%%s = выделение";
+
+/* Class = "NSTextFieldCell"; title = "%%p = текущий путь"; ObjectID = "236"; */
+"236.title" = "%%p = текущий путь";
+
+/* Class = "NSTextFieldCell"; title = "%%d = текущая директория"; ObjectID = "237"; */
+"237.title" = "%%d = текущая директория";
+
+/* Class = "NSTextFieldCell"; title = "Включить полный путь в комманду"; ObjectID = "238"; */
+"238.title" = "Включить полный путь в комманду";
+
+/* Class = "NSSearchFieldCell"; placeholderString = "Текущая группа"; ObjectID = "239"; */
+"239.placeholderString" = "Текущая группа";
+
+/* Class = "NSTextFieldCell"; title = "Текстовый блок"; ObjectID = "240"; */
+"240.title" = "Текстовый блок";
+
+/* Class = "NSTextFieldCell"; title = "Текстовый блок"; ObjectID = "241"; */
+"241.title" = "Текстовый блок";
+
+/* Class = "NSTextFieldCell"; title = "Текстовый блок"; ObjectID = "242"; */
+"242.title" = "Текстовый блок";
+
+/* Class = "NSTextFieldCell"; title = "Текстовый блок"; ObjectID = "243"; */
+"243.title" = "Текстовый блок";

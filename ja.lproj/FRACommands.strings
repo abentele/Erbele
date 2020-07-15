@@ -1,0 +1,51 @@
+
+/* Class = "NSWindow"; title = "Commands - Erbele"; ObjectID = "5"; */
+"5.title" = "Commands - Erbele";
+
+/* Class = "NSTableColumn"; headerCell.title = "Collections"; ObjectID = "138"; */
+"138.headerCell.title" = "Collections";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "141"; */
+"141.headerCell.title" = "Name";
+
+/* Class = "NSTableColumn"; headerCell.title = "Shortcut"; ObjectID = "142"; */
+"142.headerCell.title" = "Shortcut";
+
+/* Class = "NSTableColumn"; headerCell.title = "Inline"; ObjectID = "188"; */
+"188.headerCell.title" = "Inline";
+
+/* Class = "NSTableColumn"; headerCell.title = "Interpreter"; ObjectID = "203"; */
+"203.headerCell.title" = "Interpreter";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedDisplayName = "Current collection"; ObjectID = "231"; */
+"231.ibShadowedDisplayName" = "Current collection";
+
+/* Class = "NSButtonCell"; title = "Insert Path"; ObjectID = "234"; */
+"234.title" = "Insert Path";
+
+/* Class = "NSTextFieldCell"; title = "%%s = selection"; ObjectID = "235"; */
+"235.title" = "%%s = selection";
+
+/* Class = "NSTextFieldCell"; title = "%%p = current path"; ObjectID = "236"; */
+"236.title" = "%%p = current path";
+
+/* Class = "NSTextFieldCell"; title = "%%d = current directory"; ObjectID = "237"; */
+"237.title" = "%%d = current directory";
+
+/* Class = "NSTextFieldCell"; title = "Include full path to command"; ObjectID = "238"; */
+"238.title" = "Include full path to command";
+
+/* Class = "NSSearchFieldCell"; placeholderString = "Current collection"; ObjectID = "239"; */
+"239.placeholderString" = "Current collection";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "240"; */
+"240.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "241"; */
+"241.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "242"; */
+"242.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "243"; */
+"243.title" = "Text Cell";

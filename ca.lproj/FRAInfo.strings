@@ -1,0 +1,57 @@
+
+/* Class = "NSWindow"; title = "Info - Erbele"; ObjectID = "5"; */
+"5.title" = "Info - Erbele";
+
+/* Class = "NSTextFieldCell"; title = "Mesura:"; ObjectID = "82"; */
+"82.title" = "Mesura:";
+
+/* Class = "NSTextFieldCell"; title = "On:"; ObjectID = "83"; */
+"83.title" = "On:";
+
+/* Class = "NSTextFieldCell"; title = "Creat:"; ObjectID = "84"; */
+"84.title" = "Creat:";
+
+/* Class = "NSTextFieldCell"; title = "Modificat:"; ObjectID = "85"; */
+"85.title" = "Modificat:";
+
+/* Class = "NSTextFieldCell"; title = "Autor:"; ObjectID = "86"; */
+"86.title" = "Autor:";
+
+/* Class = "NSTextFieldCell"; title = "Tipus:"; ObjectID = "87"; */
+"87.title" = "Tipus:";
+
+/* Class = "NSTextFieldCell"; title = "Permisos:"; ObjectID = "88"; */
+"88.title" = "Permisos:";
+
+/* Class = "NSTextFieldCell"; title = "Grup:"; ObjectID = "89"; */
+"89.title" = "Grup:";
+
+/* Class = "NSTextFieldCell"; title = "Propietari:"; ObjectID = "90"; */
+"90.title" = "Propietari:";
+
+/* Class = "NSTextFieldCell"; title = "Selecció:"; ObjectID = "91"; */
+"91.title" = "Selecció:";
+
+/* Class = "NSTextFieldCell"; title = "Paraules:"; ObjectID = "92"; */
+"92.title" = "Paraules:";
+
+/* Class = "NSTextFieldCell"; title = "Posició:"; ObjectID = "93"; */
+"93.title" = "Posició:";
+
+/* Class = "NSTextFieldCell"; title = "Sintaxi:"; ObjectID = "94"; */
+"94.title" = "Sintaxi:";
+
+/* Class = "NSTextFieldCell"; title = "Codificació:"; ObjectID = "95"; */
+"95.title" = "Codificació:";
+
+/* Class = "NSTextFieldCell"; title = "Spotlight:"; ObjectID = "96"; */
+"96.title" = "Spotlight:";
+
+/* Class = "NSTextFieldCell"; title = "Extensió:"; ObjectID = "111"; */
+"111.title" = "Extensió:";
+
+/* Class = "NSTextFieldCell"; title = "Línies:"; ObjectID = "114"; */
+"114.title" = "Línies:";
+
+/* Class = "NSTextFieldCell"; title = "Funció:"; ObjectID = "116"; */
+"116.title" = "Funció:";
