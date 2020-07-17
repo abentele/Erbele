@@ -491,11 +491,11 @@
 /* Class = "NSMenuItem"; title = "Linea Duplicada"; ObjectID = "1142"; */
 "1142.title" = "Linea Duplicada";
 
-/* Class = "NSMenuItem"; ibShadowedToolTip = "Escape drücken, um den Vollbildmodus zu verlassen"; ObjectID = "icm-RE-OjU"; */
-"icm-RE-OjU.ibShadowedToolTip" = "Escape drücken, um den Vollbildmodus zu verlassen";
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Escape drücken, um den Vollbildmodus zu verlassen"; ObjectID = "Zik-V7-IgQ"; */
+"Zik-V7-IgQ.ibShadowedToolTip" = "Presione Escape para salir del modo de pantalla completa";
 
-/* Class = "NSMenuItem"; title = "Enter Full Screen <do not localise>"; ObjectID = "icm-RE-OjU"; */
-"icm-RE-OjU.title" = "Enter Full Screen <do not localise>";
+/* Class = "NSMenuItem"; title = "Enter Full Screen <do not localise>"; ObjectID = "Zik-V7-IgQ"; */
+"Zik-V7-IgQ.title" = "Enter Full Screen <do not localise>";
 
-/* Class = "NSMenuItem"; title = "Comprobar Actualizaciones..."; ObjectID = "r5Y-BJ-Yf7"; */
-"r5Y-BJ-Yf7.title" = "Comprobar Actualizaciones...";
+/* Class = "NSMenuItem"; title = "Comprobar Actualizaciones..."; ObjectID = "vYb-oL-J9P"; */
+"vYb-oL-J9P.title" = "Comprobar Actualizaciones...";

@@ -491,11 +491,11 @@
 /* Class = "NSMenuItem"; title = "Duplicera rad"; ObjectID = "1142"; */
 "1142.title" = "Duplicera rad";
 
-/* Class = "NSMenuItem"; title = "Sök efter uppdateringar..."; ObjectID = "Nwz-pR-Bmf"; */
-"Nwz-pR-Bmf.title" = "Sök efter uppdateringar...";
+/* Class = "NSMenuItem"; title = "Sök efter uppdateringar..."; ObjectID = "vYb-oL-J9P"; */
+"vYb-oL-J9P" = "Sök efter uppdateringar...";
 
-/* Class = "NSMenuItem"; ibShadowedToolTip = "Escape drücken, um den Vollbildmodus zu verlassen"; ObjectID = "T31-07-ROv"; */
-"T31-07-ROv.ibShadowedToolTip" = "Escape drücken, um den Vollbildmodus zu verlassen";
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Escape drücken, um den Vollbildmodus zu verlassen"; ObjectID = "Zik-V7-IgQ"; */
+"Zik-V7-IgQ.ibShadowedToolTip" = "Escape drücken, um den Vollbildmodus zu verlassen";
 
-/* Class = "NSMenuItem"; title = "Enter Full Screen <do not localise>"; ObjectID = "T31-07-ROv"; */
-"T31-07-ROv.title" = "Enter Full Screen <do not localise>";
+/* Class = "NSMenuItem"; title = "Enter Full Screen <do not localise>"; ObjectID = "Zik-V7-IgQ"; */
+"Zik-V7-IgQ.title" = "Enter Full Screen <do not localise>";

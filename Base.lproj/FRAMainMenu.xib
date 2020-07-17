@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16097" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15705" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15705"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication"/>
@@ -487,7 +487,7 @@
                                     <action selector="runToolbarCustomizationPalette:" target="-1" id="310"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Enter Full Screen &lt;do not localise&gt;" tag="13" keyEquivalent="f" toolTip="Escape drücken, um den Vollbildmodus zu verlassen" id="Zik-V7-IgQ">
+                            <menuItem title="Enter Full Screen &lt;do not localise&gt;" tag="13" keyEquivalent="f" toolTip="Press Escape to exit full screen mode" id="Zik-V7-IgQ">
                                 <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
                                 <connections>
                                     <action selector="toggleFullScreen:" target="-1" id="9wB-P5-9MS"/>

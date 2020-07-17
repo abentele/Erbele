@@ -492,7 +492,7 @@
 "1142.title" = "Duplicate Line";
 
 /* Class = "NSMenuItem"; ibShadowedToolTip = "Escape drücken, um den Vollbildmodus zu verlassen"; ObjectID = "Zik-V7-IgQ"; */
-"Zik-V7-IgQ.ibShadowedToolTip" = "Escape drücken, um den Vollbildmodus zu verlassen";
+"Zik-V7-IgQ.ibShadowedToolTip" = "按Escape键退出全屏模式";
 
 /* Class = "NSMenuItem"; title = "Enter Full Screen <do not localise>"; ObjectID = "Zik-V7-IgQ"; */
 "Zik-V7-IgQ.title" = "Enter Full Screen <do not localise>";

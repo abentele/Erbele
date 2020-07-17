@@ -491,11 +491,11 @@
 /* Class = "NSMenuItem"; title = "行を複製"; ObjectID = "1142"; */
 "1142.title" = "行を複製";
 
-/* Class = "NSMenuItem"; ibShadowedToolTip = "Escape drücken, um den Vollbildmodus zu verlassen"; ObjectID = "0Yc-aF-Qc4"; */
-"0Yc-aF-Qc4.ibShadowedToolTip" = "Escape drücken, um den Vollbildmodus zu verlassen";
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Escape drücken, um den Vollbildmodus zu verlassen"; ObjectID = "Zik-V7-IgQ"; */
+"Zik-V7-IgQ.ibShadowedToolTip" = "Escapeキーを押して、全画面モードを終了します";
 
-/* Class = "NSMenuItem"; title = "Enter Full Screen <do not localise>"; ObjectID = "0Yc-aF-Qc4"; */
-"0Yc-aF-Qc4.title" = "Enter Full Screen <do not localise>";
+/* Class = "NSMenuItem"; title = "Enter Full Screen <do not localise>"; ObjectID = "Zik-V7-IgQ"; */
+"Zik-V7-IgQ.title" = "Enter Full Screen <do not localise>";
 
-/* Class = "NSMenuItem"; title = "更新を確認..."; ObjectID = "7H3-cX-0V4"; */
-"7H3-cX-0V4.title" = "更新を確認...";
+/* Class = "NSMenuItem"; title = "更新を確認..."; ObjectID = "vYb-oL-J9P"; */
+"vYb-oL-J9P.title" = "更新を確認...";

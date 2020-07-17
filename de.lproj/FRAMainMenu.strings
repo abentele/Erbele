@@ -491,11 +491,11 @@
 /* Class = "NSMenuItem"; title = "Zeile verdoppeln"; ObjectID = "1142"; */
 "1142.title" = "Zeile verdoppeln";
 
-/* Class = "NSMenuItem"; ibShadowedToolTip = "Escape drücken, um den Vollbildmodus zu verlassen"; ObjectID = "le9-PA-x3G"; */
-"le9-PA-x3G.ibShadowedToolTip" = "Escape drücken, um den Vollbildmodus zu verlassen";
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Escape drücken, um den Vollbildmodus zu verlassen"; ObjectID = "Zik-V7-IgQ"; */
+"Zik-V7-IgQ.ibShadowedToolTip" = "Escape drücken, um den Vollbildmodus zu verlassen";
 
-/* Class = "NSMenuItem"; title = "Enter Full Screen <do not localise>"; ObjectID = "le9-PA-x3G"; */
-"le9-PA-x3G.title" = "Enter Full Screen <do not localise>";
+/* Class = "NSMenuItem"; title = "Enter Full Screen <do not localise>"; ObjectID = "Zik-V7-IgQ"; */
+"Zik-V7-IgQ.title" = "Enter Full Screen <do not localise>";
 
-/* Class = "NSMenuItem"; title = "Nach Updates suchen..."; ObjectID = "v98-ip-qqt"; */
-"v98-ip-qqt.title" = "Nach Updates suchen...";
+/* Class = "NSMenuItem"; title = "Nach Updates suchen..."; ObjectID = "vYb-oL-J9P"; */
+"vYb-oL-J9P.title" = "Nach Updates suchen...";

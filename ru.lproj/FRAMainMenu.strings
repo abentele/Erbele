@@ -491,11 +491,11 @@
 /* Class = "NSMenuItem"; title = "Дублировать строку"; ObjectID = "1142"; */
 "1142.title" = "Дублировать строку";
 
-/* Class = "NSMenuItem"; title = "Проверить обновления..."; ObjectID = "1145"; */
-"1145.title" = "Проверить обновления...";
+/* Class = "NSMenuItem"; title = "Проверить обновления..."; ObjectID = "vYb-oL-J9P"; */
+"vYb-oL-J9P.title" = "Проверить обновления...";
 
-/* Class = "NSMenuItem"; ibShadowedToolTip = "Escape drücken, um den Vollbildmodus zu verlassen"; ObjectID = "C8w-7L-5r1"; */
-"C8w-7L-5r1.ibShadowedToolTip" = "Escape drücken, um den Vollbildmodus zu verlassen";
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Escape drücken, um den Vollbildmodus zu verlassen"; ObjectID = "Zik-V7-IgQ"; */
+"Zik-V7-IgQ.ibShadowedToolTip" = "Нажмите Escape для выхода из полноэкранного режима";
 
-/* Class = "NSMenuItem"; title = "Enter Full Screen <do not localise>"; ObjectID = "C8w-7L-5r1"; */
-"C8w-7L-5r1.title" = "Enter Full Screen <do not localise>";
+/* Class = "NSMenuItem"; title = "Enter Full Screen <do not localise>"; ObjectID = "Zik-V7-IgQ"; */
+"Zik-V7-IgQ.title" = "Enter Full Screen <do not localise>";
