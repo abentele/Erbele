@@ -36,10 +36,7 @@
 "238.title" = "Incluir ruta completa al comando\n";
 
 /* Class = "NSSearchFieldCell"; placeholderString = "Current collection"; ObjectID = "239"; */
-"239.placeholderString" = "Current collection";
-
-/* Class = "NSSearchFieldCell"; title = "Colección actual"; ObjectID = "239"; */
-"239.title" = "Colección actual";
+"239.placeholderString" = "Colección actual";
 
 /* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "240"; */
 "240.title" = "Text Cell";

@@ -36,10 +36,7 @@
 "238.title" = "Inclure le chemin complet de  la commande";
 
 /* Class = "NSSearchFieldCell"; placeholderString = "Current collection"; ObjectID = "239"; */
-"239.placeholderString" = "Current collection";
-
-/* Class = "NSSearchFieldCell"; title = "Collection en cours"; ObjectID = "239"; */
-"239.title" = "Collection en cours";
+"239.placeholderString" = "Collection en cours";
 
 /* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "240"; */
 "240.title" = "Text Cell";

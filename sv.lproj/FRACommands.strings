@@ -17,26 +17,29 @@
 /* Class = "NSTableColumn"; headerCell.title = "Tolkare"; ObjectID = "203"; */
 "203.headerCell.title" = "Tolkare";
 
-/* Class = "CocoaBindingsConnection"; ibShadowedDisplayName = "Aktuell samling"; ObjectID = "233"; */
-"233.ibShadowedDisplayName" = "Aktuell samling";
+/* Class = "CocoaBindingsConnection"; ibShadowedDisplayName = "Aktuell samling"; ObjectID = "231"; */
+"231.ibShadowedDisplayName" = "Aktuell samling";
 
-/* Class = "NSButtonCell"; title = "Infoga sökväg"; ObjectID = "235"; */
-"235.title" = "Infoga sökväg";
+/* Class = "NSButtonCell"; title = "Infoga sökväg"; ObjectID = "234"; */
+"234.title" = "Infoga sökväg";
 
-/* Class = "NSTextFieldCell"; title = "%%s = markering"; ObjectID = "236"; */
-"236.title" = "%%s = markering";
+/* Class = "NSTextFieldCell"; title = "%%s = markering"; ObjectID = "235"; */
+"235.title" = "%%s = markering";
 
-/* Class = "NSTextFieldCell"; title = "%%p = aktuell sökväg"; ObjectID = "237"; */
-"237.title" = "%%p = aktuell sökväg";
+/* Class = "NSTextFieldCell"; title = "%%p = aktuell sökväg"; ObjectID = "236"; */
+"236.title" = "%%p = aktuell sökväg";
 
-/* Class = "NSTextFieldCell"; title = "%%d = aktuell mapp"; ObjectID = "238"; */
-"238.title" = "%%d = aktuell mapp";
+/* Class = "NSTextFieldCell"; title = "%%d = aktuell mapp"; ObjectID = "237"; */
+"237.title" = "%%d = aktuell mapp";
 
-/* Class = "NSTextFieldCell"; title = "Inkludera hela sökvägen till kommandot"; ObjectID = "239"; */
-"239.title" = "Inkludera hela sökvägen till kommandot";
+/* Class = "NSTextFieldCell"; title = "Inkludera hela sökvägen till kommandot"; ObjectID = "238"; */
+"238.title" = "Inkludera hela sökvägen till kommandot";
 
-/* Class = "NSSearchFieldCell"; placeholderString = "Aktuell samling"; ObjectID = "240"; */
-"240.placeholderString" = "Aktuell samling";
+/* Class = "NSSearchFieldCell"; placeholderString = "Aktuell samling"; ObjectID = "239"; */
+"239.placeholderString" = "Aktuell samling";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "240"; */
+"240.title" = "Text Cell";
 
 /* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "241"; */
 "241.title" = "Text Cell";
@@ -46,6 +49,3 @@
 
 /* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "243"; */
 "243.title" = "Text Cell";
-
-/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "244"; */
-"244.title" = "Text Cell";

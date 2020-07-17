@@ -492,7 +492,7 @@
 "1142.title" = "Duplicera rad";
 
 /* Class = "NSMenuItem"; title = "Sök efter uppdateringar..."; ObjectID = "vYb-oL-J9P"; */
-"vYb-oL-J9P" = "Sök efter uppdateringar...";
+"vYb-oL-J9P.title" = "Sök efter uppdateringar...";
 
 /* Class = "NSMenuItem"; ibShadowedToolTip = "Escape drücken, um den Vollbildmodus zu verlassen"; ObjectID = "Zik-V7-IgQ"; */
 "Zik-V7-IgQ.ibShadowedToolTip" = "Escape drücken, um den Vollbildmodus zu verlassen";

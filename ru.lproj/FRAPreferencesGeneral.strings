@@ -58,21 +58,3 @@
 
 /* Class = "NSTextFieldCell"; title = "Другое:"; ObjectID = "160"; */
 "160.title" = "Другое:";
-
-/* Class = "NSButtonCell"; title = "Автоматически проверять обновления"; ObjectID = "163"; */
-"163.title" = "Автоматически проверять обновления";
-
-/* Class = "NSMenu"; title = "Другой вид"; ObjectID = "173"; */
-"173.title" = "Другой вид";
-
-/* Class = "NSMenuItem"; title = "Каждый час"; ObjectID = "174"; */
-"174.title" = "Каждый час";
-
-/* Class = "NSMenuItem"; title = "Ежедневно"; ObjectID = "175"; */
-"175.title" = "Ежедневно";
-
-/* Class = "NSMenuItem"; title = "Еженедельно"; ObjectID = "176"; */
-"176.title" = "Еженедельно";
-
-/* Class = "NSMenuItem"; title = "Каждый месяц"; ObjectID = "177"; */
-"177.title" = "Каждый месяц";

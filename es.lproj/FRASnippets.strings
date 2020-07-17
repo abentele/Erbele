@@ -21,10 +21,7 @@
 "198.title" = "%%c = posición del cursor tras insertar";
 
 /* Class = "NSSearchFieldCell"; placeholderString = "Current collection"; ObjectID = "199"; */
-"199.placeholderString" = "Current collection";
-
-/* Class = "NSSearchFieldCell"; title = "Colección actual"; ObjectID = "199"; */
-"199.title" = "Colección actual";
+"199.placeholderString" = "Colección actual";
 
 /* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "200"; */
 "200.title" = "Text Cell";

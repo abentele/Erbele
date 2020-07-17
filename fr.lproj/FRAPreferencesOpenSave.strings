@@ -65,8 +65,8 @@
 /* Class = "NSButtonCell"; title = "Ouvrir les projets ouverts lors de la dernière utilisation"; ObjectID = "90"; */
 "90.title" = "Ouvrir les projets ouverts lors de la dernière utilisation";
 
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "91"; */
+"91.title" = "Radio";
+
 /* Class = "NSButtonCell"; title = "Radio"; ObjectID = "92"; */
 "92.title" = "Radio";
-
-/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "93"; */
-"93.title" = "Radio";
