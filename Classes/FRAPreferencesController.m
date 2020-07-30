@@ -332,17 +332,19 @@ static id sharedInstance = nil;
 			[[NSBundle mainBundle] loadNibNamed:@"FRAPreferencesGeneral" owner:self topLevelObjects:nil];
 		}
 		[preferencesToolbar setSelectedItemIdentifier:@"GeneralPreferencesToolbarItem"];
+/* //Removed. This code shouldn't be needed anymore
 		if ([FRADefaults valueForKey:@"PreferencesGeneralViewSavedFrame"] == nil) {
 			[preferencesWindow setFrame:[self getRectForView:generalView] display:YES animate:NO];
 		} else { // It sometimes get the frame wrong after it has been resized so use the own saved version
 			NSRect temporaryRect = NSRectFromString([FRADefaults valueForKey:@"PreferencesGeneralViewSavedFrame"]);
 			[preferencesWindow setFrame:NSMakeRect(temporaryRect.origin.x, temporaryRect.origin.y, temporaryRect.size.width, temporaryRect.size.height) display:YES animate:NO];
 		}
+*/
 		[[preferencesWindow contentView] addSubview:generalView];
 		currentView = generalView;
-		
-		[preferencesWindow setDelegate:self]; // So that it catches the changeFont action
-	}
+        [preferencesWindow setContentSize: [currentView fittingSize]];
+        [preferencesWindow setDelegate:self]; // So that it catches the changeFont action
+    }
 	
 	[preferencesWindow makeKeyAndOrderFront:self];
 }
@@ -466,6 +468,7 @@ static id sharedInstance = nil;
 	} else if ([identifier isEqualToString:@"AdvancedPreferencesToolbarItem"]) {
 		if (advancedView == nil) {
 			[[NSBundle mainBundle] loadNibNamed:@"FRAPreferencesAdvanced" owner:self topLevelObjects:nil];
+            [advancedViewTabView setDelegate:self]; //needed to fix an autolayout issue with NSTabView
 		}
 		if (currentView == advancedView) {
 			return;
@@ -499,15 +502,17 @@ static id sharedInstance = nil;
 		}
 		
 		[[preferencesWindow contentView] addSubview:advancedView];
-		[FRAInterface changeViewWithAnimationForWindow:preferencesWindow oldView:currentView newView:advancedView newRect:[self getRectForView:advancedView]];
-		[currentView removeFromSuperviewWithoutNeedingDisplay];
+        [advancedViewTabView selectTabViewItemAtIndex:0]; //tentativo per fitting
+		[FRAInterface changeViewWithAnimationForWindow:preferencesWindow oldView:currentView newView:advancedView  newRect:[self getRectForView: advancedView ]];
+        [currentView removeFromSuperviewWithoutNeedingDisplay];
 		currentView = advancedView;
 	}
     
 	[preferencesToolbar setSelectedItemIdentifier:identifier]; // Needed to make the selection "stick" in the toolbar
-	NSRect generalViewFrame = [self getRectForView:generalView];
-	[FRADefaults setValue:NSStringFromRect(NSMakeRect(generalViewFrame.origin.x, generalViewFrame.origin.y, (generalViewFrame.size.width), (generalViewFrame.size.height))) forKey:@"PreferencesGeneralViewSavedFrame"]; // It sometimes get the frame wrong after it has been resized so save a version to be used when displayed the next time
-    
+/* //Removed. This code shouldn't be needed anymore
+//	NSRect generalViewFrame = [self getRectForView:generalView];
+//	[FRADefaults setValue:NSStringFromRect(NSMakeRect(generalViewFrame.origin.x, generalViewFrame.origin.y, (generalViewFrame.size.width), (generalViewFrame.size.height))) forKey:@"PreferencesGeneralViewSavedFrame"]; // It sometimes get the frame wrong after it has been resized so save a version to be used when displayed the next time
+ */
 }
 
 
@@ -515,7 +520,7 @@ static id sharedInstance = nil;
 {
 	NSPoint windowOrigin = [preferencesWindow frame].origin;
 	NSSize windowSize = [preferencesWindow frame].size;
-	NSSize viewSize = [view bounds].size;
+    NSSize viewSize = [view fittingSize]; //[view bounds].size;
 	CGFloat newY = windowOrigin.y + (windowSize.height - viewSize.height - [self toolbarHeight]);
 	
 	NSRect rectWithoutTitleBar = NSMakeRect(windowOrigin.x, newY, viewSize.width, viewSize.height);
@@ -630,6 +635,13 @@ static id sharedInstance = nil;
 - (NSManagedObjectContext *)managedObjectContext
 {
 	return FRAManagedObjectContext;
+}
+
+//TabView delegate in order to correctly resize window when tab changes (known issue with NSTabViews and Autolayout)
+- (void)tabView:(NSTabView *)tabView didSelectTabViewItem:(NSTabViewItem *)tabViewItem
+{
+    [ [tabViewItem viewController] setPreferredContentSize: [[tabViewItem view] fittingSize] ];
+    [preferencesWindow setFrame:[self getRectForView: advancedView ] display:YES animate:NO];
 }
 
 @end

@@ -1,51 +1,1 @@
-
-/* Class = "NSWindow"; title = "命令 - Erbele"; ObjectID = "5"; */
-"5.title" = "命令 - Erbele";
-
-/* Class = "NSTableColumn"; headerCell.title = "集合"; ObjectID = "138"; */
-"138.headerCell.title" = "集合";
-
-/* Class = "NSTableColumn"; headerCell.title = "名称"; ObjectID = "141"; */
-"141.headerCell.title" = "名称";
-
-/* Class = "NSTableColumn"; headerCell.title = "快捷键"; ObjectID = "142"; */
-"142.headerCell.title" = "快捷键";
-
-/* Class = "NSTableColumn"; headerCell.title = "Inline"; ObjectID = "188"; */
-"188.headerCell.title" = "Inline";
-
-/* Class = "NSTableColumn"; headerCell.title = "解析器"; ObjectID = "203"; */
-"203.headerCell.title" = "解析器";
-
-/* Class = "CocoaBindingsConnection"; ibShadowedDisplayName = "Current collection"; ObjectID = "231"; */
-"231.ibShadowedDisplayName" = "Current collection";
-
-/* Class = "NSButtonCell"; title = "插入路径"; ObjectID = "234"; */
-"234.title" = "插入路径";
-
-/* Class = "NSTextFieldCell"; title = "%%s = 选择项"; ObjectID = "235"; */
-"235.title" = "%%s = 选择项";
-
-/* Class = "NSTextFieldCell"; title = "%%p = 当前路径"; ObjectID = "236"; */
-"236.title" = "%%p = 当前路径";
-
-/* Class = "NSTextFieldCell"; title = "%%d = 当前目录"; ObjectID = "237"; */
-"237.title" = "%%d = 当前目录";
-
-/* Class = "NSTextFieldCell"; title = "包含完全路径于命令中\n"; ObjectID = "238"; */
-"238.title" = "包含完全路径于命令中\n";
-
-/* Class = "NSSearchFieldCell"; placeholderString = "Current collection"; ObjectID = "239"; */
-"239.placeholderString" = "Current collection";
-
-/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "240"; */
-"240.title" = "Text Cell";
-
-/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "241"; */
-"241.title" = "Text Cell";
-
-/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "242"; */
-"242.title" = "Text Cell";
-
-/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "243"; */
-"243.title" = "Text Cell";
+/* Class = "NSWindow"; title = "命令 - Erbele"; ObjectID = "5"; */"5.title" = "命令 - Erbele";/* Class = "NSTableColumn"; headerCell.title = "集合"; ObjectID = "138"; */"138.headerCell.title" = "集合";/* Class = "NSTableColumn"; headerCell.title = "名称"; ObjectID = "141"; */"141.headerCell.title" = "名称";/* Class = "NSTableColumn"; headerCell.title = "快捷键"; ObjectID = "142"; */"142.headerCell.title" = "快捷键";/* Class = "NSTableColumn"; headerCell.title = "Inline"; ObjectID = "188"; */"188.headerCell.title" = "Inline";/* Class = "NSTableColumn"; headerCell.title = "解析器"; ObjectID = "203"; */"203.headerCell.title" = "解析器";/* Class = "CocoaBindingsConnection"; ibShadowedDisplayName = "Current collection"; ObjectID = "231"; */"231.ibShadowedDisplayName" = "Current collection";/* Class = "NSButtonCell"; title = "插入路径"; ObjectID = "234"; */"234.title" = "插入路径";/* Class = "NSTextFieldCell"; title = "%%s = 选择项"; ObjectID = "235"; */"235.title" = "%%s = 选择项";/* Class = "NSTextFieldCell"; title = "%%p = 当前路径"; ObjectID = "236"; */"236.title" = "%%p = 当前路径";/* Class = "NSTextFieldCell"; title = "%%d = 当前目录"; ObjectID = "237"; */"237.title" = "%%d = 当前目录";/* Class = "NSTextFieldCell"; title = "包含完全路径于命令中"; ObjectID = "238"; */"238.title" = "包含完全路径于命令中";/* Class = "NSSearchFieldCell"; placeholderString = "Current collection"; ObjectID = "239"; */"239.placeholderString" = "Current collection";/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "240"; */"240.title" = "Text Cell";/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "241"; */"241.title" = "Text Cell";/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "242"; */"242.title" = "Text Cell";/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "243"; */"243.title" = "Text Cell";

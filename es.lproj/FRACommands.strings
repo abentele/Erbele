@@ -1,51 +1,1 @@
-
-/* Class = "NSWindow"; title = "Commands - Erbele"; ObjectID = "5"; */
-"5.title" = "Commands - Erbele";
-
-/* Class = "NSTableColumn"; headerCell.title = "Colecciones"; ObjectID = "138"; */
-"138.headerCell.title" = "Colecciones";
-
-/* Class = "NSTableColumn"; headerCell.title = "Nombre"; ObjectID = "141"; */
-"141.headerCell.title" = "Nombre";
-
-/* Class = "NSTableColumn"; headerCell.title = "Atajo"; ObjectID = "142"; */
-"142.headerCell.title" = "Atajo";
-
-/* Class = "NSTableColumn"; headerCell.title = "Inline"; ObjectID = "188"; */
-"188.headerCell.title" = "Inline";
-
-/* Class = "NSTableColumn"; headerCell.title = "Intérprete"; ObjectID = "203"; */
-"203.headerCell.title" = "Intérprete";
-
-/* Class = "CocoaBindingsConnection"; ibShadowedDisplayName = "Current collection"; ObjectID = "231"; */
-"231.ibShadowedDisplayName" = "Current collection";
-
-/* Class = "NSButtonCell"; title = "Insertar Ruta"; ObjectID = "234"; */
-"234.title" = "Insertar Ruta";
-
-/* Class = "NSTextFieldCell"; title = "%%s = selección"; ObjectID = "235"; */
-"235.title" = "%%s = selección";
-
-/* Class = "NSTextFieldCell"; title = "%%p = ruta actual"; ObjectID = "236"; */
-"236.title" = "%%p = ruta actual";
-
-/* Class = "NSTextFieldCell"; title = "%%d = directorio actual\n"; ObjectID = "237"; */
-"237.title" = "%%d = directorio actual\n";
-
-/* Class = "NSTextFieldCell"; title = "Incluir ruta completa al comando\n"; ObjectID = "238"; */
-"238.title" = "Incluir ruta completa al comando\n";
-
-/* Class = "NSSearchFieldCell"; placeholderString = "Current collection"; ObjectID = "239"; */
-"239.placeholderString" = "Colección actual";
-
-/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "240"; */
-"240.title" = "Text Cell";
-
-/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "241"; */
-"241.title" = "Text Cell";
-
-/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "242"; */
-"242.title" = "Text Cell";
-
-/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "243"; */
-"243.title" = "Text Cell";
+/* Class = "NSWindow"; title = "Commands - Erbele"; ObjectID = "5"; */"5.title" = "Commands - Erbele";/* Class = "NSTableColumn"; headerCell.title = "Colecciones"; ObjectID = "138"; */"138.headerCell.title" = "Colecciones";/* Class = "NSTableColumn"; headerCell.title = "Nombre"; ObjectID = "141"; */"141.headerCell.title" = "Nombre";/* Class = "NSTableColumn"; headerCell.title = "Atajo"; ObjectID = "142"; */"142.headerCell.title" = "Atajo";/* Class = "NSTableColumn"; headerCell.title = "Inline"; ObjectID = "188"; */"188.headerCell.title" = "Inline";/* Class = "NSTableColumn"; headerCell.title = "Intérprete"; ObjectID = "203"; */"203.headerCell.title" = "Intérprete";/* Class = "CocoaBindingsConnection"; ibShadowedDisplayName = "Current collection"; ObjectID = "231"; */"231.ibShadowedDisplayName" = "Current collection";/* Class = "NSButtonCell"; title = "Insertar Ruta"; ObjectID = "234"; */"234.title" = "Insertar Ruta";/* Class = "NSTextFieldCell"; title = "%%s = selección"; ObjectID = "235"; */"235.title" = "%%s = selección";/* Class = "NSTextFieldCell"; title = "%%p = ruta actual"; ObjectID = "236"; */"236.title" = "%%p = ruta actual";/* Class = "NSTextFieldCell"; title = "%%d = directorio actual"; ObjectID = "237"; */"237.title" = "%%d = directorio actual";/* Class = "NSTextFieldCell"; title = "Incluir ruta completa al comando"; ObjectID = "238"; */"238.title" = "Incluir ruta completa al comando";/* Class = "NSSearchFieldCell"; placeholderString = "Current collection"; ObjectID = "239"; */"239.placeholderString" = "Colección actual";/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "240"; */"240.title" = "Text Cell";/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "241"; */"241.title" = "Text Cell";/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "242"; */"242.title" = "Text Cell";/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "243"; */"243.title" = "Text Cell";
