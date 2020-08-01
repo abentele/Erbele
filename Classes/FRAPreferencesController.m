@@ -332,14 +332,6 @@ static id sharedInstance = nil;
 			[[NSBundle mainBundle] loadNibNamed:@"FRAPreferencesGeneral" owner:self topLevelObjects:nil];
 		}
 		[preferencesToolbar setSelectedItemIdentifier:@"GeneralPreferencesToolbarItem"];
-/* //Removed. This code shouldn't be needed anymore
-		if ([FRADefaults valueForKey:@"PreferencesGeneralViewSavedFrame"] == nil) {
-			[preferencesWindow setFrame:[self getRectForView:generalView] display:YES animate:NO];
-		} else { // It sometimes get the frame wrong after it has been resized so use the own saved version
-			NSRect temporaryRect = NSRectFromString([FRADefaults valueForKey:@"PreferencesGeneralViewSavedFrame"]);
-			[preferencesWindow setFrame:NSMakeRect(temporaryRect.origin.x, temporaryRect.origin.y, temporaryRect.size.width, temporaryRect.size.height) display:YES animate:NO];
-		}
-*/
 		[[preferencesWindow contentView] addSubview:generalView];
 		currentView = generalView;
         [preferencesWindow setContentSize: [currentView fittingSize]];
@@ -509,10 +501,6 @@ static id sharedInstance = nil;
 	}
     
 	[preferencesToolbar setSelectedItemIdentifier:identifier]; // Needed to make the selection "stick" in the toolbar
-/* //Removed. This code shouldn't be needed anymore
-//	NSRect generalViewFrame = [self getRectForView:generalView];
-//	[FRADefaults setValue:NSStringFromRect(NSMakeRect(generalViewFrame.origin.x, generalViewFrame.origin.y, (generalViewFrame.size.width), (generalViewFrame.size.height))) forKey:@"PreferencesGeneralViewSavedFrame"]; // It sometimes get the frame wrong after it has been resized so save a version to be used when displayed the next time
- */
 }
 
 
@@ -520,7 +508,7 @@ static id sharedInstance = nil;
 {
 	NSPoint windowOrigin = [preferencesWindow frame].origin;
 	NSSize windowSize = [preferencesWindow frame].size;
-    NSSize viewSize = [view fittingSize]; //[view bounds].size;
+    NSSize viewSize = [view fittingSize];
 	CGFloat newY = windowOrigin.y + (windowSize.height - viewSize.height - [self toolbarHeight]);
 	
 	NSRect rectWithoutTitleBar = NSMakeRect(windowOrigin.x, newY, viewSize.width, viewSize.height);
