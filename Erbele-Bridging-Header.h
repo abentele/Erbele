@@ -25,3 +25,4 @@ Unless required by applicable law or agreed to in writing, software distributed 
 #import "FRAProject+ToolbarController.h"
 #import "FRAVariousPerformer.h"
 #import "FRAOpenSavePerformer.h"
+#import "FRADocumentManagedObject.h"

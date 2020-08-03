@@ -25,6 +25,11 @@ func DELETE_BUTTON() -> String {
     return NSLocalizedString("Delete", comment: "Delete-button")
 }
 
+func UNTITLED_PROJECT_NAME() -> String {
+    return NSLocalizedString("Untitled project", comment: "Untitled project")
+}
+
+
 
 func FRADefaults() -> Any {
     return NSUserDefaultsController.shared.values

@@ -16,7 +16,7 @@
 #import "FRAProjectsController.h"
 #import "FRATextView.h"
 #import "FRAApplicationDelegate.h"
-#import "FRADocumentsMenuController.h"
+#import "Erbele-Swift.h"
 #import "FRATextMenuController.h"
 #import "FRAInterfacePerformer.h"
 #import "FRAMainController.h"
