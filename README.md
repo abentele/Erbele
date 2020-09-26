@@ -27,7 +27,7 @@ Same picture with German language:
 # Downloads / Releases
 
 Download the dmg file from [Releases](https://github.com/abentele/Erbele/releases).
-Direct link to latest release: [Erbele 3.8.7](https://github.com/abentele/Erbele/releases/download/3.8.7/Erbele_3.8.7.dmg).
+Direct link to latest release: [Erbele 3.9](https://github.com/abentele/Erbele/releases/download/3.9/Erbele_3.9.dmg).
 
 # Roadmap
 
