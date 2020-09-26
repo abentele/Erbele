@@ -8,8 +8,6 @@ Supported macOS versions:
 * macOS Mojave (10.14)
 * macOS Catalina (10.15)
 
-**See why I [changed the name from "Fraise" to "Erbele"](https://github.com/abentele/Erbele/wiki/Changed-the-name-from-%22Fraise%22-to-%22Erbele%22)** - I would appreciate if all supporters of my project would add a star to my new project on github.
-
 Author: Andreas Bentele
 
 Website: https://github.com/abentele/Erbele
@@ -27,7 +25,6 @@ Same picture with German language:
 # Downloads / Releases
 
 Download the dmg file from [Releases](https://github.com/abentele/Erbele/releases).
-Direct link to latest release: [Erbele 3.9](https://github.com/abentele/Erbele/releases/download/3.9/Erbele_3.9.dmg).
 
 # Roadmap
 
@@ -36,7 +33,7 @@ Currently my main interest is to fix bugs, enhance already existing features and
 * provide many helpful tools to edit texts
 * support for many code languages (e.g. syntax highlighting)
 
-For more details, see the [Issues list](https://github.com/abentele/Erbele/issues) and the [Roadmap](https://github.com/abentele/Erbele/projects/1).
+For more details, see the [Issues list](https://github.com/abentele/Erbele/issues).
 
 # Contribution
 
