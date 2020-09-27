@@ -334,7 +334,6 @@
 	[documentsArrayController setSelectedObjects:@[document]];
 	
 	[document setValue:[NSString localizedNameOfStringEncoding:[[document valueForKey:@"encoding"] integerValue]] forKey:@"encodingName"];
-	
 	return document;
 }
 

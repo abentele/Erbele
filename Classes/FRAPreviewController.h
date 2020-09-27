@@ -17,7 +17,8 @@
 	
 	IBOutlet NSWindow * previewWindow;
     IBOutlet WebView *webView;
-	
+    IBOutlet NSPopUpButton *previewParserSelector;
+    
 	NSPoint scrollPoint;
 }
 
@@ -31,6 +32,7 @@
 - (void)reload;
 
 - (IBAction)reloadAction:(id)sender;
+- (IBAction)parserChanged:(id)sender;
 
 - (void)liveUpdate;
 @end

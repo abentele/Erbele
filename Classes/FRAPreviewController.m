@@ -88,9 +88,10 @@ static id sharedInstance = nil;
 		} else {
 			[previewWindow setTitle:[NSString stringWithFormat:@"%@ - %@", [FRACurrentDocument valueForKey:@"name"], PREVIEW_STRING]];
 		}
-		
+        [previewParserSelector selectItemAtIndex:[[FRACurrentDocument valueForKey:@"documentPreviewParser"] integerValue]];
 		NSData *data;
-		if ([[FRADefaults valueForKey:@"PreviewParser"] integerValue] == FRAPreviewHTML) {
+//		if ([[FRADefaults valueForKey:@"PreviewParser"] integerValue] == FRAPreviewHTML) {
+        if ([[FRACurrentDocument valueForKey:@"documentPreviewParser"] integerValue] == FRAPreviewHTML) { //for previewParser
 			data = [FRACurrentText dataUsingEncoding:NSUTF8StringEncoding];
 		} else {
 			NSString *temporaryPathMarkdown = [FRABasic genererateTemporaryPath];
@@ -98,7 +99,8 @@ static id sharedInstance = nil;
 			NSString *temporaryPathHTML = [FRABasic genererateTemporaryPath];
 			NSString *htmlString;
 			if ([[NSFileManager defaultManager] fileExistsAtPath:temporaryPathMarkdown]) {
-				if ([[FRADefaults valueForKey:@"PreviewParser"] integerValue] == FRAPreviewMarkdown) {
+//				if ([[FRADefaults valueForKey:@"PreviewParser"] integerValue] == FRAPreviewMarkdown) {
+                if ([[FRACurrentDocument valueForKey:@"documentPreviewParser"] integerValue] == FRAPreviewMarkdown) { //for previewParser
 					system([[NSString stringWithFormat:@"/usr/bin/perl %@ %@ > %@", [[NSBundle mainBundle] pathForResource:@"Markdown" ofType:@"pl"], temporaryPathMarkdown, temporaryPathHTML] UTF8String]);
 				} else {
 					system([[NSString stringWithFormat:@"/usr/bin/perl %@ %@ > %@", [[NSBundle mainBundle] pathForResource:@"MultiMarkdown" ofType:@"pl"], temporaryPathMarkdown, temporaryPathHTML] UTF8String]);
@@ -120,6 +122,8 @@ static id sharedInstance = nil;
 	} else {
 		[[webView mainFrame] loadHTMLString:@"" baseURL:[NSURL URLWithString:@""]];
 		[previewWindow setTitle:PREVIEW_STRING];
+        [previewParserSelector selectItemAtIndex:[[FRADefaults valueForKey:@"PreviewParser"] integerValue]];
+        [previewParserSelector setHidden:YES];
 	}
 
 }
@@ -128,6 +132,11 @@ static id sharedInstance = nil;
 - (IBAction)reloadAction:(id)sender
 {
 	[self reload];
+}
+
+- (IBAction)parserChanged:(id)sender { //for previewParser
+    [FRACurrentDocument setValue:@([previewParserSelector indexOfSelectedItem]) forKey:@"documentPreviewParser"];
+    [self reload];
 }
 
 
