@@ -9,6 +9,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="FRAPreviewController">
             <connections>
+                <outlet property="previewParserSelector" destination="3pN-wY-PeD" id="iLm-pR-ZJT"/>
                 <outlet property="previewWindow" destination="5" id="18"/>
                 <outlet property="webView" destination="13" id="17"/>
             </connections>
@@ -93,8 +94,7 @@ DQ
                             </menu>
                         </popUpButtonCell>
                         <connections>
-                            <action selector="reloadAction:" target="-2" id="Gib-tE-0HQ"/>
-                            <binding destination="14" name="selectedTag" keyPath="values.PreviewParser" id="9rg-QV-oNO"/>
+                            <action selector="parserChanged:" target="-2" id="bdd-Si-Pkh"/>
                         </connections>
                     </popUpButton>
                 </subviews>

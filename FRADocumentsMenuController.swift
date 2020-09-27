@@ -73,25 +73,34 @@ class FRADocumentsMenuController : NSObject, NSMenuDelegate {
             }
         }
         
-        let documentsArray = FRACurrentProject()!.documentsArrayController.arrangedObjects as! [ FRADocumentManagedObject ]
-        var index = 1
-        
-        for document in documentsArray {
-            let title = document.value(forKey: "name") as! String
-            let action = #selector(self.changeSelectedDocument(sender:))
-            if (index < 10) {
-                menuItem = NSMenuItem(title: title, action: action, keyEquivalent: "\(index)")
-            } else if (index == 10) {
-                menuItem = NSMenuItem(title: title, action: action, keyEquivalent: "0")
-            } else {
-                menuItem = NSMenuItem(title: title, action: action, keyEquivalent: "")
-            }
+        if FRACurrentProject()?.documentsArrayController != nil {
+            let documentsArray = FRACurrentProject()!.documentsArrayController.arrangedObjects as! [ FRADocumentManagedObject ]
+            var index = 1
+            
+            for document in documentsArray {
+                let title = document.value(forKey: "name") as! String
+                let action = #selector(self.changeSelectedDocument(sender:))
+                if (index < 10) {
+                    menuItem = NSMenuItem(title: title, action: action, keyEquivalent: "\(index)")
+                } else if (index == 10) {
+                    menuItem = NSMenuItem(title: title, action: action, keyEquivalent: "0")
+                } else {
+                    menuItem = NSMenuItem(title: title, action: action, keyEquivalent: "")
+                }
 
-            menuItem.target = self
-            menuItem.representedObject = document
-            documentsMenu!.insertItem(menuItem, at: index + 2)
-            index += 1;
+                menuItem.target = self
+                menuItem.representedObject = document
+                documentsMenu!.insertItem(menuItem, at: index + 2)
+                index += 1;
+            }
+            documentsMenu!.item(at: documentsMenu!.indexOfItem(withTarget: self, andAction: #selector(self.nextDocumentAction(_:))))?.isHidden = false
+            documentsMenu!.item(at: documentsMenu!.indexOfItem(withTarget: self, andAction: #selector(self.previousDocumentAction(_:))))?.isHidden = false
+        } else {
+            documentsMenu!.item(at: documentsMenu!.indexOfItem(withTarget: self, andAction: #selector(self.nextDocumentAction(_:))))?.isHidden = true
+            documentsMenu!.item(at: documentsMenu!.indexOfItem(withTarget: self, andAction: #selector(self.previousDocumentAction(_:))))?.isHidden = true
         }
+        
+        
 
         let projectsArray = FRAProjectsController.shared.documents as! [ FRAProject ]
         for project in projectsArray {

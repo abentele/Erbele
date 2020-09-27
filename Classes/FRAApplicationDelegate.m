@@ -70,7 +70,7 @@ static id sharedInstance = nil;
         return managedObjectModel;
     }
 	
-    managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"FRADataModel3" ofType:@"mom"]]];
+    managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"FRADataModel4" ofType:@"momd"]]];
     
     return managedObjectModel;
 }
@@ -91,11 +91,15 @@ static id sharedInstance = nil;
         [fileManager createDirectoryAtPath:applicationSupportFolder withIntermediateDirectories:YES attributes:nil error:nil];
     }
 
+    NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:
+    [NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption,
+    [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil]; //options for migration from old model
+    
 	NSString *storePath = [applicationSupportFolder stringByAppendingPathComponent: @"Erbele3.erbele"];
 	
 	NSURL *url = [NSURL fileURLWithPath:storePath];
     persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
-    if (![persistentStoreCoordinator addPersistentStoreWithType:NSBinaryStoreType configuration:nil URL:url options:nil error:&error]){
+    if (![persistentStoreCoordinator addPersistentStoreWithType:NSBinaryStoreType configuration:nil URL:url options:options error:&error]){
         [[NSApplication sharedApplication] presentError:error];
     }    
 
