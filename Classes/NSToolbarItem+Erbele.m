@@ -27,7 +27,8 @@
 	NSButton *button = [[NSButton alloc] initWithFrame:toolbarItemRect];
 	[button setBezelStyle:NSTexturedRoundedBezelStyle];
 	[button setTitle:@""];
-	[button setImage:image];
+    [button setImage:image];
+    [button image].template = YES; //improves Dark Mode icon appearance
 	[button setTarget:target];
 	[button setAction:selector];
 	[[button cell] setImageScaling:NSImageScaleProportionallyDown];
