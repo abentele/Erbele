@@ -117,7 +117,8 @@
 		functionButton = [[NSButton alloc] initWithFrame:toolbarItemRect];
 		[functionButton setBezelStyle:NSTexturedRoundedBezelStyle];
 		[functionButton setTitle:@""];
-		[functionButton setImage:functionImage];
+        [functionButton setImage:functionImage];
+        [functionButton image].template = YES; //improves Dark Mode icon appearance
 		[functionButton setTarget:self];
 		[functionButton setAction:@selector(functionToolbarItemAction:)];
 		[functionButton setImagePosition:NSImageOnly];

@@ -73,7 +73,7 @@ class FRADocumentsMenuController : NSObject, NSMenuDelegate {
             }
         }
         
-        if FRACurrentProject()?.documentsArrayController != nil {
+        if (FRACurrentProject()?.documentsArrayController != nil && (FRACurrentProject()!.documentsArrayController.arrangedObjects as AnyObject).count > 0) {
             let documentsArray = FRACurrentProject()!.documentsArrayController.arrangedObjects as! [ FRADocumentManagedObject ]
             var index = 1
             
