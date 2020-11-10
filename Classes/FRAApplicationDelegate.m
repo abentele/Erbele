@@ -92,8 +92,8 @@ static id sharedInstance = nil;
     }
 
     NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:
-    [NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption,
-    [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil]; //options for migration from old model
+                             [NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption,
+                             [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil]; //options for migration from old model
     
 	NSString *storePath = [applicationSupportFolder stringByAppendingPathComponent: @"Erbele3.erbele"];
 	
