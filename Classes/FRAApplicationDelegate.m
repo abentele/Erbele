@@ -70,7 +70,7 @@ static id sharedInstance = nil;
         return managedObjectModel;
     }
 	
-    managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"FRADataModel4" ofType:@"momd"]]];
+    managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"FRADataModel" ofType:@"momd"]]];
     
     return managedObjectModel;
 }

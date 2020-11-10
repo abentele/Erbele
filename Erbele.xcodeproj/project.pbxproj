@@ -141,7 +141,7 @@
 		8D15AC310486D014006FF6A4 /* FRAProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* FRAProject.m */; settings = {ATTRIBUTES = (); }; };
 		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
-		B044E6202521018000F0A091 /* FRADataModel4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B044E61D2521018000F0A091 /* FRADataModel4.xcdatamodeld */; };
+		B044E6202521018000F0A091 /* FRADataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B044E61D2521018000F0A091 /* FRADataModel.xcdatamodeld */; };
 		E1196EA724A8A2F800F2794D /* FRAHelpMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1196EA624A8A2F800F2794D /* FRAHelpMenuController.swift */; };
 		E1196EA924A8AD8500F2794D /* FRAAuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1196EA824A8AD8500F2794D /* FRAAuthenticationController.swift */; };
 		E13832CF24D6393B0018FD7F /* FRADocumentsMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13832CE24D6393B0018FD7F /* FRADocumentsMenuController.swift */; };
@@ -452,7 +452,7 @@
 		B02AFE4B24B5443E00905D75 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/FRAInfo.strings; sourceTree = "<group>"; };
 		B02AFE4C24B5444000905D75 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/FRAInfo.strings; sourceTree = "<group>"; };
 		B02AFE4D24B5444300905D75 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/FRAInfo.strings; sourceTree = "<group>"; };
-		B044E61E2521018000F0A091 /* FRADataModel 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "FRADataModel 2.xcdatamodel"; sourceTree = "<group>"; };
+		B044E61E2521018000F0A091 /* FRADataModel4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "FRADataModel4.xcdatamodel"; sourceTree = "<group>"; };
 		B044E61F2521018000F0A091 /* FRADataModel3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FRADataModel3.xcdatamodel; sourceTree = "<group>"; };
 		B044E62125212AE400F0A091 /* Erbele-Manual.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Erbele-Manual.pages"; sourceTree = "<group>"; };
 		B069B00424B3CB7B0066AD43 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = zh_CN.lproj/FRARegularExpressionHelp.strings; sourceTree = "<group>"; };
@@ -1037,7 +1037,7 @@
 		7F980A900B73B649000A9140 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B044E61D2521018000F0A091 /* FRADataModel4.xcdatamodeld */,
+				B044E61D2521018000F0A091 /* FRADataModel.xcdatamodeld */,
 				7F9C38DF0BD29AF500B45805 /* Old model */,
 			);
 			name = Models;
@@ -1299,7 +1299,7 @@
 				7F961E980B7A7D65001E9189 /* FRASyntaxDefinitionManagedObject.m in Sources */,
 				E1196EA724A8A2F800F2794D /* FRAHelpMenuController.swift in Sources */,
 				7F961E9B0B7A7DAD001E9189 /* FRASnippetManagedObject.m in Sources */,
-				B044E6202521018000F0A091 /* FRADataModel4.xcdatamodeld in Sources */,
+				B044E6202521018000F0A091 /* FRADataModel.xcdatamodeld in Sources */,
 				7F961E9E0B7A7DBF001E9189 /* FRACommandManagedObject.m in Sources */,
 				E1A5DEC124A895A6006F135A /* FRAEditMenuController.swift in Sources */,
 				7F85E0740B7C8A0800DAC8B2 /* FRASnippetCollectionManagedObject.m in Sources */,
@@ -1949,15 +1949,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B044E61D2521018000F0A091 /* FRADataModel4.xcdatamodeld */ = {
+		B044E61D2521018000F0A091 /* FRADataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B044E61E2521018000F0A091 /* FRADataModel 2.xcdatamodel */,
+				B044E61E2521018000F0A091 /* FRADataModel4.xcdatamodel */,
 				B044E61F2521018000F0A091 /* FRADataModel3.xcdatamodel */,
 			);
-			currentVersion = B044E61E2521018000F0A091 /* FRADataModel 2.xcdatamodel */;
-			name = FRADataModel4.xcdatamodeld;
-			path = Other/FRADataModel4.xcdatamodeld;
+			currentVersion = B044E61E2521018000F0A091 /* FRADataModel4.xcdatamodel */;
+			name = FRADataModel.xcdatamodeld;
+			path = Other/FRADataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
