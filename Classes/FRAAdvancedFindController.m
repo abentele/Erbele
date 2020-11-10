@@ -386,9 +386,9 @@ static id sharedInstance = nil;
 			defaultButton = NSLocalizedString(@"Replace", @"Replace-button in ask-if-sure-you-want-to-replace-in-advanced-find-sheet");
 		} else {
 			if (numberOfResults != 1) {
-				title = [NSString stringWithFormat:NSLocalizedString(@"Are you sure that you want to delete %ld occurrences of %@?", @"Ask if you are sure that you want to delete %ld occurrences of %@ in ask-if-sure-you-want-to-replace-in-advanced-find-sheet"), (long) numberOfResults, searchString, replaceString];
+				title = [NSString stringWithFormat:NSLocalizedString(@"Are you sure that you want to delete %ld occurrences of %@?", @"Ask if you are sure that you want to delete %ld occurrences of %@ in ask-if-sure-you-want-to-replace-in-advanced-find-sheet"), (long) numberOfResults, searchString];
 			} else {
-				title = [NSString stringWithFormat:NSLocalizedString(@"Are you sure that you want to delete the one occurrence of %@?", @"Ask if you are sure that you want to delete the one occurrence of %@ in ask-if-sure-you-want-to-replace-in-advanced-find-sheet"), searchString, replaceString];
+				title = [NSString stringWithFormat:NSLocalizedString(@"Are you sure that you want to delete the one occurrence of %@?", @"Ask if you are sure that you want to delete the one occurrence of %@ in ask-if-sure-you-want-to-replace-in-advanced-find-sheet"), searchString];
 			}
 			defaultButton = DELETE_BUTTON;
 		}
