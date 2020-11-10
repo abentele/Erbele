@@ -299,11 +299,6 @@ static id sharedInstance = nil;
 	// Do this here so that it won't slow down the perceived start-up time
 	[[FRAToolsMenuController sharedInstance] buildInsertSnippetMenu];
 	[[FRAToolsMenuController sharedInstance] buildRunCommandMenu];
-	
-	if ([[FRADefaults valueForKey:@"HasImportedFromVersion2"] boolValue] == NO) {
-		[self importFromVersion2];
-	}
-
 }
 
 
@@ -376,91 +371,6 @@ static id sharedInstance = nil;
 {
 	if ([[FRADefaults valueForKey:@"CheckIfDocumentHasBeenUpdated"] boolValue] == YES) { // Check for updates directly when Erbele gets focus
 		[FRAVarious checkIfDocumentsHaveBeenUpdatedByAnotherApplication];
-	}
-}
-
-
-#pragma mark
-#pragma mark Import from version 2
-
-- (void)importFromVersion2
-{
-	[FRADefaults setValue:@YES forKey:@"HasImportedFromVersion2"];
-	
-	@try {
-		NSManagedObjectModel *managedObjectModelVersion2 = [[NSManagedObjectModel alloc] initWithContentsOfURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"FRADataModel2" ofType:@"mom"]]];
-		
-		NSFileManager *fileManager = [NSFileManager defaultManager];
-		NSString *applicationSupportFolder = [self applicationSupportFolder];
-		if (![fileManager fileExistsAtPath:[applicationSupportFolder stringByAppendingPathComponent:@"Erbele.erbele"] isDirectory:NULL]) {
-			return;
-		}
-		
-		NSURL *url = [NSURL fileURLWithPath:[applicationSupportFolder stringByAppendingPathComponent:@"Erbele.erbele"]];
-		NSPersistentStoreCoordinator *persistentStoreCoordinatorVersion2 = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:managedObjectModelVersion2];
-		if (![persistentStoreCoordinatorVersion2 addPersistentStoreWithType:NSBinaryStoreType configuration:nil URL:url options:nil error:nil]){
-			return;
-		}  
-		
-		NSManagedObjectContext *managedObjectContextVersion2 = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSMainQueueConcurrencyType];
-		[managedObjectContextVersion2 setPersistentStoreCoordinator:persistentStoreCoordinatorVersion2];
-		
-		NSEntityDescription *entityDescription = [NSEntityDescription entityForName:@"Command" inManagedObjectContext:managedObjectContextVersion2];
-		NSFetchRequest *request = [[NSFetchRequest alloc] init];
-		[request setEntity:entityDescription];
-		
-		// Commands
-		NSArray *oldCommands = [managedObjectContextVersion2 executeFetchRequest:request error:nil];
-		if ([oldCommands count] != 0) {			
-			id newCollection = [FRABasic createNewObjectForEntity:@"CommandCollection"];
-			[newCollection setValue:NSLocalizedStringFromTable(@"Old Commands", @"Localizable3", @"Old Commands") forKey:@"name"];			
-			
-			id command;
-			for (command in oldCommands) {
-				id newCommand = [FRABasic createNewObjectForEntity:@"Command"];
-				[newCommand setValue:[command valueForKey:@"command"] forKey:@"name"];
-				[newCommand setValue:[command valueForKey:@"command"] forKey:@"text"];			
-				[newCommand setValue:[command valueForKey:@"shortcutDisplayString"] forKey:@"shortcutDisplayString"];
-				[newCommand setValue:[command valueForKey:@"shortcutMenuItemKeyString"] forKey:@"shortcutMenuItemKeyString"];
-				[newCommand setValue:[command valueForKey:@"shortcutModifier"] forKey:@"shortcutModifier"];
-				[newCommand setValue:[command valueForKey:@"sortOrder"] forKey:@"sortOrder"];
-				[newCommand setValue:@3 forKey:@"version"];
-				[[newCollection mutableSetValueForKey:@"commands"] addObject:newCommand];
-			}
-		}
-		
-		
-		// Snippets
-		entityDescription = [NSEntityDescription entityForName:@"SnippetCollection" inManagedObjectContext:managedObjectContextVersion2];
-		request = [[NSFetchRequest alloc] init];
-		[request setEntity:entityDescription];
-		
-		NSArray *collections = [managedObjectContextVersion2 executeFetchRequest:request error:nil];
-		for (id collection in collections) {
-			id newCollection = [FRABasic createNewObjectForEntity:@"SnippetCollection"];
-			[newCollection setValue:[collection valueForKey:@"name"] forKey:@"name"];
-			
-			NSEntityDescription *entityDescriptionSnippet = [NSEntityDescription entityForName:@"Snippet" inManagedObjectContext:managedObjectContextVersion2];
-			NSFetchRequest *requestSnippet = [[NSFetchRequest alloc] init];
-			[requestSnippet setEntity:entityDescriptionSnippet];
-			NSPredicate *predicate = [NSPredicate predicateWithFormat:@"collectionUUID == %@", [collection valueForKey:@"uuid"]];
-			[requestSnippet setPredicate:predicate];
-			
-			NSArray *snippets = [managedObjectContextVersion2 executeFetchRequest:requestSnippet error:nil];
-			for (id oldSnippet in snippets) {
-				id snippet = [FRABasic createNewObjectForEntity:@"Snippet"];
-				[snippet setValue:[oldSnippet valueForKey:@"name"] forKey:@"name"];
-				[snippet setValue:[oldSnippet valueForKey:@"text"] forKey:@"text"];			
-				[snippet setValue:[oldSnippet valueForKey:@"shortcutDisplayString"] forKey:@"shortcutDisplayString"];
-				[snippet setValue:[oldSnippet valueForKey:@"shortcutMenuItemKeyString"] forKey:@"shortcutMenuItemKeyString"];
-				[snippet setValue:[oldSnippet valueForKey:@"shortcutModifier"] forKey:@"shortcutModifier"];
-				[snippet setValue:[oldSnippet valueForKey:@"sortOrder"] forKey:@"sortOrder"];
-				[[newCollection mutableSetValueForKey:@"snippets"] addObject:snippet];
-			}			
-		}
-		
-	}
-	@catch (NSException *exception) {
 	}
 }
 

@@ -129,7 +129,6 @@
 		7F980B370B73B6A2000A9140 /* FRAToolsMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F980B040B73B6A2000A9140 /* FRAToolsMenuController.m */; };
 		7F980B380B73B6A2000A9140 /* FRAVariousPerformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F980B060B73B6A2000A9140 /* FRAVariousPerformer.m */; };
 		7F980B390B73B6A2000A9140 /* FRAViewMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F980B080B73B6A2000A9140 /* FRAViewMenuController.m */; };
-		7F9C38DE0BD29AE200B45805 /* FRADataModel2.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 7F9C38DD0BD29AE200B45805 /* FRADataModel2.xcdatamodel */; };
 		7FA2666E0B7796BE00AEA870 /* ICUMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA266690B7796BE00AEA870 /* ICUMatcher.m */; };
 		7FA2666F0B7796BE00AEA870 /* ICUPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA2666B0B7796BE00AEA870 /* ICUPattern.m */; };
 		7FAD46800D9E43A600ECD508 /* FRAPrintAccessoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD467F0D9E43A600ECD508 /* FRAPrintAccessoryController.m */; };
@@ -356,7 +355,6 @@
 		7F980B060B73B6A2000A9140 /* FRAVariousPerformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRAVariousPerformer.m; path = Classes/FRAVariousPerformer.m; sourceTree = "<group>"; };
 		7F980B070B73B6A2000A9140 /* FRAViewMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRAViewMenuController.h; path = Classes/FRAViewMenuController.h; sourceTree = "<group>"; };
 		7F980B080B73B6A2000A9140 /* FRAViewMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRAViewMenuController.m; path = Classes/FRAViewMenuController.m; sourceTree = "<group>"; };
-		7F9C38DD0BD29AE200B45805 /* FRADataModel2.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; name = FRADataModel2.xcdatamodel; path = Other/FRADataModel2.xcdatamodel; sourceTree = "<group>"; };
 		7FA266680B7796BE00AEA870 /* ICUMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICUMatcher.h; path = ICU/ICUMatcher.h; sourceTree = "<group>"; };
 		7FA266690B7796BE00AEA870 /* ICUMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ICUMatcher.m; path = ICU/ICUMatcher.m; sourceTree = "<group>"; };
 		7FA2666A0B7796BE00AEA870 /* ICUPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICUPattern.h; path = ICU/ICUPattern.h; sourceTree = "<group>"; };
@@ -452,7 +450,7 @@
 		B02AFE4B24B5443E00905D75 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/FRAInfo.strings; sourceTree = "<group>"; };
 		B02AFE4C24B5444000905D75 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/FRAInfo.strings; sourceTree = "<group>"; };
 		B02AFE4D24B5444300905D75 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/FRAInfo.strings; sourceTree = "<group>"; };
-		B044E61E2521018000F0A091 /* FRADataModel4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "FRADataModel4.xcdatamodel"; sourceTree = "<group>"; };
+		B044E61E2521018000F0A091 /* FRADataModel4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FRADataModel4.xcdatamodel; sourceTree = "<group>"; };
 		B044E61F2521018000F0A091 /* FRADataModel3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FRADataModel3.xcdatamodel; sourceTree = "<group>"; };
 		B044E62125212AE400F0A091 /* Erbele-Manual.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Erbele-Manual.pages"; sourceTree = "<group>"; };
 		B069B00424B3CB7B0066AD43 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = zh_CN.lproj/FRARegularExpressionHelp.strings; sourceTree = "<group>"; };
@@ -1038,17 +1036,8 @@
 			isa = PBXGroup;
 			children = (
 				B044E61D2521018000F0A091 /* FRADataModel.xcdatamodeld */,
-				7F9C38DF0BD29AF500B45805 /* Old model */,
 			);
 			name = Models;
-			sourceTree = "<group>";
-		};
-		7F9C38DF0BD29AF500B45805 /* Old model */ = {
-			isa = PBXGroup;
-			children = (
-				7F9C38DD0BD29AE200B45805 /* FRADataModel2.xcdatamodel */,
-			);
-			name = "Old model";
 			sourceTree = "<group>";
 		};
 		7FC80B920B9C65CF002C3C38 /* Project Categories */ = {
@@ -1316,7 +1305,6 @@
 				7F81FF080BA9DDF600549CDB /* PSMTabDragAssistant.m in Sources */,
 				7F81FF090BA9DDF600549CDB /* PSMUnifiedTabStyle.m in Sources */,
 				2F69A1BE0BB0406800D23876 /* FRADocumentsListCell.m in Sources */,
-				7F9C38DE0BD29AE200B45805 /* FRADataModel2.xcdatamodel in Sources */,
 				7F2B7FBD0C27272E0058BC55 /* FRASingleDocumentPanel.m in Sources */,
 				E1A5DEC324A898C5006F135A /* Shortcuts.swift in Sources */,
 				E1A5DEBF24A89020006F135A /* FRAApplicationMenuController.swift in Sources */,

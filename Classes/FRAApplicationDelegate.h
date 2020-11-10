@@ -43,6 +43,4 @@
 
 - (IBAction)saveAction:sender;
 
-- (void)importFromVersion2;
-
 @end
