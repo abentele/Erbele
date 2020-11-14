@@ -326,7 +326,11 @@ static id sharedInstance = nil;
 		
 		[preferencesWindow setTitle:NSLocalizedStringFromTable(@"Preferences - Erbele", @"Localizable3", @"Preferences - Erbele")];
 	}
-	
+    
+    if (@available(macOS 11.0, *)) {
+        preferencesWindow.toolbarStyle = NSWindowToolbarStyleExpanded;
+    }
+
 	if ([preferencesToolbar selectedItemIdentifier] == nil) {
 		if (generalView == nil) {
 			[[NSBundle mainBundle] loadNibNamed:@"FRAPreferencesGeneral" owner:self topLevelObjects:nil];

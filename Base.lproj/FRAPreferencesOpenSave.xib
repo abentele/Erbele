@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15705" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17506" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15705"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17506"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -14,10 +14,10 @@
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customView horizontalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="5" userLabel="OpenSave &lt;do not localise&gt;">
-            <rect key="frame" x="0.0" y="0.0" width="526" height="377"/>
+            <rect key="frame" x="0.0" y="0.0" width="600" height="385"/>
             <subviews>
                 <textField verticalHuggingPriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="25">
-                    <rect key="frame" x="18" y="340" width="87" height="16"/>
+                    <rect key="frame" x="18" y="348" width="87" height="16"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Open:" id="80">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -25,9 +25,9 @@
                     </textFieldCell>
                 </textField>
                 <matrix verticalHuggingPriority="750" verticalCompressionResistancePriority="751" allowsEmptySelection="NO" autorecalculatesCellSize="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6">
-                    <rect key="frame" x="106" y="291" width="213" height="66"/>
+                    <rect key="frame" x="106" y="299" width="217" height="66"/>
                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                    <size key="cellSize" width="213" height="18"/>
+                    <size key="cellSize" width="217" height="18"/>
                     <size key="intercellSpacing" width="4" height="6"/>
                     <buttonCell key="prototype" type="radio" title="Radio" imagePosition="leading" alignment="left" inset="2" id="91">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -54,7 +54,7 @@
                     </connections>
                 </matrix>
                 <textField verticalHuggingPriority="750" verticalCompressionResistancePriority="752" translatesAutoresizingMaskIntoConstraints="NO" id="10">
-                    <rect key="frame" x="126" y="269" width="293" height="21"/>
+                    <rect key="frame" x="126" y="277" width="367" height="21"/>
                     <constraints>
                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="293" id="Q6e-J9-hef"/>
                     </constraints>
@@ -68,7 +68,7 @@
                     </connections>
                 </textField>
                 <button horizontalHuggingPriority="252" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="11">
-                    <rect key="frame" x="422" y="264" width="89" height="27"/>
+                    <rect key="frame" x="495" y="272" width="91" height="27"/>
                     <buttonCell key="cell" type="push" title="Set Folder…" bezelStyle="rounded" alignment="center" controlSize="small" borderStyle="border" inset="2" id="76">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="smallSystem"/>
@@ -78,7 +78,7 @@
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="26">
-                    <rect key="frame" x="18" y="238" width="87" height="16"/>
+                    <rect key="frame" x="18" y="246" width="87" height="16"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Save As:" id="81">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -86,9 +86,9 @@
                     </textFieldCell>
                 </textField>
                 <matrix verticalHuggingPriority="750" verticalCompressionResistancePriority="751" allowsEmptySelection="NO" autorecalculatesCellSize="YES" translatesAutoresizingMaskIntoConstraints="NO" id="18">
-                    <rect key="frame" x="106" y="189" width="240" height="66"/>
+                    <rect key="frame" x="106" y="197" width="243" height="66"/>
                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                    <size key="cellSize" width="240" height="18"/>
+                    <size key="cellSize" width="243" height="18"/>
                     <size key="intercellSpacing" width="4" height="6"/>
                     <buttonCell key="prototype" type="radio" title="Radio" imagePosition="leading" alignment="left" inset="2" id="92">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -115,7 +115,7 @@
                     </connections>
                 </matrix>
                 <textField verticalHuggingPriority="750" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="22">
-                    <rect key="frame" x="126" y="167" width="293" height="21"/>
+                    <rect key="frame" x="126" y="175" width="367" height="21"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" drawsBackground="YES" id="77">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -126,7 +126,7 @@
                     </connections>
                 </textField>
                 <button horizontalHuggingPriority="252" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="23">
-                    <rect key="frame" x="422" y="162" width="89" height="27"/>
+                    <rect key="frame" x="495" y="170" width="91" height="27"/>
                     <buttonCell key="cell" type="push" title="Set Folder…" bezelStyle="rounded" alignment="center" controlSize="small" borderStyle="border" inset="2" id="78">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="smallSystem"/>
@@ -136,7 +136,7 @@
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="70">
-                    <rect key="frame" x="18" y="137" width="87" height="16"/>
+                    <rect key="frame" x="18" y="144" width="87" height="16"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="At Startup:" id="89">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -144,7 +144,7 @@
                     </textFieldCell>
                 </textField>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="69">
-                    <rect key="frame" x="107" y="136" width="306" height="18"/>
+                    <rect key="frame" x="107" y="143" width="309" height="18"/>
                     <buttonCell key="cell" type="check" title="Open all documents I had open when I last quit" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="88">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -154,7 +154,7 @@
                     </connections>
                 </button>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="71">
-                    <rect key="frame" x="107" y="109" width="287" height="18"/>
+                    <rect key="frame" x="107" y="114" width="291" height="18"/>
                     <buttonCell key="cell" type="check" title="Open all projects I had open when I last quit" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="90">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -164,7 +164,7 @@
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="61">
-                    <rect key="frame" x="18" y="77" width="87" height="16"/>
+                    <rect key="frame" x="18" y="80" width="87" height="16"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="When Saving:" id="85">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -172,7 +172,7 @@
                     </textFieldCell>
                 </textField>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="51">
-                    <rect key="frame" x="109" y="76" width="185" height="18"/>
+                    <rect key="frame" x="109" y="79" width="189" height="18"/>
                     <buttonCell key="cell" type="check" title="Assign document to Erbele" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="82">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -182,7 +182,7 @@
                     </connections>
                 </button>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="62">
-                    <rect key="frame" x="109" y="50" width="219" height="18"/>
+                    <rect key="frame" x="109" y="51" width="222" height="18"/>
                     <buttonCell key="cell" type="check" title="Append name in “Save As”, with:" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="86">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -192,7 +192,7 @@
                     </connections>
                 </button>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="63">
-                    <rect key="frame" x="330" y="48" width="84" height="21"/>
+                    <rect key="frame" x="335" y="49" width="84" height="21"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="84" id="ujW-ix-uR9"/>
                     </constraints>
@@ -215,7 +215,7 @@
                     </textFieldCell>
                 </textField>
                 <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="52">
-                    <rect key="frame" x="196" y="15" width="147" height="22"/>
+                    <rect key="frame" x="196" y="15" width="143" height="22"/>
                     <popUpButtonCell key="cell" type="push" title="Leave unchanged" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" tag="5" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="59" id="83">
                         <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="smallSystem"/>
@@ -246,7 +246,7 @@
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6" secondAttribute="trailing" constant="20" symbolic="YES" id="Bhk-9Q-jgS"/>
                 <constraint firstItem="69" firstAttribute="firstBaseline" secondItem="70" secondAttribute="firstBaseline" id="CBY-Zq-Ly4"/>
                 <constraint firstItem="26" firstAttribute="trailing" secondItem="70" secondAttribute="trailing" id="Dfk-Mh-Gd5"/>
-                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="60" secondAttribute="bottom" priority="750" constant="20" symbolic="YES" id="Fm8-dO-k9u"/>
+                <constraint firstAttribute="bottom" secondItem="60" secondAttribute="bottom" priority="750" constant="20" symbolic="YES" id="Fm8-dO-k9u"/>
                 <constraint firstItem="22" firstAttribute="firstBaseline" secondItem="23" secondAttribute="firstBaseline" id="Ftx-a5-Uhs"/>
                 <constraint firstItem="70" firstAttribute="trailing" secondItem="61" secondAttribute="trailing" id="IBi-Rm-5cV"/>
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="18" secondAttribute="trailing" constant="20" symbolic="YES" id="IrB-J6-Vqv"/>
@@ -264,7 +264,7 @@
                 <constraint firstItem="10" firstAttribute="top" secondItem="6" secondAttribute="bottom" constant="1" id="cTE-Jw-yG0"/>
                 <constraint firstItem="18" firstAttribute="top" secondItem="10" secondAttribute="bottom" constant="14" id="eeR-fj-37K"/>
                 <constraint firstItem="70" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" id="fRX-5y-ACl"/>
-                <constraint firstAttribute="width" relation="greaterThanOrEqual" priority="995" constant="526" id="fgt-gy-KDR"/>
+                <constraint firstAttribute="width" relation="greaterThanOrEqual" priority="995" constant="600" id="fgt-gy-KDR"/>
                 <constraint firstItem="10" firstAttribute="firstBaseline" secondItem="11" secondAttribute="firstBaseline" id="hPY-Wo-3fx"/>
                 <constraint firstItem="60" firstAttribute="top" secondItem="62" secondAttribute="bottom" constant="16" id="hUb-in-Bdc"/>
                 <constraint firstItem="63" firstAttribute="leading" secondItem="62" secondAttribute="trailing" constant="4" id="hdJ-pA-v3j"/>
@@ -274,7 +274,7 @@
                 <constraint firstItem="11" firstAttribute="leading" secondItem="23" secondAttribute="leading" id="mgF-4c-2fP"/>
                 <constraint firstItem="61" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" id="nCF-jQ-qNH"/>
                 <constraint firstItem="51" firstAttribute="leading" secondItem="61" secondAttribute="trailing" constant="8" symbolic="YES" id="nUj-8l-HQj"/>
-                <constraint firstItem="52" firstAttribute="leading" secondItem="60" secondAttribute="trailing" constant="7" id="oWt-Ih-FGa"/>
+                <constraint firstItem="52" firstAttribute="leading" secondItem="60" secondAttribute="trailing" constant="8" symbolic="YES" id="oWt-Ih-FGa"/>
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="69" secondAttribute="trailing" constant="20" symbolic="YES" id="pFy-DZ-nXC"/>
                 <constraint firstAttribute="trailing" secondItem="23" secondAttribute="trailing" constant="20" symbolic="YES" id="qsc-Bd-Rk0"/>
                 <constraint firstItem="6" firstAttribute="top" secondItem="5" secondAttribute="top" constant="20" id="sB6-hc-XMq"/>
@@ -284,7 +284,7 @@
                 <constraint firstItem="69" firstAttribute="top" secondItem="22" secondAttribute="bottom" constant="15" id="zGo-Ye-tTl"/>
                 <constraint firstItem="71" firstAttribute="top" secondItem="69" secondAttribute="bottom" constant="13" id="zcW-aI-ZUQ"/>
             </constraints>
-            <point key="canvasLocation" x="102" y="168.5"/>
+            <point key="canvasLocation" x="112.5" y="168.5"/>
         </customView>
         <userDefaultsController representsSharedInstance="YES" id="46" userLabel="Shared Defaults"/>
     </objects>
