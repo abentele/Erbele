@@ -326,10 +326,12 @@ static id sharedInstance = nil;
 		
 		[preferencesWindow setTitle:NSLocalizedStringFromTable(@"Preferences - Erbele", @"Localizable3", @"Preferences - Erbele")];
 	}
-    
+
+//#if AVAILABLE_MAC_OS_X_VERSION_11_0_AND_LATER
     if (@available(macOS 11.0, *)) {
         preferencesWindow.toolbarStyle = NSWindowToolbarStyleExpanded;
     }
+//#endif
 
 	if ([preferencesToolbar selectedItemIdentifier] == nil) {
 		if (generalView == nil) {

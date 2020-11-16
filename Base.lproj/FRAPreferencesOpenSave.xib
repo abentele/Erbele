@@ -214,8 +214,8 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="52">
-                    <rect key="frame" x="196" y="15" width="143" height="22"/>
+                <popUpButton verticalHuggingPriority="750" placeholderIntrinsicWidth="145" placeholderIntrinsicHeight="16" translatesAutoresizingMaskIntoConstraints="NO" id="52">
+                    <rect key="frame" x="196" y="15" width="153" height="22"/>
                     <popUpButtonCell key="cell" type="push" title="Leave unchanged" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" tag="5" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="59" id="83">
                         <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="smallSystem"/>
@@ -253,6 +253,7 @@
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="63" secondAttribute="trailing" constant="20" symbolic="YES" id="LCC-EY-Bhe"/>
                 <constraint firstItem="23" firstAttribute="leading" secondItem="22" secondAttribute="trailing" constant="8" symbolic="YES" id="LMk-zP-If6"/>
                 <constraint firstItem="22" firstAttribute="top" secondItem="18" secondAttribute="bottom" constant="1" id="MA4-aG-ov5"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="52" secondAttribute="trailing" constant="20" symbolic="YES" id="Nuq-zh-IUz"/>
                 <constraint firstAttribute="trailing" secondItem="11" secondAttribute="trailing" constant="20" symbolic="YES" id="Pc4-q8-odz"/>
                 <constraint firstItem="6" firstAttribute="top" secondItem="25" secondAttribute="top" constant="-1" id="QEq-aR-pn1"/>
                 <constraint firstItem="51" firstAttribute="top" secondItem="71" secondAttribute="bottom" constant="19" id="RV3-Bt-wAU"/>
@@ -260,7 +261,6 @@
                 <constraint firstItem="25" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" id="Utk-DQ-5fu"/>
                 <constraint firstItem="69" firstAttribute="leading" secondItem="71" secondAttribute="leading" id="Vgi-NP-sxZ"/>
                 <constraint firstItem="60" firstAttribute="firstBaseline" secondItem="52" secondAttribute="firstBaseline" id="X4g-BP-n8c"/>
-                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="52" secondAttribute="trailing" constant="20" symbolic="YES" id="ag0-bN-QdB"/>
                 <constraint firstItem="10" firstAttribute="top" secondItem="6" secondAttribute="bottom" constant="1" id="cTE-Jw-yG0"/>
                 <constraint firstItem="18" firstAttribute="top" secondItem="10" secondAttribute="bottom" constant="14" id="eeR-fj-37K"/>
                 <constraint firstItem="70" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" id="fRX-5y-ACl"/>
@@ -284,7 +284,7 @@
                 <constraint firstItem="69" firstAttribute="top" secondItem="22" secondAttribute="bottom" constant="15" id="zGo-Ye-tTl"/>
                 <constraint firstItem="71" firstAttribute="top" secondItem="69" secondAttribute="bottom" constant="13" id="zcW-aI-ZUQ"/>
             </constraints>
-            <point key="canvasLocation" x="112.5" y="168.5"/>
+            <point key="canvasLocation" x="112" y="168.5"/>
         </customView>
         <userDefaultsController representsSharedInstance="YES" id="46" userLabel="Shared Defaults"/>
     </objects>

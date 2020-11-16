@@ -24,7 +24,7 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="542"/>
             <subviews>
                 <tabView horizontalHuggingPriority="248" verticalHuggingPriority="248" allowsTruncatedLabels="NO" initialItem="43" translatesAutoresizingMaskIntoConstraints="NO" id="41">
-                    <rect key="frame" x="13" y="87" width="574" height="449"/>
+                    <rect key="frame" x="13" y="53" width="574" height="483"/>
                     <font key="font" metaFont="system"/>
                     <tabViewItems>
                         <tabViewItem label="Syntax Colours" identifier="" id="43">
@@ -584,7 +584,7 @@
                         </tabViewItem>
                         <tabViewItem label="Syntax Definitions" identifier="" id="48">
                             <view key="view" id="49">
-                                <rect key="frame" x="10" y="33" width="588" height="437"/>
+                                <rect key="frame" x="10" y="33" width="554" height="437"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <matrix allowsEmptySelection="NO" autorecalculatesCellSize="YES" translatesAutoresizingMaskIntoConstraints="NO" id="83">
@@ -613,10 +613,7 @@
                                         </connections>
                                     </matrix>
                                     <popUpButton horizontalHuggingPriority="249" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="86">
-                                        <rect key="frame" x="321" y="385" width="136" height="22"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="128" placeholder="YES" identifier="Fix bogus xcode clipping warning" id="3K0-lH-slu"/>
-                                        </constraints>
+                                        <rect key="frame" x="321" y="385" width="217" height="22"/>
                                         <popUpButtonCell key="cell" type="push" title="&lt;do not localise&gt;" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="88" id="292">
                                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="message" size="11"/>
@@ -628,19 +625,19 @@
                                         </popUpButtonCell>
                                     </popUpButton>
                                     <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89">
-                                        <rect key="frame" x="20" y="16" width="548" height="331"/>
+                                        <rect key="frame" x="20" y="16" width="514" height="331"/>
                                         <clipView key="contentView" id="KpW-f8-Rdz">
-                                            <rect key="frame" x="1" y="1" width="546" height="329"/>
+                                            <rect key="frame" x="1" y="1" width="512" height="329"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveName="SyntaxDefinitions" headerView="305" id="90">
-                                                    <rect key="frame" x="0.0" y="0.0" width="546" height="306"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="512" height="306"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <size key="intercellSpacing" width="3" height="2"/>
                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                     <tableColumns>
-                                                        <tableColumn identifier="name" editable="NO" width="196.5" minWidth="40" maxWidth="1000" id="91">
+                                                        <tableColumn identifier="name" editable="NO" width="179.5" minWidth="40" maxWidth="1000" id="91">
                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Name">
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
@@ -659,7 +656,7 @@
                                                                 </binding>
                                                             </connections>
                                                         </tableColumn>
-                                                        <tableColumn identifier="extensions" width="334.5" minWidth="210.14109999999999" maxWidth="1000" id="92">
+                                                        <tableColumn identifier="extensions" width="317.5" minWidth="210.14109999999999" maxWidth="1000" id="92">
                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Extensions (space separated, no dots)">
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
@@ -683,7 +680,7 @@
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="500" id="hjA-fP-mP3"/>
                                         </constraints>
                                         <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" controlSize="small" horizontal="YES" id="304">
-                                            <rect key="frame" x="1" y="-22" width="511" height="11"/>
+                                            <rect key="frame" x="1" y="316" width="512" height="14"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
                                         <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" controlSize="small" horizontal="NO" id="303">
@@ -691,7 +688,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
                                         <tableHeaderView key="headerView" wantsLayer="YES" id="305">
-                                            <rect key="frame" x="0.0" y="0.0" width="546" height="23"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="512" height="23"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableHeaderView>
                                     </scrollView>
@@ -709,7 +706,7 @@
                                     <constraint firstItem="89" firstAttribute="top" secondItem="83" secondAttribute="bottom" constant="30" id="6tg-LJ-eyF"/>
                                     <constraint firstAttribute="bottom" secondItem="89" secondAttribute="bottom" constant="16" id="Um9-xj-QlK"/>
                                     <constraint firstItem="86" firstAttribute="centerY" secondItem="83" secondAttribute="centerY" id="WMZ-hf-g51"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="86" secondAttribute="trailing" constant="20" symbolic="YES" id="Yl3-FR-oZ5"/>
+                                    <constraint firstAttribute="trailing" secondItem="86" secondAttribute="trailing" constant="20" symbolic="YES" id="Yl3-FR-oZ5"/>
                                     <constraint firstItem="86" firstAttribute="leading" secondItem="83" secondAttribute="trailing" constant="8" symbolic="YES" id="ZBc-4C-BPS"/>
                                     <constraint firstItem="94" firstAttribute="top" secondItem="49" secondAttribute="top" constant="20" symbolic="YES" id="bVd-r0-2Dd"/>
                                     <constraint firstItem="89" firstAttribute="leading" secondItem="49" secondAttribute="leading" constant="20" id="bw2-uc-mZP"/>
@@ -721,7 +718,7 @@
                         </tabViewItem>
                         <tabViewItem label="Encodings" identifier="" id="95">
                             <view key="view" id="96">
-                                <rect key="frame" x="10" y="33" width="588" height="437"/>
+                                <rect key="frame" x="10" y="33" width="554" height="437"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <matrix verticalHuggingPriority="750" allowsEmptySelection="NO" autorecalculatesCellSize="YES" translatesAutoresizingMaskIntoConstraints="NO" id="97">
@@ -750,10 +747,7 @@
                                         </connections>
                                     </matrix>
                                     <popUpButton horizontalHuggingPriority="249" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="100">
-                                        <rect key="frame" x="284" y="386" width="136" height="22"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="128" placeholder="YES" identifier="Fix bogus xcode clipping warning" id="gTE-i7-zPC"/>
-                                        </constraints>
+                                        <rect key="frame" x="284" y="386" width="254" height="22"/>
                                         <popUpButtonCell key="cell" type="push" title="&lt;do not localise&gt;" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="102" id="294">
                                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="message" size="11"/>
@@ -773,13 +767,13 @@
                                         </textFieldCell>
                                     </textField>
                                     <scrollView horizontalHuggingPriority="249" verticalHuggingPriority="249" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="104">
-                                        <rect key="frame" x="20" y="20" width="548" height="328"/>
+                                        <rect key="frame" x="20" y="20" width="514" height="328"/>
                                         <clipView key="contentView" id="KDT-n4-P4f">
-                                            <rect key="frame" x="1" y="1" width="546" height="326"/>
+                                            <rect key="frame" x="1" y="1" width="512" height="326"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" columnSelection="YES" columnResizing="NO" multipleSelection="NO" autosaveName="ActiveEncodings" headerView="308" id="105">
-                                                    <rect key="frame" x="0.0" y="0.0" width="546" height="303"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="512" height="303"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <size key="intercellSpacing" width="3" height="2"/>
                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -798,7 +792,7 @@
                                                                 <binding destination="109" name="value" keyPath="arrangedObjects.active" id="212"/>
                                                             </connections>
                                                         </tableColumn>
-                                                        <tableColumn identifier="encoding" editable="NO" width="475.9683" minWidth="56.968260000000001" maxWidth="1000" id="106">
+                                                        <tableColumn identifier="encoding" editable="NO" width="441.9683" minWidth="56.968260000000001" maxWidth="1000" id="106">
                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Encoding">
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
@@ -826,7 +820,7 @@
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="450" id="yb3-7c-96n"/>
                                         </constraints>
                                         <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" controlSize="small" horizontal="YES" id="307">
-                                            <rect key="frame" x="1" y="-22" width="385" height="11"/>
+                                            <rect key="frame" x="1" y="313" width="512" height="14"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
                                         <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" controlSize="small" horizontal="NO" id="306">
@@ -834,13 +828,12 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
                                         <tableHeaderView key="headerView" wantsLayer="YES" id="308">
-                                            <rect key="frame" x="0.0" y="0.0" width="546" height="23"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="512" height="23"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableHeaderView>
                                     </scrollView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="100" secondAttribute="trailing" constant="20" symbolic="YES" id="2X7-F6-Evg"/>
                                     <constraint firstAttribute="bottom" secondItem="104" secondAttribute="bottom" constant="20" symbolic="YES" id="76a-Qr-p9s"/>
                                     <constraint firstItem="97" firstAttribute="top" secondItem="103" secondAttribute="top" constant="-1" id="9v1-1D-tqv"/>
                                     <constraint firstItem="104" firstAttribute="leading" secondItem="96" secondAttribute="leading" constant="20" symbolic="YES" id="I87-wK-kwc"/>
@@ -848,6 +841,7 @@
                                     <constraint firstItem="97" firstAttribute="leading" secondItem="103" secondAttribute="trailing" constant="8" symbolic="YES" id="Sn1-Je-h3W"/>
                                     <constraint firstAttribute="trailing" secondItem="104" secondAttribute="trailing" constant="20" symbolic="YES" id="goY-cC-ayi"/>
                                     <constraint firstItem="104" firstAttribute="top" secondItem="97" secondAttribute="bottom" constant="30" id="ihp-wq-xyr"/>
+                                    <constraint firstAttribute="trailing" secondItem="100" secondAttribute="trailing" constant="20" symbolic="YES" id="kWC-19-9ZA"/>
                                     <constraint firstItem="103" firstAttribute="leading" secondItem="96" secondAttribute="leading" constant="20" symbolic="YES" id="u3U-cq-fnX"/>
                                     <constraint firstItem="103" firstAttribute="top" secondItem="96" secondAttribute="top" constant="20" symbolic="YES" id="vdk-d3-Exb"/>
                                     <constraint firstItem="100" firstAttribute="leading" secondItem="97" secondAttribute="trailing" constant="8" symbolic="YES" id="wGR-cC-Kek"/>
@@ -1233,7 +1227,7 @@
                     </tabViewItems>
                 </tabView>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="46">
-                    <rect key="frame" x="14" y="66" width="220" height="27"/>
+                    <rect key="frame" x="14" y="32" width="220" height="27"/>
                     <buttonCell key="cell" type="push" title="Revert All Settings To Default Values" bezelStyle="rounded" alignment="center" controlSize="small" borderStyle="border" inset="2" id="296">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="smallSystem"/>
@@ -1253,7 +1247,7 @@
                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="600" id="rIS-7k-bek"/>
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="46" secondAttribute="trailing" constant="20" symbolic="YES" id="sPi-xB-pVn"/>
             </constraints>
-            <point key="canvasLocation" x="116" y="106.5"/>
+            <point key="canvasLocation" x="116" y="106"/>
         </customView>
         <arrayController mode="entity" entityName="Encoding" automaticallyPreparesContent="YES" id="109" userLabel="EncodingsArrayController">
             <declaredKeys>
