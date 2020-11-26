@@ -327,6 +327,7 @@ static id sharedInstance = nil;
 		[preferencesWindow setTitle:NSLocalizedStringFromTable(@"Preferences - Erbele", @"Localizable3", @"Preferences - Erbele")];
 	}
 
+//# uncomment this #if statement if you want to build on systems before macOS Big Sur / Xcode 12
 //#if AVAILABLE_MAC_OS_X_VERSION_11_0_AND_LATER
     if (@available(macOS 11.0, *)) {
         preferencesWindow.toolbarStyle = NSWindowToolbarStyleExpanded;
