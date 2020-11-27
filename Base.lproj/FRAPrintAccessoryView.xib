@@ -14,9 +14,53 @@
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customView id="5" userLabel="PrintAccessoryView &lt;do not localise&gt;">
-            <rect key="frame" x="0.0" y="0.0" width="488" height="202"/>
+            <rect key="frame" x="0.0" y="0.0" width="484" height="202"/>
             <autoresizingMask key="autoresizingMask"/>
             <subviews>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7">
+                    <rect key="frame" x="378" y="156" width="92" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="gET-ob-xU0"/>
+                    </constraints>
+                    <buttonCell key="cell" type="push" title="Set font..." bezelStyle="rounded" alignment="center" controlSize="small" state="on" borderStyle="border" inset="2" id="31">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="setPrintFontAction:" target="-2" id="41"/>
+                    </connections>
+                </button>
+                <textField horizontalHuggingPriority="249" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6">
+                    <rect key="frame" x="59" y="161" width="317" height="21"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" drawsBackground="YES" id="30">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <binding destination="19" name="value" keyPath="values.PrintFont" id="22">
+                            <dictionary key="options">
+                                <string key="NSValueTransformerName">FontTransformer</string>
+                            </dictionary>
+                        </binding>
+                        <binding destination="19" name="font" keyPath="values.PrintFont" id="24">
+                            <dictionary key="options">
+                                <string key="NSValueTransformerName">NSUnarchiveFromData</string>
+                            </dictionary>
+                        </binding>
+                    </connections>
+                </textField>
+                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8">
+                    <rect key="frame" x="18" y="162" width="35" height="19"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="19" id="9vP-Iq-e0w"/>
+                    </constraints>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Font:" id="32">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="16">
                     <rect key="frame" x="18" y="51" width="146" height="23"/>
                     <buttonCell key="cell" type="check" title="Print syntax colours" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="39">
@@ -89,54 +133,6 @@
                         <binding destination="19" name="value" keyPath="values.PrintHeader" id="26"/>
                     </connections>
                 </button>
-                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7">
-                    <rect key="frame" x="382" y="156" width="92" height="28"/>
-                    <constraints>
-                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="gET-ob-xU0"/>
-                    </constraints>
-                    <buttonCell key="cell" type="push" title="Set font..." bezelStyle="rounded" alignment="center" controlSize="small" state="on" borderStyle="border" inset="2" id="31">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="smallSystem"/>
-                    </buttonCell>
-                    <connections>
-                        <action selector="setPrintFontAction:" target="-2" id="41"/>
-                    </connections>
-                </button>
-                <textField horizontalHuggingPriority="249" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6">
-                    <rect key="frame" x="63" y="161" width="317" height="21"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="317" id="ftq-t4-DQ2"/>
-                    </constraints>
-                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" drawsBackground="YES" id="30">
-                        <font key="font" metaFont="system"/>
-                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                    </textFieldCell>
-                    <connections>
-                        <binding destination="19" name="value" keyPath="values.PrintFont" id="22">
-                            <dictionary key="options">
-                                <string key="NSValueTransformerName">FontTransformer</string>
-                            </dictionary>
-                        </binding>
-                        <binding destination="19" name="font" keyPath="values.PrintFont" id="24">
-                            <dictionary key="options">
-                                <string key="NSValueTransformerName">NSUnarchiveFromData</string>
-                            </dictionary>
-                        </binding>
-                    </connections>
-                </textField>
-                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8">
-                    <rect key="frame" x="18" y="162" width="39" height="19"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="35" id="5fr-gP-g01"/>
-                        <constraint firstAttribute="height" constant="19" id="Hn8-hj-FyY"/>
-                    </constraints>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Font:" id="32">
-                        <font key="font" metaFont="system"/>
-                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                    </textFieldCell>
-                </textField>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="9">
                     <rect key="frame" x="18" y="117" width="144" height="18"/>
                     <constraints>
@@ -156,13 +152,14 @@
                 <constraint firstItem="10" firstAttribute="leading" secondItem="16" secondAttribute="leading" id="33F-sI-cZi"/>
                 <constraint firstItem="6" firstAttribute="top" secondItem="5" secondAttribute="top" constant="20" symbolic="YES" id="3yZ-4y-R6w"/>
                 <constraint firstItem="12" firstAttribute="top" secondItem="15" secondAttribute="bottom" constant="1" id="68d-te-JeT"/>
-                <constraint firstItem="8" firstAttribute="centerY" secondItem="7" secondAttribute="centerY" id="AM5-eH-uUE"/>
-                <constraint firstItem="8" firstAttribute="centerY" secondItem="6" secondAttribute="centerY" id="CRX-hS-BHf"/>
+                <constraint firstItem="8" firstAttribute="leading" secondItem="9" secondAttribute="leading" id="AsY-8x-QVR"/>
+                <constraint firstItem="8" firstAttribute="centerY" secondItem="6" secondAttribute="centerY" id="B9F-kW-3DQ"/>
                 <constraint firstItem="10" firstAttribute="top" secondItem="9" secondAttribute="bottom" constant="15" id="IKl-xH-n1y"/>
                 <constraint firstItem="15" firstAttribute="trailing" secondItem="12" secondAttribute="trailing" id="LLv-lP-eKX"/>
                 <constraint firstItem="11" firstAttribute="baseline" secondItem="12" secondAttribute="baseline" id="LdE-em-skI"/>
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="16" secondAttribute="trailing" constant="20" symbolic="YES" id="NUv-7Z-wEi"/>
                 <constraint firstItem="12" firstAttribute="leading" secondItem="11" secondAttribute="trailing" constant="8" symbolic="YES" id="Npd-6p-Pia"/>
+                <constraint firstItem="8" firstAttribute="firstBaseline" secondItem="7" secondAttribute="firstBaseline" id="TgK-ih-fiw"/>
                 <constraint firstItem="14" firstAttribute="leading" secondItem="12" secondAttribute="trailing" constant="8" symbolic="YES" id="Uyx-86-M0k"/>
                 <constraint firstItem="7" firstAttribute="leading" secondItem="6" secondAttribute="trailing" constant="8" symbolic="YES" id="W0E-qc-Qe7"/>
                 <constraint firstAttribute="bottom" secondItem="11" secondAttribute="bottom" constant="22" id="W2c-Ka-YpO"/>
@@ -171,17 +168,16 @@
                 <constraint firstItem="15" firstAttribute="leading" secondItem="12" secondAttribute="leading" id="aRc-JU-Pog"/>
                 <constraint firstItem="16" firstAttribute="top" secondItem="10" secondAttribute="bottom" constant="14" id="fty-yN-IEi"/>
                 <constraint firstItem="12" firstAttribute="baseline" secondItem="14" secondAttribute="baseline" id="hXp-8P-p28"/>
-                <constraint firstItem="8" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" id="ipY-CL-irB"/>
+                <constraint firstItem="8" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" id="irW-wD-uHR"/>
                 <constraint firstItem="10" firstAttribute="leading" secondItem="9" secondAttribute="leading" id="izE-iP-qk7"/>
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="14" secondAttribute="trailing" constant="20" symbolic="YES" id="jUu-l2-SJB"/>
                 <constraint firstAttribute="trailing" secondItem="7" secondAttribute="trailing" constant="20" symbolic="YES" id="orY-35-ndp"/>
-                <constraint firstItem="6" firstAttribute="leading" secondItem="8" secondAttribute="trailing" constant="8" symbolic="YES" id="qaV-H4-eAf"/>
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="10" secondAttribute="trailing" constant="20" symbolic="YES" id="sDi-iK-bWk"/>
                 <constraint firstItem="11" firstAttribute="top" secondItem="16" secondAttribute="bottom" constant="14" id="sFO-ht-dRr"/>
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9" secondAttribute="trailing" constant="20" symbolic="YES" id="vJ4-9S-LgG"/>
-                <constraint firstItem="8" firstAttribute="leading" secondItem="9" secondAttribute="leading" id="yDQ-jH-q6i"/>
+                <constraint firstItem="6" firstAttribute="leading" secondItem="8" secondAttribute="trailing" constant="8" symbolic="YES" id="xKu-kV-BAA"/>
             </constraints>
-            <point key="canvasLocation" x="141" y="176"/>
+            <point key="canvasLocation" x="109" y="176"/>
         </customView>
         <userDefaultsController representsSharedInstance="YES" id="19" userLabel="Shared Defaults"/>
     </objects>
