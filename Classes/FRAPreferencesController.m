@@ -324,12 +324,11 @@ static id sharedInstance = nil;
 		[preferencesWindow setToolbar:preferencesToolbar];
 	}
 
-//# uncomment this #if statement if you want to build on systems before macOS Big Sur / Xcode 12
-//#if AVAILABLE_MAC_OS_X_VERSION_11_0_AND_LATER
+#if __MAC_OS_X_VERSION_MAX_ALLOWED >= 1100
     if (@available(macOS 11.0, *)) {
         preferencesWindow.toolbarStyle = NSWindowToolbarStyleExpanded;
     }
-//#endif
+#endif
 
 	if ([preferencesToolbar selectedItemIdentifier] == nil) {
 		if (generalView == nil) {
