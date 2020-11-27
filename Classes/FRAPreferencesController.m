@@ -336,7 +336,7 @@ static id sharedInstance = nil;
 			[[NSBundle mainBundle] loadNibNamed:@"FRAPreferencesGeneral" owner:self topLevelObjects:nil];
 		}
 		[preferencesToolbar setSelectedItemIdentifier:@"GeneralPreferencesToolbarItem"];
-        [preferencesWindow setTitle:NSLocalizedStringFromTable(@"General", @"Localizable3", @"Preferences - General")];
+        [preferencesWindow setTitle:NSLocalizedStringFromTable(@"General", @"Localizable", @"Preferences - General")];
 		[[preferencesWindow contentView] addSubview:generalView];
 		currentView = generalView;
         [preferencesWindow setContentSize: [currentView fittingSize]];
@@ -426,7 +426,7 @@ static id sharedInstance = nil;
 		if (currentView == generalView) {
 			return;
 		}
-        [preferencesWindow setTitle:NSLocalizedStringFromTable(@"General", @"Localizable3", @"Preferences - General")];
+        [preferencesWindow setTitle:NSLocalizedStringFromTable(@"General", @"Localizable", @"Preferences - General")];
 		[[preferencesWindow contentView] addSubview:generalView];
 		[FRAInterface changeViewWithAnimationForWindow:preferencesWindow oldView:currentView newView:generalView newRect:[self getRectForView:generalView]];
 		[currentView removeFromSuperviewWithoutNeedingDisplay];
@@ -446,7 +446,7 @@ static id sharedInstance = nil;
 		if (currentView == appearanceView) {
 			return;
 		}
-        [preferencesWindow setTitle:NSLocalizedStringFromTable(@"Appearance", @"Localizable3", @"Preferences - Appearance")];
+        [preferencesWindow setTitle:NSLocalizedStringFromTable(@"Appearance", @"Localizable", @"Preferences - Appearance")];
 		[[preferencesWindow contentView] addSubview:appearanceView];
 		[FRAInterface changeViewWithAnimationForWindow:preferencesWindow oldView:currentView newView:appearanceView newRect:[self getRectForView:appearanceView]];
 		[currentView removeFromSuperviewWithoutNeedingDisplay];
@@ -459,7 +459,7 @@ static id sharedInstance = nil;
 		if (currentView == openSaveView) {
 			return;
 		}
-        [preferencesWindow setTitle:NSLocalizedStringFromTable(@"Open & Save", @"Localizable3", @"Preferences - Open & Save")];
+        [preferencesWindow setTitle:NSLocalizedStringFromTable(@"Open & Save", @"Localizable", @"Preferences - Open & Save")];
 		[[preferencesWindow contentView] addSubview:openSaveView];
 		[FRAInterface changeViewWithAnimationForWindow:preferencesWindow oldView:currentView newView:openSaveView newRect:[self getRectForView:openSaveView]];
 		[currentView removeFromSuperviewWithoutNeedingDisplay];
@@ -501,7 +501,7 @@ static id sharedInstance = nil;
 			hasPreparedAdvancedInterface = YES;
 		}
 		
-        [preferencesWindow setTitle:NSLocalizedStringFromTable(@"Advanced", @"Localizable3", @"Preferences - Advanced")];
+        [preferencesWindow setTitle:NSLocalizedStringFromTable(@"Advanced", @"Localizable", @"Preferences - Advanced")];
 		[[preferencesWindow contentView] addSubview:advancedView];
         [advancedViewTabView selectTabViewItemAtIndex:0]; //tentativo per fitting
 		[FRAInterface changeViewWithAnimationForWindow:preferencesWindow oldView:currentView newView:advancedView  newRect:[self getRectForView: advancedView ]];
