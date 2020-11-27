@@ -23,9 +23,8 @@
         <customView horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="5" userLabel="Advanced &lt;do not localise&gt;">
             <rect key="frame" x="0.0" y="0.0" width="600" height="542"/>
             <subviews>
-                <tabView horizontalHuggingPriority="248" verticalHuggingPriority="248" allowsTruncatedLabels="NO" initialItem="43" translatesAutoresizingMaskIntoConstraints="NO" id="41">
-                    <rect key="frame" x="13" y="53" width="574" height="483"/>
-                    <font key="font" metaFont="system"/>
+                <tabView horizontalHuggingPriority="248" verticalHuggingPriority="248" initialItem="43" translatesAutoresizingMaskIntoConstraints="NO" id="41">
+                    <rect key="frame" x="13" y="87" width="574" height="449"/>
                     <tabViewItems>
                         <tabViewItem label="Syntax Colours" identifier="" id="43">
                             <view key="view" wantsLayer="YES" id="45">
@@ -637,7 +636,7 @@
                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                     <tableColumns>
-                                                        <tableColumn identifier="name" editable="NO" width="179.5" minWidth="40" maxWidth="1000" id="91">
+                                                        <tableColumn identifier="name" editable="NO" width="165" minWidth="40" maxWidth="1000" id="91">
                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Name">
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
@@ -656,7 +655,7 @@
                                                                 </binding>
                                                             </connections>
                                                         </tableColumn>
-                                                        <tableColumn identifier="extensions" width="317.5" minWidth="210.14109999999999" maxWidth="1000" id="92">
+                                                        <tableColumn identifier="extensions" width="303" minWidth="210.14109999999999" maxWidth="1000" id="92">
                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Extensions (space separated, no dots)">
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
@@ -770,7 +769,7 @@
                                         <rect key="frame" x="20" y="20" width="514" height="328"/>
                                         <clipView key="contentView" id="KDT-n4-P4f">
                                             <rect key="frame" x="1" y="1" width="512" height="326"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" columnSelection="YES" columnResizing="NO" multipleSelection="NO" autosaveName="ActiveEncodings" headerView="308" id="105">
                                                     <rect key="frame" x="0.0" y="0.0" width="512" height="303"/>
@@ -792,7 +791,7 @@
                                                                 <binding destination="109" name="value" keyPath="arrangedObjects.active" id="212"/>
                                                             </connections>
                                                         </tableColumn>
-                                                        <tableColumn identifier="encoding" editable="NO" width="441.9683" minWidth="56.968260000000001" maxWidth="1000" id="106">
+                                                        <tableColumn identifier="encoding" editable="NO" width="412.9683" minWidth="56.968260000000001" maxWidth="1000" id="106">
                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Encoding">
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
@@ -1227,7 +1226,7 @@
                     </tabViewItems>
                 </tabView>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="46">
-                    <rect key="frame" x="14" y="32" width="220" height="27"/>
+                    <rect key="frame" x="14" y="66" width="220" height="27"/>
                     <buttonCell key="cell" type="push" title="Revert All Settings To Default Values" bezelStyle="rounded" alignment="center" controlSize="small" borderStyle="border" inset="2" id="296">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="smallSystem"/>
