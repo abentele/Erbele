@@ -301,7 +301,8 @@
 		
 		[bezier closePath];
 		
-		NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:[NSColor controlColor] endingColor:[NSColor controlColor]];
+        NSColor *color = [NSColor colorWithCGColor:[NSColor controlColor].CGColor];
+		NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:color endingColor:color];
 		[gradient drawInBezierPath:bezier angle:90];
 		
 		[lineColor set];
@@ -447,7 +448,8 @@
 	gradientRect.size.height -= 1.0;
 	NSBezierPath *path = [NSBezierPath bezierPathWithRect:gradientRect];
 	
-	NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:[NSColor windowBackgroundColor] endingColor:[NSColor windowBackgroundColor]];
+    NSColor *backgroundColor = [NSColor colorWithCGColor:[NSColor windowBackgroundColor].CGColor];
+	NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:backgroundColor endingColor:backgroundColor];
 	[gradient drawInBezierPath:path angle:90];
 	
 	[[NSColor colorWithCalibratedWhite:0.576 alpha:1.0] set];
