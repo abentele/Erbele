@@ -3,6 +3,12 @@
     <channel>
         <title>Erbele</title>
         <item>
+            <title>3.10</title>
+            <pubDate>Sa., 28 Nov. 2020 10:53:25 +0100</pubDate>
+            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/abentele/Erbele/releases/download/3.10/Erbele_3.10.dmg" sparkle:version="3.10" sparkle:shortVersionString="3.10" length="10896081" type="application/octet-stream" sparkle:dsaSignature="MCsCFCPdkVpbbY5Sb5DXJhxZul6d2hniAhNIrbdc37L/9oc3Q8ARomFVWilk"/>
+        </item>
+        <item>
             <title>3.9</title>
             <pubDate>Sa., 26 Sept. 2020 22:30:08 +0200</pubDate>
             <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
