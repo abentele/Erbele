@@ -324,7 +324,7 @@ static id sharedInstance = nil;
 		[preferencesWindow setToolbar:preferencesToolbar];
 	}
 
-#if __MAC_OS_X_VERSION_MAX_ALLOWED >= 1100
+#if __MAC_OS_X_VERSION_MAX_ALLOWED >= 110000
     if (@available(macOS 11.0, *)) {
         preferencesWindow.toolbarStyle = NSWindowToolbarStyleExpanded;
     }
