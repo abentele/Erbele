@@ -7,6 +7,7 @@ Supported macOS versions:
 * macOS High Sierra (10.13)
 * macOS Mojave (10.14)
 * macOS Catalina (10.15)
+* macOS Big Sur (11.0)
 
 Author: Andreas Bentele
 
