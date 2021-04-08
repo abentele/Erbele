@@ -23,9 +23,19 @@ Fraise originally was forked from [Smultron 3.5.1](https://sourceforge.net/proje
 Same picture with German language:
 ![Erbele, German](https://github.com/abentele/Erbele/raw/master/Erbele-screenshot_de.png)
 
-# Downloads / Releases
+# Downloads
+
+## Download release
 
 Download the dmg file from [Releases](https://github.com/abentele/Erbele/releases).
+
+*Note:* with newer macOS versions there is an issue with Gatekeeper when opening the app after having it downloaded from github (see ticket #46).
+This issue prevents you to launch the app because the app is labeled to be in quarantine.
+*Workaround:* Just issue this command in the Terminal app, and retry: `#$ xattr -c Erbele.app`
+
+## Build release
+
+If you are familiar with git and Xcode, you also can checkout the git repository and build the app by yourself.
 
 # Roadmap
 
