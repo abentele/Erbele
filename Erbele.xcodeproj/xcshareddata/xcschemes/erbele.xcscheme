@@ -20,6 +20,20 @@
                ReferencedContainer = "container:Erbele.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8D15AC270486D014006FF6A4"
+               BuildableName = "Erbele.app"
+               BlueprintName = "Erbele"
+               ReferencedContainer = "container:Erbele.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

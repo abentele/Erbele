@@ -1674,6 +1674,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PRODUCT_NAME = Distribution;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 			};
 			name = Debug;
 		};
@@ -1684,6 +1685,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				PRODUCT_NAME = Distribution;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -1702,6 +1704,7 @@
 				INSTALL_PATH = "$(HOME)/bin";
 				PRODUCT_NAME = erbele;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 				ZERO_LINK = YES;
 			};
 			name = Debug;
@@ -1717,6 +1720,7 @@
 				INSTALL_PATH = "$(HOME)/bin";
 				PRODUCT_NAME = erbele;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -1759,7 +1763,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "Erbele-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				VALID_ARCHS = x86_64;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
@@ -1801,7 +1805,7 @@
 				STRIP_INSTALLED_PRODUCT = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Erbele-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				VALID_ARCHS = x86_64;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1855,7 +1859,7 @@
 				OTHER_CFLAGS = "-DDEVELOPMENT_STYLE_BUILD";
 				SDKROOT = macosx;
 				STRIP_INSTALLED_PRODUCT = NO;
-				VALID_ARCHS = x86_64;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 			};
 			name = Debug;
 		};
@@ -1905,7 +1909,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				VALID_ARCHS = x86_64;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 			};
 			name = Release;
 		};
