@@ -1701,6 +1701,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = "$(HOME)/bin";
 				PRODUCT_NAME = erbele;
+				SKIP_INSTALL = YES;
 				ZERO_LINK = YES;
 			};
 			name = Debug;
@@ -1715,6 +1716,7 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				INSTALL_PATH = "$(HOME)/bin";
 				PRODUCT_NAME = erbele;
+				SKIP_INSTALL = YES;
 				ZERO_LINK = NO;
 			};
 			name = Release;
