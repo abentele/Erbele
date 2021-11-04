@@ -570,6 +570,7 @@
 		E1A5DEC024A895A6006F135A /* FRAEditMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRAEditMenuController.swift; sourceTree = "<group>"; };
 		E1A5DEC224A898C5006F135A /* Shortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shortcuts.swift; sourceTree = "<group>"; };
 		E1AECE231E6C229600BAAE9A /* zh_CN */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; lineEnding = 0; name = zh_CN; path = zh_CN.lproj/Localizable3.strings; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		E1AFD3D227340AFC008AB5E0 /* Erbele.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Erbele.entitlements; path = Erbele/Erbele.entitlements; sourceTree = "<group>"; };
 		E1E8E9D01DC8D6BC0072BEF0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Erbele/Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -640,6 +641,7 @@
 		2A37F4AAFDCFA73011CA2CEA /* Smultron */ = {
 			isa = PBXGroup;
 			children = (
+				E1AFD3D227340AFC008AB5E0 /* Erbele.entitlements */,
 				7F980A900B73B649000A9140 /* Models */,
 				2A37F4ABFDCFA73011CA2CEA /* Classes */,
 				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
@@ -1721,6 +1723,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = Erbele/Erbele.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1764,6 +1767,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = Erbele/Erbele.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
