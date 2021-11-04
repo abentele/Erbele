@@ -557,6 +557,7 @@
 		E122987F2479346E0055CD43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable3.strings; sourceTree = "<group>"; };
 		E1229880247934710055CD43 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E1229881247934710055CD43 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable3.strings; sourceTree = "<group>"; };
+		E12E36E927344E8200E64EE1 /* ExportOptions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
 		E13832CE24D6393B0018FD7F /* FRADocumentsMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRADocumentsMenuController.swift; sourceTree = "<group>"; };
 		E143CAC92121C9B100809E9D /* ca */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E143CACA2121C9B500809E9D /* ca */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable3.strings; sourceTree = "<group>"; };
@@ -686,6 +687,7 @@
 		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E12E36E927344E8200E64EE1 /* ExportOptions.plist */,
 				E1E8E9D01DC8D6BC0072BEF0 /* Images.xcassets */,
 				7F5C24D90B73BCF200D2EDDC /* Xibs */,
 				7F9809B40B73B4C8000A9140 /* Graphics */,
