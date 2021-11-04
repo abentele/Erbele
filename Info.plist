@@ -149,6 +149,8 @@
 		<string>HasImportedFromVersion2</string>
 		<string>HasInsertedDefaultCommands3</string>
 	</array>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.12</string>
 	<key>NSAppleScriptEnabled</key>
