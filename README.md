@@ -8,6 +8,11 @@ Supported macOS versions:
 * macOS Mojave (10.14)
 * macOS Catalina (10.15)
 * macOS Big Sur (11.0)
+* macOS Monterey (12.0)
+
+Architectures: 
+* Intel
+* Apple Silicon (since version 3.11.0)
 
 Author: Andreas Bentele
 
@@ -29,9 +34,12 @@ Same picture with German language:
 
 Download the dmg file from [Releases](https://github.com/abentele/Erbele/releases).
 
-*Note:* with newer macOS versions there is an issue with Gatekeeper when opening the app after having it downloaded from github (see ticket #46).
+## Troubleshooting
+
+Only up to release 3.10 and with newer macOS versions there is an issue with Gatekeeper when opening the app after having it downloaded from github (see ticket #46).
 This issue prevents you to launch the app because the app is labeled to be in quarantine.
 *Workaround:* Just issue this command in the Terminal app, and retry: `#$ xattr -c Erbele.app`
+This issue has been fixed with release 3.11.
 
 ## Build release
 
