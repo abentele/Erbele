@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -141,15 +141,14 @@
 		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
 		B044E6202521018000F0A091 /* FRADataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B044E61D2521018000F0A091 /* FRADataModel.xcdatamodeld */; };
+		E116524427341BB9001393D3 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = E116524327341BB9001393D3 /* Sparkle */; };
 		E1196EA724A8A2F800F2794D /* FRAHelpMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1196EA624A8A2F800F2794D /* FRAHelpMenuController.swift */; };
 		E1196EA924A8AD8500F2794D /* FRAAuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1196EA824A8AD8500F2794D /* FRAAuthenticationController.swift */; };
 		E13832CF24D6393B0018FD7F /* FRADocumentsMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13832CE24D6393B0018FD7F /* FRADocumentsMenuController.swift */; };
-		E15820AB1FC350E900E23D83 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15820AA1FC350E800E23D83 /* Sparkle.framework */; };
 		E18170B71E58FD9A003D9893 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = E18170B61E58FD9A003D9893 /* dsa_pub.pem */; };
 		E1A5DEBF24A89020006F135A /* FRAApplicationMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5DEBE24A89020006F135A /* FRAApplicationMenuController.swift */; };
 		E1A5DEC124A895A6006F135A /* FRAEditMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5DEC024A895A6006F135A /* FRAEditMenuController.swift */; };
 		E1A5DEC324A898C5006F135A /* Shortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5DEC224A898C5006F135A /* Shortcuts.swift */; };
-		E1DB1D322070FE5E00A41EC3 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E15820AA1FC350E800E23D83 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E1E8E9D11DC8D6BC0072BEF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E8E9D01DC8D6BC0072BEF0 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -177,7 +176,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E1DB1D322070FE5E00A41EC3 /* Sparkle.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,7 +560,6 @@
 		E13832CE24D6393B0018FD7F /* FRADocumentsMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRADocumentsMenuController.swift; sourceTree = "<group>"; };
 		E143CAC92121C9B100809E9D /* ca */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E143CACA2121C9B500809E9D /* ca */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable3.strings; sourceTree = "<group>"; };
-		E15820AA1FC350E800E23D83 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		E18170B61E58FD9A003D9893 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		E18EFF321DB378C000DA64C3 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		E1A5DEBD24A8901F006F135A /* Erbele-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Erbele-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -591,7 +588,7 @@
 				7F5C26B10B73C03A00D2EDDC /* Carbon.framework in Frameworks */,
 				7F5C26B30B73C04800D2EDDC /* ApplicationServices.framework in Frameworks */,
 				7F5C26B50B73C05100D2EDDC /* WebKit.framework in Frameworks */,
-				E15820AB1FC350E900E23D83 /* Sparkle.framework in Frameworks */,
+				E116524427341BB9001393D3 /* Sparkle in Frameworks */,
 				7F5C26B90B73C06D00D2EDDC /* SystemConfiguration.framework in Frameworks */,
 				7F6C9C680B75F23000531EF9 /* libicucore.dylib in Frameworks */,
 				7F51225C0BA72E7E00183863 /* QuartzCore.framework in Frameworks */,
@@ -712,7 +709,6 @@
 		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E15820AA1FC350E800E23D83 /* Sparkle.framework */,
 				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
 				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
 				1FACC99E113FAE1200515523 /* QuartzCore.framework */,
@@ -1131,6 +1127,9 @@
 				1F83623411553B55002BBC30 /* PBXTargetDependency */,
 			);
 			name = Erbele;
+			packageProductDependencies = (
+				E116524327341BB9001393D3 /* Sparkle */,
+			);
 			productInstallPath = "$(HOME)/Applications";
 			productName = Smultron;
 			productReference = 8D15AC370486D014006FF6A4 /* Erbele.app */;
@@ -1168,6 +1167,9 @@
 				ja,
 			);
 			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Smultron */;
+			packageReferences = (
+				E116524227341BB9001393D3 /* XCRemoteSwiftPackageReference "Sparkle" */,
+			);
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1945,6 +1947,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E116524227341BB9001393D3 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E116524327341BB9001393D3 /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E116524227341BB9001393D3 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		B044E61D2521018000F0A091 /* FRADataModel.xcdatamodeld */ = {
