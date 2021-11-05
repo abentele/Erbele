@@ -62,9 +62,6 @@
 		7F5097710D95A65500D62D67 /* FRADefaultUnsavedIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F50976F0D95A65500D62D67 /* FRADefaultUnsavedIcon.png */; };
 		7F5097720D95A65500D62D67 /* FRADefaultIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F5097700D95A65500D62D67 /* FRADefaultIcon.png */; };
 		7F51225C0BA72E7E00183863 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F51225B0BA72E7E00183863 /* QuartzCore.framework */; };
-		7F5C266C0B73BF5C00D2EDDC /* erbele_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F980A8A0B73B629000A9140 /* erbele_main.m */; };
-		7F5C266D0B73BF6C00D2EDDC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
-		7F5C26740B73BF9B00D2EDDC /* erbele in Resources */ = {isa = PBXBuildFile; fileRef = 7F5C26650B73BF2200D2EDDC /* erbele */; };
 		7F5C26B10B73C03A00D2EDDC /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5C26B00B73C03A00D2EDDC /* Carbon.framework */; };
 		7F5C26B30B73C04800D2EDDC /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5C26B20B73C04800D2EDDC /* ApplicationServices.framework */; };
 		7F5C26B50B73C05100D2EDDC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5C26B40B73C05100D2EDDC /* WebKit.framework */; };
@@ -94,7 +91,6 @@
 		7F980A410B73B4F4000A9140 /* Syntax Definitions in Resources */ = {isa = PBXBuildFile; fileRef = 7F9809E70B73B4F4000A9140 /* Syntax Definitions */; };
 		7F980A420B73B4F4000A9140 /* Toolbar Icons in Resources */ = {isa = PBXBuildFile; fileRef = 7F980A230B73B4F4000A9140 /* Toolbar Icons */; };
 		7F980A610B73B5B9000A9140 /* Preferences Icons in Resources */ = {isa = PBXBuildFile; fileRef = 7F980A510B73B5B9000A9140 /* Preferences Icons */; };
-		7F980A8B0B73B629000A9140 /* erbele.1 in Resources */ = {isa = PBXBuildFile; fileRef = 7F980A890B73B629000A9140 /* erbele.1 */; };
 		7F980A970B73B660000A9140 /* SyntaxDefinitions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F980A930B73B660000A9140 /* SyntaxDefinitions.plist */; };
 		7F980A980B73B660000A9140 /* DefaultSnippets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F980A940B73B660000A9140 /* DefaultSnippets.plist */; };
 		7F980A990B73B660000A9140 /* Erbele.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 7F980A950B73B660000A9140 /* Erbele.sdef */; };
@@ -159,13 +155,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 8D15AC270486D014006FF6A4;
 			remoteInfo = Smultron;
-		};
-		1F83623311553B55002BBC30 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7F5C26640B73BF2200D2EDDC;
-			remoteInfo = erbele;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -237,7 +226,6 @@
 		7F50976F0D95A65500D62D67 /* FRADefaultUnsavedIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FRADefaultUnsavedIcon.png; path = Graphics/FRADefaultUnsavedIcon.png; sourceTree = "<group>"; };
 		7F5097700D95A65500D62D67 /* FRADefaultIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FRADefaultIcon.png; path = Graphics/FRADefaultIcon.png; sourceTree = "<group>"; };
 		7F51225B0BA72E7E00183863 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
-		7F5C26650B73BF2200D2EDDC /* erbele */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = erbele; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F5C26B00B73C03A00D2EDDC /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		7F5C26B20B73C04800D2EDDC /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
 		7F5C26B40B73C05100D2EDDC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
@@ -285,8 +273,6 @@
 		7F9809E70B73B4F4000A9140 /* Syntax Definitions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Syntax Definitions"; sourceTree = "<group>"; };
 		7F980A230B73B4F4000A9140 /* Toolbar Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Toolbar Icons"; path = "Graphics/Toolbar Icons"; sourceTree = "<group>"; };
 		7F980A510B73B5B9000A9140 /* Preferences Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Preferences Icons"; path = "Graphics/Preferences Icons"; sourceTree = "<group>"; };
-		7F980A890B73B629000A9140 /* erbele.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; name = erbele.1; path = "Command Line Utility/erbele.1"; sourceTree = "<group>"; };
-		7F980A8A0B73B629000A9140 /* erbele_main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = erbele_main.m; path = "Command Line Utility/erbele_main.m"; sourceTree = "<group>"; };
 		7F980A8F0B73B641000A9140 /* ODBEditorSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODBEditorSuite.h; path = Other/ODBEditorSuite.h; sourceTree = "<group>"; };
 		7F980A930B73B660000A9140 /* SyntaxDefinitions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = SyntaxDefinitions.plist; path = Other/SyntaxDefinitions.plist; sourceTree = "<group>"; };
 		7F980A940B73B660000A9140 /* DefaultSnippets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DefaultSnippets.plist; path = Other/DefaultSnippets.plist; sourceTree = "<group>"; };
@@ -575,14 +561,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7F5C26630B73BF2200D2EDDC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7F5C266D0B73BF6C00D2EDDC /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D15AC330486D014006FF6A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -633,7 +611,6 @@
 			isa = PBXGroup;
 			children = (
 				8D15AC370486D014006FF6A4 /* Erbele.app */,
-				7F5C26650B73BF2200D2EDDC /* erbele */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -678,7 +655,6 @@
 		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				7F980A860B73B619000A9140 /* Command Line Utility */,
 				7F980A8F0B73B641000A9140 /* ODBEditorSuite.h */,
 				7F81FEDD0BA9DDE100549CDB /* PSMTabBar */,
 				7FD7C3CE0B76561A0097747A /* ICU */,
@@ -1026,15 +1002,6 @@
 			name = Graphics;
 			sourceTree = "<group>";
 		};
-		7F980A860B73B619000A9140 /* Command Line Utility */ = {
-			isa = PBXGroup;
-			children = (
-				7F980A890B73B629000A9140 /* erbele.1 */,
-				7F980A8A0B73B629000A9140 /* erbele_main.m */,
-			);
-			name = "Command Line Utility";
-			sourceTree = "<group>";
-		};
 		7F980A900B73B649000A9140 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -1109,22 +1076,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F5C26640B73BF2200D2EDDC /* erbele */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7F5C26690B73BF4000D2EDDC /* Build configuration list for PBXNativeTarget "erbele" */;
-			buildPhases = (
-				7F5C26620B73BF2200D2EDDC /* Sources */,
-				7F5C26630B73BF2200D2EDDC /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = erbele;
-			productName = smultron;
-			productReference = 7F5C26650B73BF2200D2EDDC /* erbele */;
-			productType = "com.apple.product-type.tool";
-		};
 		8D15AC270486D014006FF6A4 /* Erbele */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Erbele" */;
@@ -1138,7 +1089,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				1F83623411553B55002BBC30 /* PBXTargetDependency */,
 			);
 			name = Erbele;
 			packageProductDependencies = (
@@ -1188,7 +1138,6 @@
 			projectRoot = "";
 			targets = (
 				8D15AC270486D014006FF6A4 /* Erbele */,
-				7F5C26640B73BF2200D2EDDC /* erbele */,
 				1F748632114F1F6000767B18 /* Distribution */,
 			);
 		};
@@ -1199,9 +1148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F5C26740B73BF9B00D2EDDC /* erbele in Resources */,
 				E1E8E9D11DC8D6BC0072BEF0 /* Images.xcassets in Resources */,
-				7F980A8B0B73B629000A9140 /* erbele.1 in Resources */,
 				7FB9116B101E6245008DB1DA /* InfoPlist.strings in Resources */,
 				1FB593BA113EE34600ECB6C0 /* Localizable.strings in Resources */,
 				7F9809D20B73B4E1000A9140 /* FRADocumentIcon.icns in Resources */,
@@ -1251,14 +1198,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7F5C26620B73BF2200D2EDDC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7F5C266C0B73BF5C00D2EDDC /* erbele_main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D15AC300486D014006FF6A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1345,11 +1284,6 @@
 			isa = PBXTargetDependency;
 			target = 8D15AC270486D014006FF6A4 /* Erbele */;
 			targetProxy = 1F7486C7114F1F8000767B18 /* PBXContainerItemProxy */;
-		};
-		1F83623411553B55002BBC30 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7F5C26640B73BF2200D2EDDC /* erbele */;
-			targetProxy = 1F83623311553B55002BBC30 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1704,51 +1638,6 @@
 			};
 			name = Release;
 		};
-		7F5C266A0B73BF4000D2EDDC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_ENTITLEMENTS = "Distribution/Erbele-TerminalApp.entitlements";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = RJ4CCW7WLK;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				INSTALL_PATH = "$(HOME)/bin";
-				PRODUCT_BUNDLE_IDENTIFIER = org.erbele.ErbeleTerminalApp;
-				PRODUCT_NAME = erbele;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
-				VALID_ARCHS = "$(ARCHS_STANDARD)";
-				ZERO_LINK = YES;
-			};
-			name = Debug;
-		};
-		7F5C266B0B73BF4000D2EDDC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_ENTITLEMENTS = "Distribution/Erbele-TerminalApp.entitlements";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = RJ4CCW7WLK;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				INSTALL_PATH = "$(HOME)/bin";
-				PRODUCT_BUNDLE_IDENTIFIER = org.erbele.ErbeleTerminalApp;
-				PRODUCT_NAME = erbele;
-				SKIP_INSTALL = YES;
-				VALID_ARCHS = "$(ARCHS_STANDARD)";
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
 		C05733C808A9546B00998B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1949,15 +1838,6 @@
 			buildConfigurations = (
 				1F748633114F1F6000767B18 /* Debug */,
 				1F748634114F1F6000767B18 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7F5C26690B73BF4000D2EDDC /* Build configuration list for PBXNativeTarget "erbele" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7F5C266A0B73BF4000D2EDDC /* Debug */,
-				7F5C266B0B73BF4000D2EDDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,20 +10,6 @@
             buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "YES"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7F5C26640B73BF2200D2EDDC"
-               BuildableName = "erbele"
-               BlueprintName = "erbele"
-               ReferencedContainer = "container:Erbele.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
             buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
@@ -66,15 +52,6 @@
             ReferencedContainer = "container:Erbele.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7F5C26640B73BF2200D2EDDC"
-            BuildableName = "erbele"
-            BlueprintName = "erbele"
-            ReferencedContainer = "container:Erbele.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <LocationScenarioReference
          identifier = "New York, NY, USA"
          referenceType = "1">
@@ -86,16 +63,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7F5C26640B73BF2200D2EDDC"
-            BuildableName = "erbele"
-            BlueprintName = "erbele"
+            BlueprintIdentifier = "8D15AC270486D014006FF6A4"
+            BuildableName = "Erbele.app"
+            BlueprintName = "Erbele"
             ReferencedContainer = "container:Erbele.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

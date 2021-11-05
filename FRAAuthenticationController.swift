@@ -16,6 +16,7 @@ import Foundation
 
 private var _sharedInstance: FRAAuthenticationController? = nil;
 
+// TODO features will not work any more after switching on the app sandbox feature
 class FRAAuthenticationController : NSObject {
     @objc class func sharedInstance() -> FRAAuthenticationController {
         if (_sharedInstance == nil) {
@@ -104,78 +105,6 @@ class FRAAuthenticationController : NSObject {
             }
         }
 
-    }
-
-    func installCommandLineUtility() throws {
-        let erbelePath = Bundle.main.resourceURL!.appendingPathComponent("erbele")
-        let erbeleData = try Data.init(contentsOf: erbelePath)
-        let erbeleManPagePath = Bundle.main.resourceURL!.appendingPathComponent("erbele.1")
-        let erbeleManPageData = try Data.init(contentsOf: erbeleManPagePath)
-
-        var status = installCommandLineUtilityErbele(erbeleData)
-
-        if (status == 0) {
-            status = installCommandLineUtilityManpage(erbeleManPageData)
-        }
-        
-        if (status != 0) {
-            FRAVariousPerformer.sharedInstance().standardAlertSheet(withTitle: NSLocalizedString("There was a unknown error when trying to install the command-line utility",
-                                                                                                  comment: "Indicate that there was a unknown error when trying to install the command-line utility in Unknown-error-when-installing-comman-line-utility sheet"),
-                                                                     message: "",
-                                                                     window: FRACurrentWindow())
-        }
-
-    }
-    
-    private func installCommandLineUtilityErbele(_ erbeleData: Data) -> Int32 {
-        let process = Process()
-        let pipe = Pipe()
-        let writeHandle = pipe.fileHandleForWriting
-
-        if #available(OSX 10.13, *) {
-            process.executableURL = URL(fileURLWithPath: "/usr/libexec/authopen")
-        } else {
-            // Fallback on earlier versions
-            process.launchPath = "/usr/libexec/authopen"
-        }
-        process.arguments = [ "-c", "-m", "0755", "-w", "/usr/local/bin/erbele"]
-        process.standardInput = pipe
-
-        process.launch()
-
-        signal(SIGPIPE, SIG_IGN); // One seems to need this code if someone writes the wrong password three times, otherwise it crashes the application
-        writeHandle.write(erbeleData)
-        close(writeHandle.fileDescriptor)
-        
-        process.waitUntilExit()
-
-        let status = process.terminationStatus
-        return status
-    }
-    
-    private func installCommandLineUtilityManpage(_ erbeleManPageData: Data) -> Int32 {
-        let process = Process()
-        let pipe = Pipe()
-        let writeHandle = pipe.fileHandleForWriting
-
-        if #available(OSX 10.13, *) {
-            process.executableURL = URL(fileURLWithPath: "/usr/libexec/authopen")
-        } else {
-            // Fallback on earlier versions
-            process.launchPath = "/usr/libexec/authopen"
-        }
-        process.arguments = [ "-c", "-w", "/usr/local/share/man/man1/erbele.1"]
-        process.standardInput = pipe
-
-        process.launch()
-
-        writeHandle.write(erbeleManPageData)
-        close(writeHandle.fileDescriptor)
-        
-        process.waitUntilExit()
-
-        let status = process.terminationStatus
-        return status
     }
 
 }
