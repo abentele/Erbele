@@ -4,6 +4,31 @@
         <title>Erbele</title>
         <item>
             <title>3.11</title>
+            <description>
+                <![CDATA[
+                    This release improves packaging and distribution of the app.
+
+                    <p>
+
+                    <b>New:</b>
+                    <ul>
+                        <li>native support for Apple Silicon architecture (distribution of Universal app)</li>
+                        <li>introduced code signing and notarization of app, to fix Gatekeeper issues</li>
+                        <li>enabled hardened runtime and App Sandbox, to improve security</li>
+                    </ul>
+
+                    <b>Improved:</b>
+                    <ul>
+                        <li>Updated Sparkle framework (used for app updates)</li>
+                        <li>reduced file size of distributed disk image</li>
+                    </ul>
+
+                    <b>Other changes:</b>
+                    <ul>
+                        <li>documented support for macOS Monterey</li>
+                    </ul>
+                ]]>
+            </description>
             <pubDate>Thu, 04 Nov 2021 22:04:22 +0100</pubDate>
             <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/abentele/Erbele/releases/download/3.11.0/Erbele_3.11.0.dmg" sparkle:version="3.11.0" sparkle:shortVersionString="3.11" length="7123857" type="application/octet-stream" sparkle:dsaSignature="MCwCFEKcZOC7NvZgvvYfkjKalguUrIWAAhQmLgqOyIzsoKphH9nnUAWn+RI/BA=="/>
