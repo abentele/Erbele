@@ -3,6 +3,26 @@
     <channel>
         <title>Erbele</title>
         <item>
+            <title>3.11.1</title>
+            <description>
+                <![CDATA[
+                    This is a minor update with improvements related to version 3.11.
+
+                    <p>
+
+                    <b>Improved:</b>
+                    <ul>
+                        <li>Replaced command line utility with description of workaround in the manual (see section "Command-line utility" on page 5/6). Please remove the existing command line tool by opening the Terminal and issuing the command 'sudo rm /usr/local/bin/erbele'.</li>
+                        <li>Removed a feature which allowed the open or save files with authentication if user doesn't have permission to open it (this behavior is incompatible with App Sandbox feature, and not needed for typical use cases)</li>
+                        <li>Replaced deprecated DSA signature for software updates with more secure EdDSA signature.</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Sat, 06 Nov 2021 19:35:40 +0100</pubDate>
+            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/abentele/Erbele/releases/download/3.11.1/Erbele_3.11.1.dmg" sparkle:version="3.11.1" sparkle:shortVersionString="3.11.1" length="7110303" type="application/octet-stream" sparkle:edSignature="dcDOmoxr+IYNTsOir7mPsjC3d4oAySfXvI6x5FiLhhWT4ExofztEKw2jV8jY/bV8X1uUBWVzq4L/YF5OkZNSCg==" sparkle:dsaSignature="MC0CFAYNcV9oDLIXRAMfFn+aZARQkTkDAhUAgMQmf1l7X7uqHFSyfmdLAS85liA="/>
+        </item>
+        <item>
             <title>3.11</title>
             <description>
                 <![CDATA[
@@ -57,5 +77,6 @@
             <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/abentele/Erbele/releases/download/3.8.6/Erbele_3.8.6.dmg" sparkle:version="3.8.6" sparkle:shortVersionString="3.8.6" length="12333187" type="application/octet-stream" sparkle:dsaSignature="MC0CFD1xEFHRM0V6Z0hQFkjZ6m8cx2c8AhUAxn3g1jihf8eqIAqyODqKdNPUtdk="/>
         </item>
+
     </channel>
 </rss>
