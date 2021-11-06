@@ -3,6 +3,24 @@
     <channel>
         <title>Erbele</title>
         <item>
+            <title>3.11.2</title>
+            <description>
+                <![CDATA[
+                    No functional change to release 3.11.1.
+
+                    <p>
+
+                    <b>Bug fixes:</b>
+                    <ul>
+                        <li>Fixed update problem by switching from disk image files to zip files for distribution. Workaround for a problem which occurs when Sparkle tries to mount disk image file when updating Erbele (using disk image files seems to be incompatible with App Sandbox feature).</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Sat, 06 Nov 2021 20:32:53 +0100</pubDate>
+            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/abentele/Erbele/releases/download/3.11.2/Erbele-3.11.2.zip" sparkle:version="3.11.2" sparkle:shortVersionString="3.11.2" length="6715535" type="application/octet-stream" sparkle:edSignature="MgAMezdnEniUmzR7KKv+50yUpwkaeeFJgxWvAdKYF/Bw6COezSHU238v99qqDB9bkeMVyZg2cGRbJ/GaBDC3CA==" sparkle:dsaSignature="MC0CFQCthxGB1jT0XpIBR2oscjdY5y4ikQIUNy7s7sV8SIgQ288GSJG8YqoYmfs="/>
+        </item>
+        <item>
             <title>3.11.1</title>
             <description>
                 <![CDATA[
