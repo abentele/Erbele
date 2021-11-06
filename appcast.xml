@@ -3,6 +3,17 @@
     <channel>
         <title>Erbele</title>
         <item>
+            <title>3.11.3</title>
+            <description>
+                <![CDATA[
+                    No public release
+                ]]>
+            </description>
+            <pubDate>Sat, 06 Nov 2021 23:02:02 +0100</pubDate>
+            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/abentele/Erbele/releases/download/untagged-d6331c3a0c9cddceee27/Erbele-3.11.3.zip" sparkle:version="3.11.3" sparkle:shortVersionString="3.11.3" length="6715509" type="application/octet-stream" sparkle:dsaSignature="MC0CFGWaqALeVIOaIMseJpx/0PzXqi1YAhUAkSDsLME3sWEaYIklntcrsPnLLYg="/>
+        </item>
+        <item>
             <title>3.11.2</title>
             <description>
                 <![CDATA[
