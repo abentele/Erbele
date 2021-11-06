@@ -6,20 +6,6 @@
 	objectVersion = 52;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		1F748632114F1F6000767B18 /* Distribution */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 1F7486C4114F1F6D00767B18 /* Build configuration list for PBXAggregateTarget "Distribution" */;
-			buildPhases = (
-			);
-			dependencies = (
-				1F7486C8114F1F8000767B18 /* PBXTargetDependency */,
-			);
-			name = Distribution;
-			productName = Distribution;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		1FB593BA113EE34600ECB6C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FB593B9113EE34600ECB6C0 /* Localizable.strings */; };
 		1FB593BD113EE35E00ECB6C0 /* Localizable3.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FB593BC113EE35E00ECB6C0 /* Localizable3.strings */; };
@@ -146,16 +132,6 @@
 		E1A5DEC324A898C5006F135A /* Shortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5DEC224A898C5006F135A /* Shortcuts.swift */; };
 		E1E8E9D11DC8D6BC0072BEF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E8E9D01DC8D6BC0072BEF0 /* Images.xcassets */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1F7486C7114F1F8000767B18 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D15AC270486D014006FF6A4;
-			remoteInfo = Smultron;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		E117176C1E58DF56004E79FA /* CopyFiles */ = {
@@ -1135,7 +1111,6 @@
 			projectRoot = "";
 			targets = (
 				8D15AC270486D014006FF6A4 /* Erbele */,
-				1F748632114F1F6000767B18 /* Distribution */,
 			);
 		};
 /* End PBXProject section */
@@ -1274,14 +1249,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1F7486C8114F1F8000767B18 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8D15AC270486D014006FF6A4 /* Erbele */;
-			targetProxy = 1F7486C7114F1F8000767B18 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1FB593B9113EE34600ECB6C0 /* Localizable.strings */ = {
@@ -1610,30 +1577,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1F748633114F1F6000767B18 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = Distribution;
-				VALID_ARCHS = "$(ARCHS_STANDARD)";
-			};
-			name = Debug;
-		};
-		1F748634114F1F6000767B18 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				PRODUCT_NAME = Distribution;
-				VALID_ARCHS = "$(ARCHS_STANDARD)";
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
 		C05733C808A9546B00998B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1829,15 +1772,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F7486C4114F1F6D00767B18 /* Build configuration list for PBXAggregateTarget "Distribution" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F748633114F1F6000767B18 /* Debug */,
-				1F748634114F1F6000767B18 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Erbele" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
