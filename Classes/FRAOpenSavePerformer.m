@@ -147,22 +147,61 @@ static id sharedInstance = nil;
             
             NSAlert* alert = [[NSAlert alloc] init];
             [alert setMessageText:title];
-            [alert setInformativeText:TRY_TO_AUTHENTICATE_STRING];
-            [alert addButtonWithTitle:AUTHENTICATE_STRING];
             [alert addButtonWithTitle:CANCEL_BUTTON];
             [alert setAlertStyle:NSAlertStyleInformational];
             
             [alert beginSheetModalForWindow:FRACurrentWindow completionHandler:^(NSInteger result) {
-                if (result == NSAlertFirstButtonReturn) {
-                    [[FRAAuthenticationController sharedInstance] performAuthenticatedOpenOfPath:path withEncoding:chosenEncoding];
-                }
             }];
 
 			return;
 		}
 
-		[self shouldOpenPartTwo:path withEncoding:chosenEncoding data:nil];
-	}
+        NSString *string = nil;
+        NSStringEncoding encoding = 0;
+        NSData *textData = nil;
+        if (chosenEncoding != 0) { // 0 means that the user has not chosen an encoding
+            encoding = chosenEncoding;
+        } else if ([[FRADefaults valueForKey:@"EncodingsMatrix"] integerValue] == 0) {
+            NSError *error = nil;
+            string = [NSString stringWithContentsOfFile:path usedEncoding:&encoding error:&error];
+            if (error != nil || string == nil) { // It hasn't found an encoding so return the default
+                textData = [[NSData alloc] initWithContentsOfFile:path];
+                encoding = [FRAText guessEncodingFromData:textData];
+                if (encoding == 0 || encoding == -1) { // Something has gone wrong or it hasn't found an encoding, so use default
+                    encoding = [[FRADefaults valueForKey:@"EncodingsPopUp"] integerValue];
+                }
+            }
+            
+        } else {
+            encoding = [[FRADefaults valueForKey:@"EncodingsPopUp"] integerValue];
+        }
+
+        if (string == nil) {
+            if (textData != nil) {
+                string = [[NSString alloc] initWithData: textData encoding:encoding];
+            } else {
+                string = [[NSString alloc] initWithContentsOfFile:path encoding:encoding error:nil];
+            }
+        }
+
+        if (string == nil) { // Test if encoding worked, else try NSUTF8StringEncoding
+            string = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
+            encoding = NSUTF8StringEncoding;
+            if (string == nil) { // Test if encoding worked, else try NSISOLatin1StringEncoding
+                string = [[NSString alloc] initWithContentsOfFile:path encoding:NSISOLatin1StringEncoding error:nil];
+                encoding = NSISOLatin1StringEncoding;
+                if (string == nil) { // Test if encoding worked, else try defaultCStringEncoding
+                    string = [[NSString alloc] initWithContentsOfFile:path encoding:[NSString defaultCStringEncoding] error:nil];
+                    encoding = [NSString defaultCStringEncoding];
+                    if (string == nil) { // If it still is nil set it to empty string
+                        string = @"";
+                    }
+                }
+            }
+        }
+
+        [self performOpenWithPath:path contents:string encoding:encoding];
+    }
 	
 	@try {
 		NSAppleEventDescriptor *appleEventSelectionRangeDescriptor = [[[NSAppleEventManager sharedAppleEventManager] currentAppleEvent] paramDescriptorForKeyword:keyAEPosition];
@@ -180,58 +219,6 @@ static id sharedInstance = nil;
 	}
 	@catch (NSException *exception) {
 	}
-}
-
-
-// Split this method in two to allow the latter part to be called from FRAAuthenticationController
-- (void)shouldOpenPartTwo:(NSString *)path withEncoding:(NSStringEncoding)chosenEncoding data:(NSData *)textData
-{
-	NSString *string = nil;
-	NSStringEncoding encoding = 0;
-	if (chosenEncoding != 0) { // 0 means that the user has not chosen an encoding
-		encoding = chosenEncoding;
-	} else if ([[FRADefaults valueForKey:@"EncodingsMatrix"] integerValue] == 0) {
-		NSError *error = nil;
-		string = [NSString stringWithContentsOfFile:path usedEncoding:&encoding error:&error];
-		if (error != nil || string == nil) { // It hasn't found an encoding so return the default
-			if (textData == nil) {
-				textData = [[NSData alloc] initWithContentsOfFile:path];
-			}
-			encoding = [FRAText guessEncodingFromData:textData];
-			if (encoding == 0 || encoding == -1) { // Something has gone wrong or it hasn't found an encoding, so use default
-				encoding = [[FRADefaults valueForKey:@"EncodingsPopUp"] integerValue];
-			}
-		}
-		
-	} else {
-		encoding = [[FRADefaults valueForKey:@"EncodingsPopUp"] integerValue];
-	}
-
-	if (string == nil) {
-        if (textData != nil) {
-            string = [[NSString alloc] initWithData: textData encoding:encoding];
-        } else {
-            string = [[NSString alloc] initWithContentsOfFile:path encoding:encoding error:nil];
-        }
-	}
-
-	if (string == nil) { // Test if encoding worked, else try NSUTF8StringEncoding
-		string = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
-		encoding = NSUTF8StringEncoding;
-		if (string == nil) { // Test if encoding worked, else try NSISOLatin1StringEncoding
-			string = [[NSString alloc] initWithContentsOfFile:path encoding:NSISOLatin1StringEncoding error:nil];
-			encoding = NSISOLatin1StringEncoding;
-			if (string == nil) { // Test if encoding worked, else try defaultCStringEncoding
-				string = [[NSString alloc] initWithContentsOfFile:path encoding:[NSString defaultCStringEncoding] error:nil];
-				encoding = [NSString defaultCStringEncoding];
-				if (string == nil) { // If it still is nil set it to empty string
-					string = @"";
-				}
-			}
-		}
-	}
-
-	[self performOpenWithPath:path contents:string encoding:encoding];
 }
 
 - (void)performOpenWithPath:(NSString *)path contents:(NSString *)textString encoding:(NSStringEncoding)encoding
@@ -391,19 +378,13 @@ static id sharedInstance = nil;
 			[[FRACurrentWindow attachedSheet] close];
 		}
 		NSString *title = [NSString stringWithFormat:FILE_IS_UNWRITABLE_SAVE_STRING, path];
-		NSData *data = [[NSData alloc] initWithData:[string dataUsingEncoding:[[document valueForKey:@"encoding"] integerValue] allowLossyConversion:YES]];
         
         NSAlert* alert = [[NSAlert alloc] init];
         [alert setMessageText:title];
-        [alert setInformativeText:TRY_TO_AUTHENTICATE_STRING];
-        [alert addButtonWithTitle:AUTHENTICATE_STRING];
         [alert addButtonWithTitle:CANCEL_BUTTON];
         [alert setAlertStyle:NSAlertStyleInformational];
         
         [alert beginSheetModalForWindow:FRACurrentWindow completionHandler:^(NSInteger result) {
-            if (result == NSAlertFirstButtonReturn) {
-                [[FRAAuthenticationController sharedInstance] performAuthenticatedSaveOfDocument:document data:data path:path fromSaveAs:fromSaveAs aCopy:aCopy];
-            }
         }];
         
         return;

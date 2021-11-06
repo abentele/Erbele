@@ -139,7 +139,6 @@
 		B044E6202521018000F0A091 /* FRADataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B044E61D2521018000F0A091 /* FRADataModel.xcdatamodeld */; };
 		E116524427341BB9001393D3 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = E116524327341BB9001393D3 /* Sparkle */; };
 		E1196EA724A8A2F800F2794D /* FRAHelpMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1196EA624A8A2F800F2794D /* FRAHelpMenuController.swift */; };
-		E1196EA924A8AD8500F2794D /* FRAAuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1196EA824A8AD8500F2794D /* FRAAuthenticationController.swift */; };
 		E13832CF24D6393B0018FD7F /* FRADocumentsMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13832CE24D6393B0018FD7F /* FRADocumentsMenuController.swift */; };
 		E18170B71E58FD9A003D9893 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = E18170B61E58FD9A003D9893 /* dsa_pub.pem */; };
 		E1A5DEBF24A89020006F135A /* FRAApplicationMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5DEBE24A89020006F135A /* FRAApplicationMenuController.swift */; };
@@ -511,7 +510,6 @@
 		B0ECCCA624B2942800F8197B /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/FRARegularExpressionHelp.strings; sourceTree = "<group>"; };
 		E10F2EB91E6C21F20049356A /* zh_CN */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = zh_CN; path = zh_CN.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E1196EA624A8A2F800F2794D /* FRAHelpMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRAHelpMenuController.swift; sourceTree = "<group>"; };
-		E1196EA824A8AD8500F2794D /* FRAAuthenticationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRAAuthenticationController.swift; sourceTree = "<group>"; };
 		E121A93327347A1800C2D894 /* Erbele.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Erbele.entitlements; sourceTree = "<group>"; };
 		E122980E247934120055CD43 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E122980F247934120055CD43 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable3.strings; sourceTree = "<group>"; };
@@ -752,7 +750,6 @@
 				7F980AE50B73B6A2000A9140 /* FRAServicesController.m */,
 				7F980AE70B73B6A2000A9140 /* FRAShortcutsController.m */,
 				7F980AEB0B73B6A2000A9140 /* FRASnippetsController.m */,
-				E1196EA824A8AD8500F2794D /* FRAAuthenticationController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -1269,7 +1266,6 @@
 				7FBDDEFC0CF794F8003BAFB5 /* FRAProjectWindow.m in Sources */,
 				7F7444C90CF8DDEC00C947C1 /* FRAAdvancedFindPanel.m in Sources */,
 				7F79EE370D93D5500034017B /* NSString+Erbele.m in Sources */,
-				E1196EA924A8AD8500F2794D /* FRAAuthenticationController.swift in Sources */,
 				7F79EE3A0D93D5760034017B /* NSImage+Erbele.m in Sources */,
 				7F79EE3D0D93D58C0034017B /* NSToolbarItem+Erbele.m in Sources */,
 				7F2B7E330D9463A100C60435 /* FRASearchField.m in Sources */,

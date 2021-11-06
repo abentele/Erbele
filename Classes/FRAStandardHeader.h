@@ -110,13 +110,11 @@ typedef NSUInteger FRAErrors;
 #define DELETE_BUTTON NSLocalizedString(@"Delete", @"Delete-button")
 
 #define UNSAVED_STRING NSLocalizedString(@"(unsaved)", @"(unsaved)")
-#define AUTHENTICATE_STRING NSLocalizedString(@"Authenticate", @"Authenticate")
 #define SAVE_STRING NSLocalizedString(@"Save", @"Save")
 #define PREVIEW_STRING NSLocalizedString(@"Preview", @"Preview")
 #define FUNCTION_STRING NSLocalizedString(@"Function", @"Function")
 #define CLOSE_SPLIT_STRING NSLocalizedString(@"Close Split", @"Close Split")
 #define COLLECTION_STRING NSLocalizedString(@"Collection", @"Collection")
-#define TRY_TO_AUTHENTICATE_STRING NSLocalizedString(@"If you want you can try to authenticate with an administrators username and password", @"Indicate that if you want you can try to authenticate with an administrators username and password")
 
 #define TRY_SAVING_AT_A_DIFFERENT_LOCATION_STRING NSLocalizedString(@"Please save it at a different location", @"Indicate that they should try to save in a different location")
 #define SPLIT_WINDOW_STRING NSLocalizedString(@"Split Window", @"Split Window")
