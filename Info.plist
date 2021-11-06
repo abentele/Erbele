@@ -212,12 +212,6 @@
 	</array>
 	<key>OSAScriptingDefinition</key>
 	<string>Erbele.sdef</string>
-	<key>SUFeedURL</key>
-	<string>https://raw.githubusercontent.com/abentele/Erbele/master/appcast.xml</string>
-	<key>SUPublicDSAKeyFile</key>
-	<string>dsa_pub.pem</string>
-    <key>SUPublicEDKey</key>
-    <string>N7XRS5paQEZ/J2N1OuwC0asLtFsgu+kAMSof3+rjLOw=</string>
 	<key>UTExportedTypeDeclarations</key>
 	<array>
 		<dict>

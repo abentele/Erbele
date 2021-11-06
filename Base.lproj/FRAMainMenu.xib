@@ -19,12 +19,6 @@
                                     <action selector="orderFrontStandardAboutPanel:" target="-2" id="142"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Check for Updates..." id="vYb-oL-J9P">
-                                <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="checkForUpdates:" target="h5v-by-cne" id="nWn-tV-TTt"/>
-                                </connections>
-                            </menuItem>
                             <menuItem isSeparatorItem="YES" id="202">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
@@ -910,6 +904,5 @@
         </customObject>
         <customObject id="388" userLabel="FRAViewMenuController" customClass="FRAViewMenuController"/>
         <customObject id="389" userLabel="FRAProjectsController" customClass="FRAProjectsController"/>
-        <customObject id="h5v-by-cne" customClass="SUUpdater"/>
     </objects>
 </document>
