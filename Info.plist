@@ -213,7 +213,7 @@
 	<key>OSAScriptingDefinition</key>
 	<string>Erbele.sdef</string>
 	<key>SUFeedURL</key>
-	<string>https://raw.githubusercontent.com/abentele/Erbele/master/appcast.xml</string>
+	<string>https://raw.githubusercontent.com/abentele/Erbele/develop/appcast.xml</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
 	<key>SUEnableInstallerLauncherService</key>
