@@ -216,6 +216,8 @@
 	<string>https://raw.githubusercontent.com/abentele/Erbele/master/appcast.xml</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
+	<key>SUEnableInstallerLauncherService</key>
+	<true/>
 	<key>UTExportedTypeDeclarations</key>
 	<array>
 		<dict>

@@ -910,6 +910,6 @@
         </customObject>
         <customObject id="388" userLabel="FRAViewMenuController" customClass="FRAViewMenuController"/>
         <customObject id="389" userLabel="FRAProjectsController" customClass="FRAProjectsController"/>
-        <customObject id="h5v-by-cne" customClass="SUUpdater"/>
+        <customObject id="h5v-by-cne" customClass="SPUStandardUpdaterController"/>
     </objects>
 </document>
