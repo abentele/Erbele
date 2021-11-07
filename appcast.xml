@@ -9,9 +9,9 @@
                     No public release
                 ]]>
             </description>
-            <pubDate>Sat, 06 Nov 2021 23:02:02 +0100</pubDate>
+            <pubDate>Sun, 07 Nov 2021 14:59:06 +0100</pubDate>
             <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/abentele/Erbele/releases/download/untagged-d6331c3a0c9cddceee27/Erbele-3.11.3.zip" sparkle:version="3.11.3" sparkle:shortVersionString="3.11.3" length="6715509" type="application/octet-stream" sparkle:dsaSignature="MC0CFGWaqALeVIOaIMseJpx/0PzXqi1YAhUAkSDsLME3sWEaYIklntcrsPnLLYg="/>
+            <enclosure url="https://github.com/abentele/Erbele/releases/download/untagged-785c12d9c6facea2787e/Erbele_3.11.3.dmg" sparkle:version="3.11.3" sparkle:shortVersionString="3.11.3" length="7333889" type="application/octet-stream" sparkle:dsaSignature="MCwCFA88sIVGBOrH21kxRhGhOsQVyuFMAhRikddFjAZGjNRhpUQELz0dHYn2UA=="/>
         </item>
         <item>
             <title>3.11.2</title>
@@ -105,7 +105,5 @@
             <pubDate>Sun, 28 Jun 2020 19:58:54 +0200</pubDate>
             <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/abentele/Erbele/releases/download/3.8.6/Erbele_3.8.6.dmg" sparkle:version="3.8.6" sparkle:shortVersionString="3.8.6" length="12333187" type="application/octet-stream" sparkle:dsaSignature="MC0CFD1xEFHRM0V6Z0hQFkjZ6m8cx2c8AhUAxn3g1jihf8eqIAqyODqKdNPUtdk="/>
-        </item>
-
-    </channel>
+        </item>    </channel>
 </rss>
