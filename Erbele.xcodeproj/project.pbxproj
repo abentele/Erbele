@@ -530,7 +530,6 @@
 		E1A5DEC024A895A6006F135A /* FRAEditMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRAEditMenuController.swift; sourceTree = "<group>"; };
 		E1A5DEC224A898C5006F135A /* Shortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shortcuts.swift; sourceTree = "<group>"; };
 		E1AECE231E6C229600BAAE9A /* zh_CN */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; lineEnding = 0; name = zh_CN; path = zh_CN.lproj/Localizable3.strings; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
-		E1AFD3D227340AFC008AB5E0 /* Erbele-TerminalApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Erbele-TerminalApp.entitlements"; sourceTree = "<group>"; };
 		E1E8E9D01DC8D6BC0072BEF0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Erbele/Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1031,7 +1030,6 @@
 		E121A932273479DE00C2D894 /* Distribution */ = {
 			isa = PBXGroup;
 			children = (
-				E1AFD3D227340AFC008AB5E0 /* Erbele-TerminalApp.entitlements */,
 				E121A93327347A1800C2D894 /* Erbele.entitlements */,
 			);
 			path = Distribution;
