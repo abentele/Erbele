@@ -79,24 +79,5 @@
    <ArchiveAction
       buildConfiguration = "Release"
       revealArchiveInOrganizer = "YES">
-      <PostActions>
-         <ExecutionAction
-            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
-            <ActionContent
-               title = "Run Script"
-               scriptText = "# script derived from https://developer.apple.com/documentation/security/notarizing_macos_software_before_distribution/customizing_the_notarization_workflow/customizing_the_xcode_archive_process&#10;&#10;EXPORT_PATH=&quot;/tmp/Erbele-Export&quot;&#10;&#10;/usr/bin/osascript -e &apos;display notification &quot;Exporting application archive&#x2026;&quot; with title &quot;Export app for packaging and notarization&quot;&apos;&#10;&#10;rm -rf $EXPORT_PATH&#10;&#10;# export archive&#10;/usr/bin/xcodebuild -exportArchive -archivePath &quot;$ARCHIVE_PATH&quot; -exportOptionsPlist &quot;$SRCROOT/ExportOptions.plist&quot; -exportPath &quot;$EXPORT_PATH&quot;&#10;&#10;# As a convenience, open the export folder in Finder.&#10;/usr/bin/open &quot;$EXPORT_PATH&quot;&#10;&#10;/usr/bin/osascript -e &apos;display notification &quot;Finished exporting application archive.&quot; with title &quot;Export app for packaging and notarization&quot;&apos;&#10;"
-               shellToInvoke = "/bin/sh">
-               <EnvironmentBuildable>
-                  <BuildableReference
-                     BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "8D15AC270486D014006FF6A4"
-                     BuildableName = "Erbele.app"
-                     BlueprintName = "Erbele"
-                     ReferencedContainer = "container:Erbele.xcodeproj">
-                  </BuildableReference>
-               </EnvironmentBuildable>
-            </ActionContent>
-         </ExecutionAction>
-      </PostActions>
    </ArchiveAction>
 </Scheme>
