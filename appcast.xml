@@ -3,6 +3,34 @@
     <channel>
         <title>Erbele</title>
         <item>
+            <title>4.0</title>
+            <description>
+                <![CDATA[
+                    <p style="color:red;">Please update your app via Mac App Store: <a href="https://apps.apple.com/de/app/erbele/id1595456360?mt=12">Download on Mac App Store</a>.
+                    Be aware downloads from github including automatic updates via the app itself (this dialog) do not work any more.
+                    </p>
+
+                    <p>
+
+                    <b>Changed:</b>
+                    <ul>
+                        <li>Distribution via Mac App Store; removed automatic updates with Sparkle Framework.</li>
+                    </ul>
+
+                    <p>
+
+                    <b>Bug fixes:</b>
+                    <ul>
+                        <li>Fixed "Save as", "Export commands" and "Export snippets" didn't work any more.</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Su., 14 Nov. 2021 23:00:00 +0100</pubDate>
+            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+            <!-- dummy enclosure element which doesn't work. -->
+            <enclosure url="https://github.com/abentele/Erbele/releases/download/4.0/Erbele_4.0.dmg" sparkle:version="4.0.0" sparkle:shortVersionString="4.0" length="10896081" type="application/octet-stream" sparkle:dsaSignature="MCsCFCPdkVpbbY5Sb5DXJhxZul6d2hniAhNIrbdc37L/9oc3Q8ARomFVWilk"/>
+        </item>
+        <item>
             <title>3.11.2</title>
             <description>
                 <![CDATA[
