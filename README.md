@@ -36,7 +36,17 @@ Download the dmg file from [Releases](https://github.com/abentele/Erbele/release
 
 ## Troubleshooting
 
-Only up to release 3.10 and with newer macOS versions there is an issue with Gatekeeper when opening the app after having it downloaded from github (see ticket #46).
+### Release 3.11
+
+Release 3.11 has several bugs, most important incomplete implementation of Sandbox feature.
+Please don't use release 3.11 but latest working release 3.10.
+
+I'm currently working on a new release which removes automatic updates and switching to distribution via Mac App Store.
+Please be patient.
+
+### Gatekeeper issue (up to release 3.10)
+
+With newer macOS versions there is an issue with Gatekeeper when opening the app after having it downloaded from github (see ticket #46).
 This issue prevents you to launch the app because the app is labeled to be in quarantine.
 *Workaround:* Just issue this command in the Terminal app, and retry: `#$ xattr -c Erbele.app`
 This issue has been fixed with release 3.11.
