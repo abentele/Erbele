@@ -68,3 +68,7 @@ For more details, see the [Issues list](https://github.com/abentele/Erbele/issue
 
 Please add bugs and wishes to the issues list, or discuss existing issues with me and the community.
 If you would like to contribute, please let me know.
+
+# Privacy
+
+Read the [Privacy Statement](./Privacy.md)
