@@ -453,17 +453,20 @@ static id sharedInstance = nil;
 		return;
 	}
 	
-	BOOL fileExists = [fileManager fileExistsAtPath:path];
-	BOOL hasPermission = ([fileManager isWritableFileAtPath:[path stringByDeletingLastPathComponent]] && (!fileExists || (fileExists && [fileManager isWritableFileAtPath:path])));
-	if (!hasPermission) { // Check permission
-		NSString *title = [NSString stringWithFormat:FILE_IS_UNWRITABLE_SAVE_STRING, path];
-		[FRAVarious standardAlertSheetWithTitle:title message:TRY_SAVING_AT_A_DIFFERENT_LOCATION_STRING window:FRACurrentWindow];
-		return;
-	}
-	
-	if (![data writeToURL:[NSURL fileURLWithPath:path] atomically:YES]) {
-		NSString *title = [NSString stringWithFormat:NSLocalizedString(@"There was a unknown error when trying to save the file %@", @"Indicate that there was a unknown error when trying to save the file %@ in Unknown-error-when-saving sheet"), path];
-		[FRAVarious standardAlertSheetWithTitle:title message:NSLocalizedString(@"Please try to save in a different location", @"Indicate that they should try to save in a different location with in Unknown-error-when-data-saving sheet") window:FRACurrentWindow];
+    NSError *error;
+    if (![data writeToURL:[NSURL fileURLWithPath:path] options:NSDataWritingAtomic error:&error]) {
+        // check for file permission errors
+        if ([[error domain] isEqualTo:NSCocoaErrorDomain] && ([error code] == NSFileWriteVolumeReadOnlyError || [error code] == NSFileWriteNoPermissionError)) { // Check permission to write file
+            NSString *title = [NSString stringWithFormat:FILE_IS_UNWRITABLE_SAVE_STRING, path];
+            NSString *message = [NSString stringWithFormat:@"%@ %@", [error localizedDescription], TRY_SAVING_AT_A_DIFFERENT_LOCATION_STRING];
+            [FRAVarious standardAlertSheetWithTitle:title message:message window:FRACurrentWindow];
+        }
+        else {
+            NSString *title = [NSString stringWithFormat:NSLocalizedString(@"There was a unknown error when trying to save the file %@", @"Indicate that there was a unknown error when trying to save the file %@ in Unknown-error-when-saving sheet"), path];
+            NSString *message = NSLocalizedString(@"Please try to save in a different location", @"Indicate that they should try to save in a different location with in Unknown-error-when-data-saving sheet");
+            message = [NSString stringWithFormat:@"%@. %@", [error localizedDescription], message];
+            [FRAVarious standardAlertSheetWithTitle:title message:message window:FRACurrentWindow];
+        }
 	}
 }
 
