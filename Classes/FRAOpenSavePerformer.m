@@ -351,57 +351,24 @@ static id sharedInstance = nil;
 		return;
 	}
 	
-	NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSFileManager *fileManager = [NSFileManager defaultManager];
 	BOOL isDirectory;
 	if ([fileManager fileExistsAtPath:path isDirectory:&isDirectory] && isDirectory) { // Check if it is a folder
 		NSString* title = [NSString stringWithFormat:IS_NOW_FOLDER_STRING, path];
 		[FRAVarious standardAlertSheetWithTitle:title message:[NSString stringWithFormat:NSLocalizedString(@"Please save it at a different location with Save As%C in the File menu", @"Indicate that they should try to save at a different location with Save As%C in File menu in Path-is-a-directory sheet"), 0x2026] window:FRACurrentWindow];
 		return;
 	}
-	BOOL fileAlreadyExists = [fileManager fileExistsAtPath:path];
-	BOOL folderIsWritable = YES;
-	if (fileAlreadyExists) {
-		folderIsWritable = [fileManager isWritableFileAtPath:[path stringByDeletingLastPathComponent]];
-	}
-	BOOL hasWritePermission = YES;
 	
-	if (fileAlreadyExists) {
-		hasWritePermission = [fileManager isWritableFileAtPath:path];
-	} else {
-		if ([[document valueForKey:@"isNewDocument"] boolValue] == YES) { // Check only if it's anew file as if it's an old file but the path does not exist, the folder e.g. has changed name so it will be caught later
-			hasWritePermission = [fileManager isWritableFileAtPath:[path stringByDeletingLastPathComponent]];
-		}
-	}		
-
-	if (!hasWritePermission) { // Check permission to write file
-		if ([FRACurrentWindow attachedSheet]) {
-			[[FRACurrentWindow attachedSheet] close];
-		}
-		NSString *title = [NSString stringWithFormat:FILE_IS_UNWRITABLE_SAVE_STRING, path];
-        
-        NSAlert* alert = [[NSAlert alloc] init];
-        [alert setMessageText:title];
-        [alert addButtonWithTitle:CANCEL_BUTTON];
-        [alert setAlertStyle:NSAlertStyleInformational];
-        
-        [alert beginSheetModalForWindow:FRACurrentWindow completionHandler:^(NSInteger result) {
-        }];
-        
-        return;
-	}
-	
-	BOOL error = NO;
+	NSError * error;
 	NSMutableDictionary *attributes;
 	
-	if ([[document valueForKey:@"isNewDocument"] boolValue] == YES || fromSaveAs || !folderIsWritable) { // If it's a new file
+	if ([[document valueForKey:@"isNewDocument"] boolValue] == YES || fromSaveAs) { // If it's a new file
 		
-		if (![string writeToURL:[NSURL fileURLWithPath:path] atomically:folderIsWritable encoding:[[document valueForKey:@"encoding"] integerValue] error:nil]) {
-			if (![string writeToURL:[NSURL fileURLWithPath:path] atomically:NO encoding:[[document valueForKey:@"encoding"] integerValue] error:nil]) { // Try it again without backup file
-				error = YES;
-			}
+		if (![string writeToURL:[NSURL fileURLWithPath:path] atomically:YES encoding:[[document valueForKey:@"encoding"] integerValue] error:&error]) {
+            [string writeToURL:[NSURL fileURLWithPath:path] atomically:NO encoding:[[document valueForKey:@"encoding"] integerValue] error:&error]; // Try it again without backup file
 		}
 		
-		if (!error) {
+		if (error == nil) {
 			if ([[document valueForKey:@"isNewDocument"] boolValue] == YES) {
 				attributes = [NSMutableDictionary dictionary];
 			} else {
@@ -439,22 +406,39 @@ static id sharedInstance = nil;
 		[attributes removeObjectForKey:@"NSFileSize"]; // Remove those values which has to be updated 
 		[attributes removeObjectForKey:@"NSFileModificationDate"];
 		
-		if (![string writeToURL:[NSURL fileURLWithPath:path] atomically:folderIsWritable encoding:[[document valueForKey:@"encoding"] integerValue] error:nil]) {
-			if (![string writeToURL:[NSURL fileURLWithPath:path] atomically:NO encoding:[[document valueForKey:@"encoding"] integerValue] error:nil]) { // Try it again without backup file as e.g. sshfs seems to object otherwise when overwriting a file
-				error = YES;
-			}
+		if (![string writeToURL:[NSURL fileURLWithPath:path] atomically:YES encoding:[[document valueForKey:@"encoding"] integerValue] error:&error]) {
+            [string writeToURL:[NSURL fileURLWithPath:path] atomically:NO encoding:[[document valueForKey:@"encoding"] integerValue] error:&error]; // Try it again without backup file as e.g. sshfs seems to object otherwise when overwriting a file
 		}
 		
-		if (!error) {
+		if (error == nil) {
 			[fileManager setAttributes:attributes ofItemAtPath:path error:nil];
 			[self resetExtraMetaData:extraMetaData path:path];
 			[self updateAfterSaveForDocument:document path:path];
 		}
 	}
 	
-	if (error) {	
-		NSString *title = [NSString stringWithFormat:NSLocalizedString(@"There was a unknown error when trying to save the file %@", @"Indicate that there was a unknown error when trying to save the file %@ in Unknown-error-when-saving sheet"), path];
-		[FRAVarious standardAlertSheetWithTitle:title message:[NSString stringWithFormat:NSLocalizedString(@"Please try a different location with Save As%C in the File menu or check the permissions of the file and the enclosing folder and try again", @"Indicate that you should try a different location with Save As%C in the File menu or check the permissions of the file and the enclosing folder and try again in Unknown-error-when-saving sheet"), 0x2026] window:FRACurrentWindow];
+	if (error != nil) {
+        // check for file permission errors
+        if ([[error domain] isEqualTo:NSCocoaErrorDomain] && ([error code] == NSFileWriteVolumeReadOnlyError || [error code] == NSFileWriteNoPermissionError)) { // Check permission to write file
+            if ([FRACurrentWindow attachedSheet]) {
+                [[FRACurrentWindow attachedSheet] close];
+            }
+            NSString *title = [NSString stringWithFormat:FILE_IS_UNWRITABLE_SAVE_STRING, path];
+
+            NSAlert* alert = [[NSAlert alloc] init];
+            [alert setMessageText:title];
+            [alert setInformativeText:[error localizedDescription]];
+            [alert addButtonWithTitle:CANCEL_BUTTON];
+            [alert setAlertStyle:NSAlertStyleInformational];
+
+            [alert beginSheetModalForWindow:FRACurrentWindow completionHandler:^(NSInteger result) {
+            }];
+        } else {
+            NSString *title = [NSString stringWithFormat:NSLocalizedString(@"There was a unknown error when trying to save the file %@", @"Indicate that there was a unknown error when trying to save the file %@ in Unknown-error-when-saving sheet"), path];
+            NSString *message = [NSString stringWithFormat:NSLocalizedString(@"Please try a different location with Save As%C in the File menu or check the permissions of the file and the enclosing folder and try again", @"Indicate that you should try a different location with Save As%C in the File menu or check the permissions of the file and the enclosing folder and try again in Unknown-error-when-saving sheet"), 0x2026];
+            message = [NSString stringWithFormat:@"%@. %@", [error localizedDescription], message];
+            [FRAVarious standardAlertSheetWithTitle:title message:message window:FRACurrentWindow];
+        }
 	}
 }
 
