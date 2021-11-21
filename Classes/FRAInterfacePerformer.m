@@ -29,6 +29,8 @@
 #import "ICUMatcher.h"
 #import "NSStringICUAdditions.h"
 
+#import "Erbele-Swift.h"
+
 
 @implementation FRAInterfacePerformer
 
@@ -107,12 +109,7 @@ static id sharedInstance = nil;
 	
 	[textScrollView setDocumentView:textView];
 
-	NSScrollView *gutterScrollView = [[NSScrollView alloc] initWithFrame:NSMakeRect(0, 0, [[FRADefaults valueForKey:@"GutterWidth"] integerValue], contentSize.height)];
-	[gutterScrollView setBorderType:NSNoBorder];
-	[gutterScrollView setHasVerticalScroller:NO];
-	[gutterScrollView setHasHorizontalScroller:NO];
-	[gutterScrollView setAutoresizingMask:NSViewHeightSizable];
-	[[gutterScrollView contentView] setAutoresizesSubviews:YES];
+	NSScrollView *gutterScrollView = [[FRALineNumbersScrollView alloc] initWithFrame:NSMakeRect(0, 0, [[FRADefaults valueForKey:@"GutterWidth"] integerValue], contentSize.height)];
 	
 	FRAGutterTextView *gutterTextView = [[FRAGutterTextView alloc] initWithFrame:NSMakeRect(0, 0, [[FRADefaults valueForKey:@"GutterWidth"] integerValue], contentSize.height - 50)];
 	[gutterScrollView setDocumentView:gutterTextView];
@@ -173,13 +170,8 @@ static id sharedInstance = nil;
 	
 	[textScrollView setDocumentView:textView];
 	
-	NSScrollView *gutterScrollView = [[NSScrollView alloc] initWithFrame:NSMakeRect(0, secondContentViewNavigationBarHeight, gutterWidth, contentSize.height)];
-	[gutterScrollView setBorderType:NSNoBorder];
-	[gutterScrollView setHasVerticalScroller:NO];
-	[gutterScrollView setHasHorizontalScroller:NO];
-	[gutterScrollView setAutoresizingMask:NSViewHeightSizable];
-	[[gutterScrollView contentView] setAutoresizesSubviews:YES];
-	
+	NSScrollView *gutterScrollView = [[FRALineNumbersScrollView alloc] initWithFrame:NSMakeRect(0, secondContentViewNavigationBarHeight, gutterWidth, contentSize.height)];
+
 	FRAGutterTextView *gutterTextView = [[FRAGutterTextView alloc] initWithFrame:NSMakeRect(0, secondContentViewNavigationBarHeight, gutterWidth, contentSize.height)];
 	[gutterScrollView setDocumentView:gutterTextView];
 	
@@ -268,12 +260,7 @@ static id sharedInstance = nil;
 	
 	[textScrollView setDocumentView:textView];
 	
-	NSScrollView *gutterScrollView = [[NSScrollView alloc] initWithFrame:NSMakeRect(0, -1, gutterWidth, contentSize.height)];
-	[gutterScrollView setBorderType:NSNoBorder];
-	[gutterScrollView setHasVerticalScroller:NO];
-	[gutterScrollView setHasHorizontalScroller:NO];
-	[gutterScrollView setAutoresizingMask:NSViewHeightSizable];
-	[[gutterScrollView contentView] setAutoresizesSubviews:YES];
+	NSScrollView *gutterScrollView = [[FRALineNumbersScrollView alloc] initWithFrame:NSMakeRect(0, -1, gutterWidth, contentSize.height)];
 	
 	FRAGutterTextView *gutterTextView = [[FRAGutterTextView alloc] initWithFrame:NSMakeRect(0, 0, gutterWidth, contentSize.height)];
 	[gutterScrollView setDocumentView:gutterTextView];
@@ -339,12 +326,7 @@ static id sharedInstance = nil;
 	
 	[textScrollView setDocumentView:textView];
 	
-	NSScrollView *gutterScrollView = [[NSScrollView alloc] initWithFrame:NSMakeRect(0, 0, gutterWidth, contentSize.height)];
-	[gutterScrollView setBorderType:NSNoBorder];
-	[gutterScrollView setHasVerticalScroller:NO];
-	[gutterScrollView setHasHorizontalScroller:NO];
-	[gutterScrollView setAutoresizingMask:NSViewHeightSizable];
-	[[gutterScrollView contentView] setAutoresizesSubviews:YES];
+	NSScrollView *gutterScrollView = [[FRALineNumbersScrollView alloc] initWithFrame:NSMakeRect(0, 0, gutterWidth, contentSize.height)];
 	
 	FRAGutterTextView *gutterTextView = [[FRAGutterTextView alloc] initWithFrame:NSMakeRect(0, 0, gutterWidth, contentSize.height)];
 	[gutterScrollView setDocumentView:gutterTextView];

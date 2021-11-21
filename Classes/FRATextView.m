@@ -19,6 +19,7 @@
 #import "FRAToolsMenuController.h"
 #import "FRAFileMenuController.h"
 #import "FRALineNumbers.h"
+#import "Erbele-Swift.h"
 
 
 @implementation FRATextView
@@ -28,9 +29,10 @@
 - (id)initWithFrame:(NSRect)frame
 {
 	if (self = [super initWithFrame:frame]) {
-		FRALayoutManager *layoutManager = [[FRALayoutManager alloc] init];
+        FRALayoutManager *layoutManager = [[FRALayoutManager alloc] init];
+        layoutManager.delegate = [FRALayoutManagerDelegate sharedInstance];
 		[[self textContainer] replaceLayoutManager:layoutManager];
-		
+        
 		[self setDefaults];		
 	}
 	return self;

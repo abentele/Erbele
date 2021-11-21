@@ -125,6 +125,8 @@
 		B044E6202521018000F0A091 /* FRADataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B044E61D2521018000F0A091 /* FRADataModel.xcdatamodeld */; };
 		E1196EA724A8A2F800F2794D /* FRAHelpMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1196EA624A8A2F800F2794D /* FRAHelpMenuController.swift */; };
 		E13832CF24D6393B0018FD7F /* FRADocumentsMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13832CE24D6393B0018FD7F /* FRADocumentsMenuController.swift */; };
+		E163B824274A6FA000BFDC4D /* FRALayoutManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E163B823274A6FA000BFDC4D /* FRALayoutManagerDelegate.swift */; };
+		E163B827274A803400BFDC4D /* FRALineNumbersScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E163B826274A803400BFDC4D /* FRALineNumbersScrollView.swift */; };
 		E1A5DEBF24A89020006F135A /* FRAApplicationMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5DEBE24A89020006F135A /* FRAApplicationMenuController.swift */; };
 		E1A5DEC124A895A6006F135A /* FRAEditMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5DEC024A895A6006F135A /* FRAEditMenuController.swift */; };
 		E1A5DEC324A898C5006F135A /* Shortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A5DEC224A898C5006F135A /* Shortcuts.swift */; };
@@ -271,8 +273,8 @@
 		7F980ACD0B73B6A2000A9140 /* FRAInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRAInfoController.m; path = Classes/FRAInfoController.m; sourceTree = "<group>"; };
 		7F980ACE0B73B6A2000A9140 /* FRALayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRALayoutManager.h; path = Classes/FRALayoutManager.h; sourceTree = "<group>"; };
 		7F980ACF0B73B6A2000A9140 /* FRALayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRALayoutManager.m; path = Classes/FRALayoutManager.m; sourceTree = "<group>"; };
-		7F980AD00B73B6A2000A9140 /* FRALineNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRALineNumbers.h; path = Classes/FRALineNumbers.h; sourceTree = "<group>"; };
-		7F980AD10B73B6A2000A9140 /* FRALineNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRALineNumbers.m; path = Classes/FRALineNumbers.m; sourceTree = "<group>"; };
+		7F980AD00B73B6A2000A9140 /* FRALineNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRALineNumbers.h; sourceTree = "<group>"; };
+		7F980AD10B73B6A2000A9140 /* FRALineNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRALineNumbers.m; sourceTree = "<group>"; };
 		7F980AD20B73B6A2000A9140 /* FRAMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRAMainController.h; path = Classes/FRAMainController.h; sourceTree = "<group>"; };
 		7F980AD30B73B6A2000A9140 /* FRAMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRAMainController.m; path = Classes/FRAMainController.m; sourceTree = "<group>"; };
 		7F980ADA0B73B6A2000A9140 /* FRAPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRAPreferencesController.h; path = Classes/FRAPreferencesController.h; sourceTree = "<group>"; };
@@ -521,6 +523,8 @@
 		E141EB2627417A1300362E7E /* Erbele.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = Erbele.entitlements; path = Resources/Erbele.entitlements; sourceTree = "<group>"; };
 		E143CAC92121C9B100809E9D /* ca */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E143CACA2121C9B500809E9D /* ca */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable3.strings; sourceTree = "<group>"; };
+		E163B823274A6FA000BFDC4D /* FRALayoutManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRALayoutManagerDelegate.swift; sourceTree = "<group>"; };
+		E163B826274A803400BFDC4D /* FRALineNumbersScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRALineNumbersScrollView.swift; sourceTree = "<group>"; };
 		E18EFF321DB378C000DA64C3 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		E1A5DEBD24A8901F006F135A /* Erbele-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Erbele-Bridging-Header.h"; sourceTree = "<group>"; };
 		E1A5DEBE24A89020006F135A /* FRAApplicationMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRAApplicationMenuController.swift; sourceTree = "<group>"; };
@@ -611,6 +615,7 @@
 				7F5C248E0B73B86100D2EDDC /* Performers */,
 				7F5C24910B73B87F00D2EDDC /* Menu Controllers */,
 				E1C536451E0FFC0600D25115 /* LayoutManager */,
+				E163B825274A800D00BFDC4D /* LineNumbers */,
 				7F5C24A40B73B9CC00D2EDDC /* Others */,
 				7F5C24900B73B87500D2EDDC /* Delegates */,
 				7F5C248F0B73B86B00D2EDDC /* Subclasses */,
@@ -861,7 +866,6 @@
 			children = (
 				7F5C24A50B73B9EC00D2EDDC /* Headers */,
 				7F980AC50B73B6A2000A9140 /* FRAFontTransformer.m */,
-				7F980AD10B73B6A2000A9140 /* FRALineNumbers.m */,
 				7F980AF40B73B6A2000A9140 /* FRASyntaxColouring.m */,
 			);
 			name = Others;
@@ -871,7 +875,6 @@
 			isa = PBXGroup;
 			children = (
 				7F980AC40B73B6A2000A9140 /* FRAFontTransformer.h */,
-				7F980AD00B73B6A2000A9140 /* FRALineNumbers.h */,
 				7F980AF30B73B6A2000A9140 /* FRASyntaxColouring.h */,
 			);
 			name = Headers;
@@ -1030,11 +1033,22 @@
 			path = Distribution;
 			sourceTree = "<group>";
 		};
+		E163B825274A800D00BFDC4D /* LineNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				7F980AD00B73B6A2000A9140 /* FRALineNumbers.h */,
+				7F980AD10B73B6A2000A9140 /* FRALineNumbers.m */,
+				E163B826274A803400BFDC4D /* FRALineNumbersScrollView.swift */,
+			);
+			path = LineNumbers;
+			sourceTree = "<group>";
+		};
 		E1C536451E0FFC0600D25115 /* LayoutManager */ = {
 			isa = PBXGroup;
 			children = (
 				7F980ACE0B73B6A2000A9140 /* FRALayoutManager.h */,
 				7F980ACF0B73B6A2000A9140 /* FRALayoutManager.m */,
+				E163B823274A6FA000BFDC4D /* FRALayoutManagerDelegate.swift */,
 			);
 			name = LayoutManager;
 			sourceTree = "<group>";
@@ -1177,6 +1191,7 @@
 				7F980B1C0B73B6A2000A9140 /* FRAInfoController.m in Sources */,
 				7F980B1D0B73B6A2000A9140 /* FRALayoutManager.m in Sources */,
 				7F980B1E0B73B6A2000A9140 /* FRALineNumbers.m in Sources */,
+				E163B827274A803400BFDC4D /* FRALineNumbersScrollView.swift in Sources */,
 				7F980B1F0B73B6A2000A9140 /* FRAMainController.m in Sources */,
 				7F980B230B73B6A2000A9140 /* FRAPreferencesController.m in Sources */,
 				7F980B240B73B6A2000A9140 /* FRAPreviewController.m in Sources */,
@@ -1186,6 +1201,7 @@
 				7F980B280B73B6A2000A9140 /* FRAServicesController.m in Sources */,
 				7F980B290B73B6A2000A9140 /* FRAShortcutsController.m in Sources */,
 				7F980B2A0B73B6A2000A9140 /* FRASingleDocumentWindowDelegate.m in Sources */,
+				E163B824274A6FA000BFDC4D /* FRALayoutManagerDelegate.swift in Sources */,
 				7F980B2B0B73B6A2000A9140 /* FRASnippetsController.m in Sources */,
 				7F980B2F0B73B6A2000A9140 /* FRASyntaxColouring.m in Sources */,
 				7F980B310B73B6A2000A9140 /* FRATableView.m in Sources */,
