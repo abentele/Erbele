@@ -13,6 +13,7 @@
 
 #import "FRALayoutManager.h"
 #import "FRABasicPerformer.h"
+#import "Erbele-Swift.h"
 
 @implementation FRALayoutManager
 
@@ -22,7 +23,9 @@
 {
 	if (self = [super init]) {
 		
-		attributes = @{NSFontAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"TextFont"]], NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[FRABasic lightDarkPreference: @"InvisibleCharactersColourWell"] ]]};
+        self.delegate = [FRALayoutManagerDelegate sharedInstance];
+
+        attributes = @{NSFontAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"TextFont"]], NSForegroundColorAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:[FRABasic lightDarkPreference: @"InvisibleCharactersColourWell"] ]]};
         unichar spaceUnichar = 0x02FD;
         spaceCharacter = [[NSString alloc] initWithCharacters:&spaceUnichar length:1];
 		unichar tabUnichar = 0x2192;

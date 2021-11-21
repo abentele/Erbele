@@ -2,8 +2,8 @@
 /* Class = "NSButtonCell"; title = "Skapa nytt dokument"; ObjectID = "134"; */
 "134.title" = "Skapa nytt dokument";
 
-/* Class = "NSButtonCell"; title = "Visa radnummer-fält, bredd (i pixlar):"; ObjectID = "135"; */
-"135.title" = "Visa radnummer-fält, bredd (i pixlar):";
+/* Class = "NSButtonCell"; title = "Visa radnummer"; ObjectID = "135"; */
+"135.title" = "Visa radnummer-fält";
 
 /* Class = "NSButtonCell"; title = "Radbryt"; ObjectID = "136"; */
 "136.title" = "Radbryt";

@@ -267,8 +267,8 @@
 		7F980AC10B73B6A2000A9140 /* FRAFileMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRAFileMenuController.m; path = Classes/FRAFileMenuController.m; sourceTree = "<group>"; };
 		7F980AC40B73B6A2000A9140 /* FRAFontTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRAFontTransformer.h; path = Classes/FRAFontTransformer.h; sourceTree = "<group>"; };
 		7F980AC50B73B6A2000A9140 /* FRAFontTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRAFontTransformer.m; path = Classes/FRAFontTransformer.m; sourceTree = "<group>"; };
-		7F980AC80B73B6A2000A9140 /* FRAGutterTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRAGutterTextView.h; path = Classes/FRAGutterTextView.h; sourceTree = "<group>"; };
-		7F980AC90B73B6A2000A9140 /* FRAGutterTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRAGutterTextView.m; path = Classes/FRAGutterTextView.m; sourceTree = "<group>"; };
+		7F980AC80B73B6A2000A9140 /* FRAGutterTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRAGutterTextView.h; sourceTree = "<group>"; };
+		7F980AC90B73B6A2000A9140 /* FRAGutterTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRAGutterTextView.m; sourceTree = "<group>"; };
 		7F980ACC0B73B6A2000A9140 /* FRAInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRAInfoController.h; path = Classes/FRAInfoController.h; sourceTree = "<group>"; };
 		7F980ACD0B73B6A2000A9140 /* FRAInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRAInfoController.m; path = Classes/FRAInfoController.m; sourceTree = "<group>"; };
 		7F980ACE0B73B6A2000A9140 /* FRALayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRALayoutManager.h; path = Classes/FRALayoutManager.h; sourceTree = "<group>"; };
@@ -304,8 +304,8 @@
 		7F980AFC0B73B6A2000A9140 /* FRATextPerformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRATextPerformer.m; path = Classes/FRATextPerformer.m; sourceTree = "<group>"; };
 		7F980AFD0B73B6A2000A9140 /* FRATextMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRATextMenuController.h; path = Classes/FRATextMenuController.h; sourceTree = "<group>"; };
 		7F980AFE0B73B6A2000A9140 /* FRATextMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRATextMenuController.m; path = Classes/FRATextMenuController.m; sourceTree = "<group>"; };
-		7F980AFF0B73B6A2000A9140 /* FRATextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRATextView.h; path = Classes/FRATextView.h; sourceTree = "<group>"; };
-		7F980B000B73B6A2000A9140 /* FRATextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRATextView.m; path = Classes/FRATextView.m; sourceTree = "<group>"; };
+		7F980AFF0B73B6A2000A9140 /* FRATextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRATextView.h; sourceTree = "<group>"; };
+		7F980B000B73B6A2000A9140 /* FRATextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRATextView.m; sourceTree = "<group>"; };
 		7F980B010B73B6A2000A9140 /* FRAProject+ToolbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FRAProject+ToolbarController.h"; path = "Classes/FRAProject+ToolbarController.h"; sourceTree = "<group>"; };
 		7F980B020B73B6A2000A9140 /* FRAProject+ToolbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "FRAProject+ToolbarController.m"; path = "Classes/FRAProject+ToolbarController.m"; sourceTree = "<group>"; };
 		7F980B030B73B6A2000A9140 /* FRAToolsMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRAToolsMenuController.h; path = Classes/FRAToolsMenuController.h; sourceTree = "<group>"; };
@@ -614,6 +614,7 @@
 				7F5C248D0B73B85900D2EDDC /* Controllers */,
 				7F5C248E0B73B86100D2EDDC /* Performers */,
 				7F5C24910B73B87F00D2EDDC /* Menu Controllers */,
+				E163B828274AC26400BFDC4D /* TextView */,
 				E1C536451E0FFC0600D25115 /* LayoutManager */,
 				E163B825274A800D00BFDC4D /* LineNumbers */,
 				7F5C24A40B73B9CC00D2EDDC /* Others */,
@@ -752,14 +753,12 @@
 				2F69A1BD0BB0406800D23876 /* FRADocumentsListCell.m */,
 				2F8C9F020B8054E100C6502F /* FRADummyView.m */,
 				2FF0FC2C0BA6C8FF00B21D83 /* FRAGradientBackgroundView.m */,
-				7F980AC90B73B6A2000A9140 /* FRAGutterTextView.m */,
 				2A37F4ACFDCFA73011CA2CEA /* FRAProject.m */,
 				7FBDDEFB0CF794F8003BAFB5 /* FRAProjectWindow.m */,
 				7F2B7E320D9463A100C60435 /* FRASearchField.m */,
 				7F2B7FBB0C27272E0058BC55 /* FRASingleDocumentPanel.m */,
 				7F85E07A0B7C8AC900DAC8B2 /* FRASplitView.m */,
 				7F980AF80B73B6A2000A9140 /* FRATableView.m */,
-				7F980B000B73B6A2000A9140 /* FRATextView.m */,
 			);
 			name = Subclasses;
 			sourceTree = "<group>";
@@ -818,14 +817,12 @@
 				2F69A1BC0BB0406800D23876 /* FRADocumentsListCell.h */,
 				2F8C9F010B8054E100C6502F /* FRADummyView.h */,
 				2FF0FC2B0BA6C8FF00B21D83 /* FRAGradientBackgroundView.h */,
-				7F980AC80B73B6A2000A9140 /* FRAGutterTextView.h */,
 				2A37F4AEFDCFA73011CA2CEA /* FRAProject.h */,
 				7FBDDEFA0CF794F8003BAFB5 /* FRAProjectWindow.h */,
 				7F2B7E310D9463A100C60435 /* FRASearchField.h */,
 				7F2B7FBA0C27272E0058BC55 /* FRASingleDocumentPanel.h */,
 				7F85E0790B7C8AC900DAC8B2 /* FRASplitView.h */,
 				7F980AF70B73B6A2000A9140 /* FRATableView.h */,
-				7F980AFF0B73B6A2000A9140 /* FRATextView.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -1038,9 +1035,20 @@
 			children = (
 				7F980AD00B73B6A2000A9140 /* FRALineNumbers.h */,
 				7F980AD10B73B6A2000A9140 /* FRALineNumbers.m */,
+				7F980AC80B73B6A2000A9140 /* FRAGutterTextView.h */,
+				7F980AC90B73B6A2000A9140 /* FRAGutterTextView.m */,
 				E163B826274A803400BFDC4D /* FRALineNumbersScrollView.swift */,
 			);
 			path = LineNumbers;
+			sourceTree = "<group>";
+		};
+		E163B828274AC26400BFDC4D /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				7F980AFF0B73B6A2000A9140 /* FRATextView.h */,
+				7F980B000B73B6A2000A9140 /* FRATextView.m */,
+			);
+			path = TextView;
 			sourceTree = "<group>";
 		};
 		E1C536451E0FFC0600D25115 /* LayoutManager */ = {

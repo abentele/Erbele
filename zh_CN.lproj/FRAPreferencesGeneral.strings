@@ -3,7 +3,7 @@
 "134.title" = "创建新文档";
 
 /* Class = "NSButtonCell"; title = "Show line number gutter, width (in pixels):"; ObjectID = "135"; */
-"135.title" = "Show line number gutter, width (in pixels):";
+"135.title" = "Show line number gutter";
 
 /* Class = "NSButtonCell"; title = "换行"; ObjectID = "136"; */
 "136.title" = "换行";

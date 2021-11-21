@@ -63,8 +63,6 @@
 - (IBAction)openSetFolderAction:(id)sender;
 - (IBAction)saveAsSetFolderAction:(id)sender;
 
-- (IBAction)changeGutterWidth:(id)sender;
-
 - (NSManagedObjectContext *)managedObjectContext;
 
 @end

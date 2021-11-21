@@ -30,7 +30,6 @@
 {
 	if (self = [super initWithFrame:frame]) {
         FRALayoutManager *layoutManager = [[FRALayoutManager alloc] init];
-        layoutManager.delegate = [FRALayoutManagerDelegate sharedInstance];
 		[[self textContainer] replaceLayoutManager:layoutManager];
         
 		[self setDefaults];		

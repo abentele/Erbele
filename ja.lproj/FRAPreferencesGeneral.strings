@@ -3,7 +3,7 @@
 "134.title" = "新規ドキュメントを作成";
 
 /* Class = "NSButtonCell"; title = "行番号枠を表示。幅 (ピクセル単位):"; ObjectID = "135"; */
-"135.title" = "行番号枠を表示。幅 (ピクセル単位):";
+"135.title" = "行番号を表示する";
 
 /* Class = "NSButtonCell"; title = "行の折り返し"; ObjectID = "136"; */
 "136.title" = "行の折り返し";

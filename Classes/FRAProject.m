@@ -242,7 +242,6 @@
 - (void)resizeViewsForDocument:(id)document
 {	
 	if ([self areThereAnyDocuments] == YES) {		
-		NSInteger gutterWidth;
 		CGFloat subtractFromY; // To remove extra "ugly" pixel row in singleDocumentWindow
 		CGFloat subtractFromHeight = 0;
 		NSInteger extraHeight;
@@ -280,14 +279,11 @@
 				if (![[view subviews] containsObject:gutterScrollView]) {
 					[view addSubview:gutterScrollView];
 				}
-				gutterWidth = [[document valueForKey:@"gutterWidth"] integerValue];
-				[gutterScrollView setFrame:NSMakeRect(0, 0 - subtractFromY, gutterWidth, [view bounds].size.height + extraHeight - subtractFromHeight)];
 			} else {
-				gutterWidth = 0;
 				[gutterScrollView removeFromSuperviewWithoutNeedingDisplay];
 			}
 
-			[textScrollView setFrame:NSMakeRect(gutterWidth, 0 - subtractFromY, [view bounds].size.width - gutterWidth, [view bounds].size.height + extraHeight - subtractFromHeight)];
+			[textScrollView setFrame:NSMakeRect(0, 0 - subtractFromY, [view bounds].size.width, [view bounds].size.height + extraHeight - subtractFromHeight)];
 		}
 		
 		[[document valueForKey:@"lineNumbers"] updateLineNumbersCheckWidth:YES recolour:YES];

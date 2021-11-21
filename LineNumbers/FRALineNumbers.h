@@ -41,7 +41,6 @@
 
 	NSRange range;
 	NSInteger widthOfStringInGutter;
-	NSInteger gutterWidth;
 	NSRect currentViewBounds;
 	NSInteger gutterY;
 

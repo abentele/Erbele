@@ -29,7 +29,7 @@
 		[self setAlignment:NSTextAlignmentRight];
 		[self setEditable:NO];
 		[self setSelectable:NO];
-		[[self textContainer] setContainerSize:NSMakeSize([[FRADefaults valueForKey:@"GutterWidth"] integerValue], NSIntegerMax)];
+		[[self textContainer] setContainerSize:NSMakeSize(0, NSIntegerMax)];
 		[self setVerticallyResizable:YES];
 		[self setHorizontallyResizable:YES];
 		[self setAutoresizingMask:NSViewHeightSizable];

@@ -109,7 +109,6 @@ static id sharedInstance = nil;
 	dictionary[@"LineEndingsPopUp"] = @5;
 	dictionary[@"SyntaxColouringMatrix"] = @0;
 	dictionary[@"NSRecentDocumentsLimit"] = @12;
-	dictionary[@"GutterWidth"] = @40;
 	dictionary[@"TabWidth"] = @4;
 	dictionary[@"IndentWidth"] = @4;
 	dictionary[@"ShowPageGuideAtColumn"] = @80;
@@ -618,14 +617,6 @@ static id sharedInstance = nil;
                                                                  forKey: @"SaveAsAlwaysUseTextField"];
                                               }
                                           })];
-}
-
-- (IBAction)changeGutterWidth:(id)sender {
-	NSEnumerator *documentEnumerator =  [[[FRACurrentProject documentsArrayController] arrangedObjects] objectEnumerator];
-	for (id document in documentEnumerator) {
-		[FRAInterface updateGutterViewForDocument:document];
-		[[document valueForKey:@"lineNumbers"] updateLineNumbersCheckWidth:YES recolour:YES];
-	}
 }
 
 - (NSManagedObjectContext *)managedObjectContext

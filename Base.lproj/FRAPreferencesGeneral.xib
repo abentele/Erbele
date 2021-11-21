@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17506" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="19455" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17506"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19455"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -150,17 +150,6 @@
                         <binding destination="68" name="value" keyPath="values.AutocompleteSuggestAutomatically" id="81"/>
                     </connections>
                 </button>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="48">
-                    <rect key="frame" x="414" y="191" width="44" height="17"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="17" id="CyH-3P-2dl"/>
-                    </constraints>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="(25-99)" id="143">
-                        <font key="font" metaFont="miniSystem"/>
-                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                    </textFieldCell>
-                </textField>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="47">
                     <rect key="frame" x="131" y="254" width="180" height="18"/>
                     <buttonCell key="cell" type="check" title="Show invisible characters" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="142">
@@ -191,33 +180,6 @@
                         <binding destination="68" name="value" keyPath="values.ShowMatchingBraces" id="78"/>
                     </connections>
                 </button>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="43">
-                    <rect key="frame" x="416" y="209" width="40" height="19"/>
-                    <constraints>
-                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="Iwc-dK-J74"/>
-                    </constraints>
-                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" title="40" drawsBackground="YES" id="139">
-                        <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" localizesFormat="NO" hasThousandSeparators="NO" thousandSeparator="," id="44">
-                            <attributedString key="attributedStringForNil"/>
-                            <attributedString key="attributedStringForNotANumber">
-                                <fragment content="NaN"/>
-                            </attributedString>
-                            <attributedString key="attributedStringForZero">
-                                <fragment content="0"/>
-                            </attributedString>
-                            <real key="minimum" value="25"/>
-                            <decimal key="maximum" value="999"/>
-                        </numberFormatter>
-                        <font key="font" metaFont="smallSystem"/>
-                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                    </textFieldCell>
-                    <connections>
-                        <action selector="changeGutterWidth:" target="-2" id="183"/>
-                        <binding destination="68" name="value" keyPath="values.GutterWidth" id="76"/>
-                        <binding destination="68" name="enabled" keyPath="values.ShowLineNumberGutter" id="77"/>
-                    </connections>
-                </textField>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="42">
                     <rect key="frame" x="131" y="20" width="206" height="16"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Number of items in Recent menu:" id="138">
@@ -258,8 +220,8 @@
                     </connections>
                 </button>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="37">
-                    <rect key="frame" x="131" y="210" width="281" height="18"/>
-                    <buttonCell key="cell" type="check" title="Show line number gutter, width (in pixels):" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="135">
+                    <rect key="frame" x="131" y="210" width="175" height="18"/>
+                    <buttonCell key="cell" type="check" title="Show line number gutter" bezelStyle="regularSquare" imagePosition="leading" alignment="left" inset="2" id="135">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
@@ -289,7 +251,6 @@
                 <constraint firstItem="39" firstAttribute="leading" secondItem="47" secondAttribute="leading" id="OFR-rN-OSq"/>
                 <constraint firstItem="45" firstAttribute="leading" secondItem="46" secondAttribute="leading" id="RAj-fK-Q43"/>
                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="600" id="RSD-O9-kkc"/>
-                <constraint firstItem="43" firstAttribute="leading" secondItem="48" secondAttribute="leading" id="SRf-4n-Xzj"/>
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="36" secondAttribute="trailing" constant="20" symbolic="YES" id="Sn7-rh-neh"/>
                 <constraint firstItem="46" firstAttribute="leading" secondItem="49" secondAttribute="leading" id="SyP-IM-MvZ"/>
                 <constraint firstItem="39" firstAttribute="top" secondItem="86" secondAttribute="bottom" constant="6" symbolic="YES" id="UDH-uD-DBH"/>
@@ -301,7 +262,6 @@
                 <constraint firstItem="97" firstAttribute="trailing" secondItem="60" secondAttribute="trailing" id="YLF-za-DHb"/>
                 <constraint firstItem="54" firstAttribute="top" secondItem="47" secondAttribute="bottom" constant="6" symbolic="YES" id="a5J-Ed-zye"/>
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="54" secondAttribute="trailing" constant="20" symbolic="YES" id="axw-gI-hTo"/>
-                <constraint firstItem="43" firstAttribute="leading" secondItem="37" secondAttribute="trailing" constant="4" id="c7T-ph-Zs0"/>
                 <constraint firstItem="47" firstAttribute="leading" secondItem="54" secondAttribute="leading" id="dnI-Hd-Fnv"/>
                 <constraint firstItem="37" firstAttribute="top" secondItem="54" secondAttribute="bottom" constant="6" symbolic="YES" id="eHc-eH-98a"/>
                 <constraint firstItem="59" firstAttribute="trailing" secondItem="60" secondAttribute="trailing" id="eaR-sg-IT8"/>
@@ -319,7 +279,6 @@
                 <constraint firstAttribute="bottom" secondItem="42" secondAttribute="bottom" constant="20" symbolic="YES" id="lFc-rE-zRz"/>
                 <constraint firstItem="51" firstAttribute="leading" secondItem="49" secondAttribute="trailing" constant="4" id="lUb-34-RnQ"/>
                 <constraint firstItem="49" firstAttribute="top" secondItem="63" secondAttribute="bottom" constant="25" id="llZ-Zl-ddl"/>
-                <constraint firstItem="37" firstAttribute="firstBaseline" secondItem="43" secondAttribute="firstBaseline" id="mbT-GW-Ih7"/>
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="50" secondAttribute="trailing" constant="20" symbolic="YES" id="pS6-LD-lTg"/>
                 <constraint firstItem="36" firstAttribute="top" secondItem="35" secondAttribute="top" constant="20" symbolic="YES" id="pfW-Mp-O4Q"/>
                 <constraint firstItem="47" firstAttribute="top" secondItem="39" secondAttribute="bottom" constant="6" symbolic="YES" id="q1Z-lz-XRt"/>
@@ -328,12 +287,9 @@
                 <constraint firstItem="45" firstAttribute="leading" secondItem="62" secondAttribute="trailing" constant="8" symbolic="YES" id="tnE-YJ-pDv"/>
                 <constraint firstItem="86" firstAttribute="top" secondItem="36" secondAttribute="bottom" constant="29" id="tno-dA-BrY"/>
                 <constraint firstItem="49" firstAttribute="firstBaseline" secondItem="51" secondAttribute="firstBaseline" id="vMM-1H-nno"/>
-                <constraint firstItem="43" firstAttribute="trailing" secondItem="48" secondAttribute="trailing" id="vTk-pN-Ghd"/>
                 <constraint firstItem="61" firstAttribute="trailing" secondItem="60" secondAttribute="trailing" id="vWO-Oc-7K3"/>
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="51" secondAttribute="trailing" constant="20" id="wXt-uv-nza"/>
-                <constraint firstItem="48" firstAttribute="top" secondItem="43" secondAttribute="bottom" constant="1" id="xjp-6g-kGH"/>
                 <constraint firstItem="40" firstAttribute="baseline" secondItem="42" secondAttribute="firstBaseline" id="yAo-5Z-FXm"/>
-                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="43" secondAttribute="trailing" constant="20" id="yTy-3h-eTU"/>
                 <constraint firstItem="63" firstAttribute="top" secondItem="46" secondAttribute="bottom" constant="6" symbolic="YES" id="z9O-gI-dhZ"/>
                 <constraint firstItem="51" firstAttribute="leading" secondItem="53" secondAttribute="leading" id="zNe-Lh-Tba"/>
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="47" secondAttribute="trailing" constant="20" symbolic="YES" id="zh1-bn-01v"/>

@@ -229,9 +229,9 @@
 - (void)splitViewDidResizeSubviews:(NSNotification *)aNotification
 {
 	if ([aNotification object] == contentSplitView) {
-		[[[self firstDocument] valueForKey:@"lineNumbers"] updateLineNumbersCheckWidth:NO recolour:YES];
+		[[[self firstDocument] valueForKey:@"lineNumbers"] updateLineNumbersCheckWidth:YES recolour:YES];
 		if ([self secondDocument] != nil) {
-			[[[self secondDocument] valueForKey:@"lineNumbers"] updateLineNumbersCheckWidth:NO recolour:YES];
+			[[[self secondDocument] valueForKey:@"lineNumbers"] updateLineNumbersCheckWidth:YES recolour:YES];
 		}
 	} else if ([aNotification object] == mainSplitView) {
 		[self resizeViewSizeSlider];		

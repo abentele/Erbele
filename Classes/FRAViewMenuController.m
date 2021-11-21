@@ -109,10 +109,16 @@ static id sharedInstance = nil;
 	[splitView adjustSubviews];
 	
 	[FRAInterface removeAllSubviewsFromView:[FRACurrentProject secondContentView]];	
-	[[[FRACurrentProject firstDocument] valueForKey:@"lineNumbers"] updateLineNumbersCheckWidth:NO recolour:YES];
+	[[[FRACurrentProject firstDocument] valueForKey:@"lineNumbers"] updateLineNumbersCheckWidth:YES recolour:YES];
 	
 	[[FRACurrentProject secondDocument] setValue:nil forKey:@"secondTextView"];
 	[[FRACurrentProject secondDocument] setValue:nil forKey:@"secondTextScrollView"];
+    
+    // remove the layoutManager from textStorage
+    NSLayoutManager *layoutManager = [[[FRACurrentProject secondDocument] valueForKey:@"syntaxColouring"] secondLayoutManager];
+    NSTextStorage *textStorage = [[[[FRACurrentProject secondDocument] valueForKey:@"firstTextScrollView"] documentView] textStorage];
+    [textStorage removeLayoutManager:layoutManager];
+    
 	[[[FRACurrentProject secondDocument] valueForKey:@"syntaxColouring"] setSecondLayoutManager:nil];
 	[FRACurrentProject setSecondDocument:nil];
 }

@@ -54,6 +54,7 @@
 {
 	if ([(__bridge NSString *)context isEqualToString:@"TextFontChanged"]) {
 		attributes = @{NSFontAttributeName: [NSUnarchiver unarchiveObjectWithData:[FRADefaults valueForKey:@"TextFont"]]};
+        [self updateLineNumbersCheckWidth:YES recolour:YES];
 	} else {
 		[super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
 	}
@@ -171,18 +172,16 @@
 	if (checkWidth == YES) {
 		widthOfStringInGutter = [lineNumbersString sizeWithAttributes:attributes].width;
 		
-		if (widthOfStringInGutter > ([[document valueForKey:@"gutterWidth"] integerValue] - 14)) { // Check if the gutterTextView has to be resized
-			[document setValue:@(widthOfStringInGutter + 20) forKey:@"gutterWidth"]; // Make it bigger than need be so it doesn't have to resized soon again
-			if ([[document valueForKey:@"showLineNumberGutter"] boolValue] == YES) {
-				gutterWidth = [[document valueForKey:@"gutterWidth"] integerValue];
-			} else {
-				gutterWidth = 0;
-			}
-			currentViewBounds = [[gutterScrollView superview] bounds];
-			[scrollView setFrame:NSMakeRect(gutterWidth, 0, currentViewBounds.size.width - gutterWidth, currentViewBounds.size.height)];
-			
-			[gutterScrollView setFrame:NSMakeRect(0, 0, [[document valueForKey:@"gutterWidth"] integerValue], currentViewBounds.size.height)];
-		}
+        NSInteger gutterWidth;
+        if ([[document valueForKey:@"showLineNumberGutter"] boolValue] == YES) {
+            gutterWidth = widthOfStringInGutter + 20;
+        } else {
+            gutterWidth = 0;
+        }
+        currentViewBounds = [[gutterScrollView superview] bounds];
+        [scrollView setFrame:NSMakeRect(gutterWidth, addToScrollPoint, currentViewBounds.size.width - gutterWidth, currentViewBounds.size.height- addToScrollPoint)];
+        
+        [gutterScrollView setFrame:NSMakeRect(0, addToScrollPoint, gutterWidth, currentViewBounds.size.height - addToScrollPoint)];
 	}
 	
 	if (recolour == YES) {

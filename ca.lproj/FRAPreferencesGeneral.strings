@@ -2,8 +2,8 @@
 /* Class = "NSButtonCell"; title = "Crea un nou document"; ObjectID = "134"; */
 "134.title" = "Crea un nou document";
 
-/* Class = "NSButtonCell"; title = "Mostra la columna de numeració de línies, amplada (píxels):"; ObjectID = "135"; */
-"135.title" = "Mostra la columna de numeració de línies, amplada (píxels):";
+/* Class = "NSButtonCell"; title = "Mostra la columna de numeració de línies"; ObjectID = "135"; */
+"135.title" = "Mostra la columna de numeració de línies";
 
 /* Class = "NSButtonCell"; title = "Retorn automàtic de línia"; ObjectID = "136"; */
 "136.title" = "Retorn automàtic de línia";

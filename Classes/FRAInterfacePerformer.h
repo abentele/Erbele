@@ -56,6 +56,4 @@
 
 - (void)changeViewWithAnimationForWindow:(NSWindow *)window oldView:(NSView *)oldView newView:(NSView *)newView newRect:(NSRect)newRect;
 
-- (void) updateGutterViewForDocument:(id)document;
-
 @end

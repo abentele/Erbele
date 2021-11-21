@@ -23,7 +23,6 @@
 	[self setValue:@([[FRADefaults valueForKey:@"LineWrapNewDocuments"] boolValue]) forKey:@"isLineWrapped"];
 	[self setValue:@([[FRADefaults valueForKey:@"ShowInvisibleCharacters"] boolValue]) forKey:@"showInvisibleCharacters"];
 	[self setValue:@([[FRADefaults valueForKey:@"ShowLineNumberGutter"] boolValue]) forKey:@"showLineNumberGutter"];
-	[self setValue:@([[FRADefaults valueForKey:@"GutterWidth"] integerValue]) forKey:@"gutterWidth"];
 	[self setValue:@([[FRADefaults valueForKey:@"EncodingsPopUp"] integerValue]) forKey:@"encoding"];
     [self setValue:@([[FRADefaults valueForKey:@"PreviewParser"] integerValue]) forKey:@"documentPreviewParser"]; //for previewParser
 
