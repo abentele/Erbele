@@ -31,7 +31,6 @@
 		newLineCharacter = [[NSString alloc] initWithCharacters:&newLineUnichar length:1];
 		
 		self.showsInvisibleChars = [[FRADefaults valueForKey:@"ShowInvisibleCharacters"] boolValue];
-		[self setAllowsNonContiguousLayout:YES]; // Setting this to YES sometimes causes "an extra toolbar" and other graphical glitches to sometimes appear in the text view when one sets a temporary attribute, reported as ID #5832329 to Apple
 		
 		NSUserDefaultsController *defaultsController = [NSUserDefaultsController sharedUserDefaultsController];
 		[defaultsController addObserver:self forKeyPath:@"values.TextFont" options:NSKeyValueObservingOptionNew context:@"FontOrColourValueChanged"];
