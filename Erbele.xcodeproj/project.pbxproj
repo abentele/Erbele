@@ -617,12 +617,17 @@
 				E163B828274AC26400BFDC4D /* TextView */,
 				E1C536451E0FFC0600D25115 /* LayoutManager */,
 				E163B825274A800D00BFDC4D /* LineNumbers */,
-				7F5C24A40B73B9CC00D2EDDC /* Others */,
+				E163B829274AD5E100BFDC4D /* AdvancedFind */,
+				7F5C24A40B73B9CC00D2EDDC /* FontTransformer */,
 				7F5C24900B73B87500D2EDDC /* Delegates */,
+				E163B82C274AD7C200BFDC4D /* SyntaxColouring */,
 				7F5C248F0B73B86B00D2EDDC /* Subclasses */,
 				7F79EE330D93D4F40034017B /* Categories */,
+				E163B82D274AD82F00BFDC4D /* ToolBar */,
 				7FC80B920B9C65CF002C3C38 /* Project Categories */,
 				7F3443210B74CBBB00790653 /* Managed Objects */,
+				E163B82B274AD6B500BFDC4D /* Commands */,
+				E163B82A274AD69400BFDC4D /* Snippets */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -685,48 +690,35 @@
 		7F3443210B74CBBB00790653 /* Managed Objects */ = {
 			isa = PBXGroup;
 			children = (
-				7F3443220B74CBFB00790653 /* Headers */,
-				7F961E9D0B7A7DBF001E9189 /* FRACommandManagedObject.m */,
-				2FCFEBC10B820D0F00E635EE /* FRACommandCollectionManagedObject.m */,
+				7F3443230B74CC3500790653 /* FRADocumentManagedObject.h */,
 				7F3443240B74CC3500790653 /* FRADocumentManagedObject.m */,
+				7F961E930B7A7CE1001E9189 /* FRAEncodingManagedObject.h */,
 				7F961E940B7A7CE1001E9189 /* FRAEncodingManagedObject.m */,
-				7F961E9A0B7A7DAD001E9189 /* FRASnippetManagedObject.m */,
-				7F85E0730B7C8A0800DAC8B2 /* FRASnippetCollectionManagedObject.m */,
-				7F961E970B7A7D65001E9189 /* FRASyntaxDefinitionManagedObject.m */,
 			);
 			name = "Managed Objects";
-			sourceTree = "<group>";
-		};
-		7F3443220B74CBFB00790653 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				7F961E9C0B7A7DBF001E9189 /* FRACommandManagedObject.h */,
-				2FCFEBC00B820D0F00E635EE /* FRACommandCollectionManagedObject.h */,
-				7F3443230B74CC3500790653 /* FRADocumentManagedObject.h */,
-				7F961E930B7A7CE1001E9189 /* FRAEncodingManagedObject.h */,
-				7F961E990B7A7DAD001E9189 /* FRASnippetManagedObject.h */,
-				7F85E0720B7C8A0800DAC8B2 /* FRASnippetCollectionManagedObject.h */,
-				7F961E960B7A7D65001E9189 /* FRASyntaxDefinitionManagedObject.h */,
-			);
-			name = Headers;
 			sourceTree = "<group>";
 		};
 		7F5C248D0B73B85900D2EDDC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7F5C24960B73B8B500D2EDDC /* Headers */,
-				7F980AA90B73B6A2000A9140 /* FRAAdvancedFindController.m */,
-				7F980AB50B73B6A2000A9140 /* FRACommandsController.m */,
+				7F980ABA0B73B6A2000A9140 /* FRADragAndDropController.h */,
 				7F980ABB0B73B6A2000A9140 /* FRADragAndDropController.m */,
+				7F08532D0B77B55D009544AD /* FRAExtraInterfaceController.h */,
 				7F08532E0B77B55D009544AD /* FRAExtraInterfaceController.m */,
+				7F980ACC0B73B6A2000A9140 /* FRAInfoController.h */,
 				7F980ACD0B73B6A2000A9140 /* FRAInfoController.m */,
+				7F980AD20B73B6A2000A9140 /* FRAMainController.h */,
 				7F980AD30B73B6A2000A9140 /* FRAMainController.m */,
+				7F980ADA0B73B6A2000A9140 /* FRAPreferencesController.h */,
 				7F980ADB0B73B6A2000A9140 /* FRAPreferencesController.m */,
+				7F980ADC0B73B6A2000A9140 /* FRAPreviewController.h */,
 				7F980ADD0B73B6A2000A9140 /* FRAPreviewController.m */,
+				7F980AE00B73B6A2000A9140 /* FRAProjectsController.h */,
 				7F980AE10B73B6A2000A9140 /* FRAProjectsController.m */,
+				7F980AE40B73B6A2000A9140 /* FRAServicesController.h */,
 				7F980AE50B73B6A2000A9140 /* FRAServicesController.m */,
+				7F980AE60B73B6A2000A9140 /* FRAShortcutsController.h */,
 				7F980AE70B73B6A2000A9140 /* FRAShortcutsController.m */,
-				7F980AEB0B73B6A2000A9140 /* FRASnippetsController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -734,11 +726,15 @@
 		7F5C248E0B73B86100D2EDDC /* Performers */ = {
 			isa = PBXGroup;
 			children = (
-				7F5C24950B73B8AF00D2EDDC /* Headers */,
+				7F5C28770B73C49700D2EDDC /* FRABasicPerformer.h */,
 				7F5C28780B73C49700D2EDDC /* FRABasicPerformer.m */,
+				7F5C287B0B73C4AA00D2EDDC /* FRAInterfacePerformer.h */,
 				7F5C287C0B73C4AA00D2EDDC /* FRAInterfacePerformer.m */,
+				7FB41E040B7A2A43006ADB1E /* FRAOpenSavePerformer.h */,
 				7FB41E050B7A2A43006ADB1E /* FRAOpenSavePerformer.m */,
+				7F980AFB0B73B6A2000A9140 /* FRATextPerformer.h */,
 				7F980AFC0B73B6A2000A9140 /* FRATextPerformer.m */,
+				7F980B050B73B6A2000A9140 /* FRAVariousPerformer.h */,
 				7F980B060B73B6A2000A9140 /* FRAVariousPerformer.m */,
 			);
 			name = Performers;
@@ -747,17 +743,25 @@
 		7F5C248F0B73B86B00D2EDDC /* Subclasses */ = {
 			isa = PBXGroup;
 			children = (
-				7F5C24940B73B8AB00D2EDDC /* Headers */,
-				7F7444C80CF8DDEC00C947C1 /* FRAAdvancedFindPanel.m */,
+				7F980AAA0B73B6A2000A9140 /* FRAApplication.h */,
 				7F980AAB0B73B6A2000A9140 /* FRAApplication.m */,
+				2F69A1BC0BB0406800D23876 /* FRADocumentsListCell.h */,
 				2F69A1BD0BB0406800D23876 /* FRADocumentsListCell.m */,
+				2F8C9F010B8054E100C6502F /* FRADummyView.h */,
 				2F8C9F020B8054E100C6502F /* FRADummyView.m */,
+				2FF0FC2B0BA6C8FF00B21D83 /* FRAGradientBackgroundView.h */,
 				2FF0FC2C0BA6C8FF00B21D83 /* FRAGradientBackgroundView.m */,
+				2A37F4AEFDCFA73011CA2CEA /* FRAProject.h */,
 				2A37F4ACFDCFA73011CA2CEA /* FRAProject.m */,
+				7FBDDEFA0CF794F8003BAFB5 /* FRAProjectWindow.h */,
 				7FBDDEFB0CF794F8003BAFB5 /* FRAProjectWindow.m */,
+				7F2B7E310D9463A100C60435 /* FRASearchField.h */,
 				7F2B7E320D9463A100C60435 /* FRASearchField.m */,
+				7F2B7FBA0C27272E0058BC55 /* FRASingleDocumentPanel.h */,
 				7F2B7FBB0C27272E0058BC55 /* FRASingleDocumentPanel.m */,
+				7F85E0790B7C8AC900DAC8B2 /* FRASplitView.h */,
 				7F85E07A0B7C8AC900DAC8B2 /* FRASplitView.m */,
+				7F980AF70B73B6A2000A9140 /* FRATableView.h */,
 				7F980AF80B73B6A2000A9140 /* FRATableView.m */,
 			);
 			name = Subclasses;
@@ -766,8 +770,9 @@
 		7F5C24900B73B87500D2EDDC /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
-				7F5C24930B73B8A700D2EDDC /* Headers */,
+				7F980AAC0B73B6A2000A9140 /* FRAApplicationDelegate.h */,
 				7F980AAD0B73B6A2000A9140 /* FRAApplicationDelegate.m */,
+				7F980AE80B73B6A2000A9140 /* FRASingleDocumentWindowDelegate.h */,
 				7F980AE90B73B6A2000A9140 /* FRASingleDocumentWindowDelegate.m */,
 			);
 			name = Delegates;
@@ -776,12 +781,15 @@
 		7F5C24910B73B87F00D2EDDC /* Menu Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7F5C24920B73B89E00D2EDDC /* Headers */,
 				E1A5DEBE24A89020006F135A /* FRAApplicationMenuController.swift */,
+				7F980AC00B73B6A2000A9140 /* FRAFileMenuController.h */,
 				7F980AC10B73B6A2000A9140 /* FRAFileMenuController.m */,
 				E1A5DEC024A895A6006F135A /* FRAEditMenuController.swift */,
 				7F980B080B73B6A2000A9140 /* FRAViewMenuController.m */,
+				7F980B070B73B6A2000A9140 /* FRAViewMenuController.h */,
+				7F980AFD0B73B6A2000A9140 /* FRATextMenuController.h */,
 				7F980AFE0B73B6A2000A9140 /* FRATextMenuController.m */,
+				7F980B030B73B6A2000A9140 /* FRAToolsMenuController.h */,
 				7F980B040B73B6A2000A9140 /* FRAToolsMenuController.m */,
 				E1196EA624A8A2F800F2794D /* FRAHelpMenuController.swift */,
 				E13832CE24D6393B0018FD7F /* FRADocumentsMenuController.swift */,
@@ -789,92 +797,13 @@
 			name = "Menu Controllers";
 			sourceTree = "<group>";
 		};
-		7F5C24920B73B89E00D2EDDC /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				7F980AC00B73B6A2000A9140 /* FRAFileMenuController.h */,
-				7F980B070B73B6A2000A9140 /* FRAViewMenuController.h */,
-				7F980AFD0B73B6A2000A9140 /* FRATextMenuController.h */,
-				7F980B030B73B6A2000A9140 /* FRAToolsMenuController.h */,
-			);
-			name = Headers;
-			sourceTree = "<group>";
-		};
-		7F5C24930B73B8A700D2EDDC /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				7F980AAC0B73B6A2000A9140 /* FRAApplicationDelegate.h */,
-				7F980AE80B73B6A2000A9140 /* FRASingleDocumentWindowDelegate.h */,
-			);
-			name = Headers;
-			sourceTree = "<group>";
-		};
-		7F5C24940B73B8AB00D2EDDC /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				7F7444C70CF8DDEC00C947C1 /* FRAAdvancedFindPanel.h */,
-				7F980AAA0B73B6A2000A9140 /* FRAApplication.h */,
-				2F69A1BC0BB0406800D23876 /* FRADocumentsListCell.h */,
-				2F8C9F010B8054E100C6502F /* FRADummyView.h */,
-				2FF0FC2B0BA6C8FF00B21D83 /* FRAGradientBackgroundView.h */,
-				2A37F4AEFDCFA73011CA2CEA /* FRAProject.h */,
-				7FBDDEFA0CF794F8003BAFB5 /* FRAProjectWindow.h */,
-				7F2B7E310D9463A100C60435 /* FRASearchField.h */,
-				7F2B7FBA0C27272E0058BC55 /* FRASingleDocumentPanel.h */,
-				7F85E0790B7C8AC900DAC8B2 /* FRASplitView.h */,
-				7F980AF70B73B6A2000A9140 /* FRATableView.h */,
-			);
-			name = Headers;
-			sourceTree = "<group>";
-		};
-		7F5C24950B73B8AF00D2EDDC /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				7F5C28770B73C49700D2EDDC /* FRABasicPerformer.h */,
-				7F5C287B0B73C4AA00D2EDDC /* FRAInterfacePerformer.h */,
-				7FB41E040B7A2A43006ADB1E /* FRAOpenSavePerformer.h */,
-				7F980AFB0B73B6A2000A9140 /* FRATextPerformer.h */,
-				7F980B050B73B6A2000A9140 /* FRAVariousPerformer.h */,
-			);
-			name = Headers;
-			sourceTree = "<group>";
-		};
-		7F5C24960B73B8B500D2EDDC /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				7F980AA80B73B6A2000A9140 /* FRAAdvancedFindController.h */,
-				7F980AB40B73B6A2000A9140 /* FRACommandsController.h */,
-				7F980ABA0B73B6A2000A9140 /* FRADragAndDropController.h */,
-				7F08532D0B77B55D009544AD /* FRAExtraInterfaceController.h */,
-				7F980ACC0B73B6A2000A9140 /* FRAInfoController.h */,
-				7F980AD20B73B6A2000A9140 /* FRAMainController.h */,
-				7F980ADA0B73B6A2000A9140 /* FRAPreferencesController.h */,
-				7F980ADC0B73B6A2000A9140 /* FRAPreviewController.h */,
-				7F980AE00B73B6A2000A9140 /* FRAProjectsController.h */,
-				7F980AE40B73B6A2000A9140 /* FRAServicesController.h */,
-				7F980AE60B73B6A2000A9140 /* FRAShortcutsController.h */,
-				7F980AEA0B73B6A2000A9140 /* FRASnippetsController.h */,
-			);
-			name = Headers;
-			sourceTree = "<group>";
-		};
-		7F5C24A40B73B9CC00D2EDDC /* Others */ = {
-			isa = PBXGroup;
-			children = (
-				7F5C24A50B73B9EC00D2EDDC /* Headers */,
-				7F980AC50B73B6A2000A9140 /* FRAFontTransformer.m */,
-				7F980AF40B73B6A2000A9140 /* FRASyntaxColouring.m */,
-			);
-			name = Others;
-			sourceTree = "<group>";
-		};
-		7F5C24A50B73B9EC00D2EDDC /* Headers */ = {
+		7F5C24A40B73B9CC00D2EDDC /* FontTransformer */ = {
 			isa = PBXGroup;
 			children = (
 				7F980AC40B73B6A2000A9140 /* FRAFontTransformer.h */,
-				7F980AF30B73B6A2000A9140 /* FRASyntaxColouring.h */,
+				7F980AC50B73B6A2000A9140 /* FRAFontTransformer.m */,
 			);
-			name = Headers;
+			name = FontTransformer;
 			sourceTree = "<group>";
 		};
 		7F5C24D90B73BCF200D2EDDC /* Xibs */ = {
@@ -908,22 +837,12 @@
 		7F79EE330D93D4F40034017B /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				7F79EE340D93D5090034017B /* Headers */,
+				7F79EE380D93D5760034017B /* NSImage+Erbele.h */,
 				7F79EE390D93D5760034017B /* NSImage+Erbele.m */,
+				7F79EE350D93D5500034017B /* NSString+Erbele.h */,
 				7F79EE360D93D5500034017B /* NSString+Erbele.m */,
-				7F79EE3C0D93D58C0034017B /* NSToolbarItem+Erbele.m */,
 			);
 			name = Categories;
-			sourceTree = "<group>";
-		};
-		7F79EE340D93D5090034017B /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				7F79EE380D93D5760034017B /* NSImage+Erbele.h */,
-				7F79EE350D93D5500034017B /* NSString+Erbele.h */,
-				7F79EE3B0D93D58C0034017B /* NSToolbarItem+Erbele.h */,
-			);
-			name = Headers;
 			sourceTree = "<group>";
 		};
 		7F81FEDD0BA9DDE100549CDB /* PSMTabBar */ = {
@@ -981,22 +900,12 @@
 		7FC80B920B9C65CF002C3C38 /* Project Categories */ = {
 			isa = PBXGroup;
 			children = (
-				7FC80B960B9C65DF002C3C38 /* Headers */,
+				2FE2F83E0B985D0500ADCF8A /* FRAProject+DocumentViewsController.h */,
 				2FE2F83F0B985D0500ADCF8A /* FRAProject+DocumentViewsController.m */,
+				7F980AF90B73B6A2000A9140 /* FRAProject+TableViewDelegate.h */,
 				7F980AFA0B73B6A2000A9140 /* FRAProject+TableViewDelegate.m */,
-				7F980B020B73B6A2000A9140 /* FRAProject+ToolbarController.m */,
 			);
 			name = "Project Categories";
-			sourceTree = "<group>";
-		};
-		7FC80B960B9C65DF002C3C38 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				2FE2F83E0B985D0500ADCF8A /* FRAProject+DocumentViewsController.h */,
-				7F980AF90B73B6A2000A9140 /* FRAProject+TableViewDelegate.h */,
-				7F980B010B73B6A2000A9140 /* FRAProject+ToolbarController.h */,
-			);
-			name = Headers;
 			sourceTree = "<group>";
 		};
 		7FD7C3CE0B76561A0097747A /* ICU */ = {
@@ -1049,6 +958,65 @@
 				7F980B000B73B6A2000A9140 /* FRATextView.m */,
 			);
 			path = TextView;
+			sourceTree = "<group>";
+		};
+		E163B829274AD5E100BFDC4D /* AdvancedFind */ = {
+			isa = PBXGroup;
+			children = (
+				7F980AA80B73B6A2000A9140 /* FRAAdvancedFindController.h */,
+				7F980AA90B73B6A2000A9140 /* FRAAdvancedFindController.m */,
+				7F7444C70CF8DDEC00C947C1 /* FRAAdvancedFindPanel.h */,
+				7F7444C80CF8DDEC00C947C1 /* FRAAdvancedFindPanel.m */,
+			);
+			name = AdvancedFind;
+			sourceTree = "<group>";
+		};
+		E163B82A274AD69400BFDC4D /* Snippets */ = {
+			isa = PBXGroup;
+			children = (
+				7F980AEA0B73B6A2000A9140 /* FRASnippetsController.h */,
+				7F980AEB0B73B6A2000A9140 /* FRASnippetsController.m */,
+				7F961E990B7A7DAD001E9189 /* FRASnippetManagedObject.h */,
+				7F961E9A0B7A7DAD001E9189 /* FRASnippetManagedObject.m */,
+				7F85E0720B7C8A0800DAC8B2 /* FRASnippetCollectionManagedObject.h */,
+				7F85E0730B7C8A0800DAC8B2 /* FRASnippetCollectionManagedObject.m */,
+			);
+			name = Snippets;
+			sourceTree = "<group>";
+		};
+		E163B82B274AD6B500BFDC4D /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				7F980AB40B73B6A2000A9140 /* FRACommandsController.h */,
+				7F980AB50B73B6A2000A9140 /* FRACommandsController.m */,
+				7F961E9C0B7A7DBF001E9189 /* FRACommandManagedObject.h */,
+				7F961E9D0B7A7DBF001E9189 /* FRACommandManagedObject.m */,
+				2FCFEBC00B820D0F00E635EE /* FRACommandCollectionManagedObject.h */,
+				2FCFEBC10B820D0F00E635EE /* FRACommandCollectionManagedObject.m */,
+			);
+			name = Commands;
+			sourceTree = "<group>";
+		};
+		E163B82C274AD7C200BFDC4D /* SyntaxColouring */ = {
+			isa = PBXGroup;
+			children = (
+				7F980AF30B73B6A2000A9140 /* FRASyntaxColouring.h */,
+				7F980AF40B73B6A2000A9140 /* FRASyntaxColouring.m */,
+				7F961E960B7A7D65001E9189 /* FRASyntaxDefinitionManagedObject.h */,
+				7F961E970B7A7D65001E9189 /* FRASyntaxDefinitionManagedObject.m */,
+			);
+			name = SyntaxColouring;
+			sourceTree = "<group>";
+		};
+		E163B82D274AD82F00BFDC4D /* ToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				7F980B010B73B6A2000A9140 /* FRAProject+ToolbarController.h */,
+				7F980B020B73B6A2000A9140 /* FRAProject+ToolbarController.m */,
+				7F79EE3B0D93D58C0034017B /* NSToolbarItem+Erbele.h */,
+				7F79EE3C0D93D58C0034017B /* NSToolbarItem+Erbele.m */,
+			);
+			name = ToolBar;
 			sourceTree = "<group>";
 		};
 		E1C536451E0FFC0600D25115 /* LayoutManager */ = {
