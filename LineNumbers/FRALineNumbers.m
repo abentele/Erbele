@@ -170,11 +170,12 @@
 	}
 	
 	if (checkWidth == YES) {
+        int minWidth = [@"100" sizeWithAttributes:attributes].width;
 		widthOfStringInGutter = [lineNumbersString sizeWithAttributes:attributes].width;
 		
-        NSInteger gutterWidth;
+        NSInteger gutterWidth = [gutterScrollView bounds].size.width;
         if ([[document valueForKey:@"showLineNumberGutter"] boolValue] == YES) {
-            gutterWidth = widthOfStringInGutter + 20;
+            gutterWidth = MAX(gutterWidth, MAX(minWidth, widthOfStringInGutter) + 20);
         } else {
             gutterWidth = 0;
         }
