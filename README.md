@@ -36,6 +36,14 @@ Same picture with German language:
 
 Starting with release 4.0 the app can be downloaded exclusively on the Mac App Store. Previous releases can be found here: [Releases](https://github.com/abentele/Erbele/releases).
 
+*Why Erbele is no more free in App Store*
+
+Starting with December 2022 Erbele is no more free in the Mac App Store.
+It's now sold at a really small price, which is needed to finance the Apple Developer Account for App Store Distribution.
+
+I really appreciate every download, which contributes to future development and distribution of Erbele in the App Store.
+Feel free to download the source code here from github and build Erbele by yourself with Xcode if you prefer free software.
+
 # Build release
 
 If you are familiar with git and Xcode, you can checkout the git repository and build the app by yourself.
