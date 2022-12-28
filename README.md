@@ -39,10 +39,10 @@ Starting with release 4.0 the app can be downloaded exclusively on the Mac App S
 *Why Erbele is no more free in App Store*
 
 Starting with December 2022 Erbele is no more free in the Mac App Store.
-It's now sold at a really small price, which is needed to finance the Apple Developer Account for App Store Distribution.
+It's now sold at a really small price, which is only needed to finance the Apple Developer ID for App Store Distribution.
 
-I really appreciate every download, which contributes to future development and distribution of Erbele in the App Store.
-Feel free to download the source code here from github and build Erbele by yourself with Xcode if you prefer free software.
+I really appreciate every download. Every download contributes to distribution of Erbele in the Mac App Store in future. You pay only once and get future updates for free.
+If you prefer free software or cannot afford the app from the Mac App Store, feel free to download the source code here from github and build Erbele with Xcode by yourself.
 
 # Build release
 
