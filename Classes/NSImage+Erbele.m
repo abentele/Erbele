@@ -13,6 +13,7 @@
 
 #import "NSImage+Erbele.h"
 #import "FRAVariousPerformer.h"
+#import <CoreImage/CoreImage.h>
 
 @implementation NSImage (NSImageErbele)
 
