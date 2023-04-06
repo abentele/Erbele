@@ -231,7 +231,7 @@ static id sharedInstance = nil;
 }
 
 
-- (void)insertColour:(id)sender
+- (void)insertColour:(NSColorPanel*)sender
 {
 	if (textViewToInsertColourInto == nil) {
 		NSBeep();

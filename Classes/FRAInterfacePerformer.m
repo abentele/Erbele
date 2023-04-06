@@ -185,7 +185,9 @@ static id sharedInstance = nil;
 	[secondContentView addSubview:secondContentViewNavigationBar];
 	
 	NSRect visibleRect = [[[[document valueForKey:@"firstTextView"] enclosingScrollView] contentView] documentVisibleRect];
-	NSRange visibleRange = [[[document valueForKey:@"firstTextView"] layoutManager] glyphRangeForBoundingRect:visibleRect inTextContainer:[[document valueForKey:@"firstTextView"] textContainer]];
+    NSLayoutManager *firstTextViewLayoutManager = (NSLayoutManager*)[[document valueForKey:@"firstTextView"] layoutManager];
+    NSTextContainer *textContainer = [[document valueForKey:@"firstTextView"] textContainer];
+	NSRange visibleRange = [firstTextViewLayoutManager glyphRangeForBoundingRect:visibleRect inTextContainer:textContainer];
 	[textView scrollRangeToVisible:visibleRange];
 	
 	[FRACurrentProject resizeViewsForDocument:document]; // To properly set the width of the line number gutter and to recolour the document
