@@ -47,7 +47,6 @@
 - (void)checkIfDocumentsHaveBeenUpdatedByAnotherApplication;
 - (NSString *)performCommand:(NSString *)command;
 - (void)performCommandAsynchronously:(NSString *)command;
-- (void)asynchronousTaskCompleted;
 
 - (BOOL)isChangingSyntaxDefinitionsProgrammatically;
 

@@ -434,55 +434,38 @@ static id sharedInstance = nil;
 	[splitArray removeObjectAtIndex:0];
 	[asynchronousTask setArguments:splitArray];
 	
-	[asynchronousTask setStandardOutput:[NSPipe pipe]];
-	[asynchronousTask setStandardError:[asynchronousTask standardOutput]];
-	
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(asynchronousDataReceived:) name:NSFileHandleReadCompletionNotification object:[[asynchronousTask standardOutput] fileHandleForReading]];
+    NSPipe *stdout = [NSPipe pipe];
+	[asynchronousTask setStandardOutput:stdout];
+	[asynchronousTask setStandardError:stdout];
 	
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(asynchronousTaskCompleted:) name:NSTaskDidTerminateNotification object:nil];
-	
-	[[[asynchronousTask standardOutput] fileHandleForReading] readInBackgroundAndNotify];
 	
 	[asynchronousTask launch];
 }
 
 
-- (void)asynchronousDataReceived:(NSNotification *)aNotification
-{
-    NSData *data = [[aNotification userInfo] valueForKey:@"NSFileHandleNotificationDataItem"];
-	
-	if ([data length]) {
-		NSString *string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-		if (string != nil) {
-			[asynchronousTaskResult appendString:string];
-		}
-		
-		[[[asynchronousTask standardOutput] fileHandleForReading] readInBackgroundAndNotify];
-	} else {
-		//[self asynchronousTaskCompleted];
-	}
-	
-}
-
 - (void)asynchronousTaskCompleted:(NSNotification *)aNotification
 {
 	[asynchronousTask waitUntilExit];
-	[self asynchronousTaskCompleted];
-}
 
-
-- (void)asynchronousTaskCompleted
-{
 	[[NSNotificationCenter defaultCenter] removeObserver:self];
 	
 	[asynchronousTask terminate];
 	
-	NSData *data;
-	while ((data = [[[asynchronousTask standardOutput] fileHandleForReading] availableData]) && [data length]) {
+	NSData *data = [[[asynchronousTask standardOutput] fileHandleForReading] readDataToEndOfFile];
+	if ([data length]) {
 		NSString *string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 		if (string != nil) {
 			[asynchronousTaskResult appendString:string];
-		}
+            NSLog(@"Append task result: %@", string);
+        } else {
+            // fallback to ASCII encoded string
+            NSString *string = [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];
+            if (string != nil) {
+                [asynchronousTaskResult appendString:string];
+                NSLog(@"Append task result: %@", string);
+            }
+        }
 	}
 
 	[[FRACommandsController sharedInstance] setCommandRunning:NO];
