@@ -308,15 +308,17 @@ static id sharedInstance = nil;
 	[document setValue:fileAttributes forKey:@"fileAttributes"];
 	[FRAVarious setLastSavedDateForDocument:document date:[fileAttributes fileModificationDate]];
 	[FRAInterface updateStatusBar];
-	[FRACurrentWindow makeFirstResponder:[document valueForKey:@"firstTextView"]];
+ 
 	[FRACurrentProject selectionDidChange];
-	
+
 	[self performSelector:@selector(updateLineNumbers) withObject:nil afterDelay:0.0];
 	
 	// Bring the window in front if Erbele is not on the current displayed space.
 	if (![FRACurrentWindow isOnActiveSpace]) {
 		[FRACurrentWindow orderFront:self];
 	}
+
+    [FRACurrentWindow makeFirstResponder:[document valueForKey:@"firstTextView"]];
 }
 
 
