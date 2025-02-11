@@ -4,7 +4,7 @@ Erbele is a feature-rich text editor for macOS. Forked in 2016 from the Fraise g
 
 Supported macOS versions:
 
-* macOS Sierra (10.12) - removed since 4.1.0 (previous versions with support for macOS Sierra are available in App Store)
+* macOS Sierra (10.12) - removed since 4.1.0
 * macOS High Sierra (10.13)
 * macOS Mojave (10.14)
 * macOS Catalina (10.15)
@@ -33,17 +33,7 @@ Same picture with German language:
 
 # Downloads
 
-[![Download on the Mac App Store](./Distribution/badge-download-on-the-mac-app-store.svg)](https://apps.apple.com/de/app/erbele/id1595456360?mt=12)
-
-Starting with release 4.0 the app can be downloaded exclusively on the Mac App Store. Previous releases can be found here: [Releases](https://github.com/abentele/Erbele/releases).
-
-*Why Erbele is no more free in App Store*
-
-Starting with December 2022 Erbele is no more free in the Mac App Store.
-It's now sold at a really small price, which is only needed to finance the Apple Developer ID for App Store Distribution.
-
-I really appreciate every download. Every download contributes to distribution of Erbele in the Mac App Store in future. You pay only once and get future updates for free.
-If you prefer free software or cannot afford the app from the Mac App Store, feel free to download the source code here from github and build Erbele with Xcode by yourself.
+Download the source code here from github and build Erbele with Xcode by yourself.
 
 # Build release
 
