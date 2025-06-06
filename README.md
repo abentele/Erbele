@@ -1,3 +1,5 @@
+**I no longer maintain Erbele. We can all choose from many better text editors for macOS these days.**
+
 # Erbele
 
 Erbele is a feature-rich text editor for macOS. Forked in 2016 from the Fraise github repository which was discontinued years ago, my main interest is to keep the popular app alive.
